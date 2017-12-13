@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Gavin Rozzi</title>
+    <link>/project/</link>
+    <description>Recent content in Projects on Gavin Rozzi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Gavin Rozzi</copyright>
+    <lastBuildDate>Tue, 12 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/project/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>JerseyLeaks</title>
+      <link>/project/jerseyleaks/</link>
+      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/jerseyleaks/</guid>
+      <description>&lt;p&gt;JerseyLeaks is a whistleblowing and collaborative journalism tool that allows
+sources to confidentially leak documents to reporters using an encrypted online system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://jerseyleaks.org/&#34; target=&#34;_blank&#34;&gt;View website&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ocean County Politics</title>
+      <link>/project/politicsoc/</link>
+      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/politicsoc/</guid>
+      <description>&lt;p&gt;I use this blog to cover politics and public affairs in the greater Ocean County, NJ region&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rozzi v. Lacey Township Board of Education</title>
+      <link>/project/rozzivlaceyboe/</link>
+      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/rozzivlaceyboe/</guid>
+      <description>&lt;p&gt;The New Jersey Government Records Council (GRC) ruled in my favor and ordered the
+Lacey Township Board of Education to refund an $85 &amp;ldquo;special service fee&amp;rdquo; they attempted
+to charge me for copies of checks.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rozzi v. Ocean County Prosecutor&#39;s Office</title>
+      <link>/project/rozzivocp/</link>
+      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/rozzivocp/</guid>
+      <description>&lt;p&gt;The New Jersey Government Records Council (GRC) ruled in my favor and declared that the
+response provided to an Open Public Records Act (OPRA) request was legally insufficient.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>OPRAmachine</title>
+      <link>/project/opramachine/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/opramachine/</guid>
+      <description>&lt;p&gt;OPRAmachine.com is a first of its kind government transparency project to launch in New Jersey. The site allows any citizen to easily file a legally valid public records request under New Jersey&amp;rsquo;s state freedom of information law, the Open Public Records Act (OPRA). The site has enabled requesters to obtain thousands of pages worth of public records, helping to shine a light on some of the more obscure elements of New Jersey state and local government.&lt;/p&gt;
+
+&lt;p&gt;The site has been making an impact and has been used as a research tool by public officials, journalists and activists seeking to obtain authoritative information about public entities in the state.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ocean County Scanner News</title>
+      <link>/project/ocscannernews/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/ocscannernews/</guid>
+      <description>&lt;p&gt;Ocean County Scanner News is a network of radio and emergency services enthusiasts who listen to
+police scanners and post live news updates via their Facebook page. I designed the groups&amp;rsquo;s website
+in addition to setting up a livestream server running the Icecast software package. The live feed covers
+the Ocean County Trunked Radio system and several other local conventional channels. We are planning more
+additions to the live feed as time and resources allow.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
