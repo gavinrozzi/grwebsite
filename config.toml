@@ -256,14 +256,19 @@ defaultContentLanguageInSubdir = false
   weight = 4
 
 [[menu.main]]
+  name = "My OPRA Requests"
+  url = "https://opramachine.com/user/gavin_rozzi/requests"
+  weight = 5
+
+[[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 5
+  weight = 6
 
 [[menu.main]]
   name = "PGP Public Key"
   url = "https://pgp.gavinrozzi.com/"
-  weight = 5
+  weight = 7
 
 # Taxonomies.
 [taxonomies]
