@@ -256,13 +256,13 @@ defaultContentLanguageInSubdir = false
   weight = 4
 
 [[menu.main]]
-  name = "My OPRA Requests"
-  url = "https://opramachine.com/user/gavin_rozzi/requests"
+  name = "Contact"
+  url = "#contact"
   weight = 5
 
 [[menu.main]]
-  name = "Contact"
-  url = "#contact"
+  name = "My OPRA Requests"
+  url = "https://opramachine.com/user/gavin_rozzi/requests"
   weight = 6
 
 [[menu.main]]
