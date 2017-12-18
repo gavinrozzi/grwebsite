@@ -1,6 +1,6 @@
 baseurl = "/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 title = "Gavin Rozzi"
-copyright = "&copy; 2017-18 Gavin Rozzi"
+copyright = "&copy; 2017-18 Gavin C. Rozzi."
 theme = "hugo-academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -48,8 +48,8 @@ defaultContentLanguageInSubdir = false
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "gr@gavinrozzi.com"
-  address = "P.O. Box 32 Lanoka Harbor, NJ 08734, USA"
+  email = "hello@rozzi.media"
+  address = "P.O. Box 32 Lanoka Harbor, New Jersey, 08734"
   office_hours = ""
   phone = "(732)-504-3636"
   skype = ""
