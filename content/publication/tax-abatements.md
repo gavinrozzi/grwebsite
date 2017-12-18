@@ -33,11 +33,11 @@ selected = true
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-projects = ["example-external-project"]
+projects = [""]
 
 # Links (optional).
-url_pdf = "https://stockton.edu/hughes-center/documents/2017-0731-election-2017.pdf"
-url_preprint = ""
+url_pdf = "/img/Rozzi tax abatements.pdf"
+url_preprint = "https://stockton.edu/hughes-center/documents/2017-0731-election-2017.pdf"
 url_code = ""
 url_dataset = ""
 url_project = ""
@@ -48,7 +48,7 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Custom Link", url = "http://example.org"}]
+url_custom = [{name = "Custom Link", url = ""}]
 
 # Does the content use math formatting?
 math = false
@@ -59,9 +59,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "headers/bubbles-wide.jpg"
-caption = "My caption :smile:"
+image = "Rozzi tax abatements.jpg"
+caption = ""
 
 +++
-
-More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
