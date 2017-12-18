@@ -1,6 +1,6 @@
 +++
 title = "Municipal Tax Abatements Policy Briefing"
-date = "2013-07-31"
+date = "2017-07-31"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Gavin C. Rozzi"]
@@ -38,13 +38,13 @@ projects = ["example-external-project"]
 # Links (optional).
 url_pdf = "https://stockton.edu/hughes-center/documents/2017-0731-election-2017.pdf"
 url_preprint = ""
-url_code = "#"
-url_dataset = "#"
-url_project = "#"
-url_slides = "#"
-url_video = "#"
-url_poster = "#"
-url_source = "#"
+url_code = ""
+url_dataset = ""
+url_project = ""
+url_slides = ""
+url_video = ""
+url_poster = ""
+url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
