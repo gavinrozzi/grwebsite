@@ -11,6 +11,18 @@
     <atom:link href="/project/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Forked River Amateur Radio Club</title>
+      <link>/project/frnjarc/</link>
+      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/frnjarc/</guid>
+      <description>&lt;p&gt;The Forked River Amateur Radio Club is a new club recently formed to serve amateur radio community of Forked River, NJ and surrounding areas. I currently serve as both the vice president and webmaster of the club. We anticipate on pursuing several projects through this club, such as 2 meter FM repeater and 70 cm band DMR system to cover the Lacey area.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://frnjarc.org/&#34; target=&#34;_blank&#34;&gt;View website&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>JerseyLeaks</title>
       <link>/project/jerseyleaks/</link>
       <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
