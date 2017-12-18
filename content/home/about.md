@@ -13,6 +13,7 @@ weight = 5
     "Linux & open source",
     "NJ state & local politics",
     "Constitutional law",
+    "Aerial photography / drones",
     "Civic tech"
   ]
 
