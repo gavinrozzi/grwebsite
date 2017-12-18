@@ -29,7 +29,6 @@ weight = 5
 
 +++
 
-# About Gavin
+# About Gavin Rozzi
 Gavin Rozzi is an independent journalist who has created several successful local news websites
-and investigative journalism platforms serving the State of New Jersey. His website Ocean County Politics
-uncovered details about political leaders in Ocean County. JerseyLeaks, a whistleblowing platform that uses encryption to provide anonymity to sources. His latest website, OPRAmachine, is a statewide freedom of information portal that allows anybody to easily request public documents from state and local governmental agencies. It reduces duplicate requests and saves taxpayer resources by making its entire archive of public documents freely available to any member of the public.
+and investigative journalism platforms serving the State of New Jersey. His website <a href="https://politicsoc.com/">Ocean County Politics</a> has been known for uncovering details about investigations of political leaders in Ocean County, NJ. <a href="https://jerseyleaks.org/">JerseyLeaks</a>, a whistleblowing platform that uses encryption to provide anonymity to sources. His latest website, <a href="https://opramachine.com/">OPRAmachine</a>, is a statewide freedom of information portal. The site, launched in October, 2017, allows anybody to easily request public documents from state and local governmental agencies. It reduces duplicate requests, saving taxpayer resources all while substantially increasing government transparency at no cost to government agencies by making its entire archive of public documents freely available online.

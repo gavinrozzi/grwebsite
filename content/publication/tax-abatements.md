@@ -37,7 +37,7 @@ projects = [""]
 
 # Links (optional).
 url_pdf = "/img/Rozzi tax abatements.pdf"
-url_preprint = "https://stockton.edu/hughes-center/documents/2017-0731-election-2017.pdf"
+url_preprint = ""
 url_code = ""
 url_dataset = ""
 url_project = ""
