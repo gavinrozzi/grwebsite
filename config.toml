@@ -267,7 +267,7 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "PGP Public Key"
-  url = "/static/files/gcr.asc"
+  url = "/files/gcr.asc"
   weight = 7
 
 # Taxonomies.
