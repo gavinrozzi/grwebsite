@@ -30,4 +30,4 @@ caption = "FRNJARC logo"
 
 The Forked River Amateur Radio Club is a new club recently formed to serve amateur radio community of Forked River, NJ and surrounding areas. I currently serve as both the vice president and webmaster of the club. We anticipate on pursuing several projects through this club, such as 2 meter FM repeater and 70 cm band DMR system to cover the Lacey area.
 
-[View website](https://frnjarc.org/)
+[View the club's website here.](https://frnjarc.org/)

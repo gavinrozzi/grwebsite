@@ -28,4 +28,6 @@ caption = "OCP logo"
 
 +++
 
-I use this blog to cover politics and public affairs in the greater Ocean County, NJ region
+I use this blog to cover politics and public affairs in the greater Ocean County, NJ region. Ocean County politics
+
+[Read Ocean County Politics here](https://politicsoc.com/)

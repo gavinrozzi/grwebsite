@@ -31,4 +31,6 @@ caption = "JerseyLeaks logo"
 JerseyLeaks is a whistleblowing and collaborative journalism tool that allows
 sources to confidentially leak documents to reporters using an encrypted online system.
 
-[View website](https://jerseyleaks.org/)
+[View JerseyLeaks at this link](https://jerseyleaks.org/)
+
+[Submit documents here](https://submit.jerseyleaks.org/)

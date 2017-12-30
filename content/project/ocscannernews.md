@@ -33,3 +33,5 @@ police scanners and post live news updates via their Facebook page. I designed t
 in addition to setting up a livestream server running the Icecast software package. The live feed covers
 the Ocean County Trunked Radio system and several other local conventional channels. We are planning more
 additions to the live feed as time and resources allow.
+
+[View Ocean County Scanner News here](https://ocscanner.news/)
