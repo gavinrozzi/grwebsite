@@ -36,4 +36,4 @@ This project has been a collaborative effort and other journalists are invited t
 
 [View JerseyLeaks at this link](https://jerseyleaks.org/)
 
-[Submit documents here](https://submit.jerseyleaks.org/)
+[Submit documents to JerseyLeaks securely here](https://submit.jerseyleaks.org/)

@@ -11,20 +11,20 @@ weight = 5
 [interests]
   interests = [
     "Linux & open source",
-    "NJ state & local politics",
+    "U.S. and New Jersey politics",
     "Constitutional law",
-    "Aerial photography / drones",
+    "Drones & Aerial photography",
     "Civic tech"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "Expected BA in Political Science"
+  course = "Expected B.A. in Political Science"
   institution = "Stockton University"
   year = 2018
 
 [[education.courses]]
-  course = "High School"
+  course = "High School Diploma"
   institution = "Lacey Township High School"
   year = 2015
 

@@ -10,8 +10,8 @@ CIO Magazine [wanted my take](https://www.cio.com/article/2460827/search/seo-sem
 
 Here’s what I had to say:
 
-    WordPress is, in essence, a blogging platform. But many businesses use it as the content management system for a complete website.
+>WordPress is, in essence, a blogging platform. But many businesses use it as the content management system for a complete website.
 
-    Yoast’s WordPress SEO Plugin (free) is a favorite among many SEO experts. “I recommend it to my clients because it allows the automation and easy integration of important SEO strategies,” says Gavin Rozzi, president, Gavin Rozzi Technology.
+>Yoast’s WordPress SEO Plugin (free) is a favorite among many SEO experts. “I recommend it to my clients because it allows the automation and easy integration of important SEO strategies,” says Gavin Rozzi, president, Gavin Rozzi Technology.
 
-    Drupal and Joomla are two worthy WordPress alternatives, Rozzi says. “These free, open-source content management systems come with an assortment of plug-ins that automate much of the SEO workload.”
+>Drupal and Joomla are two worthy WordPress alternatives, Rozzi says. “These free, open-source content management systems come with an assortment of plug-ins that automate much of the SEO workload.”

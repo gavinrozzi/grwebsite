@@ -39,4 +39,8 @@ filter_default = 0
 [[filter]]
   name = "Government Transparency"
   tag = ".transparency"
+
+  [[filter]]
+    name = "Amateur Radio"
+    tag = ".radio"
 +++

@@ -12,7 +12,7 @@ summary = "GRC Reverses Fee Demand for Public Records"
 image_preview = "GRLaceyBOE.jpeg"
 
 # Tags: can be used for filtering projects.
-# Example: `tags = ["lacey township", "opra"]`
+# Example: `tags = ["lacey township board of education", "opra"]`
 tags = ["opra"]
 
 # Optional external URL for project (replaces project detail page).
@@ -31,5 +31,7 @@ caption = "A preview of the GRC's decision in this case"
 The New Jersey Government Records Council (GRC) ruled in my favor and ordered the
 Lacey Township Board of Education to refund an $85 "special service fee" they attempted
 to charge me for copies of checks that showed the board's contracted attorney was receiving health benefits through a school plan.
+
+### Read the GRC's opinion
 
 [Read the full decision from the GRC here](/files/2015-224.pdf)

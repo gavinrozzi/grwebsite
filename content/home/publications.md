@@ -6,7 +6,7 @@ active = true
 date = 2016-04-20
 
 title = "Recent Publications"
-subtitle = "Things that have been published by or about me"
+subtitle = "Things I've published"
 
 # Order that this section will appear in.
 weight = 20
