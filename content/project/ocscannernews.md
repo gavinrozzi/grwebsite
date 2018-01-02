@@ -24,7 +24,7 @@ math = false
 # Optional featured image (relative to `static/img/` folder).
 [header]
 image = "cropped-DSCF1214.jpg"
-caption = "A screenshot of the OPRAmachine.com homepage"
+caption = "Ocean County Scanner News"
 
 +++
 
@@ -35,3 +35,5 @@ the Ocean County Trunked Radio system and several other local conventional chann
 additions to the live feed as time and resources allow.
 
 [View Ocean County Scanner News here](https://ocscanner.news/)
+
+[Listen to Ocean County Scanner News live audio feed](http://ocscanner.news:8000/stream)

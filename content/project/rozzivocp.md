@@ -29,8 +29,8 @@ caption = "A preview of the GRC's decision in this case"
 +++
 
 The New Jersey Government Records Council (GRC) ruled in my favor and declared that the
-response provided to an Open Public Records Act (OPRA) request was legally insufficient under the OPRA law's requirements.
+response provided to an Open Public Records Act (OPRA) request was legally insufficient under the OPRA law's requirements. The GRC complaint was filed in 2015 and was adjudicated by the GRC after a nearly two-year wait time.
 
-This case followed another lawsuit that was filed against the OCPO by open government activist Harry Scheeler.
+This case was filed at the same time a lawsuit that was filed against the OCPO by open government activist Harry Scheeler. Scheeler's lawsuit sought similar documents as those that were issue in this case.
 
 [Read the full decision from the GRC here](/files/2015-250.pdf)
