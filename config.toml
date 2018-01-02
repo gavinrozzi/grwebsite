@@ -145,9 +145,6 @@ defaultContentLanguageInSubdir = false
   custom_css = []
   custom_js  = []
 
-  # Thumbnail for open graph / twitter cards
-  thumbnail = "thumbnail.jpg"
-
   # Publication types.
   #   Used to categorize publications.
   #   The index of the publication type in the list is used as its unique numerical identifier.
@@ -290,3 +287,7 @@ defaultContentLanguageInSubdir = false
 # Configure the English version of the website.
 [Languages.en]
   languageCode = "en-us"
+
+# Thumbnail for open graph / twitter cards
+[params.thumbnail]
+thumbnail = "thumbnail.jpg"
