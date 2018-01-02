@@ -1,4 +1,4 @@
-baseurl = "/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
+baseurl = "https://www.gavinrozzi.com/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 title = "Gavin Rozzi"
 copyright = "&copy; 2013-2018 Gavin Rozzi"
 theme = "hugo-academic"
@@ -220,7 +220,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "address-card"
     icon_pack = "fa"
-    link = "/static/files/vCard.vcf"
+    link = "/files/vCard.vcf"
 
   [[params.social]]
     icon = "twitter"
