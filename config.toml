@@ -205,7 +205,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:gr@gavinrozzi.com"
+    link = "mailto:hello@rozzi.media"
 
   [[params.social]]
     icon = "linkedin"
@@ -213,14 +213,19 @@ defaultContentLanguageInSubdir = false
     link = "//linkedin.com/in/gavin-rozzi-077b0745"
 
   [[params.social]]
-    icon = "twitter"
-    icon_pack = "fa"
-    link = "//twitter.com/gavroz"
-
-  [[params.social]]
     icon = "facebook"
     icon_pack = "fa"
     link = "//www.facebook.com/gavinrozzi"
+
+  [[params.social]]
+    icon = "address-card"
+    icon_pack = "fa"
+    link = "/static/files/vCard.vcf"
+
+  [[params.social]]
+    icon = "twitter"
+    icon_pack = "fa"
+    link = "//twitter.com/gavroz"
 
   [[params.social]]
     icon = "github"
