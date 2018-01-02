@@ -29,7 +29,10 @@
       
       <guid>/project/jerseyleaks/</guid>
       <description>&lt;p&gt;JerseyLeaks is a whistleblowing and collaborative journalism tool that allows
-sources to confidentially leak documents to reporters using an encrypted online system.&lt;/p&gt;
+sources to confidentially leak documents to reporters using an encrypted online system.
+The system allows whistleblowers with knowledge of public corruption to submit documents to journalists who may publish them as a part of an investigative story.&lt;/p&gt;
+
+&lt;p&gt;This project has been a collaborative effort and other journalists are invited to join the platform.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://jerseyleaks.org/&#34; target=&#34;_blank&#34;&gt;View JerseyLeaks at this link&lt;/a&gt;&lt;/p&gt;
 
@@ -43,7 +46,7 @@ sources to confidentially leak documents to reporters using an encrypted online 
       <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>/project/politicsoc/</guid>
-      <description>&lt;p&gt;I use this blog to cover politics and public affairs in the greater Ocean County, NJ region. Ocean County politics&lt;/p&gt;
+      <description>&lt;p&gt;I use this blog to cover politics and public affairs in the greater Ocean County, NJ region. Ocean County Politics has become known for publishing in-depth accounts of county and municipal governmental activities and behind-the-scenes activities that influence the county&amp;rsquo;s political climate.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://politicsoc.com/&#34; target=&#34;_blank&#34;&gt;Read Ocean County Politics here&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -70,9 +73,9 @@ to charge me for copies of checks that showed the board&amp;rsquo;s contracted a
       
       <guid>/project/rozzivocp/</guid>
       <description>&lt;p&gt;The New Jersey Government Records Council (GRC) ruled in my favor and declared that the
-response provided to an Open Public Records Act (OPRA) request was legally insufficient under the OPRA law&amp;rsquo;s requirements.&lt;/p&gt;
+response provided to an Open Public Records Act (OPRA) request was legally insufficient under the OPRA law&amp;rsquo;s requirements. The GRC complaint was filed in 2015 and was adjudicated by the GRC after a nearly two-year wait time.&lt;/p&gt;
 
-&lt;p&gt;This case followed another lawsuit that was filed against the OCPO by open government activist Harry Scheeler.&lt;/p&gt;
+&lt;p&gt;This case was filed at the same time a lawsuit that was filed against the OCPO by open government activist Harry Scheeler. Scheeler&amp;rsquo;s lawsuit sought similar documents as those that were issue in this case.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;/files/2015-250.pdf&#34;&gt;Read the full decision from the GRC here&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -85,6 +88,29 @@ response provided to an Open Public Records Act (OPRA) request was legally insuf
       
       <guid>/publication/tax-abatements/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Featured on Rachel Maddow Show</title>
+      <link>/post/rachelmaddow/</link>
+      <pubDate>Wed, 12 Oct 2016 00:00:00 -0400</pubDate>
+      
+      <guid>/post/rachelmaddow/</guid>
+      <description>&lt;p&gt;During the 2016 presidential election, I worked to fiercely cover the state, local &amp;amp; federal elections occurring within the communities of Ocean County, New Jersey for my website &lt;a href=&#34;https://politicsoc.com&#34; target=&#34;_blank&#34;&gt;Ocean County Politics&lt;/a&gt;. During this time, my reporting on the cancellation of a GOP fundraiser held for then-Vice Presidential candidate Mike Pence was featured on an episode of the Rachel Maddow.&lt;/p&gt;
+
+&lt;div id=&#34;fb-root&#34;&gt;&lt;/div&gt;
+&lt;script&gt;(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = &#39;https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.11&amp;appId=111682819550624&#39;;
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, &#39;script&#39;, &#39;facebook-jssdk&#39;));&lt;/script&gt;
+
+&lt;div class=&#34;fb-video&#34; data-href=&#34;https://www.facebook.com/therachelmaddowshow/videos/10153990933079067/&#34; data-width=&#34;500&#34; data-show-text=&#34;true&#34;&gt;&lt;blockquote cite=&#34;https://www.facebook.com/therachelmaddowshow/videos/10153990933079067/&#34; class=&#34;fb-xfbml-parse-ignore&#34;&gt;&lt;a href=&#34;https://www.facebook.com/therachelmaddowshow/videos/10153990933079067/&#34;&gt;Pence fundraiser interest too low to be worth his time&lt;/a&gt;&lt;p&gt;Two Mike Pence fundraisers cancelled for lack of interest, one in Nebraska, one in New Jersey.
+
+Is lack of interest in Pence events a sign of the air leaving the Trump balloon?&lt;/p&gt;Posted by &lt;a href=&#34;https://www.facebook.com/therachelmaddowshow/&#34;&gt;The Rachel Maddow Show&lt;/a&gt; on Tuesday, October 11, 2016&lt;/blockquote&gt;&lt;/div&gt;
+</description>
     </item>
     
     <item>
@@ -114,6 +140,27 @@ the Ocean County Trunked Radio system and several other local conventional chann
 additions to the live feed as time and resources allow.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://ocscanner.news/&#34; target=&#34;_blank&#34;&gt;View Ocean County Scanner News here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ocscanner.news:8000/stream&#34; target=&#34;_blank&#34;&gt;Listen to Ocean County Scanner News live audio feed&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Interview with CIO Magazine</title>
+      <link>/post/ciomag/</link>
+      <pubDate>Wed, 10 Sep 2014 00:00:00 -0400</pubDate>
+      
+      <guid>/post/ciomag/</guid>
+      <description>&lt;p&gt;CIO Magazine &lt;a href=&#34;https://www.cio.com/article/2460827/search/seo-sem-top-25-diy-tips-for-better-seo.html&#34; target=&#34;_blank&#34;&gt;wanted my take&lt;/a&gt; on tips you can take to improve search engine rankings for small business websites for an article entitled &amp;ldquo;Top 25 DIY Tips for Better SEO.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Here’s what I had to say:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;WordPress is, in essence, a blogging platform. But many businesses use it as the content management system for a complete website.
+
+Yoast’s WordPress SEO Plugin (free) is a favorite among many SEO experts. “I recommend it to my clients because it allows the automation and easy integration of important SEO strategies,” says Gavin Rozzi, president, Gavin Rozzi Technology.
+
+Drupal and Joomla are two worthy WordPress alternatives, Rozzi says. “These free, open-source content management systems come with an assortment of plug-ins that automate much of the SEO workload.”
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     

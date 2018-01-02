@@ -95,6 +95,15 @@
     
     <url>
     
+      <loc>/post/rachelmaddow/</loc>
+      <lastmod>2016-10-12T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/project/opramachine/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
@@ -113,8 +122,37 @@
     
     <url>
     
+      <loc>/post/ciomag/</loc>
+      <lastmod>2014-09-10T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication_types/0/</loc>
       <lastmod>2017-07-31T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/2016-election/</loc>
+      <lastmod>2016-10-12T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/cio/</loc>
+      <lastmod>2014-09-10T00:00:00-04:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -182,6 +220,16 @@
     
     <url>
     
+      <loc>/tags/rachel-maddow/</loc>
+      <lastmod>2016-10-12T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/radio/</loc>
       <lastmod>2017-12-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -194,6 +242,16 @@
     
       <loc>/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/wordpress/</loc>
+      <lastmod>2014-09-10T00:00:00-04:00</lastmod>
       <priority>0</priority>
     </url>
     

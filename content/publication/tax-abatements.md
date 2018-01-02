@@ -17,8 +17,7 @@ authors = ["Gavin C. Rozzi"]
 publication_types = ["0"]
 
 # Publication name and optional abbreviated version.
-publication = "In *Election 2017: The Policy Priorities of New Jersey College Students*, William J. Hughes Center for Public Policy at Stockton University."
-publication_short = "In *Hughes Center*"
+publication = "In *Election 2017: The Policy Priorities of New Jersey College Students*,  William J. Hughes Center for Public Policy at Stockton University."
 
 # Abstract and optional shortened version.
 abstract = "I present a summary of some of the current issues involving the administration of state & local tax abatement policy and its effects on revenues of taxing entities within the municipality. Speciifc emphasis is made on the impact o Payment in Lieu of Taxes (PILOT). I also present some possible policy solutions that can be considered to address some of the excesses of current tax abatement policy in New Jersey."
@@ -60,6 +59,6 @@ highlight = true
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
 image = "Rozzi tax abatements.jpg"
-caption = ""
+caption = "A preview of the policy briefing."
 
 +++
