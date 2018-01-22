@@ -11,6 +11,20 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Ocean County Radio Live</title>
+      <link>https://www.gavinrozzi.com/project/ocradiolive/</link>
+      <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/project/ocradiolive/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ocradio.live/&#34; target=&#34;_blank&#34;&gt;Ocean County Radio Live&lt;/a&gt; is taking the technical complexity and hassle out of scanning in Ocean County, New Jersey.&lt;/p&gt;
+
+&lt;p&gt;This website uses software defined radio (SDR) technology to process the streams of digital data produced by the Ocean County trunked radio system. The SDRs record radio transmissions and upload them to the site&amp;rsquo;s server.&lt;/p&gt;
+
+&lt;p&gt;Ocean County Radio Live is based on the open-source &amp;ldquo;trunk-player&amp;rdquo; application.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Forked River Amateur Radio Club</title>
       <link>https://www.gavinrozzi.com/project/frnjarc/</link>
       <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
