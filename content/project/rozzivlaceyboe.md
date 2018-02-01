@@ -28,10 +28,8 @@ caption = "A preview of the GRC's decision in this case"
 
 +++
 
-The New Jersey Government Records Council (GRC) ruled in my favor and ordered the
-Lacey Township Board of Education to refund an $85 "special service fee" they attempted
-to charge me for copies of checks that showed the board's contracted attorney was receiving health benefits through a school plan.
+After being on their docket for close to two years, the New Jersey Government Records Council (GRC) ruled in my favor and ordered the Lacey Township Board of Education to refund an $85 "special service fee" the board's business administrator attempted to charge me for copies of checks that showed the board's contracted attorney was receiving health benefits through a school district plan.
 
-### Read the GRC's opinion
+I filed the complaint because it was my belief that the true purpose of the fee was the chill public records requests rather than legitimately recover expenses.
 
 [Read the full decision from the GRC here](/files/2015-224.pdf)
