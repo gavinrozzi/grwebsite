@@ -22,9 +22,13 @@
 
 &lt;p&gt;The system has a major advantage over all traditional forms of radio scanning as it uses &amp;ldquo;time shifting&amp;rdquo; like a DVR does when recording multiple overlapping TV shows, ensuring that no transmissions are missed, since traditional scanners can only hold on one channel - potentially missing other calls.&lt;/p&gt;
 
+&lt;p&gt;This system is powered by multiple R820T SDRs running on a desktop computer and connected to the front-end web server accessed by end users.&lt;/p&gt;
+
 &lt;p&gt;As our base of users continues to grow, I intend on covering more radio systems and adding them to this system.&lt;/p&gt;
 
-&lt;p&gt;Ocean County Radio Live is based on the open-source &amp;ldquo;trunk-player&amp;rdquo; application.&lt;/p&gt;
+&lt;p&gt;The Ocean County Radio Live web application is based on the open-source &lt;a href=&#34;https://github.com/ScanOC/trunk-player&#34; target=&#34;_blank&#34;&gt;trunk-player&lt;/a&gt; application.&lt;/p&gt;
+
+&lt;p&gt;So far, I have contributed one &lt;a href=&#34;https://github.com/ScanOC/trunk-player/commit/8dbc011c96bf19951bc9fa1fbf6c37d5e215dc4a&#34; target=&#34;_blank&#34;&gt;pull request&lt;/a&gt; to the upstream project.&lt;/p&gt;
 </description>
     </item>
     
@@ -46,11 +50,11 @@
       <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://www.gavinrozzi.com/project/jerseyleaks/</guid>
-      <description>&lt;p&gt;JerseyLeaks is a whistleblowing and collaborative journalism tool that allows
-sources to confidentially leak documents to reporters using an encrypted online system.
+      <description>&lt;p&gt;&lt;a href=&#34;https://jerseyleaks.org/&#34; target=&#34;_blank&#34;&gt;JerseyLeaks.org&lt;/a&gt; is a public corruption whistleblowing initiative and collaborative journalism tool that allows
+sources to confidentially leak documents to reporters using an encrypted online system. The documents are encrypted at rest and in transit using the OpenPGP public keys of journalists using the open-source software Globaleaks, ensuring the privacy of sources.
 The system allows whistleblowers with knowledge of public corruption to submit documents to journalists who may publish them as a part of an investigative story.&lt;/p&gt;
 
-&lt;p&gt;This project has been a collaborative effort and other journalists are invited to join the platform.&lt;/p&gt;
+&lt;p&gt;This project has been a collaborative effort and other journalists are invited to join the platform, with further details being on the JerseyLeaks website.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://jerseyleaks.org/&#34; target=&#34;_blank&#34;&gt;View JerseyLeaks at this link&lt;/a&gt;&lt;/p&gt;
 
