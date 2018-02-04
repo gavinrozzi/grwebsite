@@ -34,6 +34,10 @@ This website uses software defined radio (SDR) technology to process the streams
 
 The system has a major advantage over all traditional forms of radio scanning as it uses "time shifting" like a DVR does when recording multiple overlapping TV shows, ensuring that no transmissions are missed, since traditional scanners can only hold on one channel - potentially missing other calls.
 
+This system is powered by multiple R820T SDRs running on a desktop computer and connected to the front-end web server accessed by end users.
+
 As our base of users continues to grow, I intend on covering more radio systems and adding them to this system.
 
-Ocean County Radio Live is based on the open-source "trunk-player" application.
+The Ocean County Radio Live web application is based on the open-source [trunk-player](https://github.com/ScanOC/trunk-player) application.
+
+So far, I have contributed one [pull request](https://github.com/ScanOC/trunk-player/commit/8dbc011c96bf19951bc9fa1fbf6c37d5e215dc4a) to the upstream project.

@@ -28,11 +28,11 @@ caption = "JerseyLeaks logo"
 
 +++
 
-JerseyLeaks is a whistleblowing and collaborative journalism tool that allows
-sources to confidentially leak documents to reporters using an encrypted online system.
+[JerseyLeaks.org](https://jerseyleaks.org/) is a public corruption whistleblowing initiative and collaborative journalism tool that allows
+sources to confidentially leak documents to reporters using an encrypted online system. The documents are encrypted at rest and in transit using the OpenPGP public keys of journalists using the open-source software Globaleaks, ensuring the privacy of sources.
 The system allows whistleblowers with knowledge of public corruption to submit documents to journalists who may publish them as a part of an investigative story.
 
-This project has been a collaborative effort and other journalists are invited to join the platform.
+This project has been a collaborative effort and other journalists are invited to join the platform, with further details being on the JerseyLeaks website.
 
 [View JerseyLeaks at this link](https://jerseyleaks.org/)
 
