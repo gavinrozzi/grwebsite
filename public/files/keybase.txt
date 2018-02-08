@@ -1,0 +1,86 @@
+==================================================================
+https://keybase.io/gcr
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://gavinrozzi.com
+  * I am gcr (https://keybase.io/gcr) on keybase.
+  * I have a public key with fingerprint 506E 8357 3BCA 2AE3 D69A  8B1D 5DA2 A929 9887 A4C6
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101db003de812282d3e41131dbfcaac3a79455812e57b6a33cfbcfbe15778a8c2de0a",
+      "fingerprint": "506e83573bca2ae3d69a8b1d5da2a9299887a4c6",
+      "host": "keybase.io",
+      "key_id": "5da2a9299887a4c6",
+      "kid": "0101db003de812282d3e41131dbfcaac3a79455812e57b6a33cfbcfbe15778a8c2de0a",
+      "uid": "abe609a59390de52c745bcc8857c6619",
+      "username": "gcr"
+    },
+    "merkle_root": {
+      "ctime": 1518051948,
+      "hash_meta": "4418542739984f51450b663fb3e51d26846ebd6552b02e027faa5802851ffcd4",
+      "seqno": 2050033
+    },
+    "revoke": {
+      "sig_ids": [
+        "543fcf57c1754d1d6318a149c3db75697f934f82d5ae001463b1428301e8977a0f"
+      ]
+    },
+    "service": {
+      "hostname": "gavinrozzi.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1518051962,
+  "expire_in": 157680000,
+  "prev": "8d0fabc80fcdfbb53f911d2f09c89d93ab5048fca3e9d4ba923401f480f1aff4",
+  "seqno": 19,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtU31MVlUYfyXB8ar4UUm5CL2Wihrdc8899wN1omOCpZhhsEp8Peeec/EKvPft
+vpc3X5BNQ1PED2yoBCMLG45hM0sr0xzFtBQ/38SJZWvpBk5L/MA5m9J5WW6t9Wd3
+d7s7z/N7fs/v+d3nVA99zOMdkN/YnFK79uOjA9qvEs8bZY1rywRi07CQViYUsv4P
+K6Is6PoKLSqkCSIQASWiCCnTgCRpEoVMBgDyoGlgbECs6jJCPMeQShQMoWES/jKA
+VFXDmiFRJmJhimBa/gLmBBzL73JaJCpMg0iFxMASZpAqOtYIoIjyoy7puqapWDYU
+XrjUDkYruDiCgyzVsnmMH3z98v4D/z/rLumnw4Qpoo6RDnWRMiQZqoyIYWgaUg1F
+AXoUGGSOHxczji4wHKF8ilDMnMIi5nNs2436arhWNAsQ0EQEdFnjs+HgUl8xczEv
+kmWgIVlSIR9GNhGQkUgUBZoEMgSopGiywghVEJKIKDFRUk2MkSZKGgKmaVCZSwiy
+t/y2kCaJiA8OuQKHhexCFm0etAq4Y0Eh7U0BydA0TC681QUqkimgCgQaBrJuQEpU
+pOiqqUPZ5J4hzEQRyAokQJY0KAKm6aqKRVPIL4+2c0KW0U8f/UmPhschy+/YpaVW
+qmEXc1UBx3Ztwy7iuaWuGwimRb1xw4Eo+G1GfH/T+Ijlp3xJeEWIOUHL9nOvOPJf
+tinSFIEtD1gO81lRBFIVTeRPtA8LcUqNiiYmhiZyU0xCEDR1wP0zRd3QdKpDTJAo
+a3wJINOpTPj2QFkEpswLADbNf/gIdK4TF3BO7p4fuyUOE8q9lTFwoGeA15M0auzA
+V/wVeVOPT7p8vq4q6dHFio2J3iqPN374o8icEcP6ckb3jClxmm5e0O9eOt9Yt6cm
+dvynRbdejJRPy31o00PXh6LOvB+rs3ImV96afPhC2SfdnVuNYNYVtznubp51af83
+Ffe7v76dNaqzsu1M7w3ho4tj5v9yUai5t7F04chtJ4s7DoyIB5FJh6DHW5U8Y1rV
+u7tCkdtHYjuerQ38umBcX8bRYXfSwy1CuP3E9qGZz8SHBn2Ymrds66byvTSQPCQt
+e8O+igNoYGkCjmxqXN1QMeHlPeVXQfyQyOiGswua5rWNGfte8rK2XLJ4IcwyzPpz
+JZ0t9c892L9k5M6sB6Orx5eEheMnd59PmJ8/LyX3ncpBPYuefLx1SG3bIq3y6cVz
+5kgdv617atHhjC6aTOGxzTsTrl1ct7Ll9en2yqoLZ1K8gTU5s2boD3Pqj0kZZkr7
+tJGNB/+ksXNn49T61d0fRLZcb554NvOJLW3jtM3mtS+zN2Sk/9BxsLt7b9yKB6dT
+tu/YVkOqlRFF3p6NUlXx1lNxfYWzvgtdSR7+FWyP+SI5cZfhIbt7b9b9Mbf7yCpn
+fV1i7r3szMykb1fdTtzXdPRUUkpXZKrQlf7Z5A0ThJnxr3W9JPS2tt9YcqQv3DRs
+RutsYfX3+s+ehiJy4v3Pj99QZp7bOfhaOH95y7zpt+J2JCQk7lrRq67JyriyvvbV
+58HJ3zvSexbndA5y4ydOrWxO3ZP3wuCan3ZE7py+fD/mLw==
+=26OF
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/gcr
+
+==================================================================
+
