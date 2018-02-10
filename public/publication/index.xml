@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2013-2018 Gavin Rozzi</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/publication/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://www.gavinrozzi.com/publication/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Municipal Tax Abatements Policy Briefing</title>

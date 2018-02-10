@@ -8,7 +8,91 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2013-2018 Gavin Rozzi</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0400</lastBuildDate>
-    <atom:link href="/home/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://www.gavinrozzi.com/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gavin Rozzi</title>
+      <link>https://www.gavinrozzi.com/home/hero/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/home/hero/</guid>
+      <description>Official Website</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.gavinrozzi.com/home/about/</link>
+      <pubDate>Thu, 20 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/home/about/</guid>
+      <description>About Gavin Rozzi Gavin Rozzi is an independent journalist who has created several successful local news websites and investigative journalism platforms serving New Jersey. His political news website Ocean County Politics has been known for uncovering details about investigations of political leaders in Ocean County, NJ. Rozzi&amp;rsquo;s second web project, JerseyLeaks, a whistleblowing platform operated in collaboration with other journalists, uses encryption to provide anonymity to sources seeking to blow the whistle on matters of public corruption.</description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>https://www.gavinrozzi.com/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Publications</title>
+      <link>https://www.gavinrozzi.com/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://www.gavinrozzi.com/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://www.gavinrozzi.com/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://www.gavinrozzi.com/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://www.gavinrozzi.com/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/home/teaching/</guid>
+      <description>I served as a teaching assistant for the following courses at Ocean County College:
+ ALDC 102 - Addictions Counseling II (Fall, 2017 Semester) In this class, working with Professor Jack Brogan, I participated in an exercise that saw the students create their own jobs program for recovering addicts. Given the pervasiveness of the opioid epidemic in Ocean County, participating in this class gave me a unique perspective on the various solutions to the addiction crisis.</description>
+    </item>
+    
+    <item>
+      <title>Contact Gavin</title>
+      <link>https://www.gavinrozzi.com/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/home/contact/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

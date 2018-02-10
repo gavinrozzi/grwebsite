@@ -173,16 +173,20 @@ Is lack of interest in Pence events a sign of the air leaving the Trump balloon?
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.gavinrozzi.com/project/ocscannernews/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ocscanner.news/&#34; target=&#34;_blank&#34;&gt;Ocean County Scanner News &lt;/a&gt; is a network of radio and emergency services enthusiasts who listen to police scanners and post live news updates via their Facebook page. I designed the groups&amp;rsquo;s website
-in addition to setting up a livestream server running the Icecast software package. The live feed covers
-the Ocean County Trunked Radio system and several other local conventional channels. We are planning more
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://ocscanner.news/&#34; target=&#34;_blank&#34;&gt;Ocean County Scanner News &lt;/a&gt; is a network of radio and emergency services enthusiasts who listen to police scanners and post live news updates via their Facebook page. I designed the groups&amp;rsquo;s website in addition to setting up a live scanner feed server running the Icecast live streaming server. The main live feed covers the Ocean County Trunked Radio system and several other local conventional channels for police, fire &amp;amp; EMS agencies serving Ocean County. We are planning more
 additions to the live feed as time and resources allow.&lt;/p&gt;
 
-&lt;p&gt;Many of the brief updates posted on Ocean County Scanner News are reflective of breaking news stories that later are reported in the media.&lt;/p&gt;
+&lt;p&gt;Many of the brief updates posted on Ocean County Scanner News are reflective of breaking news stories that later are reported in the media - oftentimes days later as many outlets wait for official press releases.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://ocscanner.news/&#34; target=&#34;_blank&#34;&gt;View Ocean County Scanner News here&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;links&#34;&gt;Links&lt;/h4&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://ocscanner.news:8000/stream&#34; target=&#34;_blank&#34;&gt;Listen to Ocean County Scanner News live audio feed&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ocscanner.news/&#34; target=&#34;_blank&#34;&gt;View the Ocean County Scanner News website here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ocscanner.news:8000/stream&#34; target=&#34;_blank&#34;&gt;Listen to the main live scanner feed&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ocscanner.news:8000/south&#34; target=&#34;_blank&#34;&gt;Listen to the southern live feed (Lacey, Barnegat &amp;amp; Waretown)&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

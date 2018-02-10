@@ -28,13 +28,15 @@ caption = "Ocean County Scanner News"
 
 +++
 
-[Ocean County Scanner News ](https://ocscanner.news/) is a network of radio and emergency services enthusiasts who listen to police scanners and post live news updates via their Facebook page. I designed the groups's website
-in addition to setting up a livestream server running the Icecast software package. The live feed covers
-the Ocean County Trunked Radio system and several other local conventional channels. We are planning more
+[Ocean County Scanner News ](https://ocscanner.news/) is a network of radio and emergency services enthusiasts who listen to police scanners and post live news updates via their Facebook page. I designed the groups's website in addition to setting up a live scanner feed server running the Icecast live streaming server. The main live feed covers the Ocean County Trunked Radio system and several other local conventional channels for police, fire & EMS agencies serving Ocean County. We are planning more
 additions to the live feed as time and resources allow.
 
-Many of the brief updates posted on Ocean County Scanner News are reflective of breaking news stories that later are reported in the media.
+Many of the brief updates posted on Ocean County Scanner News are reflective of breaking news stories that later are reported in the media - oftentimes days later as many outlets wait for official press releases.
 
-[View Ocean County Scanner News here](https://ocscanner.news/)
+#### Links
 
-[Listen to Ocean County Scanner News live audio feed](http://ocscanner.news:8000/stream)
+[View the Ocean County Scanner News website here](https://ocscanner.news/)
+
+[Listen to the main live scanner feed](http://ocscanner.news:8000/stream)
+
+[Listen to the southern live feed (Lacey, Barnegat & Waretown)](http://ocscanner.news:8000/south)

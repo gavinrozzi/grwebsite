@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2013-2018 Gavin Rozzi</copyright>
     <lastBuildDate>Mon, 22 Jan 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/project/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://www.gavinrozzi.com/project/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Ocean County Radio Live</title>
@@ -16,20 +18,8 @@
       <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.gavinrozzi.com/project/ocradiolive/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ocradio.live/&#34; target=&#34;_blank&#34;&gt;Ocean County Radio Live&lt;/a&gt; is taking the technical complexity and hassle out of scanning in Ocean County, New Jersey. I recently launched this website at the beginning of 2018.&lt;/p&gt;
-
-&lt;p&gt;This website uses software defined radio (SDR) technology to process the streams of digital data produced by the Ocean County trunked radio system. The SDRs record radio transmissions and upload them to the site&amp;rsquo;s server, which allows them to easily be played and archived online.&lt;/p&gt;
-
-&lt;p&gt;The system has a major advantage over all traditional forms of radio scanning as it uses &amp;ldquo;time shifting&amp;rdquo; like a DVR does when recording multiple overlapping TV shows, ensuring that no transmissions are missed, since traditional scanners can only hold on one channel - potentially missing other calls.&lt;/p&gt;
-
-&lt;p&gt;This system is powered by multiple R820T SDRs running on a desktop computer and connected to the front-end web server accessed by end users.&lt;/p&gt;
-
-&lt;p&gt;As our base of users continues to grow, I intend on covering more radio systems and adding them to this system.&lt;/p&gt;
-
-&lt;p&gt;The Ocean County Radio Live web application is based on the open-source &lt;a href=&#34;https://github.com/ScanOC/trunk-player&#34; target=&#34;_blank&#34;&gt;trunk-player&lt;/a&gt; application.&lt;/p&gt;
-
-&lt;p&gt;So far, I have contributed one &lt;a href=&#34;https://github.com/ScanOC/trunk-player/commit/8dbc011c96bf19951bc9fa1fbf6c37d5e215dc4a&#34; target=&#34;_blank&#34;&gt;pull request&lt;/a&gt; to the upstream project.&lt;/p&gt;
-</description>
+      <description>Ocean County Radio Live is taking the technical complexity and hassle out of scanning in Ocean County, New Jersey. I recently launched this website at the beginning of 2018.
+This website uses software defined radio (SDR) technology to process the streams of digital data produced by the Ocean County trunked radio system. The SDRs record radio transmissions and upload them to the site&amp;rsquo;s server, which allows them to easily be played and archived online.</description>
     </item>
     
     <item>
@@ -38,10 +28,8 @@
       <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://www.gavinrozzi.com/project/frnjarc/</guid>
-      <description>&lt;p&gt;The Forked River Amateur Radio Club is a new club recently formed to serve amateur radio community of Forked River, NJ and surrounding areas. I currently serve as both the vice president and webmaster of the club. We anticipate on pursuing several projects through this club, such as 2 meter FM repeater and 70 cm band DMR system to cover the Lacey area.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://frnjarc.org/&#34; target=&#34;_blank&#34;&gt;View the club&amp;rsquo;s website here.&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>The Forked River Amateur Radio Club is a new club recently formed to serve amateur radio community of Forked River, NJ and surrounding areas. I currently serve as both the vice president and webmaster of the club. We anticipate on pursuing several projects through this club, such as 2 meter FM repeater and 70 cm band DMR system to cover the Lacey area.
+View the club&amp;rsquo;s website here.</description>
     </item>
     
     <item>
@@ -50,16 +38,7 @@
       <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://www.gavinrozzi.com/project/jerseyleaks/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://jerseyleaks.org/&#34; target=&#34;_blank&#34;&gt;JerseyLeaks.org&lt;/a&gt; is a public corruption whistleblowing initiative and collaborative journalism tool that allows
-sources to confidentially leak documents to reporters using an encrypted online system. The documents are encrypted at rest and in transit using the OpenPGP public keys of journalists using the open-source software Globaleaks, ensuring the privacy of sources.
-The system allows whistleblowers with knowledge of public corruption to submit documents to journalists who may publish them as a part of an investigative story.&lt;/p&gt;
-
-&lt;p&gt;This project has been a collaborative effort and other journalists are invited to join the platform, with further details being on the JerseyLeaks website.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://jerseyleaks.org/&#34; target=&#34;_blank&#34;&gt;View JerseyLeaks at this link&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://submit.jerseyleaks.org/&#34; target=&#34;_blank&#34;&gt;Submit documents to JerseyLeaks securely here&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>JerseyLeaks.org is a public corruption whistleblowing initiative and collaborative journalism tool that allows sources to confidentially leak documents to reporters using an encrypted online system. The documents are encrypted at rest and in transit using the OpenPGP public keys of journalists using the open-source software Globaleaks, ensuring the privacy of sources. The system allows whistleblowers with knowledge of public corruption to submit documents to journalists who may publish them as a part of an investigative story.</description>
     </item>
     
     <item>
@@ -68,16 +47,9 @@ The system allows whistleblowers with knowledge of public corruption to submit d
       <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://www.gavinrozzi.com/project/politicsoc/</guid>
-      <description>
-
-&lt;p&gt;Ocean County Politics is an independent news website that covers politics and public affairs in the greater Ocean County, NJ region. Ocean County Politics has become known for publishing in-depth accounts of county and municipal governmental activities and behind-the-scenes activities that influence the county&amp;rsquo;s political climate.&lt;/p&gt;
-
-&lt;p&gt;In addition to providing insightful commentary and news, the site also features reader contributed op-eds and letters to the editor.&lt;/p&gt;
-
-&lt;h4 id=&#34;learn-more&#34;&gt;Learn more&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://politicsoc.com/&#34; target=&#34;_blank&#34;&gt;Read Ocean County Politics here&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Ocean County Politics is an independent news website that covers politics and public affairs in the greater Ocean County, NJ region. Ocean County Politics has become known for publishing in-depth accounts of county and municipal governmental activities and behind-the-scenes activities that influence the county&amp;rsquo;s political climate.
+In addition to providing insightful commentary and news, the site also features reader contributed op-eds and letters to the editor.
+Learn more Read Ocean County Politics here</description>
     </item>
     
     <item>
@@ -86,12 +58,8 @@ The system allows whistleblowers with knowledge of public corruption to submit d
       <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://www.gavinrozzi.com/project/rozzivlaceyboe/</guid>
-      <description>&lt;p&gt;After being on their docket for close to two years, the New Jersey Government Records Council (GRC) ruled in my favor and ordered the Lacey Township Board of Education to refund an $85 &amp;ldquo;special service fee&amp;rdquo; the board&amp;rsquo;s business administrator attempted to charge me for copies of checks that showed the board&amp;rsquo;s contracted attorney was receiving health benefits through a school district plan.&lt;/p&gt;
-
-&lt;p&gt;I filed the complaint because it was my belief that the true purpose of the fee was the chill public records requests rather than legitimately recover expenses.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.gavinrozzi.com/files/2015-224.pdf&#34;&gt;Read the full decision from the GRC here&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>After being on their docket for close to two years, the New Jersey Government Records Council (GRC) ruled in my favor and ordered the Lacey Township Board of Education to refund an $85 &amp;ldquo;special service fee&amp;rdquo; the board&amp;rsquo;s business administrator attempted to charge me for copies of checks that showed the board&amp;rsquo;s contracted attorney was receiving health benefits through a school district plan.
+I filed the complaint because it was my belief that the true purpose of the fee was the chill public records requests rather than legitimately recover expenses.</description>
     </item>
     
     <item>
@@ -100,17 +68,8 @@ The system allows whistleblowers with knowledge of public corruption to submit d
       <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://www.gavinrozzi.com/project/rozzivocp/</guid>
-      <description>
-
-&lt;p&gt;The &lt;strong&gt;New Jersey Government Records Council&lt;/strong&gt; (GRC) ruled in my favor and declared that the
-response provided to an Open Public Records Act (OPRA) request was legally insufficient under the OPRA law&amp;rsquo;s requirements. The GRC complaint was filed in 2015 and was adjudicated by the GRC after a nearly two-year wait time.&lt;/p&gt;
-
-&lt;p&gt;This case was filed at the same time a lawsuit that was filed against the OCPO by open government activist Harry Scheeler. Scheeler&amp;rsquo;s lawsuit sought similar documents as those that were issue in this case.&lt;/p&gt;
-
-&lt;h4 id=&#34;read-the-grc-s-full-opinion-here&#34;&gt;Read the GRC&amp;rsquo;s full opinion here&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.gavinrozzi.com/files/2015-250.pdf&#34;&gt;Read the full decision from the GRC here&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>The New Jersey Government Records Council (GRC) ruled in my favor and declared that the response provided to an Open Public Records Act (OPRA) request was legally insufficient under the OPRA law&amp;rsquo;s requirements. The GRC complaint was filed in 2015 and was adjudicated by the GRC after a nearly two-year wait time.
+This case was filed at the same time a lawsuit that was filed against the OCPO by open government activist Harry Scheeler.</description>
     </item>
     
     <item>
@@ -119,20 +78,8 @@ response provided to an Open Public Records Act (OPRA) request was legally insuf
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.gavinrozzi.com/project/opramachine/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;https://opramachine.com/&#34; target=&#34;_blank&#34;&gt;OPRAmachine.com&lt;/a&gt; is a first of its kind government transparency project that I recently launched to serve the citizens of the state of New Jersey. The site is powered by the New Jersey &lt;strong&gt;Open Public Records Act&lt;/strong&gt; (OPRA), a freedom of information law that allows any citizen of the state to request public records from state and local government agencies.&lt;/p&gt;
-
-&lt;h2 id=&#34;how-it-works&#34;&gt;How it works&lt;/h2&gt;
-
-&lt;p&gt;OPRAmachine breaks down barriers by explaining aspects of the OPRA request process. The site allows any citizen to easily file a legally valid public records request and includes a directory that currently includes all 565 municipalities in the state, as well as various state and county governmental agencies. The site has enabled requesters to obtain thousands of pages worth of public records, helping to shine a light on some of the more obscure elements of New Jersey state and local government.&lt;/p&gt;
-
-&lt;p&gt;A unique benefit that OPRAmachine provides is that once a public entity provides documents in response to a request, the documents are subsequently stored in the site&amp;rsquo;s database and made public, allowing the entire public to be able to reap the benefits. This model reduces duplicate requests and serves to further the OPRA law&amp;rsquo;s purpose of maximizing the citizenry&amp;rsquo;s knowledge of public affairs.&lt;/p&gt;
-
-&lt;p&gt;The site has been making an impact and has been used as a research tool by public officials, journalists and activists seeking to obtain authoritative information about public entities in the state. We recently added a &lt;a href=&#34;https://docs.opramachine.com/&#34; target=&#34;_blank&#34;&gt;documentation&lt;/a&gt; that includes detailed information about the process of making a request through the site, as well as reference material concerning the legal and site administration issues that may arise as a result of the site&amp;rsquo;s operation.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://opramachine.com/&#34; target=&#34;_blank&#34;&gt;Check out OPRAmachine here&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>OPRAmachine.com is a first of its kind government transparency project that I recently launched to serve the citizens of the state of New Jersey. The site is powered by the New Jersey Open Public Records Act (OPRA), a freedom of information law that allows any citizen of the state to request public records from state and local government agencies.
+How it works OPRAmachine breaks down barriers by explaining aspects of the OPRA request process.</description>
     </item>
     
     <item>
@@ -141,17 +88,7 @@ response provided to an Open Public Records Act (OPRA) request was legally insuf
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.gavinrozzi.com/project/ocscannernews/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ocscanner.news/&#34; target=&#34;_blank&#34;&gt;Ocean County Scanner News &lt;/a&gt; is a network of radio and emergency services enthusiasts who listen to police scanners and post live news updates via their Facebook page. I designed the groups&amp;rsquo;s website
-in addition to setting up a livestream server running the Icecast software package. The live feed covers
-the Ocean County Trunked Radio system and several other local conventional channels. We are planning more
-additions to the live feed as time and resources allow.&lt;/p&gt;
-
-&lt;p&gt;Many of the brief updates posted on Ocean County Scanner News are reflective of breaking news stories that later are reported in the media.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://ocscanner.news/&#34; target=&#34;_blank&#34;&gt;View Ocean County Scanner News here&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://ocscanner.news:8000/stream&#34; target=&#34;_blank&#34;&gt;Listen to Ocean County Scanner News live audio feed&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Ocean County Scanner News  is a network of radio and emergency services enthusiasts who listen to police scanners and post live news updates via their Facebook page. I designed the groups&amp;rsquo;s website in addition to setting up a live scanner feed server running the Icecast live streaming server. The main live feed covers the Ocean County Trunked Radio system and several other local conventional channels for police, fire &amp;amp; EMS agencies serving Ocean County.</description>
     </item>
     
   </channel>
