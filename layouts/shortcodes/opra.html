@@ -1,0 +1,10 @@
+<ul>
+  {{ $urlPre := "https://opramachine.com/feed/user" }}
+  {{ $OPRA := getJSON $urlPre "/gavin_rozzi.json" }}
+
+  {{ range $OPRA "info_request.title" "snippet" . }}
+   <tr>
+      <td>{{ .info_request.title }}</td>
+   </tr>
+{{ end }}
+</ul>
