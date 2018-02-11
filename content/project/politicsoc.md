@@ -27,11 +27,12 @@ image = "logo-ocp.png"
 caption = "OCP logo"
 
 +++
+## Ocean County's source political news & commentary
 
 Ocean County Politics is an independent news website that covers politics and public affairs in the greater Ocean County, NJ region. Ocean County Politics has become known for publishing in-depth accounts of county and municipal governmental activities and behind-the-scenes activities that influence the county's political climate.
 
 In addition to providing insightful commentary and news, the site also features reader contributed op-eds and letters to the editor.
 
-#### Learn more
+#### Follow Ocean County Politics
 
 [Read Ocean County Politics here](https://politicsoc.com/)

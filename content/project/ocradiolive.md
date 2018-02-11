@@ -27,6 +27,7 @@ image = "OCradio_preview.jpeg"
 caption = "Ocean County Radio Live"
 
 +++
+## The new way to scan Ocean County
 
 [Ocean County Radio Live](https://ocradio.live/) is taking the technical complexity and hassle out of scanning in Ocean County, New Jersey. I recently launched this website at the beginning of 2018.
 
@@ -38,6 +39,12 @@ This system is powered by multiple R820T SDRs running on a desktop computer and 
 
 As our base of users continues to grow, I intend on covering more radio systems and adding them to this system.
 
-The Ocean County Radio Live web application is based on the open-source [trunk-player](https://github.com/ScanOC/trunk-player) application.
+### Coming soon to OC Radio Live
+- Little Egg Harbor Police P25
+- Ocean County Probation
+- OC-ALERT Fire & EMS paging channel
 
-So far, I have contributed one [pull request](https://github.com/ScanOC/trunk-player/commit/8dbc011c96bf19951bc9fa1fbf6c37d5e215dc4a) to the upstream project.
+### Atlantic County version coming soon
+We are also hoping to setup a similar system for the new Atlantic County P25 Phase II system that recently became fully operational. Check back here for more details on that at a later date.
+
+The Ocean County Radio Live web application is based on the open-source [Trunk-Player](https://github.com/ScanOC/trunk-player) Django project. So far, I have contributed one [pull request](https://github.com/ScanOC/trunk-player/commit/8dbc011c96bf19951bc9fa1fbf6c37d5e215dc4a) to the upstream open source software that powers the project, and I plan to contribute more in the future as my schedule allows.

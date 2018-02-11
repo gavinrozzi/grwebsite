@@ -7,10 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2013-2018 Gavin Rozzi</copyright>
-    <lastBuildDate>Mon, 22 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.gavinrozzi.com/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Libertarians for Transparent Government v. New Jersey State Police</title>
+      <link>https://www.gavinrozzi.com/project/njsplawsuit/</link>
+      <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/project/njsplawsuit/</guid>
+      <description>The case Libertarians for Transparent Government v. New Jersey State Police was an important case that revealed unacceptable practices by the New Jersey State Police.
+I participated in the case by way of filing a certification detailing my experience with attempting to obtain helicopter usage logs for then-New Jersey Governor Chris Christie&amp;rsquo;s usage of State Police helicopters.
+Read the certification</description>
+    </item>
+    
+    <item>
+      <title>OPRAmachine</title>
+      <link>https://www.gavinrozzi.com/project/opramachine/</link>
+      <pubDate>Sat, 10 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/project/opramachine/</guid>
+      <description>OPRAmachine.com is a first of its kind government transparency project that I recently launched to serve the citizens of the state of New Jersey. The site is powered by the New Jersey Open Public Records Act (OPRA), a freedom of information law that allows any citizen of the state to request public records from state and local government agencies.
+How it works OPRAmachine is breaking down barriers by explaining aspects of the OPRA request process.</description>
+    </item>
     
     <item>
       <title>Ocean County Radio Live</title>
@@ -18,7 +39,7 @@
       <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.gavinrozzi.com/project/ocradiolive/</guid>
-      <description>Ocean County Radio Live is taking the technical complexity and hassle out of scanning in Ocean County, New Jersey. I recently launched this website at the beginning of 2018.
+      <description>The new way to scan Ocean County Ocean County Radio Live is taking the technical complexity and hassle out of scanning in Ocean County, New Jersey. I recently launched this website at the beginning of 2018.
 This website uses software defined radio (SDR) technology to process the streams of digital data produced by the Ocean County trunked radio system. The SDRs record radio transmissions and upload them to the site&amp;rsquo;s server, which allows them to easily be played and archived online.</description>
     </item>
     
@@ -38,7 +59,7 @@ View the club&amp;rsquo;s website here.</description>
       <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://www.gavinrozzi.com/project/jerseyleaks/</guid>
-      <description>JerseyLeaks.org is a public corruption whistleblowing initiative and collaborative journalism tool that allows sources to confidentially leak documents to reporters using an encrypted online system. The documents are encrypted at rest and in transit using the OpenPGP public keys of journalists using the open-source software Globaleaks, ensuring the privacy of sources. The system allows whistleblowers with knowledge of public corruption to submit documents to journalists who may publish them as a part of an investigative story.</description>
+      <description>Enabling whistleblowers to report public corruption JerseyLeaks is a public corruption whistleblowing initiative and collaborative journalism tool that allows sources to confidentially leak documents to reporters using an encrypted online system. The documents are encrypted at rest and in transit using the OpenPGP public keys of journalists using the open-source software Globaleaks, ensuring the privacy of sources. The system allows whistleblowers with knowledge of public corruption to submit documents to journalists who may publish them as a part of an investigative story.</description>
     </item>
     
     <item>
@@ -47,9 +68,8 @@ View the club&amp;rsquo;s website here.</description>
       <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://www.gavinrozzi.com/project/politicsoc/</guid>
-      <description>Ocean County Politics is an independent news website that covers politics and public affairs in the greater Ocean County, NJ region. Ocean County Politics has become known for publishing in-depth accounts of county and municipal governmental activities and behind-the-scenes activities that influence the county&amp;rsquo;s political climate.
-In addition to providing insightful commentary and news, the site also features reader contributed op-eds and letters to the editor.
-Learn more Read Ocean County Politics here</description>
+      <description>Ocean County&amp;rsquo;s source political news &amp;amp; commentary Ocean County Politics is an independent news website that covers politics and public affairs in the greater Ocean County, NJ region. Ocean County Politics has become known for publishing in-depth accounts of county and municipal governmental activities and behind-the-scenes activities that influence the county&amp;rsquo;s political climate.
+In addition to providing insightful commentary and news, the site also features reader contributed op-eds and letters to the editor.</description>
     </item>
     
     <item>
@@ -73,22 +93,12 @@ This case was filed at the same time a lawsuit that was filed against the OCPO b
     </item>
     
     <item>
-      <title>OPRAmachine</title>
-      <link>https://www.gavinrozzi.com/project/opramachine/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/project/opramachine/</guid>
-      <description>OPRAmachine.com is a first of its kind government transparency project that I recently launched to serve the citizens of the state of New Jersey. The site is powered by the New Jersey Open Public Records Act (OPRA), a freedom of information law that allows any citizen of the state to request public records from state and local government agencies.
-How it works OPRAmachine breaks down barriers by explaining aspects of the OPRA request process.</description>
-    </item>
-    
-    <item>
       <title>Ocean County Scanner News</title>
       <link>https://www.gavinrozzi.com/project/ocscannernews/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.gavinrozzi.com/project/ocscannernews/</guid>
-      <description>Ocean County Scanner News  is a network of radio and emergency services enthusiasts who listen to police scanners and post live news updates via their Facebook page. I designed the groups&amp;rsquo;s website in addition to setting up a live scanner feed server running the Icecast live streaming server. The main live feed covers the Ocean County Trunked Radio system and several other local conventional channels for police, fire &amp;amp; EMS agencies serving Ocean County.</description>
+      <description>Live police, fire &amp;amp; EMS calls as they happen Ocean County Scanner News  is a network of radio and emergency services enthusiasts who listen to police scanners and post live news updates via their Facebook page. I designed the groups&amp;rsquo;s website in addition to setting up a live scanner feed server running the Icecast live streaming server. The main live feed covers the Ocean County Trunked Radio system and several other local conventional channels for police, fire &amp;amp; EMS agencies serving Ocean County.</description>
     </item>
     
   </channel>
