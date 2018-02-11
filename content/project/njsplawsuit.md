@@ -34,4 +34,4 @@ unacceptable practices by the New Jersey State Police.
 I participated in the case by way of filing a certification detailing my experience with attempting to obtain helicopter usage logs
 for then-New Jersey Governor Chris Christie's usage of State Police helicopters.
 
-[Read the certification](/static/files/Cert of Gavin Rozzi for Libertarians-SP2.pdf)
+[Read the certification](/files/Cert of Gavin Rozzi for Libertarians-SP2.pdf)
