@@ -27,6 +27,7 @@ image = "RozziCert.jpg"
 caption = "The certification I filed in the case."
 
 +++
+## New Jersey State Police held accountable in court for stalling on public records requests
 
 The case Libertarians for Transparent Government v. New Jersey State Police was an important case that revealed
 unacceptable practices by the New Jersey State Police.
@@ -34,4 +35,8 @@ unacceptable practices by the New Jersey State Police.
 I participated in the case by way of filing a certification detailing my experience with attempting to obtain helicopter usage logs
 for then-New Jersey Governor Chris Christie's usage of State Police helicopters.
 
-[Read the certification](/files/Cert of Gavin Rozzi for Libertarians-SP2.pdf)
+### More details about the case
+
+[Read my certification](/files/Cert of Gavin Rozzi for Libertarians-SP2.pdf)
+
+[Read the full complaint](https://drive.google.com/file/d/0B66zM58TlOVKRTZERjNvNm1xM0U/view)
