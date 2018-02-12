@@ -9,7 +9,7 @@ title = "OPRAmachine"
 summary = "New Jersey's first statewide freedom of information platform"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "opramachine.png"
+image_preview = "OMhome.jpeg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`

@@ -29,7 +29,7 @@ filter_default = 0
   tag = "*"
 
 [[filter]]
-  name = "Freedom of Information"
+  name = "Government Transparency"
   tag = ".opra"
 
 [[filter]]
@@ -37,10 +37,6 @@ filter_default = 0
   tag = ".pol"
 
 [[filter]]
-  name = "Government Transparency"
-  tag = ".transparency"
-
-  [[filter]]
-    name = "Amateur Radio"
-    tag = ".radio"
+  name = "Amateur Radio"
+  tag = ".radio"
 +++

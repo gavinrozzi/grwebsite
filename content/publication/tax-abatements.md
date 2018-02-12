@@ -24,7 +24,7 @@ abstract = "I present a summary of some of the current issues involving the admi
 abstract_short = "I present a summary of some of the current issues involving the administration of state & local tax abatement policy and its effects on revenues of taxing entities within the municipality."
 
 # Featured image thumbnail (optional)
-image_preview = ""
+image_preview = "Rozzi tax abatements.jpg"
 
 # Is this a selected publication? (true/false)
 selected = true
@@ -35,7 +35,7 @@ selected = true
 projects = [""]
 
 # Links (optional).
-url_pdf = "/img/Rozzi tax abatements.pdf"
+url_pdf = "/files/Rozzi tax abatements.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
