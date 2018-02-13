@@ -41,6 +41,20 @@ A unique benefit that OPRAmachine provides is that once a public entity provides
 Since its inception in October, 2017, the OPRAmachine platform has enabled the release of thousands of pages of government documents. Our database of public bodoies currently includes all 565 municipalities in New Jersey, with more public bodies being added on a regular basis.
 The site has been making an impact and has been used as a research tool by public officials, journalists and activists seeking to obtain authoritative information about public entities in the state. We recently added a [documentation](https://docs.opramachine.com/) that includes detailed information about the process of making a request through the site, as well as reference material concerning the legal and site administration issues that may arise as a result of the site's operation.
 
-[Check out OPRAmachine here](https://opramachine.com/)
+### What they're saying about opramachine
 
-Read updates about the project [at our blog.](https://blog.opramachine.com/)
+"One of the most important tools making New Jersey government more transparent."
+
+- [Citizens Media TV](https://www.facebook.com/CitizensMediaTV/posts/1661839777229733)
+
+"Thanks to Gavin Rozzi’s “OPRA Machine” website, the Atlantic County Government can no longer pretend to be transparent. Now they must do it for real."
+- [Atlantic County News](https://atlanticcountynews.com/2017/11/29/atlantic-county-sexual-harassment-payouts-fly-right-below-the-radar/)
+
+"The latest installation of our Alaveteli software, OPRAmachine, is an interesting new use of the platform. Rather than covering a whole country, as most of the other Alaveteli installations around the world do, it services just a single US state."
+- Gemma Moulder, of the UK-based mySociety, which [created the open-source software](https://www.mysociety.org/2017/12/06/introducing-opramachine-tackling-political-corruption-in-new-jersey/) that powers the OPRAmachine platform.
+
+### Links
+
+Main [OPRAmachine](https://opramachine.com/) website.
+
+Read updates about the project at our [blog.](https://blog.opramachine.com/)
