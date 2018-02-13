@@ -35,7 +35,7 @@ The system allows whistleblowers with knowledge of public corruption to submit d
 
 This project has been a collaborative effort and other journalists are invited to join the platform, with further details being on the JerseyLeaks website.
 
-#### More about JerseyLeaks
+### More about JerseyLeaks
 
 [View the main JerseyLeaks website](https://jerseyleaks.org/)
 

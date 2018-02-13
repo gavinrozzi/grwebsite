@@ -33,7 +33,7 @@ caption = "Ocean County Scanner News"
 
 Many of the breaking news updates posted on Ocean County Scanner News are reflective of breaking news stories that later are reported in the media - oftentimes days later as many outlets wait for official press releases.
 
-#### Listen live
+### Listen live
 
 [View the Ocean County Scanner News website here](https://ocscanner.news/)
 

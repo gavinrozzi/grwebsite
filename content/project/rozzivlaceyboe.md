@@ -27,8 +27,9 @@ image = "GRLaceyBOE.jpeg"
 caption = "A preview of the GRC's decision in this case"
 
 +++
+## Fee demand for public records declared "unreasonable and unwarranted"
 
-After being on their docket for close to two years, the New Jersey Government Records Council (GRC) ruled in my favor and ordered the Lacey Township Board of Education to refund an $85 "special service fee" the board's business administrator attempted to charge me for copies of checks that showed the board's contracted attorney was receiving health benefits through a school district plan.
+After being on their docket for close to two years, the New Jersey Government Records Council (GRC) ruled in my favor after I filed a complaint captioned Gavin C. Rozzi v. Lacey Township Board of Education, GRC complaint 2015-224. The GRC ordered the Lacey Township Board of Education to refund an $85 "special service fee" the board's business administrator imposed for copies of checks that showed the board's contracted attorney received health benefits through a school district plan.
 
 ### Question Presented
 
