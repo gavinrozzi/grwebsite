@@ -275,6 +275,11 @@ defaultContentLanguageInSubdir = false
   url = "/files/gcr.asc"
   weight = 7
 
+[[menu.main]]
+  name = "Support My Work"
+  url = "#support"
+  weight = 8
+
 # Taxonomies.
 [taxonomies]
   tag = "tags"
