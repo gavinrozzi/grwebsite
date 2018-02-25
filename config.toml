@@ -273,12 +273,12 @@ defaultContentLanguageInSubdir = false
 [[menu.main]]
   name = "PGP Public Key"
   url = "/files/gcr.asc"
-  weight = 7
+  weight = 8
 
 [[menu.main]]
   name = "Support My Work"
   url = "#support"
-  weight = 8
+  weight = 7
 
 # Taxonomies.
 [taxonomies]
