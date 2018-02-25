@@ -11,9 +11,20 @@ title = "Support Gavin's Work"
 subtitle = "How to support the journalism of Gavin Rozzi"
 
 # Order that this section will appear in.
-weight = 80
+weight = 70
 
 +++
 
+### Contribute to my work
 The easiest way to help support my work is to [support me on Patreon](https://patreon.com/gavinrozzi/).
 The biggest expense to support my operation each month is typically server space and related web hosting expenses.
+
+If you would like to support my work with **software defined radio** such as [OC Radio Live](https://ocradio.live/), please consider subscribing
+to a [premium plan](https://ocradio.live/plans/) at a reasonable monthly rate. The premium plan will enable additional features
+of the site as well as enable you to go as far back as two months back in time in our **archives**.
+
+Bitcoin contributions are accepted at this address: **1CD1pzuknYNeRVmHNN3SavPfTLuq3Ef5CQ**
+
+### Follow me on social media
+If you want to follow my work, be sure to follow me on social media. My social media profiles are linked at the [top of this website](https://www.gavinrozzi.com/).
+If you find value in something I have created or written, please feel free to share it on social media.

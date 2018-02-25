@@ -8,7 +8,7 @@ title = "Contact Gavin"
 subtitle = "Get in touch"
 
 # Order that this section will appear in.
-weight = 70
+weight = 80
 
 # Automatically link email and phone?
 autolink = true
