@@ -1,0 +1,10 @@
+Since October, 2017, OPRAmachine has seen:
+<ul>
+  {{ $stats := getJSON "https://opramachine.com/version.json" }}
+  <li><strong>{{ $stats.visible_request_count }}</strong> public records requests</li>
+  <li><strong>{{ $stats.visible_followup_message_count }}</strong> followup messages sent</li>
+  <li><strong>{{ $stats.confirmed_user_count }}</strong> registered users</li>
+  <li><strong>{{ $stats.visible_public_body_count }}</strong> public bodies</li>
+  <li><strong>{{ $stats.visible_comment_count }}</strong> annotations added to requests</li>
+  <li><strong>{{ $stats.track_thing_count }}</strong> tracked requests</li>
+</ul>
