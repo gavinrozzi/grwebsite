@@ -263,12 +263,12 @@ defaultContentLanguageInSubdir = false
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 5
+  weight = 6
 
 [[menu.main]]
   name = "My OPRA Requests"
-  url = "https://opramachine.com/user/gavin_rozzi/requests"
-  weight = 6
+  url = "#opra"
+  weight = 5
 
 [[menu.main]]
   name = "PGP Public Key"

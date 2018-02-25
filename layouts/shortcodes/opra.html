@@ -1,10 +1,6 @@
 <ul>
-  {{ $urlPre := "https://opramachine.com/feed/user" }}
-  {{ $OPRA := getJSON $urlPre "/gavin_rozzi.json" }}
-
-  {{ range $OPRA "info_request.title" "snippet" . }}
-   <tr>
-      <td>{{ .info_request.title }}</td>
-   </tr>
-{{ end }}
+  {{ $opra_requests := getJSON "https://opramachine.com/feed/user/gavin_rozzi.json" }}
+  {{ range first 3 $opra_requests }}
+   <li><a href="https://opramachine.com/request/{{ .info_request.url_title }}" target="">{{ .info_request.title }}</a><p>Requested from: <a href="https://opramachine.com/body/{{ .public_body.url_name }}" target="">{{ .public_body.name }}</a></p><p>Status: <strong>{{ .display_status }}</strong></p> <p><i>{{ .snippet }}</i></p></li>
+  {{ end }}
 </ul>
