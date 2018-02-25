@@ -1,0 +1,6 @@
+<ul>
+  {{ $opra_requests := getJSON "https://opramachine.com/feed/search/%20(latest_status:successful%20OR%20latest_status:partially_successful).json" }}
+  {{ range first 3 $opra_requests }}
+   <li><a href="https://opramachine.com/request/{{ .info_request.url_title }}" target="">{{ .info_request.title }}</a><p>Requested from: <a href="https://opramachine.com/body/{{ .public_body.url_name }}" target="">{{ .public_body.name }}</a></p><p>Status: <strong>{{ .display_status }}</strong></p> <p><i>{{ .snippet }}</i></p></li>
+  {{ end }}
+</ul>

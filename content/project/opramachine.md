@@ -55,6 +55,10 @@ The site has been making an impact and has been used as a research tool by publi
 ### OPRAmachine's impact in New Jersey
 Following four months of work, I reflected on some of the accomplishments of the web service [in this blog post](https://blog.opramachine.com/four-months-later-opramachine-making-an-impact/).
 
+#### Latest OPRA requests
+
+{{% opramachine_requests %}}
+
 ### Links
 
 Main [OPRAmachine](https://opramachine.com/) website.
