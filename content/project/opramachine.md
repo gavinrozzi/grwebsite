@@ -52,8 +52,11 @@ The site has been making an impact and has been used as a research tool by publi
 "The latest installation of our Alaveteli software, OPRAmachine, is an interesting new use of the platform. Rather than covering a whole country, as most of the other Alaveteli installations around the world do, it services just a single US state."
 - Gemma Moulder, of the UK-based mySociety, which [created the open-source software](https://www.mysociety.org/2017/12/06/introducing-opramachine-tackling-political-corruption-in-new-jersey/) that powers the OPRAmachine platform.
 
+### OPRAmachine's impact in New Jersey
+Following four months of work, I reflected on some of the accomplishments of the web service [in this blog post](https://blog.opramachine.com/four-months-later-opramachine-making-an-impact/).
+
 ### Links
 
 Main [OPRAmachine](https://opramachine.com/) website.
 
-Read updates about the project at our [blog.](https://blog.opramachine.com/)
+Read updates about the project at our [blog](https://blog.opramachine.com/) here.

@@ -46,7 +46,7 @@ for then-New Jersey Governor Chris Christie&amp;rsquo;s usage of State Police he
 
 &lt;p&gt;&lt;a href=&#34;https://opramachine.com/&#34; target=&#34;_blank&#34;&gt;OPRAmachine.com&lt;/a&gt; is a first of its kind government transparency project that I recently launched to serve the citizens of the state of New Jersey. The site is powered by the New Jersey &lt;strong&gt;Open Public Records Act&lt;/strong&gt; (OPRA), a freedom of information law that allows any citizen of the state to request public records from state and local government agencies.&lt;/p&gt;
 
-&lt;h2 id=&#34;how-it-works&#34;&gt;How it works&lt;/h2&gt;
+&lt;h3 id=&#34;how-it-works&#34;&gt;How it works&lt;/h3&gt;
 
 &lt;p&gt;OPRAmachine is breaking down barriers by explaining aspects of the OPRA request process. The site allows any citizen to easily file a legally valid public records request and includes a directory that currently includes all 565 municipalities in the state, as well as various state and county governmental agencies. The site has enabled requesters to obtain thousands of pages worth of public records, helping to shine a light on some of the more obscure elements of New Jersey state and local government.&lt;/p&gt;
 
@@ -57,13 +57,10 @@ for then-New Jersey Governor Chris Christie&amp;rsquo;s usage of State Police he
 &lt;p&gt;Since its inception in October, 2017, the OPRAmachine platform has enabled the release of thousands of pages of government documents. Our database of public bodoies currently includes all 565 municipalities in New Jersey, with more public bodies being added on a regular basis.
 The site has been making an impact and has been used as a research tool by public officials, journalists and activists seeking to obtain authoritative information about public entities in the state. We recently added a &lt;a href=&#34;https://docs.opramachine.com/&#34; target=&#34;_blank&#34;&gt;documentation&lt;/a&gt; that includes detailed information about the process of making a request through the site, as well as reference material concerning the legal and site administration issues that may arise as a result of the site&amp;rsquo;s operation.&lt;/p&gt;
 
-&lt;h3 id=&#34;what-they-re-saying-about-opramachine&#34;&gt;What they&amp;rsquo;re saying about opramachine&lt;/h3&gt;
+&lt;h3 id=&#34;praise-for-opramachine&#34;&gt;Praise for OPRAmachine&lt;/h3&gt;
 
-&lt;p&gt;&amp;ldquo;One of the most important tools making New Jersey government more transparent.&amp;rdquo;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.facebook.com/CitizensMediaTV/posts/1661839777229733&#34; target=&#34;_blank&#34;&gt;Citizens Media TV&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&amp;ldquo;One of the most important tools making New Jersey government more transparent.&amp;rdquo;
+- &lt;a href=&#34;https://www.facebook.com/CitizensMediaTV/posts/1661839777229733&#34; target=&#34;_blank&#34;&gt;Citizens Media TV&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&amp;ldquo;Thanks to Gavin Rozzi’s “OPRA Machine” website, the Atlantic County Government can no longer pretend to be transparent. Now they must do it for real.&amp;rdquo;
 - &lt;a href=&#34;https://atlanticcountynews.com/2017/11/29/atlantic-county-sexual-harassment-payouts-fly-right-below-the-radar/&#34; target=&#34;_blank&#34;&gt;Atlantic County News&lt;/a&gt;&lt;/p&gt;
@@ -71,11 +68,15 @@ The site has been making an impact and has been used as a research tool by publi
 &lt;p&gt;&amp;ldquo;The latest installation of our Alaveteli software, OPRAmachine, is an interesting new use of the platform. Rather than covering a whole country, as most of the other Alaveteli installations around the world do, it services just a single US state.&amp;rdquo;
 - Gemma Moulder, of the UK-based mySociety, which &lt;a href=&#34;https://www.mysociety.org/2017/12/06/introducing-opramachine-tackling-political-corruption-in-new-jersey/&#34; target=&#34;_blank&#34;&gt;created the open-source software&lt;/a&gt; that powers the OPRAmachine platform.&lt;/p&gt;
 
+&lt;h3 id=&#34;opramachine-s-impact-in-new-jersey&#34;&gt;OPRAmachine&amp;rsquo;s impact in New Jersey&lt;/h3&gt;
+
+&lt;p&gt;Following four months of work, I reflected on some of the accomplishments of the web service &lt;a href=&#34;https://blog.opramachine.com/four-months-later-opramachine-making-an-impact/&#34; target=&#34;_blank&#34;&gt;in this blog post&lt;/a&gt;.&lt;/p&gt;
+
 &lt;h3 id=&#34;links&#34;&gt;Links&lt;/h3&gt;
 
 &lt;p&gt;Main &lt;a href=&#34;https://opramachine.com/&#34; target=&#34;_blank&#34;&gt;OPRAmachine&lt;/a&gt; website.&lt;/p&gt;
 
-&lt;p&gt;Read updates about the project at our &lt;a href=&#34;https://blog.opramachine.com/&#34; target=&#34;_blank&#34;&gt;blog.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Read updates about the project at our &lt;a href=&#34;https://blog.opramachine.com/&#34; target=&#34;_blank&#34;&gt;blog&lt;/a&gt; here.&lt;/p&gt;
 </description>
     </item>
     
@@ -93,7 +94,7 @@ The site has been making an impact and has been used as a research tool by publi
 
 &lt;p&gt;This website uses software defined radio (SDR) technology to process the streams of digital data produced by the Ocean County trunked radio system. The SDRs record radio transmissions and upload them to the site&amp;rsquo;s server, which allows them to easily be played and archived online.&lt;/p&gt;
 
-&lt;p&gt;The system has a major advantage over all traditional forms of radio scanning as it uses &amp;ldquo;time shifting&amp;rdquo; like a DVR does when recording multiple overlapping TV shows, ensuring that no transmissions are missed, since traditional scanners can only hold on one channel - potentially missing other calls.&lt;/p&gt;
+&lt;p&gt;The system has a major advantage over all traditional forms of radio scanning as it uses &amp;ldquo;time shifting&amp;rdquo; like a DVR does when recording multiple overlapping TV shows, ensuring that &lt;strong&gt;no transmissions are missed&lt;/strong&gt;, since traditional scanners can only hold on just one channel - potentially missing other calls that could be taking place on different talkgroups.&lt;/p&gt;
 
 &lt;p&gt;This system is powered by multiple R820T SDRs running on a desktop computer and connected to the front-end web server accessed by end users.&lt;/p&gt;
 
@@ -103,15 +104,15 @@ The site has been making an impact and has been used as a research tool by publi
 
 &lt;ul&gt;
 &lt;li&gt;Little Egg Harbor Police P25&lt;/li&gt;
-&lt;li&gt;Ocean County Probation&lt;/li&gt;
+&lt;li&gt;Ocean County Probation P25&lt;/li&gt;
 &lt;li&gt;OC-ALERT Fire &amp;amp; EMS paging channel&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;atlantic-county-version-coming-soon&#34;&gt;Atlantic County version coming soon&lt;/h3&gt;
 
-&lt;p&gt;We are also hoping to setup a similar system for the new Atlantic County P25 Phase II system that recently became fully operational. Check back here for more details on that at a later date.&lt;/p&gt;
+&lt;p&gt;We are also hoping to setup a similar system for the new Atlantic County P25 Phase II system that recently became fully operational. Check back here for more details on that at a later date. Some of these projects will likely be under the domain name &lt;strong&gt;p25.stream.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;The Ocean County Radio Live web application is based on the open-source &lt;a href=&#34;https://github.com/ScanOC/trunk-player&#34; target=&#34;_blank&#34;&gt;Trunk-Player&lt;/a&gt; Django project. So far, I have contributed one &lt;a href=&#34;https://github.com/ScanOC/trunk-player/commit/8dbc011c96bf19951bc9fa1fbf6c37d5e215dc4a&#34; target=&#34;_blank&#34;&gt;pull request&lt;/a&gt; to the upstream open source software that powers the project, and I plan to contribute more in the future as my schedule allows.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://ocradio.live/&#34; target=&#34;_blank&#34;&gt;Ocean County Radio Live&lt;/a&gt; web application is based on the open-source &lt;a href=&#34;https://github.com/ScanOC/trunk-player&#34; target=&#34;_blank&#34;&gt;Trunk-Player&lt;/a&gt; Django project. So far, I have contributed one &lt;a href=&#34;https://github.com/ScanOC/trunk-player/commit/8dbc011c96bf19951bc9fa1fbf6c37d5e215dc4a&#34; target=&#34;_blank&#34;&gt;pull request&lt;/a&gt; to the upstream open source software that powers the project, and I plan to contribute more in the future as my schedule allows.&lt;/p&gt;
 </description>
     </item>
     
@@ -147,7 +148,7 @@ The system allows whistleblowers with knowledge of public corruption to submit d
 
 &lt;p&gt;This project has been a collaborative effort and other journalists are invited to join the platform, with further details being on the JerseyLeaks website.&lt;/p&gt;
 
-&lt;h4 id=&#34;more-about-jerseyleaks&#34;&gt;More about JerseyLeaks&lt;/h4&gt;
+&lt;h3 id=&#34;more-about-jerseyleaks&#34;&gt;More about JerseyLeaks&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://jerseyleaks.org/&#34; target=&#34;_blank&#34;&gt;View the main JerseyLeaks website&lt;/a&gt;&lt;/p&gt;
 
@@ -169,7 +170,7 @@ The system allows whistleblowers with knowledge of public corruption to submit d
 
 &lt;p&gt;In addition to providing insightful commentary and news, the site also features reader contributed op-eds and letters to the editor.&lt;/p&gt;
 
-&lt;h4 id=&#34;follow-ocean-county-politics&#34;&gt;Follow Ocean County Politics&lt;/h4&gt;
+&lt;h3 id=&#34;follow-ocean-county-politics&#34;&gt;Follow Ocean County Politics&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://politicsoc.com/&#34; target=&#34;_blank&#34;&gt;Read Ocean County Politics here&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -183,7 +184,9 @@ The system allows whistleblowers with knowledge of public corruption to submit d
       <guid>https://www.gavinrozzi.com/project/rozzivlaceyboe/</guid>
       <description>
 
-&lt;p&gt;After being on their docket for close to two years, the New Jersey Government Records Council (GRC) ruled in my favor and ordered the Lacey Township Board of Education to refund an $85 &amp;ldquo;special service fee&amp;rdquo; the board&amp;rsquo;s business administrator attempted to charge me for copies of checks that showed the board&amp;rsquo;s contracted attorney was receiving health benefits through a school district plan.&lt;/p&gt;
+&lt;h2 id=&#34;fee-demand-for-public-records-declared-unreasonable-and-unwarranted&#34;&gt;Fee demand for public records declared &amp;ldquo;unreasonable and unwarranted&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;After being on their docket for close to two years, the New Jersey Government Records Council (GRC) ruled in my favor after I filed a complaint captioned Gavin C. Rozzi v. Lacey Township Board of Education, GRC complaint 2015-224. The GRC ordered the Lacey Township Board of Education to refund an $85 &amp;ldquo;special service fee&amp;rdquo; the board&amp;rsquo;s business administrator imposed for copies of checks that showed the board&amp;rsquo;s contracted attorney received health benefits through a school district plan.&lt;/p&gt;
 
 &lt;h3 id=&#34;question-presented&#34;&gt;Question Presented&lt;/h3&gt;
 
@@ -258,13 +261,13 @@ Is lack of interest in Pence events a sign of the air leaving the Trump balloon?
       <guid>https://www.gavinrozzi.com/project/ocscannernews/</guid>
       <description>
 
-&lt;h2 id=&#34;live-police-fire-ems-calls-as-they-happen&#34;&gt;Live police, fire &amp;amp; EMS calls as they happen&lt;/h2&gt;
+&lt;h2 id=&#34;live-ocean-county-police-fire-ems-calls-as-they-happen&#34;&gt;Live Ocean County police, fire &amp;amp; EMS calls as they happen&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://ocscanner.news/&#34; target=&#34;_blank&#34;&gt;Ocean County Scanner News &lt;/a&gt; is a network of radio and emergency services enthusiasts who listen to police scanners and post live news updates via their &lt;a href=&#34;https://www.facebook.com/OceanCountyScannerNews/&#34; target=&#34;_blank&#34;&gt;Facebook page.&lt;/a&gt; I designed the groups&amp;rsquo;s website in addition to setting up a live scanner feed server running the Icecast live streaming server. The main live feed covers the Ocean County Trunked Radio system and several other local conventional channels for police, fire &amp;amp; EMS agencies serving Ocean County. We are planning more additions to the live feed as time and resources allow.&lt;/p&gt;
 
 &lt;p&gt;Many of the breaking news updates posted on Ocean County Scanner News are reflective of breaking news stories that later are reported in the media - oftentimes days later as many outlets wait for official press releases.&lt;/p&gt;
 
-&lt;h4 id=&#34;listen-live&#34;&gt;Listen live&lt;/h4&gt;
+&lt;h3 id=&#34;listen-live&#34;&gt;Listen live&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://ocscanner.news/&#34; target=&#34;_blank&#34;&gt;View the Ocean County Scanner News website here&lt;/a&gt;&lt;/p&gt;
 

@@ -27,7 +27,7 @@ image = "cropped-DSCF1214.jpg"
 caption = "Ocean County Scanner News"
 
 +++
-## Live police, fire & EMS calls as they happen
+## Live Ocean County police, fire & EMS calls as they happen
 
 [Ocean County Scanner News ](https://ocscanner.news/) is a network of radio and emergency services enthusiasts who listen to police scanners and post live news updates via their [Facebook page.](https://www.facebook.com/OceanCountyScannerNews/) I designed the groups's website in addition to setting up a live scanner feed server running the Icecast live streaming server. The main live feed covers the Ocean County Trunked Radio system and several other local conventional channels for police, fire & EMS agencies serving Ocean County. We are planning more additions to the live feed as time and resources allow.
 

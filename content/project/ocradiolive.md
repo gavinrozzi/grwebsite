@@ -33,7 +33,7 @@ caption = "Ocean County Radio Live"
 
 This website uses software defined radio (SDR) technology to process the streams of digital data produced by the Ocean County trunked radio system. The SDRs record radio transmissions and upload them to the site's server, which allows them to easily be played and archived online.
 
-The system has a major advantage over all traditional forms of radio scanning as it uses "time shifting" like a DVR does when recording multiple overlapping TV shows, ensuring that no transmissions are missed, since traditional scanners can only hold on one channel - potentially missing other calls.
+The system has a major advantage over all traditional forms of radio scanning as it uses "time shifting" like a DVR does when recording multiple overlapping TV shows, ensuring that **no transmissions are missed**, since traditional scanners can only hold on just one channel - potentially missing other calls that could be taking place on different talkgroups.
 
 This system is powered by multiple R820T SDRs running on a desktop computer and connected to the front-end web server accessed by end users.
 
@@ -41,10 +41,10 @@ As our base of users continues to grow, I intend on covering more radio systems 
 
 ### Coming soon to OC Radio Live
 - Little Egg Harbor Police P25
-- Ocean County Probation
+- Ocean County Probation P25
 - OC-ALERT Fire & EMS paging channel
 
 ### Atlantic County version coming soon
-We are also hoping to setup a similar system for the new Atlantic County P25 Phase II system that recently became fully operational. Check back here for more details on that at a later date.
+We are also hoping to setup a similar system for the new Atlantic County P25 Phase II system that recently became fully operational. Check back here for more details on that at a later date. Some of these projects will likely be under the domain name **p25.stream.**
 
-The Ocean County Radio Live web application is based on the open-source [Trunk-Player](https://github.com/ScanOC/trunk-player) Django project. So far, I have contributed one [pull request](https://github.com/ScanOC/trunk-player/commit/8dbc011c96bf19951bc9fa1fbf6c37d5e215dc4a) to the upstream open source software that powers the project, and I plan to contribute more in the future as my schedule allows.
+The [Ocean County Radio Live](https://ocradio.live/) web application is based on the open-source [Trunk-Player](https://github.com/ScanOC/trunk-player) Django project. So far, I have contributed one [pull request](https://github.com/ScanOC/trunk-player/commit/8dbc011c96bf19951bc9fa1fbf6c37d5e215dc4a) to the upstream open source software that powers the project, and I plan to contribute more in the future as my schedule allows.
