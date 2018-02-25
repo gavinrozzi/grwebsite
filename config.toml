@@ -266,7 +266,7 @@ defaultContentLanguageInSubdir = false
   weight = 6
 
 [[menu.main]]
-  name = "My OPRA Requests"
+  name = "OPRA Requests"
   url = "#opra"
   weight = 5
 
