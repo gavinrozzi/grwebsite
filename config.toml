@@ -263,7 +263,7 @@ defaultContentLanguageInSubdir = false
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 6
+  weight = 7
 
 [[menu.main]]
   name = "OPRA Requests"
@@ -278,7 +278,7 @@ defaultContentLanguageInSubdir = false
 [[menu.main]]
   name = "Support My Work"
   url = "#support"
-  weight = 7
+  weight = 6
 
 # Taxonomies.
 [taxonomies]
