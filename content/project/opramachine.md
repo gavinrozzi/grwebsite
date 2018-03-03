@@ -63,6 +63,10 @@ Powered by the OPRAmachine API
 
 {{% opramachine_requests %}}
 
+### Chart of requests
+
+![OPRAmachine graph](https://opramachine.com/foi-live-creation.png)
+
 ### Links
 
 Main [OPRAmachine](https://opramachine.com/) website.
