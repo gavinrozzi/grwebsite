@@ -26,13 +26,4 @@ in Galloway Township, NJ on 91.7 MHz and also has [a feed online](http://wlfr.fm
 
 See below for a video of me discussing OPRAmachine:
 
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12&appId=367090096784329&autoLogAppEvents=1';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-<div class="fb-video" data-href="https://www.facebook.com/gavinrozzi/videos/10208691053793200/" data-width="500" data-show-text="false"><blockquote cite="https://www.facebook.com/gavinrozzi/videos/10208691053793200/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/gavinrozzi/videos/10208691053793200/"></a><p></p>Posted by <a href="#" role="button">Gavin Rozzi</a> on Thursday, April 5, 2018</blockquote></div>
+<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fgavinrozzi%2Fvideos%2F10208691053793200%2F&show_text=0&width=267" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
