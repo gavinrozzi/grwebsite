@@ -7,7 +7,7 @@ summary = "I was interviewed by WLFR's Bill Watt for his show Watt's The Move"
 
 [header]
 image = "headers/gavin-billy.jpg"
-caption = "Left to right: Bill Watt, Gavin Rozzi"(https://github.com/gcushen/hugo-academic/)"
+caption = "Left to right: Bill Watt, Gavin Rozzi"
 +++
 
 On on April 5th, 2018 I joined WLFR Radio's **Watt's The Move**, Stocton University'show
