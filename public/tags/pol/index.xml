@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pol on Gavin Rozzi</title>
+    <link>https://www.gavinrozzi.com/tags/pol/</link>
+    <description>Recent content in Pol on Gavin Rozzi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2013-2018 Gavin Rozzi</copyright>
+    <lastBuildDate>Tue, 12 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.gavinrozzi.com/tags/pol/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>JerseyLeaks</title>
+      <link>https://www.gavinrozzi.com/project/jerseyleaks/</link>
+      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/project/jerseyleaks/</guid>
+      <description>Enabling whistleblowers to report public corruption JerseyLeaks is a public corruption whistleblowing initiative and collaborative journalism tool that allows sources to confidentially leak documents to reporters using an encrypted online system. The documents are encrypted at rest and in transit using the OpenPGP public keys of journalists using the open-source software Globaleaks, ensuring the privacy of sources. The system allows whistleblowers with knowledge of public corruption to submit documents to journalists who may publish them as a part of an investigative story.</description>
+    </item>
+    
+    <item>
+      <title>Ocean County Politics</title>
+      <link>https://www.gavinrozzi.com/project/politicsoc/</link>
+      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/project/politicsoc/</guid>
+      <description>Ocean County&amp;rsquo;s source political news &amp;amp; commentary Ocean County Politics is an independent news website that covers politics and public affairs in the greater Ocean County, NJ region. Ocean County Politics has become known for publishing in-depth accounts of county and municipal governmental activities and behind-the-scenes activities that influence the county&amp;rsquo;s political climate.
+In addition to providing insightful commentary and news, the site also features reader contributed op-eds and letters to the editor.</description>
+    </item>
+    
+  </channel>
+</rss>

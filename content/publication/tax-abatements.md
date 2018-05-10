@@ -32,7 +32,7 @@ selected = true
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-projects = [""]
+#projects = [""]
 
 # Links (optional).
 url_pdf = "/files/Rozzi tax abatements.pdf"
@@ -47,7 +47,7 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Custom Link", url = ""}]
+#url_custom = [{name = "Custom Link", url = ""}]
 
 # Does the content use math formatting?
 math = false

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Radio on Gavin Rozzi</title>
+    <link>https://www.gavinrozzi.com/tags/radio/</link>
+    <description>Recent content in Radio on Gavin Rozzi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2013-2018 Gavin Rozzi</copyright>
+    <lastBuildDate>Mon, 22 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.gavinrozzi.com/tags/radio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ocean County Radio Live</title>
+      <link>https://www.gavinrozzi.com/project/ocradiolive/</link>
+      <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/project/ocradiolive/</guid>
+      <description>The new way to scan Ocean County Ocean County Radio Live is taking the technical complexity and hassle out of scanning in Ocean County, New Jersey. I recently launched this website at the beginning of 2018.
+This website uses software defined radio (SDR) technology to process the streams of digital data produced by the Ocean County trunked radio system. The SDRs record radio transmissions and upload them to the site&amp;rsquo;s server, which allows them to easily be played and archived online.</description>
+    </item>
+    
+    <item>
+      <title>Forked River Amateur Radio Club</title>
+      <link>https://www.gavinrozzi.com/project/frnjarc/</link>
+      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/project/frnjarc/</guid>
+      <description>Serving the Forked River, NJ amateur radio community The Forked River Amateur Radio Club is a new club recently formed to serve amateur radio community of Forked River, NJ and surrounding areas. I currently serve as both the vice president and webmaster of the club. We anticipate on pursuing several projects through this club, such as 2 meter FM repeater and 70 cm band DMR system to cover the Lacey area.</description>
+    </item>
+    
+    <item>
+      <title>Ocean County Scanner News</title>
+      <link>https://www.gavinrozzi.com/project/ocscannernews/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/project/ocscannernews/</guid>
+      <description>Live Ocean County police, fire &amp;amp; EMS calls as they happen Ocean County Scanner News  is a network of radio and emergency services enthusiasts who listen to police scanners and post live news updates via their Facebook page. I designed the groups&amp;rsquo;s website in addition to setting up a live scanner feed server running the Icecast live streaming server. The main live feed covers the Ocean County Trunked Radio system and several other local conventional channels for police, fire &amp;amp; EMS agencies serving Ocean County.</description>
+    </item>
+    
+  </channel>
+</rss>
