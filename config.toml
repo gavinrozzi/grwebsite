@@ -57,7 +57,7 @@ defaultContentLanguageInSubdir = false
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
   keybase = "gcr"
-  enableGitInfo = true
+  enableGitInfo = false
   # Discussion link (e.g. link to a forum, mailing list, or chat).
   #   Uncomment line below to use.
   #   discussion = { name = "Discuss", url = "https://discourse.gohugo.io" }
