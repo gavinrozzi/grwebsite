@@ -2,7 +2,7 @@
 # About/Biography widget.
 widget = "about"
 active = true
-date = "2017-04-20T00:00:00"
+date = "2018-05-29T00:00:00"
 
 # Order that this section will appear in.
 weight = 5
@@ -13,8 +13,8 @@ weight = 5
     "Linux & open source",
     "U.S. and New Jersey politics",
     "Constitutional law",
-    "Drones & Aerial photography",
-    "Civic tech"
+    "Drones & aerial photography",
+    "Civic technology"
   ]
 
 # List your qualifications (such as academic degrees).

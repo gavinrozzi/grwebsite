@@ -11,7 +11,7 @@ title = "Teaching"
 subtitle = "Courses I have assisted in teaching"
 
 # Order that this section will appear in.
-weight = 50
+weight = 60
 
 +++
 

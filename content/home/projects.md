@@ -6,7 +6,7 @@ active = true
 date = "2016-04-20T00:00:00"
 
 title = "Projects"
-subtitle = "Things I am working on"
+subtitle = "Things I am working on or have created"
 
 # Order that this section will appear in.
 weight = 50
@@ -33,7 +33,7 @@ filter_default = 0
   tag = ".opra"
 
 [[filter]]
-  name = "Political Journalism"
+  name = "Journalism"
   tag = ".pol"
 
 [[filter]]
