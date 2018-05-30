@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>https://www.gavinrozzi.com/post/rozzi-oag/</loc>
+      <lastmod>2018-05-30T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://www.gavinrozzi.com/post/jeffpatrickopra/</loc>
       <lastmod>2018-05-07T00:00:00-04:00</lastmod>
     </url>
@@ -217,7 +226,7 @@
     <url>
     
       <loc>https://www.gavinrozzi.com/tags/opramachine/</loc>
-      <lastmod>2018-05-07T00:00:00-04:00</lastmod>
+      <lastmod>2018-05-30T00:00:00-04:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -248,6 +257,16 @@
     
       <loc>https://www.gavinrozzi.com/project/</loc>
       <lastmod>2018-02-11T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://www.gavinrozzi.com/tags/public-records/</loc>
+      <lastmod>2018-05-30T00:00:00-04:00</lastmod>
       <priority>0</priority>
     </url>
     

@@ -11,6 +11,25 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Document Production in Rozzi v. OAG</title>
+      <link>https://www.gavinrozzi.com/post/rozzi-oag/</link>
+      <pubDate>Wed, 30 May 2018 00:00:00 -0400</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/post/rozzi-oag/</guid>
+      <description>&lt;p&gt;I recently obtained &lt;a href=&#34;https://www.gavinrozzi.com/files/OAGemaillogs.pdf&#34;&gt;the following documents&lt;/a&gt; from the New Jersey Attorney General&amp;rsquo;s Office (OAG) which were produced in response to a court order isued in my lawsuit against the OAG. The documents were copies of email logs that show messages sent and received by the OAG&amp;rsquo;s custodian of records, who is responsible for complying with the provision of the New Jersey Open Public Records Act (OPRA) by way of responding to requests made under the state freedom of information law.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.gavinrozzi.com/files/Rozzi-AG Verified Complaint.pdf&#34;&gt;My lawsuit&lt;/a&gt;, which was filed in Mercer County Superior Court, resulted in an an order for the Attorney General&amp;rsquo;s office to produce the (redacted) copies of the documents that I originally requested back in November, 2017. Additional delays were added by the fact that the documents required a significant number of redactions due to the OPRA custodian&amp;rsquo;s additional responsibilities in the OAG, such as those related to homeland security.&lt;/p&gt;
+
+&lt;p&gt;My attorney, &lt;a href=&#34;https://www.pashmanstein.com/attorney/cj-griffin&#34; target=&#34;_blank&#34;&gt;CJ Griffin, Esq.&lt;/a&gt; ultimately prevailed over the creative legal argument advanced by the AG&amp;rsquo;s Office. The AG&amp;rsquo;s legal position was particularly novel because the legal briefings cited OPRA cases as old as 2004 while essentially attempting to pretend the New Jersey Supreme Court&amp;rsquo;s ruling in &lt;a href=&#34;http://www.nj.com/politics/index.ssf/2017/03/nj_supreme_court_ruling_could_reshape_what_governm.html&#34; target=&#34;_blank&#34;&gt;Paff v. Galloway Township&lt;/a&gt; (2017).&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;I have an &lt;a href=&#34;https://twitter.com/hashtag/OPRA?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#OPRA&lt;/a&gt; hearing tomorrow. Last year our Supreme Court ruled in Paff v Galloway that a request for a log of emails is a valid OPRA request. The State refuses to follow it and is asking the court to apply case law from 2004, as if Paff never happened. Updates to come&amp;hellip;&lt;/p&gt;&amp;mdash; CJ Griffin, Esq. (@CJGriffinEsq) &lt;a href=&#34;https://twitter.com/CJGriffinEsq/status/983515006556934144?ref_src=twsrc%5Etfw&#34;&gt;April 10, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Both the documents that were recently produced by the OAG in response to Judge Mary Jacobson, A.J.S.C.&amp;rsquo;s ruling in this case are available on the original &lt;a href=&#34;https://opramachine.com/request/email_logs_for_bruce_solomon_oag#incoming-3248&#34; target=&#34;_blank&#34;&gt;request thread on OPRAmachine.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>A Conversation With Jeff Epstein and Patrick Duff Re: OPRA &amp; Open Government</title>
       <link>https://www.gavinrozzi.com/post/jeffpatrickopra/</link>
       <pubDate>Mon, 07 May 2018 00:00:00 -0400</pubDate>
@@ -123,12 +142,12 @@ The site has been making an impact and has been used as a research tool by publi
 Since October, 2017, OPRAmachine has seen:
 &lt;ul&gt;
   
-  &lt;li&gt;&lt;strong&gt;1722&lt;/strong&gt; public records requests&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;1321&lt;/strong&gt; followup messages sent&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;190&lt;/strong&gt; registered users&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;781&lt;/strong&gt; public bodies&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;77&lt;/strong&gt; annotations added to requests&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;143&lt;/strong&gt; tracked requests&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1751&lt;/strong&gt; public records requests&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1370&lt;/strong&gt; followup messages sent&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;201&lt;/strong&gt; registered users&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;782&lt;/strong&gt; public bodies&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;80&lt;/strong&gt; annotations added to requests&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;151&lt;/strong&gt; tracked requests&lt;/li&gt;
 &lt;/ul&gt;
 
 
@@ -139,26 +158,23 @@ Since October, 2017, OPRAmachine has seen:
 &lt;ul&gt;
   
   
-   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/opra_requests_283&#34; target=&#34;&#34;&gt;OPRA Requests&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/pemberton_township&#34; target=&#34;&#34;&gt;Pemberton Township&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: ASK NJ Media Co.&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Response&lt;/strong&gt;&lt;p&gt;&lt;i&gt;,
+   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/employee_payroll_request_as_of_m&#34; target=&#34;&#34;&gt;Employee Payroll request as of March 31, 2018&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/ochd&#34; target=&#34;&#34;&gt;Ocean County Health Department&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: Dan&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Successful.&lt;/strong&gt;&lt;p&gt;&lt;i&gt;Please see attached OPRA Response letter &amp;amp;amp; the documents requested.
 
-
-Thank you for your recent payment. 
-Note you can to view payment receipts online by click the link below and view file 
-of Payment Receipts.
-You ma...&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
+ If you would like the documents in another format or there are any issues
+ with t...&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
   
-   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/body_cam_and_dash_cam_footage_re&#34; target=&#34;&#34;&gt;Body Cam and Dash Cam Footage related to the arrest of Faye Schiendelman&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/njsp&#34; target=&#34;&#34;&gt;New Jersey State Police&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: Edward Grimes&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Successful.&lt;/strong&gt;&lt;p&gt;&lt;i&gt;Dear Ed,
-
-  
-
- The OPRAmachine team received copies of the videos you requested from the
- State Police in our PO box. We have combined the multiple das...&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
+   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/elected_official_salaries_benefi_24&#34; target=&#34;&#34;&gt;Elected Official Salaries, Benefits, and Reimbursements&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/spotswood_borough&#34; target=&#34;&#34;&gt;Spotswood Borough&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: Charlie Kratovil&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Response&lt;/strong&gt;&lt;p&gt;&lt;i&gt;Dear Mr. Kratovil,  as far as question #5 &amp;amp;amp; #6, the elected officials do
+ not and did not receive any reimbursement pay during any year they have
+ been...&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
   
-   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/mayor_le_grices_parking_committe&#34; target=&#34;&#34;&gt;Mayor Le Grice&amp;#39;s Parking Committee&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/atlantic_highlands_borough&#34; target=&#34;&#34;&gt;Atlantic Highlands Borough&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: Shelly Kennedy&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Successful.&lt;/strong&gt;&lt;p&gt;&lt;i&gt;Ms. Kennedy,
+   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/opra_requests_283&#34; target=&#34;&#34;&gt;OPRA Requests&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/pemberton_township&#34; target=&#34;&#34;&gt;Pemberton Township&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: ASK NJ Media Co.&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Response&lt;/strong&gt;&lt;p&gt;&lt;i&gt;Payroll reports are attached to this e-mail.
 
-I sent you a response today for OPR-2018-00115.
+ 
 
-Michelle&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
+
+
+
+Sunshine Dashiell&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
   
 &lt;/ul&gt;
 
