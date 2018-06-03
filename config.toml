@@ -261,24 +261,29 @@ defaultContentLanguageInSubdir = false
   weight = 4
 
 [[menu.main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 7
-
-[[menu.main]]
-  name = "OPRA Requests"
-  url = "#opra"
+  name = "Consulting"
+  url = "#consulting"
   weight = 5
 
 [[menu.main]]
-  name = "PGP Public Key"
-  url = "/files/gcr.asc"
-  weight = 8
+  name = "OPRA"
+  url = "#opra"
+  weight = 6
 
 [[menu.main]]
   name = "Support My Work"
   url = "#support"
-  weight = 6
+  weight = 7
+
+[[menu.main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 8
+
+[[menu.main]]
+  name = "PGP Key"
+  url = "/files/gcr.asc"
+  weight = 9
 
 # Taxonomies.
 [taxonomies]
