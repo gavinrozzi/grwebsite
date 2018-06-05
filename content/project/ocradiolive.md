@@ -6,7 +6,7 @@ date = "2018-01-22"
 title = "Ocean County Radio Live"
 
 # Project summary to display on homepage.
-summary = "Online software defined trunked radio scanner for Ocean County, NJ"
+summary = "Online SDR trunked radio scanner & archive for Ocean County, NJ"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "ocradio.jpg"
@@ -29,9 +29,9 @@ caption = "Ocean County Radio Live"
 +++
 ## The new way to scan Ocean County
 
-[Ocean County Radio Live](https://ocradio.live/) is taking the technical complexity and hassle out of scanning in Ocean County, New Jersey. I recently launched this website at the beginning of 2018.
+[Ocean County Radio Live](https://ocradio.live/) is taking the technical complexity and hassle out of radio scanning in Ocean County, New Jersey. This website was launched in late January, 2018 and since that date has continued to stream & archive multiple police, fire & EMS radio channels.
 
-This website uses software defined radio (SDR) technology to process the streams of digital data produced by the Ocean County trunked radio system. The SDRs record radio transmissions and upload them to the site's server, which allows them to easily be played and archived online.
+This website is powered by the latest software defined radio (SDR) technology to process the streams of digital data produced by the Ocean County trunked radio system and also record analog conventional systems used by some departments & squads. The SDRs record radio transmissions and upload them to the site's server, which allows them to easily be played and archived online. When Ocean County activates the new 700 MHz P25 Phase II radio system, our receivers will only need a simple software configuration change in order to pick up the new system's signal. This flexibility makes SDR radios superior for this particular application, allowing us to provide a wide amount of channels on our system.
 
 The system has a major advantage over all traditional forms of radio scanning as it uses "time shifting" like a DVR does when recording multiple overlapping TV shows, ensuring that **no transmissions are missed**, since traditional scanners can only hold on just one channel - potentially missing other calls that could be taking place on different talkgroups.
 

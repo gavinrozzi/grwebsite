@@ -88,8 +88,10 @@ in Galloway Township, NJ on 91.7 MHz and also has &lt;a href=&#34;http://wlfr.fm
 &lt;p&gt;The case Libertarians for Transparent Government v. New Jersey State Police was an important case that revealed
 unacceptable practices by the New Jersey State Police.&lt;/p&gt;
 
+&lt;p&gt;The case revealed a pattern and practice of failure to comply with the requirements of the state&amp;rsquo;s Open Public Records Act (OPRA) after a judge in the case issued a ruling.&lt;/p&gt;
+
 &lt;p&gt;I participated in the case by way of filing a certification detailing my experience with attempting to obtain helicopter usage logs
-for then-New Jersey Governor Chris Christie&amp;rsquo;s usage of State Police helicopters.&lt;/p&gt;
+for then-New Jersey Governor Chris Christie&amp;rsquo;s usage of State Police helicopters. My certification details my own experience with the State Police and how they took repeated extensions prior to providing me with heavily redacted helicopter usage records.&lt;/p&gt;
 
 &lt;h3 id=&#34;more-details-about-the-case&#34;&gt;More details about the case&lt;/h3&gt;
 
@@ -201,9 +203,9 @@ Sunshine Dashiell&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;h2 id=&#34;the-new-way-to-scan-ocean-county&#34;&gt;The new way to scan Ocean County&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://ocradio.live/&#34; target=&#34;_blank&#34;&gt;Ocean County Radio Live&lt;/a&gt; is taking the technical complexity and hassle out of scanning in Ocean County, New Jersey. I recently launched this website at the beginning of 2018.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ocradio.live/&#34; target=&#34;_blank&#34;&gt;Ocean County Radio Live&lt;/a&gt; is taking the technical complexity and hassle out of radio scanning in Ocean County, New Jersey. This website was launched in late January, 2018 and since that date has continued to stream &amp;amp; archive multiple police, fire &amp;amp; EMS radio channels.&lt;/p&gt;
 
-&lt;p&gt;This website uses software defined radio (SDR) technology to process the streams of digital data produced by the Ocean County trunked radio system. The SDRs record radio transmissions and upload them to the site&amp;rsquo;s server, which allows them to easily be played and archived online.&lt;/p&gt;
+&lt;p&gt;This website is powered by the latest software defined radio (SDR) technology to process the streams of digital data produced by the Ocean County trunked radio system and also record analog conventional systems used by some departments &amp;amp; squads. The SDRs record radio transmissions and upload them to the site&amp;rsquo;s server, which allows them to easily be played and archived online. When Ocean County activates the new 700 MHz P25 Phase II radio system, our receivers will only need a simple software configuration change in order to pick up the new system&amp;rsquo;s signal. This flexibility makes SDR radios superior for this particular application, allowing us to provide a wide amount of channels on our system.&lt;/p&gt;
 
 &lt;p&gt;The system has a major advantage over all traditional forms of radio scanning as it uses &amp;ldquo;time shifting&amp;rdquo; like a DVR does when recording multiple overlapping TV shows, ensuring that &lt;strong&gt;no transmissions are missed&lt;/strong&gt;, since traditional scanners can only hold on just one channel - potentially missing other calls that could be taking place on different talkgroups.&lt;/p&gt;
 
@@ -237,7 +239,9 @@ Sunshine Dashiell&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;h2 id=&#34;serving-the-forked-river-nj-amateur-radio-community&#34;&gt;Serving the Forked River, NJ amateur radio community&lt;/h2&gt;
 
-&lt;p&gt;The Forked River Amateur Radio Club is a new club recently formed to serve amateur radio community of Forked River, NJ and surrounding areas. I currently serve as both the vice president and webmaster of the club. We anticipate on pursuing several projects through this club, such as 2 meter FM repeater and 70 cm band DMR system to cover the Lacey area.&lt;/p&gt;
+&lt;p&gt;The Forked River Amateur Radio Club is a new amateur radio club formed to serve amateur radio community of Forked River, NJ and surrounding areas. I currently serve as both the vice president and webmaster of the club. We anticipate on pursuing several projects through this club, such as 2 meter FM repeater and 70 cm band DMR system to cover the Lacey area.&lt;/p&gt;
+
+&lt;p&gt;Given the impact that weather events like Hurricane Sandy have had on the region, we felt that an amateur radio group focused exclusively on our area would be beneficial to both the local amateur radio community as well as the public at large.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://frnjarc.org/&#34; target=&#34;_blank&#34;&gt;View the club&amp;rsquo;s website here.&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -253,8 +257,8 @@ Sunshine Dashiell&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;h2 id=&#34;enabling-whistleblowers-to-report-public-corruption&#34;&gt;Enabling whistleblowers to report public corruption&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://jerseyleaks.org/&#34; target=&#34;_blank&#34;&gt;JerseyLeaks&lt;/a&gt; is a public corruption whistleblowing initiative and collaborative journalism tool that allows
-sources to confidentially leak documents to reporters using an encrypted online system. The documents are encrypted at rest and in transit using the OpenPGP public keys of journalists using the open-source software Globaleaks, ensuring the privacy of sources.
+&lt;p&gt;&lt;a href=&#34;https://jerseyleaks.org/&#34; target=&#34;_blank&#34;&gt;JerseyLeaks&lt;/a&gt; is a public corruption whistleblowing &amp;amp; transparaency initiative. The site serves as a collaborative journalism tool that allows
+sources to confidentially leak documents to reporters using an encrypted online system. The documents are encrypted at rest and in transit using the OpenPGP public keys of journalists using the open-source &lt;a href=&#34;https://www.globaleaks.org/&#34; target=&#34;_blank&#34;&gt;Globaleaks&lt;/a&gt; software, ensuring the privacy of sources.
 The system allows whistleblowers with knowledge of public corruption to submit documents to journalists who may publish them as a part of an investigative story.&lt;/p&gt;
 
 &lt;p&gt;This project has been a collaborative effort and other journalists are invited to join the platform, with further details being on the JerseyLeaks website.&lt;/p&gt;
@@ -378,9 +382,17 @@ Is lack of interest in Pence events a sign of the air leaving the Trump balloon?
 
 &lt;p&gt;Many of the breaking news updates posted on Ocean County Scanner News are reflective of breaking news stories that later are reported in the media - oftentimes days later as many outlets wait for official press releases.&lt;/p&gt;
 
+&lt;p&gt;My involvement with the page is primarily with serving as the live feed administrator, but I will occassionally post scanner calls as time allows.&lt;/p&gt;
+
+&lt;h3 id=&#34;scanner-programming-services&#34;&gt;Scanner programming services&lt;/h3&gt;
+
+&lt;p&gt;I am available to provide scanner programming services if you have a scanner that you are looking to use to monitor local channels. This is something that can be discussed on a case-by-case basis to determine if I have the proper cable / software in order to work with your scanner. Please &lt;a href=&#34;https://www.gavinrozzi.com/#contact&#34; target=&#34;_blank&#34;&gt;contact me&lt;/a&gt; to discuss your needs.&lt;/p&gt;
+
 &lt;h3 id=&#34;listen-live&#34;&gt;Listen live&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://ocscanner.news/&#34; target=&#34;_blank&#34;&gt;View the Ocean County Scanner News website here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://ocradio.live/scan/default&#34; target=&#34;_blank&#34;&gt;Use the OC Radio Live online police scanner&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://ocscanner.news:8000/stream&#34; target=&#34;_blank&#34;&gt;Listen to the main live scanner feed&lt;/a&gt;&lt;/p&gt;
 

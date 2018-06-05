@@ -33,9 +33,19 @@ caption = "Ocean County Scanner News"
 
 Many of the breaking news updates posted on Ocean County Scanner News are reflective of breaking news stories that later are reported in the media - oftentimes days later as many outlets wait for official press releases.
 
+My involvement with the page is primarily with serving as the live feed administrator, but I will occassionally post scanner calls as time allows. 
+
+### Scanner programming services
+
+I am available to provide scanner programming services if you have a scanner that you are looking to use to monitor local channels. This is something that can be discussed on a case-by-case basis to determine if I have the proper cable / software in order to work with your scanner. Please [contact me](https://www.gavinrozzi.com/#contact) to discuss your needs.
+
+
+
 ### Listen live
 
 [View the Ocean County Scanner News website here](https://ocscanner.news/)
+
+[Use the OC Radio Live online police scanner](https://ocradio.live/scan/default)
 
 [Listen to the main live scanner feed](http://ocscanner.news:8000/stream)
 
