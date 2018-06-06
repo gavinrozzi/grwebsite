@@ -14,7 +14,7 @@ weight = 3
 [header]
   overlay_color = "#666"  # An HTML color value.
   overlay_img = "gavin-tr.JPG"  # Image path relative to your `static/img/` folder.
-  #overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+  overlay_filter = 0.3  # Darken the image. Value in range 0-1.
 
 # Call to action button (optional).
 #   Activate the button by specifying a URL and button label below.
@@ -23,5 +23,4 @@ weight = 3
   url = "/#contact"
   label = '<i class="fa fa-commenting"></i> Contact Gavin'
 +++
-
 Official Website
