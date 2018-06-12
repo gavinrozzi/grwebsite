@@ -13,7 +13,7 @@ image_preview = "GRLaceyBOE.jpeg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["lacey township board of education", "opra"]`
-tags = ["opra"]
+tags = ["opra", "legal"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

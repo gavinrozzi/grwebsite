@@ -37,6 +37,10 @@ filter_default = 0
   tag = ".pol"
 
 [[filter]]
+  name = "Legal"
+  tag = ".legal"
+
+[[filter]]
   name = "Amateur Radio"
   tag = ".radio"
 +++
