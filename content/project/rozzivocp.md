@@ -23,7 +23,7 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "GRvOCP.jpeg"
+image = ""
 caption = "A preview of the GRC's decision in this case"
 
 +++

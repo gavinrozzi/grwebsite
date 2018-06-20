@@ -23,7 +23,7 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "OCradio_preview.jpeg"
+image = ""
 caption = "Ocean County Radio Live"
 
 +++

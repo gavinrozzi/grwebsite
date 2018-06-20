@@ -23,7 +23,7 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "cropped-DSCF1214.jpg"
+image = ""
 caption = "Ocean County Scanner News"
 
 +++

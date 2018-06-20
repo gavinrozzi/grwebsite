@@ -23,7 +23,7 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "RozziCert.jpg"
+image = ""
 caption = "The certification I filed in the case."
 
 +++

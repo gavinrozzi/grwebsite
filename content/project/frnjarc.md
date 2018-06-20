@@ -9,7 +9,7 @@ title = "Forked River Amateur Radio Club"
 summary = "HAM radio club serving the greater Forked River, NJ area"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "frnjarc.jpg"
+image_preview = "frnjarc-bg.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
@@ -23,8 +23,8 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "frnjarc.jpg"
-caption = "FRNJARC logo"
+image = ""
+caption = "FRNJARC"
 
 +++
 ## Serving the Forked River, NJ amateur radio community
