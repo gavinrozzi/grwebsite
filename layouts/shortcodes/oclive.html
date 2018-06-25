@@ -1,0 +1,6 @@
+<ul>
+{{ $oclivetalkgroups := getJSON "https://ocradio.live/api_v1/scanlist/?format=json" }}
+{{ range first 3 $oclivetalkgroups }}
+<li><a href="https://ocradio.live/scan/{{ .slug }}/{{ .name }}"</a></i></p></li>
+{{ end }}
+</ul>
