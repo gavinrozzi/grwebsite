@@ -47,6 +47,6 @@ I am available to provide scanner programming services if you have a scanner tha
 
 [Use the OC Radio Live online police scanner](https://ocradio.live/scan/default)
 
-[Listen to the main live scanner feed](http://ocscanner.news:8000/stream)
+[Listen to the main live scanner feed](https://ocscanner.news/livefeedmainssl/)
 
-[Listen to the southern live feed (Lacey, Barnegat & Waretown)](http://ocscanner.news:8000/south)
+[Listen to the southern live feed (Lacey, Barnegat & Waretown)](https://ocscanner.news/livefeedsouthssl/)
