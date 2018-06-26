@@ -11,6 +11,32 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Rozzi v. Office of the Attorney General</title>
+      <link>https://www.gavinrozzi.com/project/rozzivoag/</link>
+      <pubDate>Sat, 23 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/project/rozzivoag/</guid>
+      <description>
+
+&lt;h2 id=&#34;attorney-general-s-office-violated-public-records-law-by-witholding-email-logs&#34;&gt;Attorney General&amp;rsquo;s Office violated public records law by witholding email logs&lt;/h2&gt;
+
+&lt;p&gt;The New Jersey Attorney General&amp;rsquo;s Office was found to have violated the Open Public Records Act by denying my request for copies of email logs for the OAG&amp;rsquo;s custodian of records. I requested the email logs as a part of my advocacy on behalf of my statewide freedom of information website, &lt;a href=&#34;https://www.gavinrozzi.com/project/opramachine/&#34;&gt;OPRAmachine&lt;/a&gt;. The email logs provided insight into the practices of OAG when it comes to handling OPRA requests.&lt;/p&gt;
+
+&lt;h3 id=&#34;question-presented&#34;&gt;Question Presented&lt;/h3&gt;
+
+&lt;p&gt;Was the New Jersey Attorney General&amp;rsquo;s Office&amp;rsquo;s denial of a request for copies for email logs a violation of the Open Public Records Act, N.J.S.A. 47:1A-1 et seq.?&lt;/p&gt;
+
+&lt;h3 id=&#34;holding&#34;&gt;Holding&lt;/h3&gt;
+
+&lt;p&gt;The judge ordered the OAG to disclose the requested email logs that were responsive to the initial public records request. In the interest of saving resources, I voluntarily waived the portions of the email logs that did not pertain to the deputy attorney general&amp;rsquo;s other roles outside of complying with the state&amp;rsquo;s Open Public Records Act.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.gavinrozzi.com/files/Rozzi-AG Verified Complaint.pdf&#34;&gt;Read my verified complaint&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.gavinrozzi.com/post/rozzi-oag/&#34;&gt;Read my blog post about the documents they released&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Document Production in Rozzi v. OAG</title>
       <link>https://www.gavinrozzi.com/post/rozzi-oag/</link>
       <pubDate>Wed, 30 May 2018 00:00:00 -0400</pubDate>
@@ -207,19 +233,127 @@ ASK NJ Med...&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;p&gt;As our base of users continues to grow, I intend on covering more radio systems and adding them to this system.&lt;/p&gt;
 
-&lt;h3 id=&#34;coming-soon-to-oc-radio-live&#34;&gt;Coming soon to OC Radio Live&lt;/h3&gt;
+&lt;p&gt;The &lt;a href=&#34;https://ocradio.live/&#34; target=&#34;_blank&#34;&gt;Ocean County Radio Live&lt;/a&gt; web application is based on the open-source &lt;a href=&#34;https://github.com/ScanOC/trunk-player&#34; target=&#34;_blank&#34;&gt;Trunk-Player&lt;/a&gt; Django project. So far, I have contributed one &lt;a href=&#34;https://github.com/ScanOC/trunk-player/commit/8dbc011c96bf19951bc9fa1fbf6c37d5e215dc4a&#34; target=&#34;_blank&#34;&gt;pull request&lt;/a&gt; to the upstream open source software that powers the project, and I plan to contribute more in the future as my schedule allows.&lt;/p&gt;
+
+&lt;h3 id=&#34;current-scan-list-lineup&#34;&gt;Current scan list lineup&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Little Egg Harbor Police P25&lt;/li&gt;
-&lt;li&gt;Ocean County Probation P25&lt;/li&gt;
-&lt;li&gt;OC-ALERT Fire &amp;amp; EMS paging channel&lt;/li&gt;
+
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/ocean-county-ems/&#34;&gt;Ocean County EMS&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/ocean-county-fire/&#34;&gt;Ocean County Fire&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/ocean-county-law-enforcement/&#34;&gt;Ocean County Law Enforcement&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/ocean-county-services/&#34;&gt;Ocean County Services&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/oc-prosecutor-sheriff/&#34;&gt;OC Prosecutor &amp;amp; Sheriff&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/seaside-heights-park/&#34;&gt;Seaside Heights &amp;amp; Park&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/southern-ocean-county/&#34;&gt;Southern Ocean County&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/toms-river-fire-ems/&#34;&gt;Toms River Fire &amp;amp; EMS&lt;/a&gt;&lt;/li&gt;
+
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;atlantic-county-version-coming-soon&#34;&gt;Atlantic County version coming soon&lt;/h3&gt;
+&lt;h2 id=&#34;sample-talkgroups-channels-click-to-scan&#34;&gt;Sample talkgroups &amp;amp; channels (click to scan)&lt;/h2&gt;
 
-&lt;p&gt;We are also hoping to setup a similar system for the new Atlantic County P25 Phase II system that recently became fully operational. Check back here for more details on that at a later date. Some of these projects will likely be under the domain name &lt;strong&gt;p25.stream.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
 
-&lt;p&gt;The &lt;a href=&#34;https://ocradio.live/&#34; target=&#34;_blank&#34;&gt;Ocean County Radio Live&lt;/a&gt; web application is based on the open-source &lt;a href=&#34;https://github.com/ScanOC/trunk-player&#34; target=&#34;_blank&#34;&gt;Trunk-Player&lt;/a&gt; Django project. So far, I have contributed one &lt;a href=&#34;https://github.com/ScanOC/trunk-player/commit/8dbc011c96bf19951bc9fa1fbf6c37d5e215dc4a&#34; target=&#34;_blank&#34;&gt;pull request&lt;/a&gt; to the upstream open source software that powers the project, and I plan to contribute more in the future as my schedule allows.&lt;/p&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/monoc-ems/&#34;&gt;MONOC EMS&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/oc-bg/&#34;&gt;OC B&amp;amp;G&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/oc-doc/&#34;&gt;OC DOC&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/ocean-ride/&#34;&gt;OCEAN RIDE&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/oc-prosecutor-1/&#34;&gt;OC PROSECUTOR 1&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/ocsd-1/&#34;&gt;OCSD 1&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/ocsd-1/&#34;&gt;OCSD 1&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/ocsd-2/&#34;&gt;OCSD 2&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/ocsd-3/&#34;&gt;OCSD 3&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/ocsd-4/&#34;&gt;OCSD 4&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/ocsd-mobile/&#34;&gt;OCSD MOBILE&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/oc-security/&#34;&gt;OC SECURITY&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/oem-1/&#34;&gt;OEM 1&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/oem-2/&#34;&gt;OEM 2&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/parks/&#34;&gt;PARKS&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/point-boro-fd-1/&#34;&gt;POINT BORO FD 1&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/point-boro-fire/&#34;&gt;POINT BORO FIRE&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/police-central-dispatch/&#34;&gt;POLICE CENTRAL - Dispatch&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/police-detective-1/&#34;&gt;POLICE DETECTIVE 1&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/police-interop/&#34;&gt;POLICE INTEROP&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/police-north-dispatch/&#34;&gt;POLICE NORTH - Dispatch&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/police-north-mobile/&#34;&gt;POLICE NORTH - Mobile&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/police-south-dispatch/&#34;&gt;POLICE SOUTH - Dispatch&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/police-south-mobile/&#34;&gt;POLICE SOUTH - Mobile&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/police-west-dispatch/&#34;&gt;POLICE WEST - Dispatch&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/prosecutor-35240/&#34;&gt;PROSECUTOR 35240&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/prosecutor-35272/&#34;&gt;PROSECUTOR 35272&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/prosecutor-35336/&#34;&gt;PROSECUTOR 35336&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/ps-common/&#34;&gt;PS COMMON&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/roads/&#34;&gt;ROADS&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/roads/&#34;&gt;ROADS&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/roads-north/&#34;&gt;ROADS - NORTH&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/roads-paving/&#34;&gt;ROADS - PAVING&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/roads-south/&#34;&gt;ROADS - SOUTH&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/seaside-hts-pd-1/&#34;&gt;SEASIDE HTS. PD 1&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/seaside-hts-pd-3/&#34;&gt;SEASIDE HTS. PD 3&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/seaside-park-pd-1/&#34;&gt;SEASIDE PARK PD 1&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/swm/&#34;&gt;SWM&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/toms-river-ems-1/&#34;&gt;TOMS RIVER EMS 1&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/toms-river-oem-1/&#34;&gt;TOMS RIVER OEM 1&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/trfd-1/&#34;&gt;TRFD 1&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/trfd-2/&#34;&gt;TRFD 2&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/vehcicle-services-2/&#34;&gt;VEHCICLE SERVICES 2&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/vehicle-services-1/&#34;&gt;VEHICLE SERVICES 1&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/waretown-pd-1/&#34;&gt;WARETOWN PD 1&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -391,26 +525,6 @@ Is lack of interest in Pence events a sign of the air leaving the Trump balloon?
 &lt;p&gt;&lt;a href=&#34;http://ocscanner.news:8000/stream&#34; target=&#34;_blank&#34;&gt;Listen to the main live scanner feed&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://ocscanner.news:8000/south&#34; target=&#34;_blank&#34;&gt;Listen to the southern live feed (Lacey, Barnegat &amp;amp; Waretown)&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Interview with CIO Magazine</title>
-      <link>https://www.gavinrozzi.com/post/ciomag/</link>
-      <pubDate>Wed, 10 Sep 2014 00:00:00 -0400</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/post/ciomag/</guid>
-      <description>&lt;p&gt;CIO Magazine &lt;a href=&#34;https://www.cio.com/article/2460827/search/seo-sem-top-25-diy-tips-for-better-seo.html&#34; target=&#34;_blank&#34;&gt;wanted my take&lt;/a&gt; on tips you can take to improve search engine rankings for small business websites for an article entitled &amp;ldquo;Top 25 DIY Tips for Better SEO.&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;Here’s what I had to say:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;WordPress is, in essence, a blogging platform. But many businesses use it as the content management system for a complete website.&lt;/p&gt;
-
-&lt;p&gt;Yoast’s WordPress SEO Plugin (free) is a favorite among many SEO experts. “I recommend it to my clients because it allows the automation and easy integration of important SEO strategies,” says Gavin Rozzi, president, Gavin Rozzi Technology.&lt;/p&gt;
-
-&lt;p&gt;Drupal and Joomla are two worthy WordPress alternatives, Rozzi says. “These free, open-source content management systems come with an assortment of plug-ins that automate much of the SEO workload.”&lt;/p&gt;
-&lt;/blockquote&gt;
 </description>
     </item>
     

@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2013-2018 Gavin Rozzi</copyright>
-    <lastBuildDate>Sun, 11 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.gavinrozzi.com/tags/opra/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Rozzi v. Office of the Attorney General</title>
+      <link>https://www.gavinrozzi.com/project/rozzivoag/</link>
+      <pubDate>Sat, 23 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/project/rozzivoag/</guid>
+      <description>Attorney General&amp;rsquo;s Office violated public records law by witholding email logs The New Jersey Attorney General&amp;rsquo;s Office was found to have violated the Open Public Records Act by denying my request for copies of email logs for the OAG&amp;rsquo;s custodian of records. I requested the email logs as a part of my advocacy on behalf of my statewide freedom of information website, OPRAmachine. The email logs provided insight into the practices of OAG when it comes to handling OPRA requests.</description>
+    </item>
     
     <item>
       <title>Libertarians for Transparent Government v. New Jersey State Police</title>

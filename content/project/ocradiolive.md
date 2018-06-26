@@ -39,12 +39,13 @@ This system is powered by multiple R820T SDRs running on a desktop computer and 
 
 As our base of users continues to grow, I intend on covering more radio systems and adding them to this system.
 
-### Coming soon to OC Radio Live
-- Little Egg Harbor Police P25
-- Ocean County Probation P25
-- OC-ALERT Fire & EMS paging channel
-
-### Atlantic County version coming soon
-We are also hoping to setup a similar system for the new Atlantic County P25 Phase II system that recently became fully operational. Check back here for more details on that at a later date. Some of these projects will likely be under the domain name **p25.stream.**
-
 The [Ocean County Radio Live](https://ocradio.live/) web application is based on the open-source [Trunk-Player](https://github.com/ScanOC/trunk-player) Django project. So far, I have contributed one [pull request](https://github.com/ScanOC/trunk-player/commit/8dbc011c96bf19951bc9fa1fbf6c37d5e215dc4a) to the upstream open source software that powers the project, and I plan to contribute more in the future as my schedule allows.
+
+
+### Current scan list lineup
+
+{{% oclive %}}
+
+## Sample talkgroups & channels (click to scan)
+
+{{% oclive_talkgroups %}}
