@@ -11,6 +11,22 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>OPRAmachine update: The $1000 email metadata &amp; other pushback from government agencies</title>
+      <link>https://www.gavinrozzi.com/post/621-om-update/</link>
+      <pubDate>Tue, 26 Jun 2018 00:00:00 -0400</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/post/621-om-update/</guid>
+      <description>&lt;p&gt;I was once again interviewed by &lt;a href=&#34;https://citizensmedia.tv/&#34; target=&#34;_blank&#34;&gt;Citizens&amp;rsquo; Media TV&amp;rsquo;s&lt;/a&gt; Jeff Epstein about my work with public records &amp;amp; transparency via the OPRAmachine statwewide freedom of information portal that I run.&lt;/p&gt;
+
+&lt;p&gt;Epstein serves as one of the site&amp;rsquo;s volunteer administrators and in this podcast recorded on June 21st, 2018 we discuss some of the challenges that we have encountered running the site, including pushback from government agencies, fee demands for public records &amp;amp; more.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Listen to the full interview:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&#34;100%&#34; height=&#34;300&#34; scrolling=&#34;no&#34; frameborder=&#34;no&#34; allow=&#34;autoplay&#34; src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/462904968&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Rozzi v. Office of the Attorney General</title>
       <link>https://www.gavinrozzi.com/project/rozzivoag/</link>
       <pubDate>Sat, 23 Jun 2018 00:00:00 +0000</pubDate>
@@ -493,38 +509,6 @@ response provided to an Open Public Records Act (OPRA) request was legally insuf
 &lt;div class=&#34;fb-video&#34; data-href=&#34;https://www.facebook.com/therachelmaddowshow/videos/10153990933079067/&#34; data-width=&#34;500&#34; data-show-text=&#34;true&#34;&gt;&lt;blockquote cite=&#34;https://www.facebook.com/therachelmaddowshow/videos/10153990933079067/&#34; class=&#34;fb-xfbml-parse-ignore&#34;&gt;&lt;a href=&#34;https://www.facebook.com/therachelmaddowshow/videos/10153990933079067/&#34;&gt;Pence fundraiser interest too low to be worth his time&lt;/a&gt;&lt;p&gt;Two Mike Pence fundraisers cancelled for lack of interest, one in Nebraska, one in New Jersey.
 
 Is lack of interest in Pence events a sign of the air leaving the Trump balloon?&lt;/p&gt;Posted by &lt;a href=&#34;https://www.facebook.com/therachelmaddowshow/&#34;&gt;The Rachel Maddow Show&lt;/a&gt; on Tuesday, October 11, 2016&lt;/blockquote&gt;&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Ocean County Scanner News</title>
-      <link>https://www.gavinrozzi.com/project/ocscannernews/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/project/ocscannernews/</guid>
-      <description>
-
-&lt;h2 id=&#34;live-ocean-county-police-fire-ems-calls-as-they-happen&#34;&gt;Live Ocean County police, fire &amp;amp; EMS calls as they happen&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://ocscanner.news/&#34; target=&#34;_blank&#34;&gt;Ocean County Scanner News &lt;/a&gt; is a network of radio and emergency services enthusiasts who listen to police scanners and post live news updates via their &lt;a href=&#34;https://www.facebook.com/OceanCountyScannerNews/&#34; target=&#34;_blank&#34;&gt;Facebook page.&lt;/a&gt; I designed the groups&amp;rsquo;s website in addition to setting up a live scanner feed server running the Icecast live streaming server. The main live feed covers the Ocean County Trunked Radio system and several other local conventional channels for police, fire &amp;amp; EMS agencies serving Ocean County. We are planning more additions to the live feed as time and resources allow.&lt;/p&gt;
-
-&lt;p&gt;Many of the breaking news updates posted on Ocean County Scanner News are reflective of breaking news stories that later are reported in the media - oftentimes days later as many outlets wait for official press releases.&lt;/p&gt;
-
-&lt;p&gt;My involvement with the page is primarily with serving as the live feed administrator, but I will occassionally post scanner calls as time allows.&lt;/p&gt;
-
-&lt;h3 id=&#34;scanner-programming-services&#34;&gt;Scanner programming services&lt;/h3&gt;
-
-&lt;p&gt;I am available to provide scanner programming services if you have a scanner that you are looking to use to monitor local channels. This is something that can be discussed on a case-by-case basis to determine if I have the proper cable / software in order to work with your scanner. Please &lt;a href=&#34;https://www.gavinrozzi.com/#contact&#34; target=&#34;_blank&#34;&gt;contact me&lt;/a&gt; to discuss your needs.&lt;/p&gt;
-
-&lt;h3 id=&#34;listen-live&#34;&gt;Listen live&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://ocscanner.news/&#34; target=&#34;_blank&#34;&gt;View the Ocean County Scanner News website here&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://ocradio.live/scan/default&#34; target=&#34;_blank&#34;&gt;Use the OC Radio Live online police scanner&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://ocscanner.news:8000/stream&#34; target=&#34;_blank&#34;&gt;Listen to the main live scanner feed&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://ocscanner.news:8000/south&#34; target=&#34;_blank&#34;&gt;Listen to the southern live feed (Lacey, Barnegat &amp;amp; Waretown)&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
