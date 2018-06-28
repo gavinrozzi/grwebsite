@@ -29,7 +29,7 @@ filter_default = 0
   tag = "*"
 
 [[filter]]
-  name = "Government Transparency"
+  name = "Transparency"
   tag = ".opra"
 
 [[filter]]
@@ -37,7 +37,7 @@ filter_default = 0
   tag = ".pol"
 
 [[filter]]
-  name = "Legal"
+  name = "Public Interest Litigation"
   tag = ".legal"
 
 [[filter]]

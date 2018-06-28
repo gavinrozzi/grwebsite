@@ -21,7 +21,7 @@ The biggest expense to support my operation each month is typically server space
 
 If you would like to support my work with **software defined radio (SDR)** such as [OC Radio Live](https://ocradio.live/), please consider subscribing
 to a [premium plan](https://ocradio.live/plans/) at a reasonable monthly rate. The premium plan will enable additional features
-of the site as well as enable you to go as far back as two months back in time in our archives.
+of the site as well as enable you to go as far back as two months back in time in our archives. Premium plan subscriptions help us to add more channels and defray the costs of web hosting.
 
 Bitcoin contributions are accepted at this address: **1CD1pzuknYNeRVmHNN3SavPfTLuq3Ef5CQ**
 

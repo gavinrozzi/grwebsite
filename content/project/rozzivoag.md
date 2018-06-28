@@ -33,11 +33,11 @@ The New Jersey Attorney General's Office was found to have violated the Open Pub
 
 ### Question Presented
 
-Was the New Jersey Attorney General's Office's denial of a request for copies for email logs a violation of the Open Public Records Act, N.J.S.A. 47:1A-1 et seq.?
+Was the New Jersey Attorney General's Office's denial of a request for copies for email logs - on the basis that all of the logs should be withheld because a portion contained confidential information - a violation of the Open Public Records Act, N.J.S.A. 47:1A-1 et seq.?
 
 ### Holding
 
-The judge ordered the OAG to disclose the requested email logs that were responsive to the initial public records request. In the interest of saving resources, I voluntarily waived the portions of the email logs that did not pertain to the deputy attorney general's other roles outside of complying with the state's Open Public Records Act.
+Judge Mary Jacobson, A.J.S.C. held that the Attorney General's refusal to produce the logs as originally requested constituted a violated ordered the OAG to disclose the requested email logs that were responsive to the initial public records request. In the interest of saving resources, I voluntarily waived the portions of the email logs that did not pertain to the deputy attorney general's other roles outside of complying with the state's Open Public Records Act in order to prevent any further delays to accessing the requested public records.
 
 [Read my verified complaint](/files/Rozzi-AG Verified Complaint.pdf)
 
