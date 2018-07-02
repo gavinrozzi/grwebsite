@@ -39,7 +39,15 @@ Was the New Jersey Attorney General's Office's denial of a request for copies fo
 
 ### Holding
 
-Judge Mary Jacobson, A.J.S.C. held that the Attorney General's refusal to produce the logs as originally requested constituted a violation of OPRA and ordered the OAG to disclose the requested email logs that were responsive to the initial public records request. In the interest of saving resources, I voluntarily waived the portions of the email logs that did not pertain to the deputy attorney general's other roles outside of complying with the state's Open Public Records Act in order to prevent any further delays to accessing the requested public records.
+Judge Mary Jacobson, A.J.S.C. held that the Attorney General's refusal to produce the logs as originally requested constituted a violation of OPRA and ordered the OAG to disclose the requested email logs that were responsive to the initial public records request. 
+
+### Outcome
+
+The Attorney General's office eventually complied with the court order and [turned over the responsive email logs.](/post/rozzi-oag/) 
+
+In the interest of saving resources, I voluntarily waived the portions of the email logs that did not pertain to the deputy attorney general's other roles outside of complying with the state's Open Public Records Act in order to prevent any further delays to accessing the requested public records.
+
+### Case documents
 
 [Read my verified complaint](/files/Rozzi-AG Verified Complaint.pdf)
 

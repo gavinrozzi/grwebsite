@@ -46,6 +46,6 @@ The [Ocean County Radio Live](https://ocradio.live/) web application is based on
 
 {{% oclive %}}
 
-## Sample talkgroups & channels (click to scan)
+### Sample talkgroups & channel lineup (click to scan)
 
 {{% oclive_talkgroups %}}
