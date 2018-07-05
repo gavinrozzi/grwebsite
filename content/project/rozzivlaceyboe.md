@@ -31,7 +31,7 @@ caption = "Unresonable fees for public records were reveresed in this case"
 
 **Legal Counsel: Pro Se**
 
-**GRC Complaint 2015-2224**
+**GRC Complaint 2015-224**
 
 **Statutory provision at issue: [N.J.S.A. 47:1A-5(c.)](https://www.nj.gov/grc/pdf/OPRASpecialServiceCharge.pdf)**
 
