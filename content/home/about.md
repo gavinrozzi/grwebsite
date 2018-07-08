@@ -33,7 +33,7 @@ weight = 5
 # About Gavin Rozzi
 <strong>Gavin Rozzi</strong> is an independent journalist & web developer who has created several successful local news websites and investigative journalism platforms serving New Jersey. 
 
-His political news website <a href="https://politicsoc.com/">Ocean County Politics</a> quickly became a "must read" for political insiders and public officials with in-depth reporting about local government, campaign finance and revelations about investigations of public officials in Ocean County, NJ.
+His political news website <a href="https://politicsoc.com/">Ocean County Politics</a> quickly became a "must read" for political insiders and public officials with in-depth reporting about local government, campaign finance and revelations about investigations of public officials in Ocean County, NJ. Articles published on Ocean County Politics have been cited by local, regional & national news outlets.
 
 Rozzi's second web project, <a href="https://jerseyleaks.org/">JerseyLeaks</a>, a whistleblowing platform operated in collaboration with other journalists, uses encryption to provide anonymity to sources seeking to blow the whistle on matters of public corruption. This platform has helped multiple journalists securely interact with anonymous sources and disseminate materials provided by them.
 
