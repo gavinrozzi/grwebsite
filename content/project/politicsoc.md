@@ -33,6 +33,10 @@ Ocean County Politics is an independent news website that covers politics and pu
 
 In addition to providing insightful commentary and news, the site also features reader contributed op-eds and letters to the editor.
 
+### Recent articles
+
+{{% ocp-all %}}
+
 ### Follow Ocean County Politics
 
 [Read Ocean County Politics here](https://politicsoc.com/)
