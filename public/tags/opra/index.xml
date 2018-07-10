@@ -71,5 +71,16 @@ response provided to an Open Public Records Act (OPRA) request was legally insuf
 This case was filed at the same time a lawsuit that was filed against the OCPO by open government activist Harry Scheeler.</description>
     </item>
     
+    <item>
+      <title>Toms River 911 Call Explorer</title>
+      <link>https://www.gavinrozzi.com/project/tomsriver-911/</link>
+      <pubDate>Sun, 10 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/project/tomsriver-911/</guid>
+      <description>The Toms River 911 Call Explorer is a small web development project that I created in the summer of 2018 order to make visualzing data that I obtained using an OPRA request.
+Content on the website is rendered using the Hugo static site generator, with the request thread on OPRAmachine hosting the actual CSV file with 911 call data.
+Columns from the CSV file are rendered on the homepage of the site after being pulled from OPRAmachine.</description>
+    </item>
+    
   </channel>
 </rss>
