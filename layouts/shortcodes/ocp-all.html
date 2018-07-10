@@ -1,6 +1,6 @@
 <ul>
 {{ $ocpall := getJSON "https://politicsoc.com/wp-json/wp/v2/posts" }}
-{{ range first 3 $ocpall }}
+{{ range first 6 $ocpall }}
 <li><a href={{ .link }}>{{ .title.rendered | safeHTML }}</a></li> 
     {{ end }}
 </ul>
