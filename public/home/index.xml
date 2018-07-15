@@ -41,6 +41,15 @@ His political news website Ocean County Politics quickly became a &amp;ldquo;mus
     </item>
     
     <item>
+      <title>Aerial photography portfolio</title>
+      <link>https://www.gavinrozzi.com/home/photos/</link>
+      <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/home/photos/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
       <title>Selected Publications</title>
       <link>https://www.gavinrozzi.com/home/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
@@ -137,16 +146,6 @@ If you would like to support my work with software defined radio (SDR) such as O
       
       <guid>https://www.gavinrozzi.com/home/contact/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Aerial photography</title>
-      <link>https://www.gavinrozzi.com/home/photos/</link>
-      <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/home/photos/</guid>
-      <description>[[gallery_item]] album = &amp;ldquo;1&amp;rdquo; image = &amp;ldquo;DJI_0074.JPG&amp;rdquo; caption = &amp;ldquo;Default&amp;rdquo;
-[[gallery_item]] album = &amp;ldquo;1&amp;rdquo; image = &amp;ldquo;sunset.jpg&amp;rdquo; caption = &amp;ldquo;Dark&amp;rdquo;</description>
     </item>
     
   </channel>
