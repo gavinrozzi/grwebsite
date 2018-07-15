@@ -14,14 +14,13 @@ subtitle = "Examples of my drone photos"
 weight = 90
 
 +++
-{{< gallery album="1" >}}
 
 [[gallery_item]]
 album = "1"
-image = "DJI_0074.JPG"
+image = "https://raw.githubusercontent.com/gavinrozzi/grwebsite/master/static/img/DJI_0074.JPG"
 caption = "Default"
 
 [[gallery_item]]
 album = "1"
-image = "sunset.jpg"
+image = "https://raw.githubusercontent.com/gavinrozzi/grwebsite/master/static/img/sunset.jpg"
 caption = "Dark"
