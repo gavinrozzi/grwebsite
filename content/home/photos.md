@@ -43,11 +43,6 @@ album = "1"
 image = "DJI_0376.JPG"
 caption = "Forked River at sunset"
 
-[[gallery_item]]
-album = "1"
-image = "Oyster Creek.jpg"
-caption = "Oyster Creek Nuclear Generating Station"
-
 +++
 
 {{< gallery album="1" >}}
