@@ -25,18 +25,8 @@ caption = "Spring Lake, NJ Beach"
 
 [[gallery_item]]
 album = "1"
-image = "DJI_0027.JPG"
-caption = "Barnegat Branch Trail, Forked River, NJ"
-
-[[gallery_item]]
-album = "1"
 image = "DJI_0006.JPG"
 caption = "Bayville, NJ"
-
-[[gallery_item]]
-album = "1"
-image = "DJI_0130.JPG"
-caption = "Tree removal in Lacey, NJ"
 
 [[gallery_item]]
 album = "1"
