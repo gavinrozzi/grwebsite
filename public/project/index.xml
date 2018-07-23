@@ -120,14 +120,5 @@ Content on the website is rendered using the Hugo static site generator, with th
 Columns from the CSV file are rendered on the homepage of the site after being pulled from OPRAmachine.</description>
     </item>
     
-    <item>
-      <title>Ocean County Scanner News</title>
-      <link>https://www.gavinrozzi.com/project/ocscannernews/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/project/ocscannernews/</guid>
-      <description>Live Ocean County police, fire &amp;amp; EMS calls as they happen Ocean County Scanner News  is a network of radio and emergency services enthusiasts who listen to police scanners and post live news updates via their Facebook page. I designed the groups&amp;rsquo;s website in addition to setting up a live scanner feed server running the Icecast live streaming server. The main live feed covers the Ocean County Trunked Radio system and several other local conventional channels for police, fire &amp;amp; EMS agencies serving Ocean County.</description>
-    </item>
-    
   </channel>
 </rss>
