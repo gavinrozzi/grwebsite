@@ -12,5 +12,16 @@
 	<atom:link href="https://www.gavinrozzi.com/talk/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Using OPRAmachine to file public records requests without the hassle</title>
+      <link>https://www.gavinrozzi.com/talk/montclair/</link>
+      <pubDate>Tue, 31 Jul 2018 00:00:00 -0400</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/talk/montclair/</guid>
+      <description>Join me in late August at the Montclair University Center for Cooperative Media to talk about my recent work with OPRAmachine and give a step-by-step demonstration along with taking audience questions.
+Here is their official announcement of the event, copied below:
+&amp;ldquo;Opening up New Jersey government, one request at a time.&amp;rdquo; That&amp;rsquo;s the tagline of OPRAmachine.com, a free tool created by New Jersey&amp;rsquo;s own Gavin Rozzi and available for all to use.</description>
+    </item>
+    
   </channel>
 </rss>
