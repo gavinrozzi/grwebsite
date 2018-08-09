@@ -35,7 +35,7 @@ tags = ["radio"]
 
 # Links (optional).
 url_pdf = ""
-url_slides = ""
+url_slides = "https://cyberspectrum23.ocradio.live/"
 url_video = "https://www.youtube.com/watch?v=Q6ITlQYNVDQ"
 url_code = ""
 
