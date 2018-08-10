@@ -48,7 +48,7 @@ defaultContentLanguageInSubdir = false
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "hello@rozzi.media"
+  email = "gr@gavinrozzi.com"
   address = "P.O. Box 32 Lanoka Harbor, New Jersey, 08734"
   office_hours = ""
   phone = "(732)-504-3636"
