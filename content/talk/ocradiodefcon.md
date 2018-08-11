@@ -36,7 +36,7 @@ tags = ["radio"]
 # Links (optional).
 url_pdf = ""
 url_slides = "https://cyberspectrum23.ocradio.live/"
-url_video = "https://www.youtube.com/watch?v=Q6ITlQYNVDQ"
+url_video = "https://www.youtube.com/watch?v=Yhuis48SQGk"
 url_code = ""
 
 # Does the content use math formatting?
