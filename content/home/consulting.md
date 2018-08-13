@@ -30,7 +30,7 @@ I have created this section of my website due to the numerous inquiries I receiv
 
 Due to my reputation for making use of the New Jersey Open Public Records Act (OPRA) for investigative reporting, I am
 often asked about assisting in researching a given topic for individuals and business owners using OPRA. I will soon be offering OPRA research services for those
-who would like to have me researh a specific topic and provide them with the records I obtain.
+who would like to have me research a specific topic and provide them with the records I obtain.
 
 Rates for these services will be announced on this website at a later date.
 
