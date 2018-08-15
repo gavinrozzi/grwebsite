@@ -306,8 +306,9 @@ enableGitInfo = false
 [params.search]
   # Search provider:
   #   0: No search engine
-  #   1: Algolia (https://www.algolia.com)
-  engine = 0
+  #   1: Built-in (Fuse)
+  #   2: Algolia (https://www.algolia.com)
+  engine = 1
 
   # Configuration of Algolia search engine.
   # Paste the values from your Algolia dashboard.
@@ -315,6 +316,7 @@ enableGitInfo = false
     app_id = ""
     api_key = ""
     index_name = ""
+    show_logo = false
 
 # Taxonomies.
 [taxonomies]
@@ -324,7 +326,20 @@ enableGitInfo = false
 
 # Languages
 #   Create a [languages.X] block for each language you want, where X is the language ID.
+#   Refer to https://sourcethemes.com/academic/docs/language/
 
 # Configure the English version of the website.
-[Languages.en]
+[languages.en]
   languageCode = "en-us"
+
+# Uncomment the lines below to configure your website in a second language.
+#[languages.zh]
+#  languageCode = "zh-Hans"
+#  title = "Chinese website title..."
+#  [languages.zh.params]
+#    name = "Your name in Chinese..."
+#    role = "Your role in Chinese..."
+#  [[languages.zh.menu.main]]
+#    name = "Wo"
+#    url = "#about"
+#    weight = 1
