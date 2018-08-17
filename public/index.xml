@@ -11,6 +11,43 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Video: Defeating redactions on poorly redacted documents</title>
+      <link>https://www.gavinrozzi.com/post/redactions/</link>
+      <pubDate>Fri, 17 Aug 2018 00:00:00 -0400</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/post/redactions/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/0NnuA8RMyiY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re like me and frequently deal with requesting public records, then you&amp;rsquo;ll be accustomed to receiving documents that have blocks of text redacted.&lt;/p&gt;
+
+&lt;p&gt;Redactions are most often used by government officials to apply exemptions to the various federal and state public records law. Often, they&amp;rsquo;ll be used to obscure information that may breach confidentiality protections or needlessly harm the personal privacy of individuals. In other instances, redactions are somtimes abused to keep the lid on politically damaging revelations.&lt;/p&gt;
+
+&lt;p&gt;Not all redactions are created equal. In most cases, public entities are able to suitably redact documents either using computer-based solutions or with a good old fashioned black marker and copy machine.&lt;/p&gt;
+
+&lt;p&gt;Sometimes public entities get it wrong and end up using programs such as Microsoft Office or other basic editors that weren&amp;rsquo;t designed with permanently removing redacted information in mind, which allows the digitial files to be edited to reveal the information that was intended to be kept hidden.&lt;/p&gt;
+
+&lt;p&gt;In Flordia, a newspaper recently took a document that was publicly posted on an official websited and used computer software to remove the redactions and report on the confidential information contained in the publicly available report regarding Parkland school shooter Nikolas Cruz.&lt;/p&gt;
+
+&lt;p&gt;A Florida judge who presided over public records litigation concerning the original release of the report quickly blasted the newspaper, and demonstrated technical ignorance with regard to how the details were obtained by the newspaper&amp;rsquo;s reporters. School board lawyers attempted to frame the publication of the information as a violation of a previous court order.&lt;/p&gt;
+
+&lt;p&gt;Video of the judge&amp;rsquo;s remarks was quickly posted to social media, where it circulated:
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Tough to watch. &lt;a href=&#34;https://t.co/7sSD40Wa5o&#34;&gt;https://t.co/7sSD40Wa5o&lt;/a&gt;&lt;/p&gt;&amp;mdash; Gavin Rozzi (@gavroz) &lt;a href=&#34;https://twitter.com/gavroz/status/1030224010532057089?ref_src=twsrc%5Etfw&#34;&gt;August 16, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In my own video embedded above in this blog post, I use one of my own past public records requests to demonstrate how removing redactions and accessing hidden material is possible when public officials improperly attempt to redact information. The video shows the end result of me using Adobe Acrobat to delete the black boxes of text used to &amp;ldquo;redact&amp;rdquo; information from email logs provided in response to a 2017 public records request from a New Jersey school district.&lt;/p&gt;
+
+&lt;p&gt;While these instances are not common, journalists owe it to themselves to double check the documents that they receive in response to their public records requests, as sometimes the mistakes of government agencies may work to the benefit of your story.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Interview with AEA-NJ Newsletter</title>
       <link>https://www.gavinrozzi.com/post/aea-nj-interview/</link>
       <pubDate>Thu, 09 Aug 2018 00:00:00 -0400</pubDate>
@@ -301,10 +338,10 @@ The site has been making an impact and has been used as a research tool by publi
 Since October, 2017, OPRAmachine has seen:
 &lt;ul&gt;
   
-  &lt;li&gt;&lt;strong&gt;2313&lt;/strong&gt; public records requests&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;1839&lt;/strong&gt; followup messages sent&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;287&lt;/strong&gt; registered users&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;926&lt;/strong&gt; public bodies&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;2301&lt;/strong&gt; public records requests&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1833&lt;/strong&gt; followup messages sent&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;283&lt;/strong&gt; registered users&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;925&lt;/strong&gt; public bodies&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;93&lt;/strong&gt; annotations added to requests&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;188&lt;/strong&gt; tracked requests&lt;/li&gt;
 &lt;/ul&gt;
@@ -317,38 +354,35 @@ Since October, 2017, OPRAmachine has seen:
 &lt;ul&gt;
   
   
-   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/various_e_mails_citizens_videota_2&#34; target=&#34;&#34;&gt;Various E-mails- Citizens Videotaping in Public Buildings&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/oceanport_police_department&#34; target=&#34;&#34;&gt;Oceanport Police Department&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: Cynthia Moore&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Partially successful.&lt;/strong&gt;&lt;p&gt;&lt;i&gt;REQUEST FOR GOVERNMENT RECORDS
-
- (N.J.S.A. 47:1A-1, et seq.)
-
- GOVERNMENT RECORDS REQUEST RESPONSE
-
-  
-
- TO:        Cynthia Moore                      ...&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
+   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/records_of_overdose_calls_july_2&#34; target=&#34;&#34;&gt;Records of Overdose Calls July 2018&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/aberdeen_township&#34; target=&#34;&#34;&gt;Aberdeen Township&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: Anonymous&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Successful.&lt;/strong&gt;&lt;p&gt;&lt;i&gt;Honestly, I have no idea.&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
   
-   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/plainfield_board_of_ed_training&#34; target=&#34;&#34;&gt;Plainfield Board of Ed Training Transcripts&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/njsba&#34; target=&#34;&#34;&gt;New Jersey School Boards Association&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: Dorien Hurtt&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Successful.&lt;/strong&gt;&lt;p&gt;&lt;i&gt;Ms. Hurtt: Please acknowledge receipt of the documents you requested.
+   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/police_cad_reports_49&#34; target=&#34;&#34;&gt;Police CAD Reports&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/lacey_township&#34; target=&#34;&#34;&gt;Lacey Township&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: Anonymous&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Partially successful.&lt;/strong&gt;&lt;p&gt;&lt;i&gt;Attached is your OPRA from the Police Dept. regarding CAD reports on
+ 8-1-18.
 
-Cynthia J. Jahn, Esq.
-General Counsel
-New Jersey School Boards Association
-phone...&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
+  
+
+  
+
+ Thank you
+
+  
+
+ Lisa Monbleau
+
+ Municipal Clerks Office
+
+ Towns...&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
   
-   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/approval_for_1_yr_extension_of_a&#34; target=&#34;&#34;&gt;Approval for 1 Yr Extension of Acting Municipal Clerk&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/alpha_borough&#34; target=&#34;&#34;&gt;Alpha Borough&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: Lisa&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Successful.&lt;/strong&gt;&lt;p&gt;&lt;i&gt;Ms. LaCaruba:
-
- I have attached the response record to your OPRA request dated 8/6/18.
+   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/tort_claim_notices_january_july&#34; target=&#34;&#34;&gt;Tort Claim Notices January - July 2018&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/holmdel_township&#34; target=&#34;&#34;&gt;Holmdel Township&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: Anonymous&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Successful.&lt;/strong&gt;&lt;p&gt;&lt;i&gt;Good Morning,
 
   
 
- Sincerely,
+ Attached are the responsive documents for your OPRA request that I
+ received on July 30, 2018.
 
   
 
-  
-
- Donna L. Messina
-
- Custodian of Recor...&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
+ Please note there are redactio...&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
   
 &lt;/ul&gt;
 
@@ -442,12 +476,6 @@ phone...&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;ul&gt;
 
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/52433/&#34;&gt;#52433&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/53043/&#34;&gt;#53043&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/53058/&#34;&gt;#53058&lt;/a&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/5309/&#34;&gt;#5309&lt;/a&gt;&lt;/li&gt;
 
@@ -543,6 +571,12 @@ phone...&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/bridges/&#34;&gt;BRIDGES&lt;/a&gt;&lt;/li&gt;
 
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/bridges/&#34;&gt;BRIDGES&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/c-3-comm-south/&#34;&gt;C 3-COMM SOUTH&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/c-4-comm-east/&#34;&gt;C 4-COMM EAST&lt;/a&gt;&lt;/li&gt;
+
 &lt;/ul&gt;
 </description>
     </item>
@@ -586,46 +620,6 @@ The system allows whistleblowers with knowledge of public corruption to submit d
 &lt;p&gt;&lt;a href=&#34;https://jerseyleaks.org/&#34; target=&#34;_blank&#34;&gt;View the main JerseyLeaks website&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://submit.jerseyleaks.org/&#34; target=&#34;_blank&#34;&gt;Submit documents to JerseyLeaks securely&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Ocean County Politics</title>
-      <link>https://www.gavinrozzi.com/project/politicsoc/</link>
-      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/project/politicsoc/</guid>
-      <description>
-
-&lt;h2 id=&#34;ocean-county-s-source-political-news-commentary&#34;&gt;Ocean County&amp;rsquo;s source political news &amp;amp; commentary&lt;/h2&gt;
-
-&lt;p&gt;Ocean County Politics is an independent news website that covers politics and public affairs in the greater Ocean County, NJ region. Ocean County Politics has become known for publishing in-depth accounts of county and municipal governmental activities and behind-the-scenes activities that influence the county&amp;rsquo;s political climate.&lt;/p&gt;
-
-&lt;p&gt;In addition to providing insightful commentary and news, the site also features reader contributed op-eds and letters to the editor.&lt;/p&gt;
-
-&lt;h3 id=&#34;recent-articles&#34;&gt;Recent articles&lt;/h3&gt;
-
-&lt;ul&gt;
-
-
-&lt;li&gt;&lt;a href=https://politicsoc.com/2018/08/little-egg-official-cited-for-code-violations/&gt;Little Egg Official Cited for Code Violations&lt;/a&gt;&lt;/li&gt; 
-    
-&lt;li&gt;&lt;a href=https://politicsoc.com/2018/08/gop-assembly-leader-bramnicks-comedy-act-finds-an-audience-in-ocean-county/&gt;GOP Assembly Leader Bramnick&amp;#8217;s Comedy Act Finds an Audience in Ocean County&lt;/a&gt;&lt;/li&gt; 
-    
-&lt;li&gt;&lt;a href=https://politicsoc.com/2018/07/2018-ocean-county-school-board-candidates/&gt;2018 Ocean County School Board Candidates&lt;/a&gt;&lt;/li&gt; 
-    
-&lt;li&gt;&lt;a href=https://politicsoc.com/2018/07/dasti-ousted-from-fathers-law-firm/&gt;Dasti Ousted From Father&amp;#8217;s Law Firm&lt;/a&gt;&lt;/li&gt; 
-    
-&lt;li&gt;&lt;a href=https://politicsoc.com/2018/07/lakewood-schools-transportation-employees-get-rice-notices/&gt;Lakewood Schools Transportation Employees Get Rice Notices&lt;/a&gt;&lt;/li&gt; 
-    
-&lt;li&gt;&lt;a href=https://politicsoc.com/2018/07/the-brick-administrations-bullying-problem-schick/&gt;The Brick Administration&amp;#8217;s Bullying Problem: Schick&lt;/a&gt;&lt;/li&gt; 
-    
-&lt;/ul&gt;
-
-
-&lt;h3 id=&#34;follow-ocean-county-politics&#34;&gt;Follow Ocean County Politics&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://politicsoc.com/&#34; target=&#34;_blank&#34;&gt;Read Ocean County Politics here&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

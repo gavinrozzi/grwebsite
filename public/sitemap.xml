@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>https://www.gavinrozzi.com/post/redactions/</loc>
+      <lastmod>2018-08-17T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://www.gavinrozzi.com/post/aea-nj-interview/</loc>
       <lastmod>2018-08-09T00:00:00-04:00</lastmod>
     </url>
@@ -259,6 +267,15 @@
     
       <loc>https://www.gavinrozzi.com/tags/legal/</loc>
       <lastmod>2018-06-23T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://www.gavinrozzi.com/tags/opra/</loc>
+      <lastmod>2018-08-17T00:00:00-04:00</lastmod>
       <priority>0</priority>
     </url>
     
