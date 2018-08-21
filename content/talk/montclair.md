@@ -34,8 +34,8 @@ projects = ["opramachine"]
 tags = ["opra"]
 
 # Links (optional).
-url_pdf = ""
-url_slides = ""
+url_pdf = "/files/montclair-slides.pdf"
+url_slides = "https://montclair.opramachine.com/"
 url_video = "https://zoom.us/s/491182107"
 url_code = ""
 
