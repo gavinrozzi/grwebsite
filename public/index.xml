@@ -11,6 +11,27 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>OPRAmachine Webinar at Montclair</title>
+      <link>https://www.gavinrozzi.com/post/montclair-webinar/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 -0400</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/post/montclair-webinar/</guid>
+      <description>&lt;p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/_1E2tWOOWzU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;On Tuesday, August 21st, 2018 I made my way up to the Montclair University Center for Cooperative Media to present about my work creating the &lt;a href=&#34;https://www.gavinrozzi.com/projects/opramachine/&#34;&gt;OPRAmachine&lt;/a&gt; New Jersey statewide freedom of information portal.&lt;/p&gt;
+
+&lt;p&gt;The webinar was attended by both journalists and other individuals interested in making use of the advanced public records research capabilities provided by our platform.&lt;/p&gt;
+
+&lt;p&gt;Thank you to the folks at the Center who helped put all of this together, and thank you to our attendees who asked insightful questions!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Video: Defeating redactions on poorly redacted documents</title>
       <link>https://www.gavinrozzi.com/post/redactions/</link>
       <pubDate>Fri, 17 Aug 2018 00:00:00 -0400</pubDate>
@@ -74,7 +95,15 @@
       <pubDate>Tue, 07 Aug 2018 00:00:00 -0400</pubDate>
       
       <guid>https://www.gavinrozzi.com/talk/ocradiodefcon/</guid>
-      <description>&lt;p&gt;I will be speaking about my experience implementing open source software and working the RTLSDR platform to create an online timeshifting police, fire &amp;amp; EMS scanner that outperforms commercially availalble hardware scanners in many respects.&lt;/p&gt;
+      <description>&lt;p&gt;Recorded video of talk:
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/Yhuis48SQGk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;I will be speaking about my experience implementing open source software and working the RTLSDR platform to create an online timeshifting police, fire &amp;amp; EMS scanner that outperforms commercially availalble hardware scanners in many respects.&lt;/p&gt;
 
 &lt;p&gt;Use the video link above to watch this talk live on the date of the event. The time of this event has been changed to Eastern Standard Time for its posting on this website due to the difference in timezones.&lt;/p&gt;
 </description>
@@ -86,7 +115,15 @@
       <pubDate>Tue, 31 Jul 2018 00:00:00 -0400</pubDate>
       
       <guid>https://www.gavinrozzi.com/talk/montclair/</guid>
-      <description>&lt;p&gt;Join me in late August at the Montclair University &lt;a href=&#34;https://centerforcooperativemedia.org/&#34; target=&#34;_blank&#34;&gt;Center for Cooperative Media&lt;/a&gt; to talk about my recent work with &lt;a href=&#34;https://www.gavinrozzi.com/project/opramachine&#34;&gt;OPRAmachine&lt;/a&gt; and give a step-by-step demonstration along with taking audience questions.&lt;/p&gt;
+      <description>&lt;p&gt;Recorded video of webinar:
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/_1E2tWOOWzU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Join me in late August at the Montclair University &lt;a href=&#34;https://centerforcooperativemedia.org/&#34; target=&#34;_blank&#34;&gt;Center for Cooperative Media&lt;/a&gt; to talk about my recent work with &lt;a href=&#34;https://www.gavinrozzi.com/project/opramachine&#34;&gt;OPRAmachine&lt;/a&gt; and give a step-by-step demonstration along with taking audience questions.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Here is their official announcement of the event, copied below:&lt;/strong&gt;&lt;/p&gt;
 
@@ -97,8 +134,6 @@
 &lt;p&gt;Join this webinar and Rozzi will show you the simple, step-by-step process for filing OPRA requests and browsing OPRAmachine to see what public records and information others have requested&lt;/p&gt;
 
 &lt;p&gt;Register for the event at &lt;a href=&#34;https://www.eventbrite.com/e/using-opramachine-to-file-public-records-requests-without-the-hassle-tickets-48653465826?aff=efbeventtix&#34; target=&#34;_blank&#34;&gt;Eventbrite&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://zoom.us/s/491182107&#34; target=&#34;_blank&#34;&gt;Join the webinar live here&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -338,12 +373,12 @@ The site has been making an impact and has been used as a research tool by publi
 Since October, 2017, OPRAmachine has seen:
 &lt;ul&gt;
   
-  &lt;li&gt;&lt;strong&gt;2347&lt;/strong&gt; public records requests&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;1870&lt;/strong&gt; followup messages sent&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;294&lt;/strong&gt; registered users&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;2336&lt;/strong&gt; public records requests&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1861&lt;/strong&gt; followup messages sent&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;290&lt;/strong&gt; registered users&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;927&lt;/strong&gt; public bodies&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;93&lt;/strong&gt; annotations added to requests&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;195&lt;/strong&gt; tracked requests&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;190&lt;/strong&gt; tracked requests&lt;/li&gt;
 &lt;/ul&gt;
 
 
@@ -354,32 +389,20 @@ Since October, 2017, OPRAmachine has seen:
 &lt;ul&gt;
   
   
-   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/public_photography&#34; target=&#34;&#34;&gt;Public Photography&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/lavallette_borough&#34; target=&#34;&#34;&gt;Lavallette Borough&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: PSNJ, Ironbound Media&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Successful.&lt;/strong&gt;&lt;p&gt;&lt;i&gt;Good Morning,
+   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/2018_payroll_records&#34; target=&#34;&#34;&gt;2018 payroll records&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/holmdel_township&#34; target=&#34;&#34;&gt;Holmdel Township&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: Time for Reply NJ&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Successful.&lt;/strong&gt;&lt;p&gt;&lt;i&gt;Good Afternoon,
 
-Regarding the below request, I was on vacation last week but the Chief of Police was going to take care of sending you this information....&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
+For Further clarification: 
+
+This overtime is related to a special duty that is reimbursable the party requesting the service. In Holm...&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
   
-   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/roster_of_police_officers_miscon&#34; target=&#34;&#34;&gt;Roster of Police Officers, Misconduct of Michael Probasco&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/pennsauken_township&#34; target=&#34;&#34;&gt;Pennsauken Township&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: PSNJ, Ironbound Media&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Partially successful.&lt;/strong&gt;&lt;p&gt;&lt;i&gt;Please see attached.
+   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/2018_payroll_records&#34; target=&#34;&#34;&gt;2018 payroll records&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/holmdel_township&#34; target=&#34;&#34;&gt;Holmdel Township&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: Time for Reply NJ&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Follow up&lt;/strong&gt;&lt;p&gt;&lt;i&gt;This is very helpful -- thank you.
 
-  
-
- Gene Padalino
-
- Township Clerk
-
- 856.665.1000 ext. 122
-
- [1][Pennsauken Township request email]
-
-  
-
-  
-
- NOTICE: This messa...&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
+Yours sincerely,
+Time for Reply NJ&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
   
-   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/beach_container_searches&#34; target=&#34;&#34;&gt;Beach Container Searches&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/avon_by_the_sea_borough&#34; target=&#34;&#34;&gt;Avon-by-the-sea Borough&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: PSNJ, Ironbound Media&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Successful.&lt;/strong&gt;&lt;p&gt;&lt;i&gt;Correspondence attached.
+   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/2018_payroll_records&#34; target=&#34;&#34;&gt;2018 payroll records&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/holmdel_township&#34; target=&#34;&#34;&gt;Holmdel Township&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: Time for Reply NJ&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Follow up&lt;/strong&gt;&lt;p&gt;&lt;i&gt;Thank you for the clarification. 
 
- This e-mail contains information that is privileged and confidential and
- subject to legal restrictions and penalties regard...&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
+Just so I understand fully, are there different kinds of overtime? Is there a reason why overtime would be class...&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
   
 &lt;/ul&gt;
 
@@ -474,22 +497,6 @@ Regarding the below request, I was on vacation last week but the Chief of Police
 &lt;ul&gt;
 
 
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/46908/&#34;&gt;#46908&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/47095/&#34;&gt;#47095&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4723/&#34;&gt;#4723&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4735/&#34;&gt;#4735&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/47420/&#34;&gt;#47420&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4745/&#34;&gt;#4745&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/47668/&#34;&gt;#47668&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/48904/&#34;&gt;#48904&lt;/a&gt;&lt;/li&gt;
-
 &lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4967/&#34;&gt;#4967&lt;/a&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/50171/&#34;&gt;#50171&lt;/a&gt;&lt;/li&gt;
@@ -574,6 +581,22 @@ Regarding the below request, I was on vacation last week but the Chief of Police
 
 &lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/8197/&#34;&gt;#8197&lt;/a&gt;&lt;/li&gt;
 
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/840/&#34;&gt;#840&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/880/&#34;&gt;#880&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/9061/&#34;&gt;#9061&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/935/&#34;&gt;#935&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/9575/&#34;&gt;#9575&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/960/&#34;&gt;#960&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/ag-taskforce/&#34;&gt;AG TASKFORCE&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/b-2-comm-sussex/&#34;&gt;B 2-COMM SUSSEX&lt;/a&gt;&lt;/li&gt;
+
 &lt;/ul&gt;
 </description>
     </item>
@@ -593,30 +616,6 @@ Regarding the below request, I was on vacation last week but the Chief of Police
 &lt;p&gt;Given the impact that weather events like Hurricane Sandy have had on the region, we felt that an amateur radio group focused exclusively on our area would be beneficial to both the local amateur radio community as well as the public at large.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://frnjarc.org/&#34; target=&#34;_blank&#34;&gt;View the club&amp;rsquo;s website here.&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>JerseyLeaks</title>
-      <link>https://www.gavinrozzi.com/project/jerseyleaks/</link>
-      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/project/jerseyleaks/</guid>
-      <description>
-
-&lt;h2 id=&#34;enabling-whistleblowers-to-report-public-corruption&#34;&gt;Enabling whistleblowers to report public corruption&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://jerseyleaks.org/&#34; target=&#34;_blank&#34;&gt;JerseyLeaks&lt;/a&gt; is a public corruption whistleblowing &amp;amp; transparaency initiative. The site serves as a collaborative journalism tool that allows
-sources to confidentially leak documents to reporters using an encrypted online system. The documents are encrypted at rest and in transit using the OpenPGP public keys of journalists using the open-source &lt;a href=&#34;https://www.globaleaks.org/&#34; target=&#34;_blank&#34;&gt;Globaleaks&lt;/a&gt; software, ensuring the privacy of sources.
-The system allows whistleblowers with knowledge of public corruption to submit documents to journalists who may publish them as a part of an investigative story.&lt;/p&gt;
-
-&lt;p&gt;This project has been a collaborative effort and other journalists are invited to join the platform, with further details being on the JerseyLeaks website.&lt;/p&gt;
-
-&lt;h3 id=&#34;more-about-jerseyleaks&#34;&gt;More about JerseyLeaks&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://jerseyleaks.org/&#34; target=&#34;_blank&#34;&gt;View the main JerseyLeaks website&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://submit.jerseyleaks.org/&#34; target=&#34;_blank&#34;&gt;Submit documents to JerseyLeaks securely&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

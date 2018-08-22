@@ -36,7 +36,7 @@ tags = ["opra"]
 # Links (optional).
 url_pdf = "/files/montclair-slides.pdf"
 url_slides = "https://montclair.opramachine.com/"
-url_video = "https://zoom.us/s/491182107"
+url_video = "https://www.youtube.com/watch?v=_1E2tWOOWzU"
 url_code = ""
 
 # Does the content use math formatting?
@@ -53,6 +53,10 @@ caption = ""
 
 +++
 
+Recorded video of webinar:
+{{< youtube _1E2tWOOWzU >}}
+&nbsp;
+
 Join me in late August at the Montclair University [Center for Cooperative Media](https://centerforcooperativemedia.org/) to talk about my recent work with [OPRAmachine](/project/opramachine) and give a step-by-step demonstration along with taking audience questions.
 
 **Here is their official announcement of the event, copied below:**
@@ -64,5 +68,3 @@ Every citizen has the right to access public records held by state & local gover
 Join this webinar and Rozzi will show you the simple, step-by-step process for filing OPRA requests and browsing OPRAmachine to see what public records and information others have requested
 
 Register for the event at [Eventbrite](https://www.eventbrite.com/e/using-opramachine-to-file-public-records-requests-without-the-hassle-tickets-48653465826?aff=efbeventtix)
-
-[Join the webinar live here](https://zoom.us/s/491182107)

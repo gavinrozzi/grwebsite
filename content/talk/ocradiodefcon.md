@@ -53,6 +53,10 @@ caption = ""
 
 +++
 
+Recorded video of talk:
+{{< youtube Yhuis48SQGk >}}
+&nbsp;
+
 I will be speaking about my experience implementing open source software and working the RTLSDR platform to create an online timeshifting police, fire & EMS scanner that outperforms commercially availalble hardware scanners in many respects.
 
 Use the video link above to watch this talk live on the date of the event. The time of this event has been changed to Eastern Standard Time for its posting on this website due to the difference in timezones.
