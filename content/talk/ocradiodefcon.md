@@ -34,7 +34,7 @@ projects = ["ocradiolive"]
 tags = ["radio"]
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "/files/cyberspectrum-slides.pdf"
 url_slides = "https://cyberspectrum23.ocradio.live/"
 url_video = "https://www.youtube.com/watch?v=Yhuis48SQGk"
 url_code = ""
