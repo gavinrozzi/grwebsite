@@ -19,7 +19,7 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
 [outputs]
-  home = [ "HTML", "CSS", "RSS" ]
+  home = [ "HTML", "CSS", "RSS", "JSON" ]
   section = [ "HTML", "RSS" ]
 
 # Configure BlackFriday Markdown rendering.
@@ -54,7 +54,6 @@ defaultContentLanguageInSubdir = false
   phone = "(732)-504-3636"
   skype = ""
   telegram = ""
-
   # Enable Keybase in Contact widget by entering your keybase.io username.
   keybase = "gcr"
   enableGitInfo = true
@@ -297,3 +296,6 @@ defaultContentLanguageInSubdir = false
 # Configure the English version of the website.
 [Languages.en]
   languageCode = "en-us"
+
+[params.search]
+  engine = 1
