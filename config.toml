@@ -203,32 +203,32 @@ defaultContentLanguageInSubdir = false
 
   [[params.social]]
     icon = "envelope"
-    icon_pack = "fa"
+    icon_pack = "fas"
     link = "mailto:hello@rozzi.media"
 
   [[params.social]]
     icon = "linkedin"
-    icon_pack = "fa"
+    icon_pack = "fab"
     link = "//linkedin.com/in/gavin-rozzi-077b0745"
 
   [[params.social]]
     icon = "facebook"
-    icon_pack = "fa"
+    icon_pack = "fab"
     link = "//www.facebook.com/gavinrozzi"
 
   [[params.social]]
     icon = "address-card"
-    icon_pack = "fa"
+    icon_pack = "fas"
     link = "/files/vCard.vcf"
 
   [[params.social]]
     icon = "twitter"
-    icon_pack = "fa"
+    icon_pack = "fab"
     link = "//twitter.com/gavroz"
 
   [[params.social]]
     icon = "github"
-    icon_pack = "fa"
+    icon_pack = "fab"
     link = "//github.com/gavinrozzi"
 
 # Navigation Links
