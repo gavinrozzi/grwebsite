@@ -23,8 +23,6 @@ If you would like to support my work with **software defined radio (SDR)** such 
 to a [premium plan](https://ocradio.live/plans/) at a reasonable monthly rate. The premium plan will enable additional features
 of the site as well as enable you to go as far back as two months back in time in our archives. Premium plan subscriptions help us to add more channels and defray the costs of web hosting.
 
-Bitcoin contributions are accepted at this address: **1CD1pzuknYNeRVmHNN3SavPfTLuq3Ef5CQ**
-
 ### Follow me on social media & share my work
 If you want to follow me or my work, be sure to follow my accounts on social media. Links to my various profiles are linked at the [top of this website](/#about).
 If you find value in something I have created or written, please feel free to share it on social media.
