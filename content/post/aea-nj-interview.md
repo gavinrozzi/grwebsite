@@ -17,7 +17,7 @@ The AEA-NJ was interested in OPRAmachine because their member authorities are su
 
 The article and interview were written from the perspective of member authorities and how OPRAmachine may impact them. It also included commentary from a public official who expressed their personal opinions about the site and compliance with New Jersey's OPRA law.
 
-The full article will appear in the AEA-NJ's summer, 2018 edition of their newsletter, which is accessible to member municipal and county utilities authorities.
+[The full article](https://aeanj.org/wp-content/uploads/AEA-Authority-View-Summer-2018.pdf) appears in the AEA-NJ's summer, 2018 edition of their "Authority View" newsletter, which is accessible to member municipal and county utilities authorities.
 
 **Article preview:**
 ![Article screenshot](/img/aeanjarticle.JPG)
