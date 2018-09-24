@@ -36,7 +36,7 @@ weight = 4
 [[feature]]
   icon = "broadcast-tower"
   icon_pack = "fas"
-  name = "Media & Communications"
-  description = "In the course of his work as an independent journalist, Gavin has produced and edited written reports and editorials in addition to videos & audio podcasts."
+  name = "Media & communications"
+  description = "In the course of his work as an independent journalist, Gavin has produced and edited written reports and editorials in addition to videos & audio podcasts. He also has experience writing press releases."
 
 +++

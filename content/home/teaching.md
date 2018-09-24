@@ -19,9 +19,13 @@ Ocean County College (Fall, 2017 semester):
 
 - ALDC 102 - Addictions Counseling II 
 
-In this class, working with Professor Jack Brogan, I participated in an exercise that saw the students create their own jobs program for recovering addicts. Given the pervasiveness of the opioid epidemic in Ocean County, participating in this class gave me a unique perspective on the various solutions to the addiction crisis. I also provided technology assistance throughout the semester to this class, and helped to modernize the delivery of course materials compared to methods employed in past years.
+In this class, working with Professor Jack Brogan, I participated in an exercise that saw the students create their own jobs program for recovering addicts. 
+
+Given the pervasiveness of the opioid epidemic in Ocean County, participating in this class gave me a unique perspective on the various solutions to the addiction crisis. I also provided technology assistance throughout the semester to this class, and helped to modernize the delivery of course materials compared to methods employed in past years.
 
 Stockton University (Fall, 2018 semester):
+
+The fall I am serving as the teaching assistant for two of Professor Linda J. Wharton's classes at Stockton. Both courses feature in-depth study & discussion of key decisions of the United States Supreme Court.
 
 - POLS 3221 - [Constitutional Law](https://www.coursicle.com/stockton/courses/POLS/3221/)
 

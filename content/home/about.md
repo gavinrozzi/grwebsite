@@ -35,7 +35,7 @@ weight = 4
 
 His political news website <a href="https://politicsoc.com/">Ocean County Politics</a> quickly became a "must read" for political insiders and public officials with in-depth reporting about local government, campaign finance and revelations about investigations of public officials in Ocean County, NJ. Articles published on Ocean County Politics have been cited by local, regional & national news outlets.
 
-Rozzi's second web project, <a href="https://jerseyleaks.org/">JerseyLeaks</a>, a whistleblowing platform operated in collaboration with other journalists, uses encryption to provide anonymity to sources seeking to blow the whistle on matters of public corruption. This platform has helped multiple journalists securely interact with anonymous sources and disseminate materials provided by them.
+Rozzi's second web project, <a href="https://jerseyleaks.org/">JerseyLeaks</a> is a whistleblowing platform operated in collaboration with other journalists. It has helped multiple journalists securely interact with anonymous sources and disseminate materials provided by them.
 
 In 2017 he launched <a href="https://opramachine.com/">OPRAmachine</a>, a statewide freedom of information portal and the first website of its kind to serve the entire state of New Jersey. The website allows anybody to easily request public documents from state and local governmental agencies under the New Jersey Open Public Records Act (OPRA).
 
