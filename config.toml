@@ -279,11 +279,6 @@ defaultContentLanguageInSubdir = false
   url = "#contact"
   weight = 8
 
-[[menu.main]]
-  name = "PGP Key"
-  url = "/files/gcr.asc"
-  weight = 9
-
 # Taxonomies.
 [taxonomies]
   tag = "tags"
