@@ -2,6 +2,10 @@
 
 
   
+
+  
+
+  
 /*************************************************
  *  Hugo Academic: an academic theme for Hugo.
  *  Designed by @GeorgeCushen.
@@ -719,7 +723,7 @@ article .article-metadata {
 }
 
 .article-metadata a {
-  color: #888;
+  color: rgba(0,0,0,.54);
 }
 
 .article-metadata a:hover {
@@ -780,6 +784,39 @@ article .article-metadata {
 }
 
 /*************************************************
+ *  Stream
+ **************************************************/
+
+.media.stream-item {
+  margin-bottom: 2rem;
+}
+
+.media.stream-item .article-title {
+  font-size: 1.2rem;
+}
+
+.media.stream-item .article-style {
+  margin-top: 2px;
+  font-size: 0.8rem;
+}
+
+.media.stream-item .stream-meta {
+  margin-top: 12px;
+}
+
+.media.stream-item img {
+  max-width: 150px;
+  height: auto;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .media.stream-item img {
+    max-width: 80px;
+  }
+}
+
+/*************************************************
  *  Publications
  **************************************************/
 
@@ -829,6 +866,52 @@ article .article-metadata {
   display: block;
   position: relative;
   overflow: hidden;
+}
+
+/*************************************************
+ * Experience
+ **************************************************/
+
+.exp-title {
+  text-transform: none !important;
+}
+
+.exp-company {
+  font-weight: normal !important;
+  text-transform: none !important;
+}
+
+.exp-meta {
+  font-size: 0.8rem;
+}
+
+.experience .card-text,
+.experience .card-text p {
+  color: #000 !important;
+  font-size: 0.75rem !important;
+}
+
+.dark .experience .text-muted {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.dark .experience .card-text,
+.dark .experience .card-text p {
+  color: rgb(248, 248, 242) !important;
+}
+
+.card .card-text ul {
+  margin-top: -1rem;
+  margin-bottom: 0rem;
+}
+
+.experience .m-2 .border,
+.experience .col.border-right {
+  border-color: #0095eb !important;
+}
+
+.experience .m-2 .border.exp-fill {
+  background-color: #0095eb !important;
 }
 
 /*************************************************
@@ -1551,6 +1634,21 @@ div.alert a {
     .docs-sidebar {
       position: -webkit-sticky;
       position: sticky;
+      top: 51px;
+      z-index: 1000;
+      height: calc(100vh - 51px)
+    }
+  }
+}
+
+@media (min-width:1200px) {
+  .docs-sidebar {
+    border-right: 1px solid rgba(0, 0, 0, .1)
+  }
+  @supports ((position:-webkit-sticky) or (position:sticky)) {
+    .docs-sidebar {
+      position: -webkit-sticky;
+      position: sticky;
       top: 71px;
       z-index: 1000;
       height: calc(100vh - 71px)
@@ -1569,7 +1667,7 @@ div.alert a {
 .docs-sidebar .nav>li>a {
   display: block;
   padding: .25rem 1.5rem;
-  font-size: 90%;
+  font-size: 0.8rem;
   color: rgba(0, 0, 0, .65);
 }
 
@@ -1589,6 +1687,13 @@ div.alert a {
 
 /* Docs links. */
 
+.docs-toggle {
+  line-height: 1;
+  font-size: 1.2rem;
+  color: #0095eb;
+  background-color: transparent;
+}
+
 .docs-links {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -1597,7 +1702,7 @@ div.alert a {
 }
 
 @media (min-width:768px) {
-  @supports (position: sticky) {
+  @supports ((position:-webkit-sticky) or (position:sticky)) {
     .docs-links {
       max-height: calc(100vh - 5rem - 71px);
       overflow-y: auto;
@@ -1624,8 +1729,8 @@ div.alert a {
   .docs-toc {
     position: -webkit-sticky;
     position: sticky;
-    top: 4rem;
-    height: calc(100vh - 4rem);
+    top: 71px;
+    height: calc(100vh - 71px);
     overflow-y: auto
   }
 }
@@ -1816,8 +1921,7 @@ body.dark,
 }
 
 .dark .card {
-  background: rgb(10, 12, 24);
-  box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.2);
+  background: #343a40;
 }
 
 .dark .card h4 a {
