@@ -31,7 +31,7 @@ weight = 4
   icon = "desktop"
   icon_pack = "fas"
   name = "Web design & development"
-  description = "Gavin has developed websites for individuals, businesses and my own projects. He has worked with WordPress, Django, Ruby on Rails and static site generators."  
+  description = "Gavin has created websites for individuals, businesses and his own projects. The web technologies he has deployed include WordPress, Django, Ruby on Rails and static site generators."  
   
 [[feature]]
   icon = "broadcast-tower"
