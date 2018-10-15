@@ -6,7 +6,7 @@ active = true
 date = "2016-04-20T00:00:00"
 
 title = "Projects"
-subtitle = "Things I am working on or have created"
+#subtitle = "Things I am working on or have created"
 
 # Order that this section will appear in.
 weight = 50

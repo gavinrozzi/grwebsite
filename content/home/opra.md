@@ -5,11 +5,11 @@ active = true
 date = "2018-02-24T00:00:00"
 
 title = "OPRA Research"
-subtitle = "Current things I'm researching with Open Public Records Act requests"
+subtitle = "What Gavin is researching using the Open Public Records Act"
 
 # Order that this section will appear in.
 weight = 60
 
 +++
-Data obtained from my profile on [OPRAmachine](https://opramachine.com/user/gavin_rozzi/requests):
+Data obtained via the [OPRAmachine API](https://opramachine.com/help/api):
 {{% opra %}}

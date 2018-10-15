@@ -11,7 +11,7 @@ weight = 4
 [interests]
   interests = [
     "Linux & open source",
-    "U.S. and New Jersey politics & government",
+    "U.S. and N.J. politics & government",
     "Constitutional law",
     "Drones & aerial photography",
     "Civic technology"
@@ -30,13 +30,10 @@ weight = 4
 
 +++
 
-# About Gavin Rozzi
-<strong>Gavin Rozzi</strong> is an independent journalist & web developer who has created several successful local news websites and investigative journalism platforms serving New Jersey. 
 
-His political news website <a href="https://politicsoc.com/">Ocean County Politics</a> quickly became a "must read" for political insiders and public officials with in-depth reporting about local government, campaign finance and revelations about investigations of public officials in Ocean County, NJ. Articles published on Ocean County Politics have been cited by local, regional & national news outlets.
 
-Rozzi's second web project, <a href="https://jerseyleaks.org/">JerseyLeaks</a> is a whistleblowing platform operated in collaboration with other journalists. It has helped multiple journalists securely interact with anonymous sources and disseminate materials provided by them.
+## <strong>Gavin Rozzi</strong> is an independent journalist, web developer & technology professional who has created several successful local news websites and civic technology platforms serving New Jersey. 
 
-In 2017 he launched <a href="https://opramachine.com/">OPRAmachine</a>, a statewide freedom of information portal and the first website of its kind to serve the entire state of New Jersey. The website allows anybody to easily request public documents from state and local governmental agencies under the New Jersey Open Public Records Act (OPRA).
+Since early 2016, his political news website [Ocean County Politics](https://politicsoc.com) quickly became a "must read" for its in-depth reporting about local government, campaign finance and investigations of public officials in Ocean County, NJ. Stories first broken by Gavin on Ocean County Politics are frequently cited by larger media outlets, including NJ.com, POLITICO, InsiderNJ and MSNBC's Rachel Maddow Show.
 
-Since its inception, OPRAmachine has developed into New Jersey' largest archive of state, local & county public documents, making its entire archive of documents available to the public.
+In 2017 he launched [OPRAmachine](https://opramachine.com/), a statewide freedom of information portal that automatically publishes public records requests & responses, the first website of its kind to serve New Jersey. The website, which is active in all 21 counties, allows anybody to easily request public documents from state and local government agencies under the New Jersey Open Public Records Act (OPRA).  It was the first production deployment of the open-source [Alaveteli](https://www.mysociety.org/2017/12/06/introducing-opramachine-tackling-political-corruption-in-new-jersey/) platform that targeted a single U.S. state rather than an entire country.

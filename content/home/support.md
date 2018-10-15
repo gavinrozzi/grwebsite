@@ -8,7 +8,7 @@ date = "2018-02-24T00:00:00"
 
 # Note: a full width section format can be enabled by commenting out the `title` and `subtitle` with a `#`.
 title = "Support Gavin's Work"
-subtitle = "How to support the journalism of Gavin Rozzi"
+#subtitle = "How to support Gavin Rozzi's work"
 
 # Order that this section will appear in.
 weight = 70

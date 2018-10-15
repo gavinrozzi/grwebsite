@@ -24,19 +24,19 @@ weight = 4
 [[feature]]
   icon = "file-alt"
   icon_pack = "fas"
-  name = "Public records research"
-  description = "As the creator of New Jersey's largest public records research platform, Gavin is deeply familiar with all aspects of the state Open Public Records Act."
+  name = "Public records & research"
+  description = "As the creator of New Jersey's largest public records research platform, Gavin is deeply familiar with the public records request process. With a journalistics and academic background, he is comfrotable researching and synthesizing information from various sources."
   
 [[feature]]
   icon = "desktop"
   icon_pack = "fas"
-  name = "Web design & development"
-  description = "Gavin has created websites for individuals, businesses and his own projects. The web technologies he has deployed include WordPress, Django, Ruby on Rails and static site generators."  
+  name = "Web & technology"
+  description = "Gavin is comfortable implementing and working with modern web, desktop & mobile technologies, including Linux & open source software and web development tools. His work as an IT solution provider allowed him to develop significant experience in this realm."  
   
 [[feature]]
   icon = "broadcast-tower"
   icon_pack = "fas"
   name = "Media & communications"
-  description = "In the course of his work as an independent journalist, Gavin has produced and edited written reports and editorials in addition to videos & audio podcasts. He also has experience writing press releases."
+  description = "In the course of his work as an independent journalist, Gavin has produced and edited written reports and editorials as well as videos & audio podcasts. He also has experience writing press releases."
 
 +++
