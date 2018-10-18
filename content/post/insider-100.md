@@ -1,12 +1,11 @@
 +++
 date = 2018-10-10
 draft = false
-tags = ["pol"]
 title = "'You have to read Rozzi'"
 summary = "Joining the InsiderNJ Media 100 List"
 
 [header]
-image = ""
+image = "insider100.jpg"
 caption = ""
 +++
 
