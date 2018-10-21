@@ -9,7 +9,7 @@ weight = 1
 
 # Slide interval.
 # Use `false` to disable animation or enter a time in ms, e.g. `5000` (5s).
-interval = false
+interval = 5000
 
 # Minimum slide height.
 # Specify a height to ensure a consistent height for each slide.
@@ -44,7 +44,7 @@ height = "300px"
   overlay_color = "#555"  # An HTML color value.
   overlay_img = "om-background.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.5  # Darken the image. Value in range 0-1.
-  cta_label = "Watch Webinar"
+  cta_label = "Watch the webinar"
   cta_url = "/talk/montclair/"
   cta_icon_pack = "fas"
   cta_icon = "play"
