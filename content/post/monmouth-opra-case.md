@@ -5,7 +5,7 @@ title = "Interview with Jersey Shore Online Re: Monmouth County OPRAmachine Laws
 summary = "Why we're suing Monmouth County"
 
 [header]
-image = ""
+image = "JSOquote.jpg"
 caption = ""
 +++
 
