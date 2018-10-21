@@ -11,6 +11,42 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Interview with Jersey Shore Online Re: Monmouth County OPRAmachine Lawsuit</title>
+      <link>https://www.gavinrozzi.com/post/monmouth-opra-case/</link>
+      <pubDate>Thu, 18 Oct 2018 00:00:00 -0400</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/post/monmouth-opra-case/</guid>
+      <description>
+
+&lt;h2 id=&#34;i-recently-spoke-with-jersey-shore-online-https-www-jerseyshoreonline-com-ocean-county-lawsuit-questions-when-county-can-share-public-records-about-my-participation-in-a-multi-plaintiff-open-public-records-act-lawsuit-against-the-monmouth-county-nj-government-over-their-refusal-to-answer-requests-through-my-site-opramachine-https-opramachine-com&#34;&gt;I recently spoke with &lt;a href=&#34;https://www.jerseyshoreonline.com/ocean-county/lawsuit-questions-when-county-can-share-public-records/&#34; target=&#34;_blank&#34;&gt;Jersey Shore Online&lt;/a&gt; about my participation in a multi-plaintiff Open Public Records Act lawsuit against the Monmouth County, NJ government over their refusal to answer requests through my site &lt;a href=&#34;https://opramachine.com&#34; target=&#34;_blank&#34;&gt;OPRAmachine&lt;/a&gt;.&lt;/h2&gt;
+
+&lt;p&gt;The lawsuit stems from the county&amp;rsquo;s refusal to answer legally valid public records requests submitted through the site, which automatically publishes public records requests &amp;amp; responses in all 21 counties of New Jersey.&lt;/p&gt;
+
+&lt;p&gt;In its first year of existence, the civic technology and open government website - the first of its kind targeting New Jersey state &amp;amp; local government - has streamlined and modernized the public records request process in a paperless and easy to use process.&lt;/p&gt;
+
+&lt;p&gt;Monmouth County answered requests through the site without issue throughout 2017 and most of 2018 &lt;a href=&#34;https://blog.opramachine.com/monmouth-opra-lawsuit/&#34; target=&#34;_blank&#34;&gt;until one of their employees failed to redact confidential information.&lt;/a&gt;. When the county employees made a mistake, I took swift corrective action to remove the confidential material within 1 day of being contacted about the issue.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, the county chose to punish users of my site and refuse to answer any requests through the site after the incident.&lt;/p&gt;
+
+&lt;p&gt;This is unaccaptable and an obstruction of the county&amp;rsquo;s transparency obligations under OPRA, the state&amp;rsquo;s freedom of information law. I joined in the case to stand up for our users, who have faced stalls and delays on their records requests. OPRAmachine users includ&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s the portion of the story where I was quoted:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Since announcing the lawsuit at the end of September, Rozzi has been working on changes to OPRAmachine. In an Oct. 9 email to Jersey Shore Online, he explained he’s been working to address privacy concerns raised by Monmouth County.&lt;/p&gt;
+
+&lt;p&gt;“By the end of the month, we anticipate that our changes will allow OPRAmachine to detect and automatically redact social security numbers to protect privacy interests, something that no other proprietary public records solution (that we are aware of in NJ) does,” Rozzi wrote.&lt;/p&gt;
+
+&lt;p&gt;In a separate email the same day, Rozzi explained exactly why he filed suit.&lt;/p&gt;
+
+&lt;p&gt;“We want the court to order Monmouth County to do as they have previously done and honor the legally valid public records requests submitted to them by our users. We hope that the lawsuit will stop the county from treating public records requests differently because they originate from the OPRAmachine service. To remedy the county’s obstruction of the public records request process, we are urging the court to strike down the county’s unprecedented and overreaching policy that limits access to public information and find them in violation of the law.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;read-the-full-story-at-jersey-shore-online-https-www-jerseyshoreonline-com-ocean-county-lawsuit-questions-when-county-can-share-public-records&#34;&gt;Read the full story at &lt;a href=&#34;https://www.jerseyshoreonline.com/ocean-county/lawsuit-questions-when-county-can-share-public-records/&#34; target=&#34;_blank&#34;&gt;Jersey Shore Online&lt;/a&gt;&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
       <title>&#39;You have to read Rozzi&#39;</title>
       <link>https://www.gavinrozzi.com/post/insider-100/</link>
       <pubDate>Wed, 10 Oct 2018 00:00:00 -0400</pubDate>
@@ -439,190 +475,6 @@ Wilson Mechanical applied for a permit for hot water heater...&lt;/i&gt;&lt;/p&g
 &lt;p&gt;Main &lt;a href=&#34;https://opramachine.com/&#34; target=&#34;_blank&#34;&gt;OPRAmachine&lt;/a&gt; website.&lt;/p&gt;
 
 &lt;p&gt;Read updates about the project at our &lt;a href=&#34;https://blog.opramachine.com/&#34; target=&#34;_blank&#34;&gt;blog&lt;/a&gt; here.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Ocean County Radio Live</title>
-      <link>https://www.gavinrozzi.com/project/ocradiolive/</link>
-      <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/project/ocradiolive/</guid>
-      <description>
-
-&lt;h2 id=&#34;the-new-way-to-scan-ocean-county&#34;&gt;The new way to scan Ocean County&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://ocradio.live/&#34; target=&#34;_blank&#34;&gt;Ocean County Radio Live&lt;/a&gt; is taking the technical complexity and hassle out of radio scanning in Ocean County, New Jersey. This website was launched in late January, 2018 and since that date has continued to stream &amp;amp; archive multiple police, fire &amp;amp; EMS radio channels.&lt;/p&gt;
-
-&lt;p&gt;This website is powered by the latest software defined radio (SDR) technology to process the streams of digital data produced by the Ocean County trunked radio system and also record analog conventional systems used by some departments &amp;amp; squads. The SDRs record radio transmissions and upload them to the site&amp;rsquo;s server, which allows them to easily be played and archived online. When Ocean County activates the new 700 MHz P25 Phase II radio system, our receivers will only need a simple software configuration change in order to pick up the new system&amp;rsquo;s signal. This flexibility makes SDR radios superior for this particular application, allowing us to provide a wide amount of channels on our system.&lt;/p&gt;
-
-&lt;p&gt;The system has a major advantage over all traditional forms of radio scanning as it uses &amp;ldquo;time shifting&amp;rdquo; like a DVR does when recording multiple overlapping TV shows, ensuring that &lt;strong&gt;no transmissions are missed&lt;/strong&gt;, since traditional scanners can only hold on just one channel - potentially missing other calls that could be taking place on different talkgroups.&lt;/p&gt;
-
-&lt;p&gt;This system is powered by multiple R820T SDRs running on a desktop computer and connected to the front-end web server accessed by end users.&lt;/p&gt;
-
-&lt;p&gt;As our base of users continues to grow, I intend on covering more radio systems and adding them to this system.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&#34;https://ocradio.live/&#34; target=&#34;_blank&#34;&gt;Ocean County Radio Live&lt;/a&gt; web application is based on the open-source &lt;a href=&#34;https://github.com/ScanOC/trunk-player&#34; target=&#34;_blank&#34;&gt;Trunk-Player&lt;/a&gt; Django project. So far, I have contributed one &lt;a href=&#34;https://github.com/ScanOC/trunk-player/commit/8dbc011c96bf19951bc9fa1fbf6c37d5e215dc4a&#34; target=&#34;_blank&#34;&gt;pull request&lt;/a&gt; to the upstream open source software that powers the project, and I plan to contribute more in the future as my schedule allows.&lt;/p&gt;
-
-&lt;h3 id=&#34;current-scan-list-lineup&#34;&gt;Current scan list lineup&lt;/h3&gt;
-
-&lt;ul&gt;
-
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/brick-fire-ems/&#34;&gt;Brick Fire &amp;amp; EMS&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/cape-may-county/&#34;&gt;Cape May County&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/delaware-river-bridges/&#34;&gt;Delaware River Bridges&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/garden-state-parkway/&#34;&gt;Garden State Parkway&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/lacey-twp-police-fire-ems/&#34;&gt;Lacey Twp. Police, Fire &amp;amp; EMS&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/monmouth-county/&#34;&gt;Monmouth County&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/monoc-paramedics/&#34;&gt;MONOC Paramedics&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/new-jersey-dep/&#34;&gt;New Jersey DEP&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/new-jersey-dot/&#34;&gt;New Jersey DOT&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/new-jersey-fish-wildlife/&#34;&gt;New Jersey Fish &amp;amp; Wildlife&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/new-jersey-state-police/&#34;&gt;New Jersey State Police&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/new-jersey-transit-police/&#34;&gt;New Jersey Transit Police&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/new-jersey-turnpike/&#34;&gt;New Jersey Turnpike&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/nj-interoperability-com-sys/&#34;&gt;NJ Interoperability Com. Sys&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/ocean-county-ems/&#34;&gt;Ocean County EMS&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/ocean-county-fire/&#34;&gt;Ocean County Fire&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/ocean-county-law-enforcement/&#34;&gt;Ocean County Law Enforcement&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/ocean-county-p25/&#34;&gt;Ocean County (P25)&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/ocean-county-services/&#34;&gt;Ocean County Services&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/oc-prosecutor-sheriff/&#34;&gt;OC Prosecutor &amp;amp; Sheriff&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/seaside-heights-park/&#34;&gt;Seaside Heights &amp;amp; Park&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/southern-ocean-county/&#34;&gt;Southern Ocean County&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/toms-river-fire-ems/&#34;&gt;Toms River Fire &amp;amp; EMS&lt;/a&gt;&lt;/li&gt;
-
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;sample-talkgroups-channel-lineup-click-to-scan&#34;&gt;Sample talkgroups &amp;amp; channel lineup (click to scan)&lt;/h3&gt;
-
-&lt;ul&gt;
-
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4149/&#34;&gt;#4149&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/416/&#34;&gt;#416&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4169/&#34;&gt;#4169&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4171/&#34;&gt;#4171&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4173/&#34;&gt;#4173&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4175/&#34;&gt;#4175&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4181/&#34;&gt;#4181&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4183/&#34;&gt;#4183&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4185/&#34;&gt;#4185&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4189/&#34;&gt;#4189&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4195/&#34;&gt;#4195&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4263/&#34;&gt;#4263&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4265/&#34;&gt;#4265&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4355/&#34;&gt;#4355&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4367/&#34;&gt;#4367&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4375/&#34;&gt;#4375&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4377/&#34;&gt;#4377&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4381/&#34;&gt;#4381&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4395/&#34;&gt;#4395&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4397/&#34;&gt;#4397&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4415/&#34;&gt;#4415&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4417/&#34;&gt;#4417&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4421/&#34;&gt;#4421&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4461/&#34;&gt;#4461&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/44800/&#34;&gt;#44800&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4497/&#34;&gt;#4497&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4547/&#34;&gt;#4547&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/45480/&#34;&gt;#45480&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4567/&#34;&gt;#4567&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4577/&#34;&gt;#4577&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4585/&#34;&gt;#4585&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4591/&#34;&gt;#4591&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4593/&#34;&gt;#4593&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/45946/&#34;&gt;#45946&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4595/&#34;&gt;#4595&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4649/&#34;&gt;#4649&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/46668/&#34;&gt;#46668&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/46815/&#34;&gt;#46815&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/46908/&#34;&gt;#46908&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/47095/&#34;&gt;#47095&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4723/&#34;&gt;#4723&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4735/&#34;&gt;#4735&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/47420/&#34;&gt;#47420&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4745/&#34;&gt;#4745&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4757/&#34;&gt;#4757&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/47668/&#34;&gt;#47668&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4769/&#34;&gt;#4769&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4777/&#34;&gt;#4777&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4779/&#34;&gt;#4779&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/48904/&#34;&gt;#48904&lt;/a&gt;&lt;/li&gt;
-
-&lt;/ul&gt;
 </description>
     </item>
     
