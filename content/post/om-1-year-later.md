@@ -38,11 +38,11 @@ Some of our users have benefitted from OPRAmachine without even making a request
 
 Whatever their individual use case may be, the common thread among them has been that our paperless, streamlined process has simplified the public records request process while saving time & resources for all concerned.
 
-OPRAmachine could not have seen the level of success that is has without the support it has received from our stakeholders & community. I'd like to thank all of our users, especially our most persistent requestors as well as our volunteer administrator, Jeff Epstein, who has handled many issues with the site & inquiries from users when I am unavailable. 
+OPRAmachine could not have seen the level of success that it has without the support it has received from our stakeholders & community. I'd like to thank all of our users, especially our most persistent requestors as well as our volunteer administrator, Jeff Epstein, who has handled many issues with the site & inquiries from users when I am unavailable. 
 
 I would also like to thank the government officials that have had a dialogue with me in the course of running the service & dealing with administrative issues. I found it heartening that many of the township clerks I engaged with appreciated the mission of the site and the increased transparency it provides residents.
 
-Also deserving of recognition is our legal counsel, CJ Griffin, Esq. and Walters Luers, Esq. They have both been tremendous assets and we would be at a significant disadvantage without their expertise.
+Also deserving of recognition is our legal counsel, CJ Griffin, Esq. and Walter Luers, Esq. They have both been tremendous assets and we would be at a significant disadvantage without their expertise.
 
 While I am optimistic about the success we have attained in just one short year, there are some significant hurdles that we still must overcome to ensure the continued success of OPRAmachine. Going forward, the challenge will be to educate certain [reactionary government officials](https://aeanj.org/wp-content/uploads/AEA-Authority-View-Summer-2018.pdf) about the benefits of the service and advocating for legislative reform that favors electronic disclosure. 
 
