@@ -11,6 +11,66 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>OPRAmachine: 1 Year Later</title>
+      <link>https://www.gavinrozzi.com/post/om-1-year-later/</link>
+      <pubDate>Wed, 24 Oct 2018 00:00:00 -0400</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/post/om-1-year-later/</guid>
+      <description>
+
+&lt;h2 id=&#34;one-year-ago-today-i-launched-opramachine-https-opramachine-com-and-it-has-been-making-a-significant-impact-on-all-levels-of-new-jersey-government-since-its-inception&#34;&gt;One year ago today, I launched &lt;a href=&#34;https://opramachine.com/&#34; target=&#34;_blank&#34;&gt;OPRAmachine&lt;/a&gt;, and it has been making a significant impact on all levels of New Jersey government since its inception.&lt;/h2&gt;
+
+&lt;p&gt;OPRAmachine began with a simple premise: to maximize government transparency in New Jersey by automatically publishing public records requests &amp;amp; responses.&lt;/p&gt;
+
+&lt;p&gt;The site&amp;rsquo;s unique approach to public records helps individuals get answers to their personal OPRA requests, but also serves the entire community by contributing to a growing statewide archive of public knowledge.&lt;/p&gt;
+
+&lt;p&gt;Public records that normally would have been provided to just one requestor are now stored in perpetuity and infinitely accessible to others that may have an interest in them using the service, something that proprietary solutions like GovQA fail to adequately do.&lt;/p&gt;
+
+&lt;p&gt;New Jersey is a state that has been known for its many layers of government, with 565 municipalities and countless school districts, MUAs and other independent authorities. OPRAmachine makes navigating the various layers of government simple for both those new to requesting public records and those with experience.&lt;/p&gt;
+
+&lt;p&gt;Rather than hunting for email addresses on town websites or dealing with &lt;a href=&#34;https://www16.state.nj.us/NJ_OPRA/department.jsp&#34; target=&#34;_blank&#34;&gt;poorly designed online systems that are relics of a bygone era in web design&lt;/a&gt;, OPRAmachine is realizing the dream of a single, unified &amp;amp; open platform for transparency in all 21 counties of the state.&lt;/p&gt;
+
+&lt;p&gt;I first came up with the idea of creating a site like OPRAmachine in late 2016 and began working on testing and customizing the &lt;a href=&#34;https://alaveteli.org/deployments/&#34; target=&#34;_blank&#34;&gt;open-source code&lt;/a&gt; that powers the site throughout 2017. By October of last year, we pulled back the curtain and let the public start making requests.&lt;/p&gt;
+
+&lt;p&gt;The early days of the site were wrought with technical challenges, and high demand in the first weeks resulted in OPRAmachine&amp;rsquo;s server being brought down multiple times. After overcoming those initial challenges, we were proud to have no major downtime during business hours that would have prevented responses to public records requests being received by our server.&lt;/p&gt;
+
+Since October, 2017, OPRAmachine has seen:
+&lt;ul&gt;
+  
+  &lt;li&gt;&lt;strong&gt;2794&lt;/strong&gt; public records requests&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;2079&lt;/strong&gt; followup messages sent&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;382&lt;/strong&gt; registered users&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;934&lt;/strong&gt; public bodies&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;99&lt;/strong&gt; annotations added to requests&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;241&lt;/strong&gt; tracked requests&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;In the days and months that followed the launch, the site has since taken on a life of its own, and I continue to be impressed by the new use cases that have emerged as more people began to adopt the site.&lt;/p&gt;
+
+&lt;p&gt;We have an incredible, diverse group of users who have benefitted from the site. Our users represent a cross-section of the stakeholders that benefits from increased access to public information.&lt;/p&gt;
+
+&lt;p&gt;They include attorneys, traditional &amp;amp; digital journalists, college professors, real estate &amp;amp; property management professionals, public officials, private investigators, environmental consultants and perhaps most importantly, private citizens interested in learning more about the inner workings of their state &amp;amp; local government.&lt;/p&gt;
+
+&lt;p&gt;Some of our users have benefitted from OPRAmachine without even making a request of their own. Some receive email alerts for specific towns and keywords found in requests, while our full collection of documents is indexed by search engines like Google and often appears in their results.&lt;/p&gt;
+
+&lt;p&gt;Whatever their individual use case may be, the common thread among them has been that our paperless, streamlined process has simplified the public records request process while saving time &amp;amp; resources for all concerned.&lt;/p&gt;
+
+&lt;p&gt;OPRAmachine could not have seen the level of success that is has without the support it has received from our stakeholders &amp;amp; community. I&amp;rsquo;d like to thank all of our users, especially our most persistent requestors as well as our volunteer administrator, Jeff Epstein, who has handled many issues with the site &amp;amp; inquiries from users when I am unavailable.&lt;/p&gt;
+
+&lt;p&gt;I would also like to thank the government officials that have had a dialogue with me in the course of running the service &amp;amp; dealing with administrative issues. I found it heartening that many of the township clerks I engaged with appreciated the mission of the site and the increased transparency it provides residents.&lt;/p&gt;
+
+&lt;p&gt;Also deserving of recognition is our legal counsel, CJ Griffin, Esq. and Walters Luers, Esq. They have both been tremendous assets and we would be at a significant disadvantage without their expertise.&lt;/p&gt;
+
+&lt;p&gt;While I am optimistic about the success we have attained in just one short year, there are some significant hurdles that we still must overcome to ensure the continued success of OPRAmachine. Going forward, the challenge will be to educate certain &lt;a href=&#34;https://aeanj.org/wp-content/uploads/AEA-Authority-View-Summer-2018.pdf&#34; target=&#34;_blank&#34;&gt;reactionary government officials&lt;/a&gt; about the benefits of the service and advocating for legislative reform that favors electronic disclosure.&lt;/p&gt;
+
+&lt;p&gt;It is my goal to work with government agencies as much as we can, but when all else fails, we will pursue litigation against those government agencies that &lt;a href=&#34;https://www.gavinrozzi.com/post/monmouth-opra-case/&#34;&gt;arbitrarily &amp;amp; unlawfully refuse to process requests&lt;/a&gt; on the basis that they are submitted through the site, and encourage our users to do the same.&lt;/p&gt;
+
+&lt;p&gt;In closing, we&amp;rsquo;ve covered a lot of ground during the first year of OPRAmachine&amp;rsquo;s existence, but our work is far from over. Thank you all of those who have supported us on this journey.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Interview with Jersey Shore Online Re: Monmouth County OPRAmachine Lawsuit</title>
       <link>https://www.gavinrozzi.com/post/monmouth-opra-case/</link>
       <pubDate>Thu, 18 Oct 2018 00:00:00 -0400</pubDate>
@@ -377,104 +437,6 @@ for then-New Jersey Governor Chris Christie&amp;rsquo;s usage of State Police he
 &lt;p&gt;&lt;a href=&#34;https://www.gavinrozzi.com/files/Cert of Gavin Rozzi for Libertarians-SP2.pdf&#34;&gt;Read my certification&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B66zM58TlOVKRTZERjNvNm1xM0U/view&#34; target=&#34;_blank&#34;&gt;Read the full complaint&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>OPRAmachine</title>
-      <link>https://www.gavinrozzi.com/project/opramachine/</link>
-      <pubDate>Sat, 10 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/project/opramachine/</guid>
-      <description>
-
-&lt;h2 id=&#34;opening-up-new-jersey-government&#34;&gt;Opening up New Jersey government&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://opramachine.com/&#34; target=&#34;_blank&#34;&gt;OPRAmachine.com&lt;/a&gt; is a first of its kind government transparency project that I recently launched to serve the citizens of the state of New Jersey. The site is powered by the New Jersey &lt;strong&gt;Open Public Records Act&lt;/strong&gt; (OPRA), a freedom of information law that allows any citizen of the state to request public records from state and local government agencies.&lt;/p&gt;
-
-&lt;h3 id=&#34;how-it-works&#34;&gt;How it works&lt;/h3&gt;
-
-&lt;p&gt;OPRAmachine is breaking down barriers by explaining aspects of the OPRA request process. The site allows any citizen to easily file a legally valid public records request and includes a directory that currently includes all 565 municipalities in the state, as well as various state and county governmental agencies. The site has enabled requesters to obtain thousands of pages worth of public records, helping to shine a light on some of the more obscure elements of New Jersey state and local government.&lt;/p&gt;
-
-&lt;p&gt;A unique benefit that OPRAmachine provides is that once a public entity provides documents in response to a request, the documents are subsequently stored in the site&amp;rsquo;s database and made public, allowing the entire public to be able to reap the benefits. This model reduces duplicate requests and serves to further the OPRA law&amp;rsquo;s purpose of maximizing the citizenry&amp;rsquo;s knowledge of public affairs.&lt;/p&gt;
-
-&lt;h3 id=&#34;thousands-of-pages-released&#34;&gt;Thousands of pages released&lt;/h3&gt;
-
-&lt;p&gt;Since its inception in October, 2017, the OPRAmachine platform has enabled the release of thousands of pages of government documents. Our database of public bodoies currently includes all 565 municipalities in New Jersey, with more public bodies being added on a regular basis.
-The site has been making an impact and has been used as a research tool by public officials, journalists and activists seeking to obtain authoritative information about public entities in the state. We recently added a &lt;a href=&#34;https://docs.opramachine.com/&#34; target=&#34;_blank&#34;&gt;documentation&lt;/a&gt; that includes detailed information about the process of making a request through the site, as well as reference material concerning the legal and site administration issues that may arise as a result of the site&amp;rsquo;s operation.&lt;/p&gt;
-
-&lt;h3 id=&#34;praise-for-opramachine&#34;&gt;Praise for OPRAmachine&lt;/h3&gt;
-
-&lt;p&gt;&amp;ldquo;One of the most important tools making New Jersey government more transparent.&amp;rdquo;
-- &lt;a href=&#34;https://www.facebook.com/CitizensMediaTV/posts/1661839777229733&#34; target=&#34;_blank&#34;&gt;Citizens Media TV&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;Thanks to Gavin Rozzi’s “OPRA Machine” website, the Atlantic County Government can no longer pretend to be transparent. Now they must do it for real.&amp;rdquo;
-- &lt;a href=&#34;https://atlanticcountynews.com/2017/11/29/atlantic-county-sexual-harassment-payouts-fly-right-below-the-radar/&#34; target=&#34;_blank&#34;&gt;Atlantic County News&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;The latest installation of our Alaveteli software, OPRAmachine, is an interesting new use of the platform. Rather than covering a whole country, as most of the other Alaveteli installations around the world do, it services just a single US state.&amp;rdquo;
-- Gemma Moulder, of the UK-based mySociety, which &lt;a href=&#34;https://www.mysociety.org/2017/12/06/introducing-opramachine-tackling-political-corruption-in-new-jersey/&#34; target=&#34;_blank&#34;&gt;created the open-source software&lt;/a&gt; that powers the OPRAmachine platform.&lt;/p&gt;
-
-&lt;h3 id=&#34;opramachine-s-impact-in-new-jersey&#34;&gt;OPRAmachine&amp;rsquo;s impact in New Jersey&lt;/h3&gt;
-
-&lt;p&gt;Following four months of work, I reflected on some of the accomplishments of the web service &lt;a href=&#34;https://blog.opramachine.com/four-months-later-opramachine-making-an-impact/&#34; target=&#34;_blank&#34;&gt;in this blog post&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;by-the-numbers&#34;&gt;By the numbers&lt;/h3&gt;
-
-Since October, 2017, OPRAmachine has seen:
-&lt;ul&gt;
-  
-  &lt;li&gt;&lt;strong&gt;2710&lt;/strong&gt; public records requests&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;2036&lt;/strong&gt; followup messages sent&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;364&lt;/strong&gt; registered users&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;933&lt;/strong&gt; public bodies&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;98&lt;/strong&gt; annotations added to requests&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;232&lt;/strong&gt; tracked requests&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;h3 id=&#34;latest-opra-requests&#34;&gt;Latest OPRA requests&lt;/h3&gt;
-
-&lt;p&gt;Powered by the OPRAmachine API&lt;/p&gt;
-
-&lt;ul&gt;
-  
-  
-   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/htpd_sick_days_logs&#34; target=&#34;&#34;&gt;HTPD Sick Days logs&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/holmdel_township&#34; target=&#34;&#34;&gt;Holmdel Township&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: Time for Reply NJ&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Successful.&lt;/strong&gt;&lt;p&gt;&lt;i&gt;Good Morning,
-
-  
-
- Attached are the responsive documents to your OPRA request I received on
- October 3 2018.
-
-  
-
- This is a complete response to the...&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
-  
-   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/open_permits_4&#34; target=&#34;&#34;&gt;Open Permits&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/pilesgrove_township&#34; target=&#34;&#34;&gt;Pilesgrove Township&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: jessica martin&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Successful.&lt;/strong&gt;&lt;p&gt;&lt;i&gt;Ms. Martin - 
-
-This is what my office received from the Township Construction Department:
-
-Wilson Mechanical applied for a permit for hot water heater...&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
-  
-   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/open_permits_5&#34; target=&#34;&#34;&gt;Open Permits&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/medford_township&#34; target=&#34;&#34;&gt;Medford Township&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: jessica martin&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Successful.&lt;/strong&gt;&lt;p&gt;&lt;i&gt;Attached please find the response to the OPRA Request that was submitted
- to Medford Township on October 5, 2018.  Thank you for your request.
-
-  
-
-  ...&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
-  
-&lt;/ul&gt;
-
-
-&lt;h3 id=&#34;chart-of-requests&#34;&gt;Chart of requests&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://opramachine.com/foi-live-creation.png&#34; alt=&#34;OPRAmachine graph&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;links&#34;&gt;Links&lt;/h3&gt;
-
-&lt;p&gt;Main &lt;a href=&#34;https://opramachine.com/&#34; target=&#34;_blank&#34;&gt;OPRAmachine&lt;/a&gt; website.&lt;/p&gt;
-
-&lt;p&gt;Read updates about the project at our &lt;a href=&#34;https://blog.opramachine.com/&#34; target=&#34;_blank&#34;&gt;blog&lt;/a&gt; here.&lt;/p&gt;
 </description>
     </item>
     

@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2013-2018 Gavin Rozzi</copyright>
-    <lastBuildDate>Wed, 22 Aug 2018 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 24 Oct 2018 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://www.gavinrozzi.com/tags/opramachine/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>OPRAmachine: 1 Year Later</title>
+      <link>https://www.gavinrozzi.com/post/om-1-year-later/</link>
+      <pubDate>Wed, 24 Oct 2018 00:00:00 -0400</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/post/om-1-year-later/</guid>
+      <description>One year ago today, I launched OPRAmachine, and it has been making a significant impact on all levels of New Jersey government since its inception. OPRAmachine began with a simple premise: to maximize government transparency in New Jersey by automatically publishing public records requests &amp;amp; responses.
+The site&amp;rsquo;s unique approach to public records helps individuals get answers to their personal OPRA requests, but also serves the entire community by contributing to a growing statewide archive of public knowledge.</description>
+    </item>
     
     <item>
       <title>OPRAmachine Webinar at Montclair</title>
