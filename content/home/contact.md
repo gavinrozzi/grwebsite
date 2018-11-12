@@ -13,4 +13,6 @@ weight = 80
 # Automatically link email and phone?
 autolink = true
 
+email_form = 1
+
 +++

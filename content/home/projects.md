@@ -4,7 +4,7 @@
 widget = "projects"
 active = true
 date = "2016-04-20T00:00:00"
-
+folder = "project"
 title = "Projects"
 #subtitle = "Things I am working on or have created"
 
@@ -13,7 +13,7 @@ weight = 50
 
 # View.
 # Customize how projects are displayed.
-# Legend: 0 = list, 1 = cards.
+# Legend: 0 = list, 1 = cards, 2 = showcase.
 view = 1
 
 # Filter toolbar.
@@ -24,23 +24,23 @@ filter_default = 0
 # Add or remove as many filters (`[[filter]]` instances) as you like.
 # Use "*" tag to show all projects or an existing tag prefixed with "." to filter by specific tag.
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
-[[filter]]
-  name = "All"
-  tag = "*"
-
-[[filter]]
-  name = "Transparency"
-  tag = ".opra"
-
-[[filter]]
-  name = "Journalism"
-  tag = ".pol"
-
-[[filter]]
-  name = "Public Interest Litigation"
-  tag = ".legal"
-
-[[filter]]
-  name = "Amateur Radio"
-  tag = ".radio"
+#[[filter]]
+#  name = "All"
+#  tag = "*"
+#
+#[[filter]]
+#  name = "Transparency"
+#  tag = ".opra"
+#
+#[[filter]]
+#  name = "Journalism"
+#  tag = ".pol"
+#
+#[[filter]]
+#  name = "Public Interest Litigation"
+#  tag = ".legal"
+#
+#[[filter]]
+#  name = "HAM Radio"
+#  tag = ".radio"
 +++
