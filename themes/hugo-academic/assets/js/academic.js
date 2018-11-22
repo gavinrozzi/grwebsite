@@ -252,6 +252,21 @@
   }
 
   /* ---------------------------------------------------------------------------
+  * Toggle search dialog.
+  * --------------------------------------------------------------------------- */
+
+  function toggleSearchDialog() {
+    if ($('body').hasClass('searching')) {
+      $('[id=search-query]').blur();
+      $('body').removeClass('searching');
+    } else {
+      $('body').addClass('searching');
+      $('.search-results').css({opacity: 0, visibility: 'visible'}).animate({opacity: 1}, 200);
+      $('#search-query').focus();
+    }
+  }
+
+  /* ---------------------------------------------------------------------------
    * On window load.
    * --------------------------------------------------------------------------- */
 
@@ -366,6 +381,23 @@
     // Print latest Academic version if necessary.
     if ($('#academic-release').length > 0)
       printLatestRelease('#academic-release', $('#academic-release').data('repo'));
+
+    // On search icon click toggle search dialog.
+    $('.js-search').click(function(e) {
+      e.preventDefault();
+      toggleSearchDialog();
+    });
+    $(document).on('keydown', function(e){
+      if (e.which == 27) {
+        if ($('body').hasClass('searching')) {
+          toggleSearchDialog();
+        }
+      } else if (e.which == 191) {
+        e.preventDefault();
+        toggleSearchDialog();
+      }
+    });
+
   });
 
 })(jQuery);

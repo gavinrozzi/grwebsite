@@ -10,16 +10,16 @@ weight = 4
 # List your academic interests.
 [interests]
   interests = [
-    "Linux & open source",
-    "U.S. and N.J. politics & government",
+    "Linux, open source & Python",
+    "Politics & government",
     "Constitutional law",
-    "Drones & aerial photography",
+    "Aerial photography",
     "Civic technology"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "Expected B.A. in Political Science"
+  course = "B.A., Political Science"
   institution = "Stockton University"
   year = 2018
 

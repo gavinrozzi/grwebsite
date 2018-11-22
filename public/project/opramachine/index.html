@@ -128,6 +128,37 @@
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header fixed-top">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
 
 <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
   <div class="container">
@@ -146,7 +177,7 @@
 
       
       
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav mr-auto">
         
 
         
@@ -272,25 +303,6 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#support">
-            
-            <span>Support My Work</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
           <a class="nav-link" href="/#contact">
             
             <span>Contact</span>
@@ -303,6 +315,12 @@
 
       
 
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
         
 
         
@@ -478,12 +496,12 @@ The site has been making an impact and has been used as a research tool by publi
 Since October, 2017, OPRAmachine has seen:
 <ul>
   
-  <li><strong>2933</strong> public records requests</li>
-  <li><strong>2130</strong> followup messages sent</li>
-  <li><strong>397</strong> registered users</li>
-  <li><strong>936</strong> public bodies</li>
-  <li><strong>103</strong> annotations added to requests</li>
-  <li><strong>247</strong> tracked requests</li>
+  <li><strong>3016</strong> public records requests</li>
+  <li><strong>2166</strong> followup messages sent</li>
+  <li><strong>412</strong> registered users</li>
+  <li><strong>937</strong> public bodies</li>
+  <li><strong>110</strong> annotations added to requests</li>
+  <li><strong>254</strong> tracked requests</li>
 </ul>
 
 
@@ -494,22 +512,48 @@ Since October, 2017, OPRAmachine has seen:
 <ul>
   
   
-   <li><a href="https://opramachine.com/request/open_permits_22" target="">Open Permits</a><p>Requested from: <a href="https://opramachine.com/body/atlantic_city" target="">Atlantic City</a></p><p>Requested by: jessica martin</p> <p>Status: <strong>Successful.</strong><p><i>Good morning,
+   <li><a href="https://opramachine.com/request/petitions_forms_for_2018_general" target="">Petitions forms for 2018 general election</a><p>Requested from: <a href="https://opramachine.com/body/bridgeton_city" target="">Bridgeton City</a></p><p>Requested by: Nathan Goldschmidt</p> <p>Status: <strong>Successful.</strong><p><i>Mr. Goldschmidt
 
   
 
- Attached please find responses to your request from the following
- Departments;
+             This has fulfilled your Opra request.
 
- Code Enforcement has no open permits for 217 N. C...</i></p></li>
+  
+
+ Thank You
+
+  
+
+  
+
+ Mimi Garcia, Deputy Municipal Clerk
+
+ Alternate Deput...</i></p></li>
   
-   <li><a href="https://opramachine.com/request/open_permits_39" target="">Open Permits</a><p>Requested from: <a href="https://opramachine.com/body/haddonfield_borough" target="">Haddonfield Borough</a></p><p>Requested by: jessica martin</p> <p>Status: <strong>Successful.</strong><p><i>Ms. Martin -
+   <li><a href="https://opramachine.com/request/records_request_for_school_bus_t" target="">Records request for school bus transportation</a><p>Requested from: <a href="https://opramachine.com/body/jackson_township_school_district" target="">Jackson Township School District</a></p><p>Requested by: Anthony</p> <p>Status: <strong>Successful.</strong><p><i>Dear Anthony,
+ See below and attached the response to your OPRA request.  Please let me
+ know you received this e-mail.
 
-In reference to your Open Public Records Act request shown below, please note that the Construction Office has informed me that there are...</i></p></li>
+ Answer to #1 – 163
+
+  
+
+ Answ...</i></p></li>
   
-   <li><a href="https://opramachine.com/request/open_permits_35" target="">Open permits</a><p>Requested from: <a href="https://opramachine.com/body/cape_may_city" target="">Cape May City</a></p><p>Requested by: jessica martin</p> <p>Status: <strong>Successful.</strong><p><i>Good Afternoon Jessica, 
+   <li><a href="https://opramachine.com/request/golden_nugget_incident" target="">Golden Nugget Incident</a><p>Requested from: <a href="https://opramachine.com/body/atlantic_county_prosecutors_office" target="">Atlantic County Prosecutor&#39;s Office</a></p><p>Requested by: Anonymous</p> <p>Status: <strong>Partially successful.</strong><p><i>Please find attached the response letter, form, and documents that are
+ response you the above captioned request.
 
-Please be advised that the property of 921 Shirley Avenue, Cape May, NJ 08204 is not located within Cape May City. Thus, we h...</i></p></li>
+  
+
+  
+
+  
+
+ Sincerely,
+
+  
+
+     Dy...</i></p></li>
   
 </ul>
 
@@ -875,7 +919,7 @@ Please be advised that the property of 921 Shirley Avenue, Cape May, NJ 08204 is
       const search_index_filename = "/index.json";
       const i18n = {
         'placeholder': "Search...",
-        'results': "Search Results",
+        'results': "results found",
         'no_results': "No results found"
       };
       const content_type = {
@@ -922,7 +966,7 @@ Please be advised that the property of 921 Shirley Avenue, Cape May, NJ 08204 is
     
     
     
-    <script src="/js/academic.min.2861db6bcf2db4b5eade32c795453e47.js"></script>
+    <script src="/js/academic.min.74b0d3361475b08c40cf31120e82937b.js"></script>
 
     
 

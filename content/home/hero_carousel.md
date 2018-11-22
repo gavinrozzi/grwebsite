@@ -42,7 +42,7 @@ height = "300px"
   align = "center"
 
   overlay_color = "#555"  # An HTML color value.
-  overlay_img = "om-background.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "headers/om-background-header.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.5  # Darken the image. Value in range 0-1.
   cta_label = "Watch the webinar"
   cta_url = "/talk/montclair/"
@@ -57,7 +57,18 @@ height = "300px"
   cta_icon_pack = "fas"
   cta_icon = "award"
   overlay_color = "#333"  # An HTML color value.
-  overlay_img = "insider100.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "insider100-highres.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+[[item]]
+  title = "SDR-powered scanning"
+  content = "Watch Gavin's talk at DEF CON 2018 in Las Vegas"
+  align = "left"
+  cta_label = "View the talk"
+  cta_url = "/talk/ocradiodefcon/"
+  cta_icon_pack = "fas"
+  cta_icon = "broadcast-tower"
+  overlay_color = "#333"  # An HTML color value.
+  overlay_img = "headers/ocradiotalk-header.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.5  # Darken the image. Value in range 0-1.
 
 +++
