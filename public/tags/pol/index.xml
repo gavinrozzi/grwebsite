@@ -13,15 +13,6 @@
     
     
     <item>
-      <title>JerseyLeaks</title>
-      <link>https://www.gavinrozzi.com/project/jerseyleaks/</link>
-      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/project/jerseyleaks/</guid>
-      <description>Enabling whistleblowers to report public corruption JerseyLeaks is a public corruption whistleblowing &amp;amp; transparaency initiative. The site serves as a collaborative journalism tool that allows sources to confidentially leak documents to reporters using an encrypted online system. The documents are encrypted at rest and in transit using the OpenPGP public keys of journalists using the open-source Globaleaks software, ensuring the privacy of sources. The system allows whistleblowers with knowledge of public corruption to submit documents to journalists who may publish them as a part of an investigative story.</description>
-    </item>
-    
-    <item>
       <title>Ocean County Politics</title>
       <link>https://www.gavinrozzi.com/project/politicsoc/</link>
       <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>

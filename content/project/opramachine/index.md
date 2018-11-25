@@ -8,9 +8,6 @@ title = "OPRAmachine"
 # Project summary to display on homepage.
 summary = "New Jersey's first statewide freedom of information platform"
 
-# Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "OMhome.jpeg"
-
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
 tags = ["data", "transparency"]
@@ -20,10 +17,10 @@ external_link = ""
 
 # Does the project detail page use math formatting?
 math = false
+url_custom = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com/opramachine"}]
 
 # Optional featured image (relative to `static/img/` folder).
-[header]
-image = "OMhome.jpg"
+[image]
 caption = "A screenshot of the OPRAmachine.com homepage"
 
 +++

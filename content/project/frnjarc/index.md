@@ -20,7 +20,7 @@ external_link = ""
 
 # Does the project detail page use math formatting?
 math = false
-
+url_custom = [{icon_pack = "fas", icon="laptop", name="Visit site", url = "https://frnjarc.org/"}]
 # Optional featured image (relative to `static/img/` folder).
 [header]
 image = ""

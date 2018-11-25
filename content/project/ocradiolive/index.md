@@ -21,6 +21,8 @@ external_link = ""
 # Does the project detail page use math formatting?
 math = false
 
+url_custom = [{icon_pack = "fas", icon="broadcast-tower", name="Start scanning", url = "https://ocradio.live/scan/default/"}]
+
 # Optional featured image (relative to `static/img/` folder).
 [header]
 image = ""
