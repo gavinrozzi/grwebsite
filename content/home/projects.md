@@ -24,23 +24,19 @@ filter_default = 0
 # Add or remove as many filters (`[[filter]]` instances) as you like.
 # Use "*" tag to show all projects or an existing tag prefixed with "." to filter by specific tag.
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
-#[[filter]]
-#  name = "All"
-#  tag = "*"
-#
-#[[filter]]
-#  name = "Transparency"
-#  tag = ".opra"
-#
-#[[filter]]
-#  name = "Journalism"
-#  tag = ".pol"
-#
-#[[filter]]
-#  name = "Public Interest Litigation"
-#  tag = ".legal"
-#
-#[[filter]]
-#  name = "HAM Radio"
-#  tag = ".radio"
+[[filter]]
+  name = "All"
+  tag = "*"
+
+[[filter]]
+  name = "Data Science"
+  tag = ".data"
+
+[[filter]]
+  name = "Writing"
+  tag = ".pol"
+
+[[filter]]
+  name = "Amateur Radio"
+  tag = ".radio"
 +++

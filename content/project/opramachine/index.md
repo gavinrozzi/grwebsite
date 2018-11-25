@@ -13,7 +13,7 @@ image_preview = "OMhome.jpeg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["opra"]
+tags = ["data", "transparency"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -23,7 +23,7 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = ""
+image = "OMhome.jpg"
 caption = "A screenshot of the OPRAmachine.com homepage"
 
 +++
