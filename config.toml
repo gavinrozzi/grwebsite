@@ -290,7 +290,5 @@ defaultContentLanguageInSubdir = false
 [params.search]
   engine = 1
 
-twitter = gavroz
-
-sharing_image = thumbnail.JPG
-
+twitter = "gavroz"
+sharing_image = "thumbnail.JPG"

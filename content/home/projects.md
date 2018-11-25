@@ -9,12 +9,12 @@ title = "Projects"
 #subtitle = "Things I am working on or have created"
 
 # Order that this section will appear in.
-weight = 50
+weight = 10
 
 # View.
 # Customize how projects are displayed.
 # Legend: 0 = list, 1 = cards, 2 = showcase.
-view = 1
+view = 2
 
 # Filter toolbar.
 

@@ -26,40 +26,30 @@ Here is their official announcement of the event, copied below:
     
     <item>
       <title>Rozzi v. Office of the Attorney General</title>
-      <link>https://www.gavinrozzi.com/project/rozzivoag/</link>
+      <link>https://www.gavinrozzi.com/legal/rozzivoag/</link>
       <pubDate>Sat, 23 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gavinrozzi.com/project/rozzivoag/</guid>
+      <guid>https://www.gavinrozzi.com/legal/rozzivoag/</guid>
       <description>Attorney General&amp;rsquo;s Office violated public records law by witholding email logs Legal Counsel: CJ Griffin, Esq. - Pashman Stein Walder Hayden
 The New Jersey Attorney General&amp;rsquo;s Office was found to have violated the Open Public Records Act by denying my request for copies of email logs for the OAG&amp;rsquo;s custodian of records. I requested the email logs as a part of my advocacy on behalf of my statewide freedom of information website, OPRAmachine.</description>
     </item>
     
     <item>
       <title>Libertarians for Transparent Government v. New Jersey State Police</title>
-      <link>https://www.gavinrozzi.com/project/njsplawsuit/</link>
+      <link>https://www.gavinrozzi.com/legal/njsplawsuit/</link>
       <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gavinrozzi.com/project/njsplawsuit/</guid>
+      <guid>https://www.gavinrozzi.com/legal/njsplawsuit/</guid>
       <description>New Jersey State Police held accountable in court for stalling on public records requests The case Libertarians for Transparent Government v. New Jersey State Police was an important case that revealed unacceptable practices by the New Jersey State Police.
 The case revealed a pattern and practice of failure to comply with the requirements of the state&amp;rsquo;s Open Public Records Act (OPRA) after a judge in the case issued a ruling.</description>
     </item>
     
     <item>
-      <title>OPRAmachine</title>
-      <link>https://www.gavinrozzi.com/project/opramachine/</link>
-      <pubDate>Sat, 10 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/project/opramachine/</guid>
-      <description>Opening up New Jersey government OPRAmachine.com is a first of its kind government transparency project that I recently launched to serve the citizens of the state of New Jersey. The site is powered by the New Jersey Open Public Records Act (OPRA), a freedom of information law that allows any citizen of the state to request public records from state and local government agencies.
-How it works OPRAmachine is breaking down barriers by explaining aspects of the OPRA request process.</description>
-    </item>
-    
-    <item>
       <title>Rozzi v. Lacey Township Board of Education</title>
-      <link>https://www.gavinrozzi.com/project/rozzivlaceyboe/</link>
+      <link>https://www.gavinrozzi.com/legal/rozzivlaceyboe/</link>
       <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gavinrozzi.com/project/rozzivlaceyboe/</guid>
+      <guid>https://www.gavinrozzi.com/legal/rozzivlaceyboe/</guid>
       <description>Fee demand for public records declared &amp;ldquo;unreasonable and unwarranted&amp;rdquo; Legal Counsel: Pro Se
 GRC Complaint 2015-224
 Statutory provision at issue: N.J.S.A. 47:1A-5(c.)
@@ -68,10 +58,10 @@ After being on their docket for close to two years, the New Jersey Government Re
     
     <item>
       <title>Rozzi v. Ocean County Prosecutor&#39;s Office</title>
-      <link>https://www.gavinrozzi.com/project/rozzivocp/</link>
+      <link>https://www.gavinrozzi.com/legal/rozzivocp/</link>
       <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gavinrozzi.com/project/rozzivocp/</guid>
+      <guid>https://www.gavinrozzi.com/legal/rozzivocp/</guid>
       <description>Legal Counsel: Pro Se
 GRC Complaint 2015-250
 Statutory provision at issue: N.J.S.A. 47:1A-5(g.) 
@@ -81,17 +71,6 @@ Holding
 The New Jersey Government Records Council (GRC)
 response provided to an Open Public Records Act (OPRA) request was legally insufficient under the OPRA law&amp;rsquo;s requirements.
 This case was filed at the same time a lawsuit that was filed against the OCPO by open government activist Harry Scheeler.</description>
-    </item>
-    
-    <item>
-      <title>Toms River 911 Call Explorer</title>
-      <link>https://www.gavinrozzi.com/project/tomsriver-911/</link>
-      <pubDate>Sun, 10 Jul 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/project/tomsriver-911/</guid>
-      <description>The Toms River 911 Call Explorer is a small web development project that I created in the summer of 2018 order to make visualzing data that I obtained using an OPRA request.
-Content on the website is rendered using the Hugo static site generator, with the request thread on OPRAmachine hosting the actual CSV file with 911 call data.
-Columns from the CSV file are rendered on the homepage of the site after being pulled from OPRAmachine.</description>
     </item>
     
   </channel>

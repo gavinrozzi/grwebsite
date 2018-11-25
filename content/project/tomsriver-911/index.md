@@ -6,7 +6,7 @@ date = "2016-07-10"
 title = "Toms River 911 Call Explorer"
 
 # Project summary to display on homepage.
-summary = "Website to show Toms River Fire District 1 calls for service"
+summary = "Data visualization project that shows fire & EMS calls using Python"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "tr911.jpeg"
@@ -28,7 +28,7 @@ caption = ""
 
 +++
 
-The [Toms River 911 Call Explorer](https://tomsriver911.ocscanner.news) is a small web development project that I
+The [Toms River 911 Call Explorer](https://tr911test.rozzi.media) is a small web development project that I
 created in the summer of 2018 order to make visualzing [data that I obtained using an OPRA request](https://opramachine.com/request/active911_call_data_may_1st_to_j_2).
 
 Content on the website is rendered using the Hugo static site generator, with the request thread on OPRAmachine hosting the actual CSV file with 911 call data.

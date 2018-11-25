@@ -84,7 +84,7 @@
     
     <url>
     
-      <loc>https://www.gavinrozzi.com/project/rozzivoag/</loc>
+      <loc>https://www.gavinrozzi.com/legal/rozzivoag/</loc>
       <lastmod>2018-06-23T00:00:00+00:00</lastmod>
     </url>
     
@@ -116,7 +116,7 @@
     
     <url>
     
-      <loc>https://www.gavinrozzi.com/project/njsplawsuit/</loc>
+      <loc>https://www.gavinrozzi.com/legal/njsplawsuit/</loc>
       <lastmod>2018-02-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -164,7 +164,7 @@
     
     <url>
     
-      <loc>https://www.gavinrozzi.com/project/rozzivlaceyboe/</loc>
+      <loc>https://www.gavinrozzi.com/legal/rozzivlaceyboe/</loc>
       <lastmod>2017-12-12T00:00:00+00:00</lastmod>
     </url>
     
@@ -172,7 +172,7 @@
     
     <url>
     
-      <loc>https://www.gavinrozzi.com/project/rozzivocp/</loc>
+      <loc>https://www.gavinrozzi.com/legal/rozzivocp/</loc>
       <lastmod>2017-12-12T00:00:00+00:00</lastmod>
     </url>
     
@@ -297,6 +297,15 @@
     
     <url>
     
+      <loc>https://www.gavinrozzi.com/legal/</loc>
+      <lastmod>2018-06-23T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://www.gavinrozzi.com/tags/opra/</loc>
       <lastmod>2018-08-17T00:00:00-04:00</lastmod>
       <priority>0</priority>
@@ -316,7 +325,7 @@
     <url>
     
       <loc>https://www.gavinrozzi.com/project/</loc>
-      <lastmod>2018-06-23T00:00:00+00:00</lastmod>
+      <lastmod>2018-02-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -378,6 +387,15 @@
     
     <url>
     
+      <loc>https://www.gavinrozzi.com/tags/data/</loc>
+      <lastmod>2018-02-10T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://www.gavinrozzi.com/tags/legal/</loc>
       <lastmod>2018-06-23T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -407,6 +425,15 @@
     
       <loc>https://www.gavinrozzi.com/tags/radio/</loc>
       <lastmod>2018-08-07T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://www.gavinrozzi.com/tags/transparency/</loc>
+      <lastmod>2018-02-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

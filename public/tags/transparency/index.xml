@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>transparency on Gavin Rozzi</title>
+    <link>https://www.gavinrozzi.com/tags/transparency/</link>
+    <description>Recent content in transparency on Gavin Rozzi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2013-2018 Gavin Rozzi</copyright>
+    <lastBuildDate>Sat, 10 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.gavinrozzi.com/tags/transparency/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OPRAmachine</title>
+      <link>https://www.gavinrozzi.com/project/opramachine/</link>
+      <pubDate>Sat, 10 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/project/opramachine/</guid>
+      <description>Opening up New Jersey government OPRAmachine.com is a first of its kind government transparency project that I recently launched to serve the citizens of the state of New Jersey. The site is powered by the New Jersey Open Public Records Act (OPRA), a freedom of information law that allows any citizen of the state to request public records from state and local government agencies.
+How it works OPRAmachine is breaking down barriers by explaining aspects of the OPRA request process.</description>
+    </item>
+    
+  </channel>
+</rss>

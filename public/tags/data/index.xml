@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data on Gavin Rozzi</title>
+    <link>https://www.gavinrozzi.com/tags/data/</link>
+    <description>Recent content in data on Gavin Rozzi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2013-2018 Gavin Rozzi</copyright>
+    <lastBuildDate>Sat, 10 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.gavinrozzi.com/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OPRAmachine</title>
+      <link>https://www.gavinrozzi.com/project/opramachine/</link>
+      <pubDate>Sat, 10 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/project/opramachine/</guid>
+      <description>Opening up New Jersey government OPRAmachine.com is a first of its kind government transparency project that I recently launched to serve the citizens of the state of New Jersey. The site is powered by the New Jersey Open Public Records Act (OPRA), a freedom of information law that allows any citizen of the state to request public records from state and local government agencies.
+How it works OPRAmachine is breaking down barriers by explaining aspects of the OPRA request process.</description>
+    </item>
+    
+    <item>
+      <title>Toms River 911 Call Explorer</title>
+      <link>https://www.gavinrozzi.com/project/tomsriver-911/</link>
+      <pubDate>Sun, 10 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/project/tomsriver-911/</guid>
+      <description>The Toms River 911 Call Explorer is a small web development project that I created in the summer of 2018 order to make visualzing data that I obtained using an OPRA request.
+Content on the website is rendered using the Hugo static site generator, with the request thread on OPRAmachine hosting the actual CSV file with 911 call data.
+Columns from the CSV file are rendered on the homepage of the site after being pulled from OPRAmachine.</description>
+    </item>
+    
+  </channel>
+</rss>
