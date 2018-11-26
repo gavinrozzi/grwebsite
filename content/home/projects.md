@@ -30,13 +30,13 @@ filter_default = 0
 
 [[filter]]
   name = "Data Science"
-  tag = ".data"
+  tag = "data"
 
 [[filter]]
   name = "Writing"
-  tag = ".pol"
+  tag = "pol"
 
 [[filter]]
   name = "Amateur Radio"
-  tag = ".radio"
+  tag = "radio"
 +++
