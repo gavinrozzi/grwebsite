@@ -20,7 +20,7 @@ height = "300px"
 [[item]]
   title = "Welcome"
   content = "Thank you for visiting Gavin Rozzi's official website!"
-  align = "center"  # Choose `center`, `left`, or `right`.
+  align = "left"  # Choose `center`, `left`, or `right`.
 
   # Overlay a color or image (optional).
   #   Deactivate an option by commenting out the line, prefixing it with `#`.
@@ -38,8 +38,8 @@ height = "300px"
 
 [[item]]
   title = "Simplifying N.J. public records"
-  content = "Watch Gavin's webinar about how [OPRAmachine](/project/opramachine) is making the research process easier."
-  align = "center"
+  content = "Watch Gavin's webinar at Montclair University."
+  align = "left"
 
   overlay_color = "#555"  # An HTML color value.
   overlay_img = "headers/om-background-header.jpg"  # Image path relative to your `static/img/` folder.
