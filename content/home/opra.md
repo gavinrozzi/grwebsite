@@ -8,7 +8,7 @@ title = "OPRA Research"
 subtitle = "What Gavin is researching using the Open Public Records Act"
 
 # Order that this section will appear in.
-weight = 60
+weight = 70
 
 +++
 Data obtained via the [OPRAmachine API](https://opramachine.com/help/api):
