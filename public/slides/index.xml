@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Slides on Gavin Rozzi</title>
+    <link>https://www.gavinrozzi.com/slides/</link>
+    <description>Recent content in Slides on Gavin Rozzi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2013-2018 Gavin Rozzi</copyright>
+    
+	<atom:link href="https://www.gavinrozzi.com/slides/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Reimagining the police scanner in the era of the SDR</title>
+      <link>https://www.gavinrozzi.com/slides/ocradio-cyberspectrum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/slides/ocradio-cyberspectrum/</guid>
+      <description>📶 Reimagining the police scanner in the era of the SDR Taking scanning to the next level using distributed RTLSDR receivers &amp;amp; open source software
+Presented by Gavin Rozzi Cyberspectrum #23 @ DEF CON 2018
+August 9th, 2018
+SDR has the potential to expand public knowledge while reducing cost &amp;amp; complexity The problem with hardware scanners Hardware scanners are expensive Digital scanners especially those capable of newer digital protocols are pricey.</description>
+    </item>
+    
+    <item>
+      <title>Using OPRAmachine to file public records requests without the hassle</title>
+      <link>https://www.gavinrozzi.com/slides/montclair/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/slides/montclair/</guid>
+      <description>📑: Using OPRAmachine to file public records requests without the hassle Streamline your public records requests with New Jersey&amp;rsquo;s public records request &amp;amp; research platform.
+Gavin Rozzi Presented by the Montclair University Center for Cooperative Media
+August 21st, 2018
+Transparency matters but getting results from NJ government can be be difficult OPRAmachine is a tool that is simplifying public records requests in New Jersey OPRAmachine allows users to send &amp;amp; track public records requests It then publishes all documents &amp;amp; correspondence online OPRAmachine is built on the premise that everything should be public.</description>
+    </item>
+    
+  </channel>
+</rss>

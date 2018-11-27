@@ -35,7 +35,7 @@ tags = ["opra"]
 
 # Links (optional).
 url_pdf = "/files/montclair-slides.pdf"
-url_slides = "https://montclair.opramachine.com/"
+slides = "montclair"
 url_video = "https://www.youtube.com/watch?v=_1E2tWOOWzU"
 url_code = ""
 

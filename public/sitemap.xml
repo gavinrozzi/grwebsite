@@ -352,9 +352,31 @@
     
     <url>
     
+      <loc>https://www.gavinrozzi.com/slides/ocradio-cyberspectrum/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://www.gavinrozzi.com/slides/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://www.gavinrozzi.com/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://www.gavinrozzi.com/slides/montclair/</loc>
     </url>
     
   
