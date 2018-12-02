@@ -292,3 +292,4 @@ defaultContentLanguageInSubdir = false
 
 twitter = "gavroz"
 sharing_image = "thumbnail.JPG"
+day_night = true
