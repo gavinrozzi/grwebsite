@@ -15,7 +15,7 @@ weight = 55
 
 +++
 
-**Ocean County College (Fall, 2017 semester):**
+**Ocean County College (Fall, 2017):**
 
 - ALDC 102 - [Addictions Counseling II ](https://legacy.ocean.edu/content/public/study-on-campus/academics/college-catalog.html/courses/5305)
 
@@ -23,9 +23,9 @@ In this class, working with Professor John A. Brogan, Sr., I participated in an 
 
 A significant role that I played in this class was providing technology assistance to the professor and helping to modernize teaching methods.
 
-**Stockton University (Fall, 2018 semester):**
+**Stockton University (Fall, 2018):**
 
-For the fall, 2018 semester I am serving as the teaching assistant for two of Professor Linda J. Wharton's classes at Stockton. Both courses feature in-depth study & discussion of key decisions of the United States Supreme Court.
+For the fall, 2018 semester I served as the teaching assistant for two of Professor Linda J. Wharton's classes at Stockton. Both courses feature in-depth study & discussion of key decisions of the United States Supreme Court.
 
 - POLS 3221 - [Constitutional Law](https://www.coursicle.com/stockton/courses/POLS/3221/)
 
