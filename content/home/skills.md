@@ -25,7 +25,7 @@ weight = 4
   icon = "file-alt"
   icon_pack = "fas"
   name = "Public records & research"
-  description = "As the creator of New Jersey's largest public records research platform, Gavin is deeply familiar with the public records request process. With a journalistics and academic background, he is comfrotable researching and synthesizing information from various sources."
+  description = "As the creator of New Jersey's largest public records research platform, Gavin is deeply familiar with the public records request process. With a journalistic and academic background, he is comfortable researching and synthesizing information from various sources."
   
 [[feature]]
   icon = "desktop"
