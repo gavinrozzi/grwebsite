@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2013-2018 Gavin Rozzi</copyright>
-    <lastBuildDate>Wed, 24 Oct 2018 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 09 Feb 2019 00:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://www.gavinrozzi.com/tags/opramachine/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Rozzi Wins Excellence in Local News Award</title>
+      <link>https://www.gavinrozzi.com/post/innovatelocal-award/</link>
+      <pubDate>Sat, 09 Feb 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/post/innovatelocal-award/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>OPRAmachine: 1 Year Later</title>
