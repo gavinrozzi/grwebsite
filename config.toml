@@ -47,7 +47,7 @@ defaultContentLanguageInSubdir = false
   organizations = [ { name = "Rozzi Media Group", url = "https://rozzi.media/" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "gcr.JPG"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "gr@gavinrozzi.com"
   address = "P.O. Box 32 Lanoka Harbor, New Jersey, 08734"
   office_hours = ""
