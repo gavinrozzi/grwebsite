@@ -25,7 +25,7 @@ height = "300px"
   # Overlay a color or image (optional).
   #   Deactivate an option by commenting out the line, prefixing it with `#`.
   overlay_color = "#666"  # An HTML color value.
-  overlay_img = "gavin-tr.JPG"  # Image path relative to your `static/img/` folder.
+  overlay_img = "headers/bubbles-wide.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.5  # Darken the image. Value in range 0-1.
 
   # Call to action button (optional).
@@ -36,6 +36,18 @@ height = "300px"
   cta_icon_pack = "fas"
   cta_icon = "comment"
 
+[[item]]
+  title = "Rozzi Wins Excellence in Local News Award"
+  content = "First place in the Innovate Local category"
+  align = "left"
+
+  overlay_color = "#555"  # An HTML color value.
+  overlay_img = "IMG_9903.JPG"  # Image path relative to your `static/img/` folder.
+  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+  cta_label = "Read about the award"
+  cta_url = "/post/innovatelocal-award/"
+  cta_icon_pack = "fas"
+  cta_icon = "award"
 [[item]]
   title = "Simplifying N.J. public records"
   content = "Watch Gavin's webinar at Montclair University."
