@@ -164,6 +164,21 @@ The data can be used to [map incidents](https://tr911test.rozzi.media/) and stud
 
 ---
 
+## Your assignment
+{{% fragment %}} - Use OPRA to obtain data about addiction in your community.{{% /fragment %}}
+
+{{% fragment %}} - Use the data to make 3 evidence-based recommendations to your mayor and police chief about how to address problem areas.{{% /fragment %}}
+
+{{% fragment %}} - Write a memo implementing your ideas. Support your recommendations with citations to the data.{{% /fragment %}}
+
+---
+
+## Previous ALDC + RMG Collaboration
+Jobs program (2017)
+{{< youtube VwVaF-4063Y >}}
+
+---
+
 # Questions?
 
 ---
