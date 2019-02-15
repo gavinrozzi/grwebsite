@@ -48,7 +48,11 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = ""
+image = "opiodcover.jpg"
 caption = ""
 
 +++
+
+After the presentation, Ocean County College addiction studies students are going to implement the concepts discussed in the talk [in order to complete their term project.](/files/ALDC 101 Term Project Assignment.pdf)
+
+The project is going to see students use public records to identify trends in overdose incidents and drug activity in their communities. The students will use the data to write a memo to their local decisionmakers and make three recommendations about how to combat addiction, making citations to the data they obtain.

@@ -24,6 +24,11 @@ url_custom = [{icon_pack = "fas", icon="file", name="Search public records", url
 caption = "A screenshot of the OPRAmachine.com homepage"
 
 +++
+## Winner of the 2019 Excellence in Local News Award
+OPRAmachine won in the "Innovate Local" category for the site's innovative approach to public records. [Details about the award are available here.](https://politicsoc.com/2019/02/rozzi-wins-statewide-journalism-award/)
+<img src="/img/innovate.png" width=40%>
+
+
 ## Opening up New Jersey government
 
 [OPRAmachine.com](https://opramachine.com/) is a first of its kind government transparency project that I recently launched to serve the citizens of the state of New Jersey. The site is powered by the New Jersey **Open Public Records Act** (OPRA), a freedom of information law that allows any citizen of the state to request public records from state and local government agencies.
