@@ -6,11 +6,21 @@
     <description>Recent content in opra on Gavin Rozzi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2013-2018 Gavin Rozzi</copyright>
-    <lastBuildDate>Tue, 31 Jul 2018 00:00:00 -0400</lastBuildDate>
+    <copyright>&amp;copy; 2013-2019 Gavin Rozzi</copyright>
+    <lastBuildDate>Tue, 12 Feb 2019 00:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://www.gavinrozzi.com/tags/opra/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A data-driven approach to combatting addiction</title>
+      <link>https://www.gavinrozzi.com/talk/occopiatecrisis/</link>
+      <pubDate>Tue, 12 Feb 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/talk/occopiatecrisis/</guid>
+      <description>After the presentation, Ocean County College addiction studies students are going to implement the concepts discussed in the talk in order to complete their term project.
+The project is going to see students use public records to identify trends in overdose incidents and drug activity in their communities. The students will use the data to write a memo to their local decisionmakers and make three recommendations about how to combat addiction, making citations to the data they obtain.</description>
+    </item>
     
     <item>
       <title>Using OPRAmachine to file public records requests without the hassle</title>

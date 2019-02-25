@@ -6,7 +6,7 @@
     <description>Recent content in Homes on Gavin Rozzi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2013-2018 Gavin Rozzi</copyright>
+    <copyright>&amp;copy; 2013-2019 Gavin Rozzi</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://www.gavinrozzi.com/home/index.xml" rel="self" type="application/rss+xml" />
@@ -14,10 +14,19 @@
     
     <item>
       <title></title>
-      <link>https://www.gavinrozzi.com/home/hero_carousel/</link>
-      <pubDate>Sun, 15 Oct 2017 00:00:00 -0400</pubDate>
+      <link>https://www.gavinrozzi.com/home/slider/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.gavinrozzi.com/home/hero_carousel/</guid>
+      <guid>https://www.gavinrozzi.com/home/slider/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biography</title>
+      <link>https://www.gavinrozzi.com/home/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/home/about/</guid>
       <description></description>
     </item>
     
@@ -31,15 +40,6 @@
     </item>
     
     <item>
-      <title></title>
-      <link>https://www.gavinrozzi.com/home/about/</link>
-      <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/home/about/</guid>
-      <description>Gavin Rozzi is an award-winning independent journalist, web developer &amp;amp; technology professional who has created several successful local news websites and civic technology platforms serving New Jersey. Since early 2016, his political news website Ocean County Politics quickly became a &amp;ldquo;must read&amp;rdquo; for its in-depth reporting about local government, campaign finance and investigations of public officials in Ocean County, NJ. Stories first broken by Gavin on Ocean County Politics are frequently cited by larger media outlets, including NJ.</description>
-    </item>
-    
-    <item>
       <title>Skills</title>
       <link>https://www.gavinrozzi.com/home/skills/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
@@ -49,18 +49,27 @@
     </item>
     
     <item>
+      <title>Accomplish&amp;shy;ments</title>
+      <link>https://www.gavinrozzi.com/home/accomplishments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/home/accomplishments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Articles by Gavin</title>
       <link>https://www.gavinrozzi.com/home/articles/</link>
       <pubDate>Sat, 24 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.gavinrozzi.com/home/articles/</guid>
-      <description>Ocean County Politics Gilmore&amp;#8217;s Office Reviewing Lacey Water Line Deal Former Point Beach Mayor Barrella to Seek LD10 Seat Lawsuit: &amp;#8220;Widespread Corruption&amp;#8221; Plagues Lakewood </description>
+      <description>Ocean County Politics DEP Finds Violations at Berkeley Municipal Complex Prosecution &amp;#8220;Unimpressed&amp;#8221; by Gilmore Hoarding Defense OPRA Complaint Targets Point Beach Mayor&amp;#8217;s Anti-Legalization Lobbying </description>
     </item>
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://www.gavinrozzi.com/home/talks/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.gavinrozzi.com/home/talks/</guid>
       <description></description>
@@ -76,15 +85,6 @@
     </item>
     
     <item>
-      <title>Selected Publications</title>
-      <link>https://www.gavinrozzi.com/home/publications_selected/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/home/publications_selected/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Projects</title>
       <link>https://www.gavinrozzi.com/home/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
@@ -94,18 +94,27 @@
     </item>
     
     <item>
+      <title>Featured Publications</title>
+      <link>https://www.gavinrozzi.com/home/publications_featured/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/home/publications_featured/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Blog</title>
       <link>https://www.gavinrozzi.com/home/posts/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.gavinrozzi.com/home/posts/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Recent Publications</title>
+      <title>Publications</title>
       <link>https://www.gavinrozzi.com/home/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.gavinrozzi.com/home/publications/</guid>
       <description></description>
@@ -139,12 +148,12 @@ Some of the types of projects I am interested include:
       <pubDate>Sat, 24 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.gavinrozzi.com/home/opra/</guid>
-      <description>Data obtained via the OPRAmachine API: Resolution rescinding approval of South Winds agreementRequested from: Lacey Township
-Status: Clarification
-This is a request for public records made under OPRA and the common law right of access. I am not required to fill out an official form. Please ackn...
-Forked River Fire Calls to GSP 2018Requested from: New Jersey State Police
-Status: Clarification
-This is a request for public records made under OPRA and the common law right of access.</description>
+      <description>Data obtained via the OPRAmachine API: Forked River Fire Calls to GSP 2018Requested from: New Jersey State Police
+Status: Information not held.
+Please see attached. CONFIDENTIALITY NOTICE The information contained in this communication from the Division of State Police is privileged and conf...
+Active911 Call Data - November 2018 to January 2019Requested from: Toms River FD1
+Status: Response
+Please see attached file for the above request. Also, please note that only data from 11-14-2018 was available.</description>
     </item>
     
     <item>
