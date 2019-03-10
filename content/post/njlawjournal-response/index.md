@@ -60,7 +60,7 @@ The Monmouth County government and its legal counsel instead chose to attempt to
 
 As our attorney Walter Luers wrote in a brief for the case "Attempts by public agencies to force records custodians to use specific forms or to make followup requests after they have been denied access to records or to limit the right to make a request to citizens of this State have failed. This case is no different."
 
-[Their new legally specious OPRA policy](https://opramachine.com/request/monmouth_county_division_of_soci_4#incoming-3976) says that they county will deny any OPRA request solely on the basis that the email address indicates the records will be automatically published on the internet. In addition to demonstrating an ignorance of how modern technology works, the policy adopted by Monmouth County contravenes both the letter and spirit of the Open Public Records Act.
+[Their new legally specious OPRA policy](https://opramachine.com/request/monmouth_county_division_of_soci_4#incoming-3976) says that the county will deny any OPRA request solely on the basis that the email address indicates the records will be automatically published on the internet. In addition to demonstrating an ignorance of how modern technology works, the policy adopted by Monmouth County contravenes both the letter and spirit of the Open Public Records Act.
 
 Additionally, as the court observed in [Asbury Park Press v. Ocean Cty. Prosecutor's Office](https://caselaw.findlaw.com/nj-superior-court/1492514.html), 374 N.J. Super. 312 (Law. Div. 2004):
 
