@@ -10,7 +10,7 @@ time_end = 2018-08-10T01:00:00
 
 # Abstract and optional shortened version.
 abstract = ""
-abstract_short = ""
+summary = ""
 
 # Name of event and optional event URL.
 event = "Cyberspectrum #23 @ DEF CON 2018"

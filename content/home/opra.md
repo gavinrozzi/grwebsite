@@ -1,6 +1,7 @@
 +++
 # OPRA widget.
 widget = "custom"
+headless = true 
 active = true
 date = "2018-02-24T00:00:00"
 

@@ -10,7 +10,7 @@ time_end = 2019-02-15T19:00:00
 
 # Abstract and optional shortened version.
 abstract = "I will be speaking about how the New Jersey Open Public Records Act (OPRA) can be applied to researching the opiod addiction crisis. Using example requests, I will show how addiction professionals can tap into various types of police records and data to track the extent of the opiod crisis, including overdoses."
-abstract_short = ""
+summary = ""
 
 # Name of event and optional event URL.
 event = "A data-driven approach to combatting addiction"

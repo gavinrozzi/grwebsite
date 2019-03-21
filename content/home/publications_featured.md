@@ -4,6 +4,7 @@
 # `featured = true` in their front matter.
 
 widget = "featured"  # Do not modify this line!
+headless = true 
 active = false  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 

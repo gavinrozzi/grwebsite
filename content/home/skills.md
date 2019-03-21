@@ -1,6 +1,7 @@
 +++
 # Feature/Skill widget.
 widget = "featurette"  # Do not modify this line!
+headless = true 
 date = 2017-09-20T00:00:00
 
 # Activate this widget? true/false

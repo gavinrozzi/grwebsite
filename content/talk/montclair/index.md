@@ -10,7 +10,7 @@ time_end = 2018-08-21T15:00:00
 
 # Abstract and optional shortened version.
 abstract = "I will be presenting an in-person and webinar event about OPRAmachine, my statewide freedom of information platform serving New Jersey."
-abstract_short = ""
+summary = ""
 
 # Name of event and optional event URL.
 event = "Using OPRAmachine to file public records requests without the hassle"

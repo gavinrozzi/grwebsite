@@ -1,6 +1,7 @@
 +++
 # Accomplishments widget.
 widget = "accomplishments"  # Do not modify this line!
+headless = true 
 active = true  # Activate this widget? true/false
 
 title = "Accomplish&shy;ments"

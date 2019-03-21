@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gavin on Gavin Rozzi</title>
+    <link>https://www.gavinrozzi.com/authors/gavin/</link>
+    <description>Recent content in gavin on Gavin Rozzi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2013-2019 Gavin Rozzi</copyright>
+    
+	<atom:link href="https://www.gavinrozzi.com/authors/gavin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://www.gavinrozzi.com/author/gavin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/author/gavin/</guid>
+      <description>Gavin Rozzi is an award-winning independent journalist, web developer &amp;amp; technology professional who has created several successful local news websites and civic technology platforms serving New Jersey. Since early 2016, his political news website Ocean County Politics quickly became a &amp;ldquo;must read&amp;rdquo; for its in-depth reporting about local government, campaign finance and investigations of public officials in Ocean County, NJ. Stories first broken by Gavin on Ocean County Politics are frequently cited by larger media outlets, including NJ.</description>
+    </item>
+    
+  </channel>
+</rss>

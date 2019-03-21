@@ -17,7 +17,7 @@ external_link = ""
 
 # Does the project detail page use math formatting?
 math = false
-url_custom = [{icon_pack = "fas", icon="file", name="Search public records", url = "https://opramachine.com/"}]
+links = [{icon_pack = "fas", icon="file", name="Search public records", url = "https://opramachine.com/"}]
 
 # Optional featured image (relative to `static/img/` folder).
 [image]
