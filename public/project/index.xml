@@ -6,7 +6,7 @@
     <description>Recent content in Projects on Gavin Rozzi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2013 - {year} Gavin Rozzi</copyright>
+    <copyright>&amp;copy; 2013-2019 Gavin Rozzi</copyright>
     <lastBuildDate>Sat, 10 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.gavinrozzi.com/project/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
       <pubDate>Sat, 10 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.gavinrozzi.com/project/opramachine/</guid>
-      <description>Winner of the 2019 Excellence in Local News Award OPRAmachine won in the &amp;ldquo;Innovate Local&amp;rdquo; category for the site&amp;rsquo;s innovative approach to public records. Details about the award are available here. Opening up New Jersey government OPRAmachine.com is a first of its kind government transparency project that I recently launched to serve the citizens of the state of New Jersey. The site is powered by the New Jersey Open Public Records Act (OPRA), a freedom of information law that allows any citizen of the state to request public records from state and local government agencies.</description>
+      <description>New Jersey&amp;rsquo;s first statewide freedom of information platform</description>
     </item>
     
     <item>
@@ -27,8 +27,7 @@
       <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.gavinrozzi.com/project/ocradiolive/</guid>
-      <description>The new way to scan Ocean County Ocean County Radio Live is taking the technical complexity and hassle out of radio scanning in Ocean County, New Jersey. This website was launched in late January, 2018 and since that date has continued to stream &amp;amp; archive multiple police, fire &amp;amp; EMS radio channels.
-This website is powered by the latest software defined radio (SDR) technology to process the streams of digital data produced by the Ocean County trunked radio system and also record analog conventional systems used by some departments &amp;amp; squads.</description>
+      <description>Online SDR trunked radio scanner &amp;amp; archive for Ocean County, NJ</description>
     </item>
     
     <item>
@@ -37,7 +36,7 @@ This website is powered by the latest software defined radio (SDR) technology to
       <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://www.gavinrozzi.com/project/frnjarc/</guid>
-      <description>Serving the Forked River, NJ amateur radio community The Forked River Amateur Radio Club is a new amateur radio club formed to serve amateur radio community of Forked River, NJ and surrounding areas. I currently serve as both the vice president and webmaster of the club. We anticipate on pursuing several projects through this club, such as 2 meter FM repeater and 70 cm band DMR system to cover the Lacey area.</description>
+      <description>HAM radio club serving the greater Forked River, NJ area</description>
     </item>
     
     <item>
@@ -46,8 +45,7 @@ This website is powered by the latest software defined radio (SDR) technology to
       <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://www.gavinrozzi.com/project/politicsoc/</guid>
-      <description>Ocean County&amp;rsquo;s source political news &amp;amp; commentary Ocean County Politics is an independent news website that covers politics and public affairs in the greater Ocean County, NJ region. Ocean County Politics has become known for publishing in-depth accounts of county and municipal governmental activities and behind-the-scenes activities that influence the county&amp;rsquo;s political climate.
-In addition to providing insightful commentary and news, the site also features reader contributed op-eds and letters to the editor.</description>
+      <description>Political news and commentary for the Jersey Shore</description>
     </item>
     
     <item>
@@ -56,9 +54,7 @@ In addition to providing insightful commentary and news, the site also features 
       <pubDate>Sun, 10 Jul 2016 00:00:00 +0000</pubDate>
       
       <guid>https://www.gavinrozzi.com/project/tomsriver-911/</guid>
-      <description>The Toms River 911 Call Explorer is a small web development project that I created in the summer of 2018 order to make visualzing data that I obtained using an OPRA request.
-Content on the website is rendered using the Hugo static site generator, with the request thread on OPRAmachine hosting the actual CSV file with 911 call data.
-Columns from the CSV file are rendered on the homepage of the site after being pulled from OPRAmachine.</description>
+      <description>Data visualization project that shows fire &amp;amp; EMS calls using Python</description>
     </item>
     
   </channel>

@@ -6,7 +6,7 @@
     <description>Recent content in WordPress on Gavin Rozzi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2013 - {year} Gavin Rozzi</copyright>
+    <copyright>&amp;copy; 2013-2019 Gavin Rozzi</copyright>
     <lastBuildDate>Wed, 10 Sep 2014 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://www.gavinrozzi.com/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
@@ -18,10 +18,7 @@
       <pubDate>Wed, 10 Sep 2014 00:00:00 -0400</pubDate>
       
       <guid>https://www.gavinrozzi.com/post/ciomag/</guid>
-      <description>CIO Magazine wanted my take on tips you can take to improve search engine rankings for small business websites for an article entitled &amp;ldquo;Top 25 DIY Tips for Better SEO.&amp;rdquo;
-Here’s what I had to say:
- WordPress is, in essence, a blogging platform. But many businesses use it as the content management system for a complete website.
-Yoast’s WordPress SEO Plugin (free) is a favorite among many SEO experts. “I recommend it to my clients because it allows the automation and easy integration of important SEO strategies,” says Gavin Rozzi, president, Gavin Rozzi Technology.</description>
+      <description>I speak with CIO Magazine about WordPress</description>
     </item>
     
   </channel>

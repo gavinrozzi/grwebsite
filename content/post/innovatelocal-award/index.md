@@ -1,7 +1,7 @@
 +++
 date = 2019-02-09
 draft = false
-tags = ["OPRAmachine"]
+tags = ["OPRAmachine", "Awards"]
 title = "Rozzi Wins Excellence in Local News Award"
 summary = "Gavin Rozzi wins the 2019 Excellence in Local News Award in the Innovate Local category from NJ News Commons"
 

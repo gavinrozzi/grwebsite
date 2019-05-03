@@ -2,8 +2,8 @@
 date = 2018-10-18
 draft = false
 title = "Interview with Jersey Shore Online Re: Monmouth County OPRAmachine Lawsuit"
-summary = "Why we're suing Monmouth County"
-
+summary = "Why we're suing Monmouth County for violating OPRA"
+tags = ["OPRAmachine", "Legal", "In the news"]
 [header]
 image = "JSOquote.jpg"
 caption = ""

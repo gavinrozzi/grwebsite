@@ -6,11 +6,20 @@
     <description>Recent content in OPRAmachine on Gavin Rozzi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2013 - {year} Gavin Rozzi</copyright>
-    <lastBuildDate>Sat, 09 Mar 2019 00:00:00 -0500</lastBuildDate>
+    <copyright>&amp;copy; 2013-2019 Gavin Rozzi</copyright>
+    <lastBuildDate>Fri, 03 May 2019 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://www.gavinrozzi.com/tags/opramachine/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Interview with NJ Tech Weekly</title>
+      <link>https://www.gavinrozzi.com/post/njtech-interview/</link>
+      <pubDate>Fri, 03 May 2019 00:00:00 -0400</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/post/njtech-interview/</guid>
+      <description>I spoke with NJ Tech Weekly&amp;rsquo;s Esther Surden on the impact of OPRAmachine</description>
+    </item>
     
     <item>
       <title>Response to NJ Law Journal Article</title>
@@ -18,7 +27,7 @@
       <pubDate>Sat, 09 Mar 2019 00:00:00 -0500</pubDate>
       
       <guid>https://www.gavinrozzi.com/post/njlawjournal-response/</guid>
-      <description>I am writing in response to Jonathan Frodella’s article that appeared in the January 17th, 2019 edition of the New Jersey Law Journal entitled “Victims of Serious Crimes Need More Protection Under OPRA.” Mr. Frodella - whose article was written from the perspective of an attorney that advises municipal clerks - contends that services that automatically publish public records requests and responses such as OPRAmachine, which I founded in 2017, serve to create a “complication” for custodians of records by not requiring individuals to certify whether or not they were convicted of an indictable offense due to the remote possibility of a convicted criminal requesting information about their victims.</description>
+      <description>Responding to an attorney&amp;rsquo;s commentary about OPRAmachine&amp;rsquo;s impact on crime victim privacy</description>
     </item>
     
     <item>
@@ -27,9 +36,7 @@
       <pubDate>Wed, 27 Feb 2019 00:00:00 -0500</pubDate>
       
       <guid>https://www.gavinrozzi.com/post/princetoninfo-interview/</guid>
-      <description>PRINCETON - I was interviewed by U.S. 1 News, publishers of the website PrincetonInfo this week. The interview appeared both online and in the website&amp;rsquo;s print newspapers, which are distributed in the Mercer County region.
-From their article:
- Anyone who has ever tried to request government records in New Jersey knows that authorities and bureaucracies make the information request process intentionally difficult and inconvenient, to discourage the public from seeking information that is required by law to be public.</description>
+      <description>I was interviewed by PrincetonInfo about my work modernizing public records with OPRAmachine</description>
     </item>
     
     <item>
@@ -38,9 +45,7 @@ From their article:
       <pubDate>Sat, 09 Feb 2019 00:00:00 -0500</pubDate>
       
       <guid>https://www.gavinrozzi.com/post/innovatelocal-award/</guid>
-      <description>PRESS RELEASE
-GREEN BROOK, NJ – Gavin Rozzi, editor of Ocean County Politics, announced that he and his team received an award for their work with government transparency and the Open Public Records Act (OPRA).
-Rozzi Media Group, publishers of Ocean County Politics, was awarded the Excellence in Local News Award in the “Innovate Local” category at a ceremony held on Friday in Middlesex County. The award is issued to journalists who “…used new and emerging technologies or strategies to enhance and improve the value and impact of their reporting efforts.</description>
+      <description>Gavin Rozzi wins the 2019 Excellence in Local News Award in the Innovate Local category from NJ News Commons</description>
     </item>
     
     <item>
@@ -49,8 +54,16 @@ Rozzi Media Group, publishers of Ocean County Politics, was awarded the Excellen
       <pubDate>Wed, 24 Oct 2018 00:00:00 -0400</pubDate>
       
       <guid>https://www.gavinrozzi.com/post/om-1-year-later/</guid>
-      <description>One year ago today, I launched OPRAmachine, and it has been making a significant impact on all levels of New Jersey government since its inception. OPRAmachine began with a simple premise: to maximize government transparency in New Jersey by automatically publishing public records requests &amp;amp; responses.
-The site&amp;rsquo;s unique approach to public records helps individuals get answers to their personal OPRA requests, but also serves the entire community by contributing to a growing statewide archive of public knowledge.</description>
+      <description>Reflections on how the site grew from 2017-18</description>
+    </item>
+    
+    <item>
+      <title>Interview with Jersey Shore Online Re: Monmouth County OPRAmachine Lawsuit</title>
+      <link>https://www.gavinrozzi.com/post/monmouth-opra-case/</link>
+      <pubDate>Thu, 18 Oct 2018 00:00:00 -0400</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/post/monmouth-opra-case/</guid>
+      <description>Why we&amp;rsquo;re suing Monmouth County for violating OPRA</description>
     </item>
     
     <item>
@@ -59,10 +72,7 @@ The site&amp;rsquo;s unique approach to public records helps individuals get ans
       <pubDate>Wed, 22 Aug 2018 00:00:00 -0400</pubDate>
       
       <guid>https://www.gavinrozzi.com/post/montclair-webinar/</guid>
-      <description>&amp;nbsp;
-On Tuesday, August 21st, 2018 I made my way up to the Montclair University Center for Cooperative Media to present about my work creating the OPRAmachine New Jersey statewide freedom of information portal.
-The webinar was attended by both journalists and other individuals interested in making use of the advanced public records research capabilities provided by our platform.
-Thank you to the folks at the Center who helped put all of this together, and thank you to our attendees who asked insightful questions!</description>
+      <description>I presented a free webinar at Montclair University on streamlining public records requests</description>
     </item>
     
     <item>
@@ -71,9 +81,7 @@ Thank you to the folks at the Center who helped put all of this together, and th
       <pubDate>Thu, 09 Aug 2018 00:00:00 -0400</pubDate>
       
       <guid>https://www.gavinrozzi.com/post/aea-nj-interview/</guid>
-      <description>My work with OPRAmachine recently saw me interviewed by the newsletter of an organization that represents the interests of local and county utilities authorities around the state.
-Eric San Juan, a writer for the Association of Environmental Authorities of New Jersey&amp;rsquo;s newsletter, interviewed me earlier in the summer about the impact of my statewide freedom of information platform, OPRAmachine.
-The AEA-NJ was interested in OPRAmachine because their member authorities are subject to the state&amp;rsquo;s freedom of information law, the New Jersey Open Public Records Act.</description>
+      <description>I was interviewed about my work with OPRA and public records for the August, 2018 edition of the newsletter of the Association of Environmental Authorities of New Jersey, which represents local and county utilities authorities.</description>
     </item>
     
     <item>
@@ -82,8 +90,7 @@ The AEA-NJ was interested in OPRAmachine because their member authorities are su
       <pubDate>Tue, 26 Jun 2018 00:00:00 -0400</pubDate>
       
       <guid>https://www.gavinrozzi.com/post/621-om-update/</guid>
-      <description>I was once again interviewed by Citizens&amp;rsquo; Media TV&amp;rsquo;s Jeff Epstein about my work with public records &amp;amp; transparency via the OPRAmachine statwewide freedom of information portal that I run.
-Epstein serves as one of the site&amp;rsquo;s volunteer administrators and in this podcast recorded on June 21st, 2018 we discuss some of the challenges that we have encountered running the site, including pushback from government agencies, fee demands for public records &amp;amp; more.</description>
+      <description>I was recently interviewed about some of the legal &amp;amp; technical challenges the OPRAmachine team has encountered while running the site.</description>
     </item>
     
     <item>
@@ -92,7 +99,7 @@ Epstein serves as one of the site&amp;rsquo;s volunteer administrators and in th
       <pubDate>Wed, 30 May 2018 00:00:00 -0400</pubDate>
       
       <guid>https://www.gavinrozzi.com/post/rozzi-oag/</guid>
-      <description>I recently obtained the following documents from the New Jersey Attorney General&amp;rsquo;s Office (OAG) which were produced in response to a court order isued in my lawsuit against the OAG. The documents were copies of email logs that show messages sent and received by the OAG&amp;rsquo;s custodian of records, who is responsible for complying with the provision of the New Jersey Open Public Records Act (OPRA) by way of responding to requests made under the state freedom of information law.</description>
+      <description>State court judge in Trenton orders New Jersey Attorney General&amp;rsquo;s Office to produce email logs after legal dispute.</description>
     </item>
     
     <item>
@@ -101,9 +108,7 @@ Epstein serves as one of the site&amp;rsquo;s volunteer administrators and in th
       <pubDate>Mon, 07 May 2018 00:00:00 -0400</pubDate>
       
       <guid>https://www.gavinrozzi.com/post/jeffpatrickopra/</guid>
-      <description>I recently spoke with Citizens&amp;rsquo; Media TV&amp;rsquo;s Jeff Epstein and Patrick Duff for an audio interview.
-Our conversation centered on the Open Public Records Act (OPRA), transparency &amp;amp; open government issues centered on my work with public records and how the three of us have made use of my OPRAmachine platform.
-Epstein is an independent journalist who I&amp;rsquo;ve previously collaborated with on various projects, and he also has a role with OPRAmachine where has serves as one of the site&amp;rsquo;s administrators since its inception in 2017.</description>
+      <description>I spoke with Jeff &amp;amp; Patrick about public records research and recent developments.</description>
     </item>
     
     <item>
@@ -112,8 +117,7 @@ Epstein is an independent journalist who I&amp;rsquo;ve previously collaborated 
       <pubDate>Sun, 08 Apr 2018 00:00:00 -0400</pubDate>
       
       <guid>https://www.gavinrozzi.com/post/watt-interview/</guid>
-      <description>On on April 5th, 2018 I joined WLFR Radio&amp;rsquo;s Watt&amp;rsquo;s The Move, Stocton University&amp;rsquo;show own radio show that focuses on poliitics and public affairs.
-During my one hour segment I discussed my work on several fronts. Our interview began with talk of my work with my first and most successful project, Ocean County Politics and later pivoted to my work with the OPRAmachine freedom of information portal and how it is making New Jersey government more transparent as a result of its impact.</description>
+      <description>I was interviewed by WLFR&amp;rsquo;s Bill Watt for his show Watt&amp;rsquo;s The Move</description>
     </item>
     
   </channel>

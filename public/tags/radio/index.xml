@@ -6,7 +6,7 @@
     <description>Recent content in radio on Gavin Rozzi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2013 - {year} Gavin Rozzi</copyright>
+    <copyright>&amp;copy; 2013-2019 Gavin Rozzi</copyright>
     <lastBuildDate>Tue, 07 Aug 2018 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://www.gavinrozzi.com/tags/radio/index.xml" rel="self" type="application/rss+xml" />
@@ -29,7 +29,7 @@ Use the video link above to watch this talk live on the date of the event. The t
       <pubDate>Sun, 29 Jul 2018 00:00:00 -0400</pubDate>
       
       <guid>https://www.gavinrozzi.com/post/ocrl-update-72918/</guid>
-      <description>Today I am proud to announce that we have added a significant number of new channels to Ocean County Radio Live, my online police fire &amp;amp; EMS scanner and archive service. The service now supports listening to two 700 MHz digital trunked radio systems, Ocean County&amp;rsquo;s and the New Jersey Interoperability Communications System, which hosts channels for the State Police, Fish &amp;amp; Wildlife and numerous other state and local agencies.</description>
+      <description>New channels added to my cloud-based software defined trunked radio scanner.</description>
     </item>
     
     <item>
@@ -38,8 +38,7 @@ Use the video link above to watch this talk live on the date of the event. The t
       <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.gavinrozzi.com/project/ocradiolive/</guid>
-      <description>The new way to scan Ocean County Ocean County Radio Live is taking the technical complexity and hassle out of radio scanning in Ocean County, New Jersey. This website was launched in late January, 2018 and since that date has continued to stream &amp;amp; archive multiple police, fire &amp;amp; EMS radio channels.
-This website is powered by the latest software defined radio (SDR) technology to process the streams of digital data produced by the Ocean County trunked radio system and also record analog conventional systems used by some departments &amp;amp; squads.</description>
+      <description>Online SDR trunked radio scanner &amp;amp; archive for Ocean County, NJ</description>
     </item>
     
     <item>
@@ -48,7 +47,7 @@ This website is powered by the latest software defined radio (SDR) technology to
       <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://www.gavinrozzi.com/project/frnjarc/</guid>
-      <description>Serving the Forked River, NJ amateur radio community The Forked River Amateur Radio Club is a new amateur radio club formed to serve amateur radio community of Forked River, NJ and surrounding areas. I currently serve as both the vice president and webmaster of the club. We anticipate on pursuing several projects through this club, such as 2 meter FM repeater and 70 cm band DMR system to cover the Lacey area.</description>
+      <description>HAM radio club serving the greater Forked River, NJ area</description>
     </item>
     
   </channel>

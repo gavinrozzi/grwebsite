@@ -1,7 +1,7 @@
 +++
 date = 2014-09-10
 draft = false
-tags = ["WordPress", "CIO"]
+tags = ["WordPress", "CIO", "In the news"]
 title = "Interview with CIO Magazine"
 summary = "I speak with CIO Magazine about WordPress"
 +++

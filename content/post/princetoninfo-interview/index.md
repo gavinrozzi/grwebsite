@@ -1,7 +1,7 @@
 +++
 date = 2019-02-27
 draft = false
-tags = ["OPRAmachine"]
+tags = ["OPRAmachine", "In the news"]
 title = "Interview with PrincetonInfo"
 summary = "I was interviewed by PrincetonInfo about my work modernizing public records with OPRAmachine"
 

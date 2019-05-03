@@ -1,7 +1,7 @@
 +++
 date = 2018-05-30
 draft = false
-tags = ["OPRAmachine", "Public Records"]
+tags = ["OPRAmachine", "Public Records", "Legal"]
 title = "Document Production in Rozzi v. OAG"
 summary = "State court judge in Trenton orders New Jersey Attorney General's Office to produce email logs after legal dispute."
 

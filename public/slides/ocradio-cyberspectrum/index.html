@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.1.0">
+  <meta name="generator" content="Source Themes Academic 4.2.5">
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
@@ -17,9 +17,7 @@
 
   <title>Reimagining the police scanner in the era of the SDR | Gavin Rozzi</title>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/css/reveal.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/css/theme/moon.min.css">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/reveal.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/theme/moon.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" crossorigin="anonymous">
 
   
   
@@ -31,7 +29,7 @@
     var link = document.createElement( 'link' );
     link.rel = 'stylesheet';
     link.type = 'text/css';
-    link.href = window.location.search.match( /print-pdf/gi ) ? 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.7.0/css/print/pdf.css' : 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.7.0/css/print/paper.css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/css/print/pdf.css' : 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/css/print/paper.css';
     document.getElementsByTagName( 'head' )[0].appendChild( link );
   </script>
 
@@ -114,12 +112,10 @@
 <p>Digital scanners especially those capable of newer digital protocols are pricey.</p>
 
 <p><span class="fragment " >
-  <h2 id="p25-phase-ii-scanner-400">P25 Phase II scanner - $400</h2>
-
+  ## P25 Phase II scanner - $400
 </span>
 <span class="fragment " >
-  <h2 id="rtlsdr-dongle-25">RTLSDR dongle - $25</h2>
-
+  ## RTLSDR dongle - $25
 </span></p>
 
 
@@ -233,16 +229,13 @@ of hardware scanners.</p>
 
 <p>These capabilities allow us to record the following types of systems using the site:
 <span class="fragment " >
-  <h3 id="aging-500-mhz-motorola-type-ii-trs">Aging 500 MHz Motorola Type II TRS</h3>
-
+  ### Aging 500 MHz Motorola Type II TRS
 </span>
 <span class="fragment " >
-  <h3 id="new-state-county-700-mhz-p25-phase-ii-systems">New State &amp; County 700 MHz P25 Phase II systems</h3>
-
+  ### New State &amp; County 700 MHz P25 Phase II systems
 </span>
 <span class="fragment " >
-  <h3 id="analog-vhf-and-uhf-conventional-channels">Analog VHF and UHF conventional channels</h3>
-
+  ### Analog VHF and UHF conventional channels
 </span></p>
 
 
@@ -395,34 +388,22 @@ Some examples of the systems I defined are on <a href="https://github.com/gavinr
 
 <h2 id="bringing-it-all-together">Bringing it all together</h2>
 
-<span class="fragment " >
-  <ul>
-<li>trunk-recorder reads in the JSON configuration file for the system(s) and allocates recorders on
-multiple RF channels within the SDR&rsquo;s bandwidth.</li>
-</ul>
+<p><span class="fragment " >
+  * trunk-recorder reads in the JSON configuration file for the system(s) and allocates recorders on
+multiple RF channels within the SDR&rsquo;s bandwidth.
+</span></p>
 
-</span>
+<p><span class="fragment " >
+  * A bash script passes the transmissions along with JSON metadata to the frontend server, where it is written to a database.
+</span></p>
 
-<span class="fragment " >
-  <ul>
-<li>A bash script passes the transmissions along with JSON metadata to the frontend server, where it is written to a database.</li>
-</ul>
+<p><span class="fragment " >
+  * The transmissions are uploaded to Amazon S3 for storage and deleted from the frontend.
+</span></p>
 
-</span>
-
-<span class="fragment " >
-  <ul>
-<li>The transmissions are uploaded to Amazon S3 for storage and deleted from the frontend.</li>
-</ul>
-
-</span>
-
-<span class="fragment " >
-  <ul>
-<li>Users can play live transmissions &amp; access archives on the frontend website.</li>
-</ul>
-
-</span>
+<p><span class="fragment " >
+  * Users can play live transmissions &amp; access archives on the frontend website.
+</span></p>
 
 
     </section>
@@ -482,17 +463,17 @@ SDR combined with web services can allow receiving setups previously not possibl
 
 
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/lib/js/head.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/js/reveal.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/lib/js/head.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/js/reveal.min.js"></script>
 
   <script>
     window.revealPlugins = { dependencies: [
-      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.7.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.7.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.7.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.7.0/plugin/zoom-js/zoom.js', async: true },
-      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.7.0/plugin/math/math.js', async: true },
-      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.7.0/plugin/print-pdf/print-pdf.js', async: true },
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/zoom-js/zoom.js', async: true },
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/math/math.js', async: true },
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/print-pdf/print-pdf.js', async: true },
       
       { src: '\/js\/vendor\/reveal.js\/plugin\/notes\/notes.js', async: true }
     ]};

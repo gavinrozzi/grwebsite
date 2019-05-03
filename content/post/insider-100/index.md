@@ -2,6 +2,7 @@
 date = 2018-10-10
 draft = false
 title = "'You have to read Rozzi'"
+tags = ["Ocean County Politics", "In the news"]
 summary = "Joining the InsiderNJ Media 100 List"
 
 [header]

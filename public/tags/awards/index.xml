@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Awards on Gavin Rozzi</title>
+    <link>https://www.gavinrozzi.com/tags/awards/</link>
+    <description>Recent content in Awards on Gavin Rozzi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2013-2019 Gavin Rozzi</copyright>
+    <lastBuildDate>Sat, 09 Feb 2019 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://www.gavinrozzi.com/tags/awards/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rozzi Wins Excellence in Local News Award</title>
+      <link>https://www.gavinrozzi.com/post/innovatelocal-award/</link>
+      <pubDate>Sat, 09 Feb 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://www.gavinrozzi.com/post/innovatelocal-award/</guid>
+      <description>Gavin Rozzi wins the 2019 Excellence in Local News Award in the Innovate Local category from NJ News Commons</description>
+    </item>
+    
+  </channel>
+</rss>

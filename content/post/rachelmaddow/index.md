@@ -1,7 +1,7 @@
 +++
 date = 2016-10-12
 draft = false
-tags = ["2016 Election", "Rachel Maddow"]
+tags = ["2016 Election", "Rachel Maddow", "In the news"]
 title = "Featured on Rachel Maddow Show"
 summary = "A story I wrote about the 2016 campaign was featured on MSNBC's The Rachel Maddow Show."
 [header]

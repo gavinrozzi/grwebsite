@@ -1,7 +1,7 @@
 +++
 date = 2019-03-09
 draft = false
-tags = ["OPRAmachine"]
+tags = ["OPRAmachine", "In the news"]
 title = "Response to NJ Law Journal Article"
 summary = "Responding to an attorney's commentary about OPRAmachine's impact on crime victim privacy"
 

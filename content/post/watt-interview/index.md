@@ -1,7 +1,7 @@
 +++
 date = 2018-04-08
 draft = false
-tags = ["OPRAmachine", "WLFR Radio"]
+tags = ["OPRAmachine", "WLFR Radio", "In the news"]
 title = "Discussing OPRAmachine's Impact With WLFR Radio's Bill Watt"
 summary = "I was interviewed by WLFR's Bill Watt for his show Watt's The Move"
 
