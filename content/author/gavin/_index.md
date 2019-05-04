@@ -25,9 +25,9 @@ email = ""
 interests = [
   "Linux, open source & Python",
     "Politics & government",
-    "Constitutional law",
+    "Data science",
     "Aerial photography",
-    "Civic technology"
+    "Civic tech"
 ]
 
 # Organizational groups that you belong to (for People widget)
