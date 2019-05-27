@@ -13,9 +13,9 @@
   {{ $superuser_name := "" }}
   {{ $superuser_username := "" }}
   {{ $superuser_role := "" }}
-  {{ range first 1 (where (where site.Pages "Section" "author") "Params.superuser" true) }}
+  {{ range first 1 (where (where site.Pages "Section" "authors") "Params.superuser" true) }}
     {{ $superuser_name = .Params.name }}
-    {{ $superuser_username = delimit (last 1 (split (substr .File.Dir 0 -1) "/")) "" }}
+    {{ $superuser_username = path.Base (path.Split .Path).Dir }}
     {{ $superuser_role = .Params.role }}
   {{ end }}
   {{ $scr.Set "superuser_username" $superuser_username }}{{/* For access from page_author.html. */}}
@@ -42,7 +42,7 @@
   {{ end }}
   <link rel="alternate" hreflang="{{ site.LanguageCode | default "en-us" }}" href="{{ .Permalink }}">
 
-  {{ partial "css/parse_theme.css" . }}
+  {{ partial "functions/parse_theme" . }}
   {{ $css := site.Data.assets.css }}
   {{ $js := site.Data.assets.js }}
   {{ if ne ($scr.Get "primary") "#fff" }}
@@ -188,5 +188,5 @@
   <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ site.Title }}</title>
 
 </head>
-<body id="top" data-spy="scroll" data-target="{{ if or .IsHome .Params.widgets }}#navbar-main{{ else }}#TableOfContents{{ end }}" data-offset="71" {{ if not ($scr.Get "light") }}class="dark"{{ end }}>
+<body id="top" data-spy="scroll" data-target="{{ if or .IsHome (eq .Type "widget_page") }}#navbar-main{{else}}#TableOfContents{{end}}" data-offset="71" {{ if not ($scr.Get "light") }}class="dark"{{end}}>
   {{ partial "search" . }}
