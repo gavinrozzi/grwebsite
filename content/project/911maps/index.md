@@ -1,12 +1,12 @@
 +++
 # Date this page was created.
-date = "2016-07-10"
+date = "2018-11-22"
 
 # Project title.
-title = "Toms River 911 Call Explorer"
+title = "911maps"
 
 # Project summary to display on homepage.
-summary = "Data visualization project that shows fire & EMS calls using Python"
+summary = "Map and analyze 911 call data"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "tr911.jpeg"
@@ -28,8 +28,8 @@ caption = ""
 
 +++
 
-The [Toms River 911 Call Explorer](https://tr911test.rozzi.media) is a small web development project that I
-created in the summer of 2018 order to make visualzing [data that I obtained using an OPRA request](https://opramachine.com/request/active911_call_data_may_1st_to_j_2).
+911maps evolved from my earlier work in 2018 creating the [Toms River 911 Call Explorer](https://tr911test.rozzi.media), a small web development project that I
+created to visualize [data that I obtained using an OPRA request](https://opramachine.com/request/active911_call_data_may_1st_to_j_2).
 
 Content on the website is rendered using the Hugo static site generator, with the request thread on OPRAmachine hosting the actual CSV file with 911 call data.
 
