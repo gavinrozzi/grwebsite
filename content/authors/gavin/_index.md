@@ -36,6 +36,11 @@ user_groups = ["Researchers", "Visitors"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
+  course = "M.S., Data Science & Strategic Analytics"
+  institution = "Stockton University"
+  year = "expected 2020"
+
+[[education.courses]]
   course = "B.A., Political Science"
   institution = "Stockton University"
   year = 2018
