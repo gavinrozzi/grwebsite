@@ -33,11 +33,11 @@ caption = ""
 The project evolved from my earlier work in 2018 creating the [Toms River 911 Call Explorer](https://tr911test.rozzi.media), a small web development project that I
 created to visualize [data that I obtained using an OPRA request](https://opramachine.com/request/active911_call_data_may_1st_to_j_2).
 
-The original version of the website was rendered using the Hugo static site generator, with the request thread on OPRAmachine hosting the actual CSV file with 911 call data.
+The new version, since the 911maps name was adopted, is powered by the Django web framework and is no longer limited solely to Toms River. Currently, all 33 towns in Ocean County and thousands of incidents are tracked by the site, which is nearing a public beta launch.
 
-Columns from the CSV file are rendered on the homepage of the site after being pulled from OPRAmachine. This setup sees OPRAmachine function as a sort of a "poor man's API backend."
+### Site preview:
 
-The new version, since the 911maps name was adopted, is powered by the Django web framework.
+![The 911maps website](/img/911mapshome.JPG)
 
 ### More details
 
