@@ -23,9 +23,10 @@
    */
   function scrollToAnchor(target) {
     // If `target` is undefined or HashChangeEvent object, set it to window's hash.
-    target = (typeof target === 'undefined' || typeof target === 'object') ? window.location.hash : target;
-    // Escape colons from IDs, such as those found in Markdown footnote links.
-    target = target.replace(/:/g, '\\:');
+    // Decode the hash as browsers can encode non-ASCII characters (e.g. Chinese symbols).
+    target = (typeof target === 'undefined' || typeof target === 'object') ? decodeURIComponent(window.location.hash) : target;
+    // Escape special chars from IDs, such as colons found in Markdown footnote links.
+    target = '#' + $.escapeSelector(target.substring(1));  // Previously, `target = target.replace(/:/g, '\\:');`
 
     // If target element exists, scroll to it taking into account fixed navigation bar offset.
     if($(target).length) {
@@ -35,6 +36,8 @@
       }, 600, function () {
         $('body').removeClass('scrolling');
       });
+    }else{
+      console.warn('Cannot scroll to '+target+'. ID not found!');
     }
   }
 
@@ -46,6 +49,13 @@
       data._config.offset = navbar_offset;
       $body.data('bs.scrollspy', data);
       $body.scrollspy('refresh');
+    }
+  }
+
+  function removeQueryParamsFromUrl() {
+    if (window.history.replaceState) {
+      let urlWithoutSearchParams = window.location.protocol + "//" + window.location.host + window.location.pathname + window.location.hash;
+      window.history.replaceState({path:urlWithoutSearchParams}, '', urlWithoutSearchParams);
     }
   }
 
@@ -295,6 +305,7 @@
     if ($('body').hasClass('searching')) {
       $('[id=search-query]').blur();
       $('body').removeClass('searching');
+      removeQueryParamsFromUrl();
     } else {
       $('body').addClass('searching');
       $('.search-results').css({opacity: 0, visibility: 'visible'}).animate({opacity: 1}, 200);
