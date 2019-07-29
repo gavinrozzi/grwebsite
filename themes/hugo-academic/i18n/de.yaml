@@ -1,5 +1,5 @@
 - id: toggle_navigation
-  translation: Navigation einblenden
+  translation: Zur Navigation
 - id: table_of_contents
   translation: Inhaltsverzeichnis
 - id: on_this_page
@@ -9,17 +9,15 @@
 - id: related
   translation: Ähnliches
 - id: minute_read
-  translation: min Lesezeit
+  translation: Min. Lektüre
 - id: previous
   translation: Zurück
 - id: next
   translation: Weiter
 - id: figure
   translation: 'Abbildung %d:'
-- id: edit_page
-  translation: Seite editieren
 - id: btn_preprint
-  translation: Vorabdruck
+  translation: Preprint
 - id: btn_pdf
   translation: PDF
 - id: btn_cite

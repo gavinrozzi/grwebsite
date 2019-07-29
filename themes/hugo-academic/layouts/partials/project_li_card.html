@@ -4,18 +4,6 @@
 {{ $link := .link }}
 {{ $target := .target }}
 
-{{/* Get summary. */}}
-{{ $summary := "" }}
-{{ if $item.Params.summary }}
-  {{ $summary = $item.Params.summary | markdownify | emojify }}
-{{ else if .Params.abstract }}
-  {{ $summary = .Params.abstract | markdownify | emojify }}
-{{ else if $item.Truncated }}
-  {{ $summary = $item.Summary }}
-{{ else }}
-  {{ $summary = $item.Content }}
-{{ end }}
-
 {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
 {{ $js_tag_classes := delimit (apply (apply $item.Params.tags "replace" "." " " "-") "printf" "js-id-%s" ".") " " }}
 
@@ -29,11 +17,9 @@
     {{ end }}
     <div class="card-text">
       <h4><a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title | markdownify | emojify }}</a></h4>
-      {{ with $summary }}
-      <div class="article-style">
-        {{ . | truncate 135 }}
+      <div class="card-desription">
+        {{ with $item.Params.summary }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
       </div>
-      {{ end }}
     </div>
   </div>
 </div>

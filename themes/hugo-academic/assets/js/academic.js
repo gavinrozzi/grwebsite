@@ -11,13 +11,9 @@
    * Responsive scrolling for URL hashes.
    * --------------------------------------------------------------------------- */
 
-  // Dynamically get responsive navigation bar height for offsetting Scrollspy.
-  function getNavBarHeight() {
-    let $navbar = $('.navbar');
-    let navbar_offset = $navbar.innerHeight();
-    console.debug('Navbar height: ' + navbar_offset);
-    return navbar_offset;
-  }
+  // Dynamically get responsive navigation bar offset.
+  let $navbar = $('.navbar');
+  let navbar_offset = $navbar.innerHeight();
 
   /**
    * Responsive hash scrolling.
@@ -34,10 +30,9 @@
 
     // If target element exists, scroll to it taking into account fixed navigation bar offset.
     if($(target).length) {
-      let elementOffset = Math.ceil($(target).offset().top - getNavBarHeight());  // Round up to highlight right ID!
       $('body').addClass('scrolling');
       $('html, body').animate({
-        scrollTop: elementOffset
+        scrollTop: $(target).offset().top - navbar_offset
       }, 600, function () {
         $('body').removeClass('scrolling');
       });
@@ -51,7 +46,7 @@
     let $body = $('body');
     let data = $body.data('bs.scrollspy');
     if (data) {
-      data._config.offset = getNavBarHeight();
+      data._config.offset = navbar_offset;
       $body.data('bs.scrollspy', data);
       $body.scrollspy('refresh');
     }
@@ -82,15 +77,8 @@
 
       // Use jQuery's animate() method for smooth page scrolling.
       // The numerical parameter specifies the time (ms) taken to scroll to the specified hash.
-      let elementOffset = Math.ceil($(hash).offset().top - getNavBarHeight());  // Round up to highlight right ID!
-
-      // Uncomment to debug.
-      // let scrollTop = $(window).scrollTop();
-      // let scrollDelta = (elementOffset - scrollTop);
-      // console.debug('Scroll Delta: ' + scrollDelta);
-
       $('html, body').animate({
-        scrollTop: elementOffset
+        scrollTop: $(hash).offset().top - navbar_offset
       }, 800);
     }
   });
@@ -404,33 +392,12 @@
     $('#TableOfContents li').addClass('nav-item');
     $('#TableOfContents li a').addClass('nav-link');
 
-    // Fix Mmark task lists (remove bullet points).
-    $("input[type='checkbox'][disabled]").parents('ul').addClass('task-list');
-
-    // Fix Mermaid.js clash with Highlight.js.
-    let mermaids = [];
-    [].push.apply(mermaids, document.getElementsByClassName('language-mermaid'));
-    for (i = 0; i < mermaids.length; i++) {
-      $(mermaids[i]).unwrap('pre');  // Remove <pre> wrapper.
-      $(mermaids[i]).replaceWith(function(){
-        // Convert <code> block to <div> and add `mermaid` class so that Mermaid will parse it.
-        return $("<div />").append($(this).contents()).addClass('mermaid');
-      });
-    }
-
-    // Get theme variation (day/night).
-    let defaultThemeVariation;
+    // Set dark mode if user chose it.
+    let default_mode = 0;
     if ($('body').hasClass('dark')) {
-      // The `color_theme` of the site is dark.
-      defaultThemeVariation = 1;
-    } else if ($('.js-dark-toggle').length && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      // The visitor prefers dark themes and switching to the dark variation is allowed by admin.
-      defaultThemeVariation = 1;
-    } else {
-      // Default to day (light) theme.
-      defaultThemeVariation = 0;
+      default_mode = 1;
     }
-    let dark_mode = parseInt(localStorage.getItem('dark_mode') || defaultThemeVariation);
+    let dark_mode = parseInt(localStorage.getItem('dark_mode') || default_mode);
 
     // Is code highlighting enabled in site config?
     const codeHlEnabled = $('link[title=hl-light]').length > 0;
@@ -472,9 +439,6 @@
    * --------------------------------------------------------------------------- */
 
   $(window).on('load', function() {
-    // Re-initialize Scrollspy with dynamic navbar height offset.
-    fixScrollspy();
-
     if (window.location.hash) {
       // When accessing homepage from another page and `#top` hash is set, show top of page (no hash).
       if (window.location.hash == "#top") {
@@ -487,6 +451,10 @@
         scrollToAnchor();
       }
     }
+
+    // Initialize Scrollspy.
+    let $body = $('body');
+    $body.scrollspy({offset: navbar_offset });
 
     // Call `fixScrollspy` when window is resized.
     let resizeTimer;
