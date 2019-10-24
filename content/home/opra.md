@@ -2,7 +2,7 @@
 # OPRA widget.
 widget = "custom"
 headless = true 
-active = true
+active = false
 date = "2018-02-24T00:00:00"
 
 title = "OPRA Research"
