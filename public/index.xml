@@ -2,22 +2,122 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gavin Rozzi</title>
-    <link>https://www.gavinrozzi.com/</link>
-    <description>Recent content on Gavin Rozzi</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2013-2019 Gavin Rozzi</copyright>
-    <lastBuildDate>Fri, 03 May 2019 00:00:00 -0400</lastBuildDate>
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description>Gavin Rozzi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 09 Aug 2019 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>/img/thumbnail.jpg</url>
+      <title>Gavin Rozzi</title>
+      <link>/</link>
+    </image>
     
-	    <atom:link href="https://www.gavinrozzi.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GeigerSQL: Storing geiger counter data in a PostgreSQL database</title>
+      <link>/post/geigersql/</link>
+      <pubDate>Fri, 09 Aug 2019 00:00:00 -0400</pubDate>
+      <guid>/post/geigersql/</guid>
+      <description>&lt;p&gt;Living in close proximity to the Oyster Creek nuclear power plant in Lacey Township has always left me interested in studying background radiation and some of the safety concerns associated with the aging plant, which has since shut down.&lt;/p&gt;
+
+&lt;p&gt;A few years ago I purchased an electronic geiger counter to monitor radiation, but never did much with it. Eventually I discovered Geigerlog, an open-source program for interfacing with electronic geiger counters and taking readings.&lt;/p&gt;
+
+&lt;p&gt;I have been using the command line Python version on one of the servers I also use to run &lt;a href=&#34;/project/ocradiolive/&#34;&gt;OC Radio Live.&lt;/a&gt; By default, the only option is to log the data to a CSV file. For basic analysis, this is fine, but after the software stops running (either due to a power outage or crash), starting it up again will result in the data getting overwritten from starting again. So this wasn&amp;rsquo;t very useful for longterm data storage and analysis.&lt;/p&gt;
+
+&lt;p&gt;To address this issue, I decided to fork Geigerlog and create a new version that supports storing the data to a database, which would be more useful for longterm archiving and analysis. My new fork, GeigerSQL extends Geigerlog to store Geiger counter readings to a PostgreSQL database every minute using Python&amp;rsquo;s popular Psycopg2 module.&lt;/p&gt;
+
+&lt;p&gt;Thus, data can be queryed like so:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/geigersql.JPG&#34; alt=&#34;querying&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Eventually I may extend this to include a web interface and other capabilities. For now, &lt;a href=&#34;https://github.com/gavinrozzi/geigersql&#34; target=&#34;_blank&#34;&gt;the code&lt;/a&gt; can be downloaded from Github here.&lt;/p&gt;
+
+&lt;p&gt;Here is some &lt;a href=&#34;/files/geiger-data.csv&#34;&gt;sample data&lt;/a&gt; that I have recorded since I started the project.&lt;/p&gt;
+</description>
+    </item>
     
+    <item>
+      <title>Eyes on NJ News Appearance</title>
+      <link>/post/eyes-on-nj/</link>
+      <pubDate>Sat, 13 Jul 2019 00:00:00 -0400</pubDate>
+      <guid>/post/eyes-on-nj/</guid>
+      <description>&lt;p&gt;Join me on Eyes on NJ News this Sunday, July 14th at 7:30 p.m. where I will be appearing on the show and interviewed by host John Edmunds.&lt;/p&gt;
+
+&lt;iframe src=&#34;https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FEyesOnNJ%2Fvideos%2F2970880133138205%2F&amp;width=500&amp;show_text=false&amp;appId=367090096784329&amp;height=500&#34; width=&#34;500&#34; height=&#34;500&#34; style=&#34;border:none;overflow:hidden&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowTransparency=&#34;true&#34; allow=&#34;encrypted-media&#34; allowFullScreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Guest Speaker: Democratic Club of Waretown</title>
+      <link>/talk/waretown/</link>
+      <pubDate>Tue, 18 Jun 2019 00:00:00 -0400</pubDate>
+      <guid>/talk/waretown/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/u4QCiMxFHyw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Statement on Lacey BOE Race</title>
+      <link>/post/lacey-boe/</link>
+      <pubDate>Mon, 17 Jun 2019 00:00:00 -0400</pubDate>
+      <guid>/post/lacey-boe/</guid>
+      <description>
+
+&lt;h3 id=&#34;i-would-like-to-thank-everyone-who-has-supported-me-in-my-campaign-to-seek-the-vacant-seat-on-the-lacey-board-of-education&#34;&gt;I would like to thank everyone who has supported me in my campaign to seek the vacant seat on the Lacey Board of Education.&lt;/h3&gt;
+
+&lt;p&gt;While I was not chosen by the board tonight, I will continue to advocate for our district and our residents. More to come on that in the near future.&lt;/p&gt;
+
+&lt;p&gt;I congratulate Skip Peters on his appointment and wish him all the best as he begins his tenure.&lt;/p&gt;
+
+&lt;p&gt;The video below shows my comments from tonight’s meeting.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/dT4aurJbpzc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Coombs et al. v. County of Monmouth</title>
+      <link>/legal/coombsmonmouth/</link>
+      <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
+      <guid>/legal/coombsmonmouth/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Legal Counsel: Walter Luers, Esq.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Docket No.: MON-L-003195-18&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Statutory provision at issue: &lt;a href=&#34;https://law.justia.com/codes/new-jersey/2017/title-47/section-47-1a-6/&#34; target=&#34;_blank&#34;&gt;N.J.S.A. 47:1A-6(g.) &lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Question Presented&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Can the Monmouth County, NJ government deny OPRA requests solely on the basis that they will be automatically published online?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Holding&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;Monmouth County Superior Court&lt;/strong&gt;, Assignment Judge Lisa P. Thornton ruled that the county violated the Open Public Records Act by denying requests.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Outcome&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Monmouth County was ordered to respond to records requests via OPRAmachine, ending the denials that took place from 2018-19 under the new policy.&lt;/p&gt;
+
+&lt;h3 id=&#34;case-documents&#34;&gt;Case documents&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;/files/Coombsruling.pdf&#34;&gt;Final decision - Coombs et al. v. County of Monmouth&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Interview with NJ Tech Weekly</title>
-      <link>https://www.gavinrozzi.com/post/njtech-interview/</link>
+      <link>/post/njtech-interview/</link>
       <pubDate>Fri, 03 May 2019 00:00:00 -0400</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/post/njtech-interview/</guid>
+      <guid>/post/njtech-interview/</guid>
       <description>
 
 &lt;h3 id=&#34;this-week-i-had-the-pleasure-of-speaking-with-nj-tech-weekly-s-esther-surden-about-the-technical-aspects-of-my-public-records-research-platform-opramachine-https-opramachine-com&#34;&gt;This week I had the pleasure of speaking with NJ Tech Weekly&amp;rsquo;s Esther Surden about the technical aspects of my public records research platform, &lt;a href=&#34;https://opramachine.com&#34; target=&#34;_blank&#34;&gt;OPRAmachine&lt;/a&gt;&lt;/h3&gt;
@@ -39,10 +139,9 @@ Cities, towns, counties and other government entities can interpret how this ser
     
     <item>
       <title>Response to NJ Law Journal Article</title>
-      <link>https://www.gavinrozzi.com/post/njlawjournal-response/</link>
+      <link>/post/njlawjournal-response/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 -0500</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/post/njlawjournal-response/</guid>
+      <guid>/post/njlawjournal-response/</guid>
       <description>
 
 &lt;h3 id=&#34;i-am-writing-in-response-to-jonathan-frodella-s-article-that-appeared-in-the-january-17th-2019-edition-of-the-new-jersey-law-journal-entitled-victims-of-serious-crimes-need-more-protection-under-opra-https-finance-yahoo-com-news-victims-serious-crimes-more-protection-120055094-html&#34;&gt;I am writing in response to Jonathan Frodella’s article that appeared in the January 17th, 2019 edition of the New Jersey Law Journal entitled &lt;a href=&#34;https://finance.yahoo.com/news/victims-serious-crimes-more-protection-120055094.html&#34; target=&#34;_blank&#34;&gt;“Victims of Serious Crimes Need More Protection Under OPRA.”&lt;/a&gt;&lt;/h3&gt;
@@ -65,7 +164,7 @@ Cities, towns, counties and other government entities can interpret how this ser
 
 &lt;p&gt;I created OPRAmachine in response to the dismal state of affairs for compliance with the Open Public Records Act in New Jersey. My own past experiences dealing with state &amp;amp; local government gone awry in my capacity as an independent journalist and transparency advocate have informed my opinions about the law’s implementation and state of compliance in New Jersey.&lt;/p&gt;
 
-&lt;p&gt;For a representative sample of some of the OPRA cases I was involved in where government agencies were found to have broken the law, see &lt;em&gt;&lt;a href=&#34;https://www.gavinrozzi.com/legal/rozzivlaceyboe&#34;&gt;Rozzi v. Lacey Township Board of Education&lt;/a&gt;&lt;/em&gt;, GRC complaint 2015-224, &lt;em&gt;&lt;a href=&#34;https://www.gavinrozzi.com/legal/rozzivocp&#34;&gt;Rozzi v. Ocean Cty. Prosecutor’s Office&lt;/a&gt;&lt;/em&gt;, GRC complaint 2015-250 and &lt;em&gt;&lt;a href=&#34;https://www.gavinrozzi.com/legal/njsplawsuit/&#34;&gt;Libertarians for Transparent Government v. New Jersey State Police.&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;For a representative sample of some of the OPRA cases I was involved in where government agencies were found to have broken the law, see &lt;em&gt;&lt;a href=&#34;/legal/rozzivlaceyboe&#34;&gt;Rozzi v. Lacey Township Board of Education&lt;/a&gt;&lt;/em&gt;, GRC complaint 2015-224, &lt;em&gt;&lt;a href=&#34;/legal/rozzivocp&#34;&gt;Rozzi v. Ocean Cty. Prosecutor’s Office&lt;/a&gt;&lt;/em&gt;, GRC complaint 2015-250 and &lt;em&gt;&lt;a href=&#34;/legal/njsplawsuit/&#34;&gt;Libertarians for Transparent Government v. New Jersey State Police.&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Don’t just take my word for it: A 2015 study released by the Center for Public Integrity &lt;a href=&#34;https://publicintegrity.org/accountability/new-jersey-gets-d-grade-in-2015-state-integrity-investigation/&#34; target=&#34;_blank&#34;&gt;gave New Jersey a “D” grade in transparency and accountability and an &amp;ldquo;F&amp;rdquo; for public access to information&lt;/a&gt;.&lt;/p&gt;
 
@@ -83,7 +182,7 @@ Cities, towns, counties and other government entities can interpret how this ser
 
 &lt;p&gt;Government agencies must embrace the public policy considerations that have been enshrined in OPRA by taking steps to be proactively transparent. We must change the culture of government agencies from viewing OPRA as an unfunded mandate from Trenton. OPRA is an important check and balance and a vehicle for ensuring government accountability.&lt;/p&gt;
 
-&lt;p&gt;Frodella also mentioned how the pending case &lt;em&gt;&lt;a href=&#34;https://www.gavinrozzi.com/files/Coombs%20et%20al%20-%20Monmouth.pdf&#34;&gt;Coombs et al. v. Cty. of Monmouth&lt;/a&gt;&lt;/em&gt; may impact OPRAmachine and other similar platforms. I joined as a plaintiff in the Coombs matter to stand up for the users of my platform who have been negatively impacted by the unprofessional behavior and bad faith exhibited by Monmouth County officials.&lt;/p&gt;
+&lt;p&gt;Frodella also mentioned how the pending case &lt;em&gt;&lt;a href=&#34;/files/Coombs%20et%20al%20-%20Monmouth.pdf&#34;&gt;Coombs et al. v. Cty. of Monmouth&lt;/a&gt;&lt;/em&gt; may impact OPRAmachine and other similar platforms. I joined as a plaintiff in the Coombs matter to stand up for the users of my platform who have been negatively impacted by the unprofessional behavior and bad faith exhibited by Monmouth County officials.&lt;/p&gt;
 
 &lt;p&gt;The &lt;em&gt;Coombs&lt;/em&gt; matter made it to Monmouth County Superior Court&amp;rsquo;s docket when one of the county’s employees negligently failed to redact private information concerning County Prosecutor Christopher Grammicioni. Immediately upon being notified of the breach, we removed the documents upon being contacted by an assistant county counsel. &lt;a href=&#34;https://docs.opramachine.com/site-policies-and-procedures/content-removal/&#34; target=&#34;_blank&#34;&gt;Our stated terms of service&lt;/a&gt; request that government agencies put their reasons in writing for requesting the removal of documents, but we waived it due to exigency of the situation. There’s no denying that the entire situation could have been avoided had the county properly reviewed the documents before releasing them to the public.&lt;/p&gt;
 
@@ -115,17 +214,16 @@ Cities, towns, counties and other government entities can interpret how this ser
     
     <item>
       <title>Interview with PrincetonInfo</title>
-      <link>https://www.gavinrozzi.com/post/princetoninfo-interview/</link>
+      <link>/post/princetoninfo-interview/</link>
       <pubDate>Wed, 27 Feb 2019 00:00:00 -0500</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/post/princetoninfo-interview/</guid>
+      <guid>/post/princetoninfo-interview/</guid>
       <description>
 
 &lt;h3 id=&#34;princeton-i-was-interviewed-by-u-s-1-news-publishers-of-the-website-princetoninfo-http-princetoninfo-com-this-week&#34;&gt;PRINCETON - I was interviewed by U.S. 1 News, publishers of the website &lt;a href=&#34;http://princetoninfo.com&#34; target=&#34;_blank&#34;&gt;PrincetonInfo&lt;/a&gt; this week.&lt;/h3&gt;
 
 &lt;p&gt;The interview appeared both online and in the website&amp;rsquo;s print newspapers, which are distributed in the Mercer County region.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.gavinrozzi.com/img/coverUS1.png&#34; alt=&#34;The cover of the print newspaper where the interview was published&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/coverUS1.png&#34; alt=&#34;The cover of the print newspaper where the interview was published&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;From their article:&lt;/p&gt;
 
@@ -145,11 +243,10 @@ Cities, towns, counties and other government entities can interpret how this ser
     
     <item>
       <title>A data-driven approach to combatting addiction</title>
-      <link>https://www.gavinrozzi.com/talk/occopiatecrisis/</link>
+      <link>/talk/occopiatecrisis/</link>
       <pubDate>Tue, 12 Feb 2019 00:00:00 -0500</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/talk/occopiatecrisis/</guid>
-      <description>&lt;p&gt;After the presentation, Ocean County College addiction studies students are going to implement the concepts discussed in the talk &lt;a href=&#34;https://www.gavinrozzi.com/files/ALDC 101 Term Project Assignment.pdf&#34;&gt;in order to complete their term project.&lt;/a&gt;&lt;/p&gt;
+      <guid>/talk/occopiatecrisis/</guid>
+      <description>&lt;p&gt;After the presentation, Ocean County College addiction studies students are going to implement the concepts discussed in the talk &lt;a href=&#34;/files/ALDC 101 Term Project Assignment.pdf&#34;&gt;in order to complete their term project.&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;The project is going to see students use public records to identify trends in overdose incidents and drug activity in their communities. The students will use the data to write a memo to their local decisionmakers and make three recommendations about how to combat addiction, making citations to the data they obtain.&lt;/p&gt;
 </description>
@@ -157,11 +254,10 @@ Cities, towns, counties and other government entities can interpret how this ser
     
     <item>
       <title>Rozzi Wins Excellence in Local News Award</title>
-      <link>https://www.gavinrozzi.com/post/innovatelocal-award/</link>
+      <link>/post/innovatelocal-award/</link>
       <pubDate>Sat, 09 Feb 2019 00:00:00 -0500</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/post/innovatelocal-award/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://www.gavinrozzi.com/img/gavin_award2.jpg&#34; alt=&#34;Gavin Rozzi, holding the Excellence in Local News Award&#34; /&gt;&lt;/p&gt;
+      <guid>/post/innovatelocal-award/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;/img/gavin_award2.jpg&#34; alt=&#34;Gavin Rozzi, holding the Excellence in Local News Award&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;PRESS RELEASE&lt;/p&gt;
 
@@ -175,7 +271,7 @@ Cities, towns, counties and other government entities can interpret how this ser
 
 &lt;p&gt;“Gavin and his team added all 565 municipalities and 21 counties to their OPRAmachine database and then pursued educational and advocacy partnerships to improve and increase the service’s impact across the state,” said Joe Amditis, Associate Director of the Center for Cooperative Media at Montclair University.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.gavinrozzi.com/img/awardpresentation.jpg&#34; alt=&#34;Gavin Rozzi, holding the Excellence in Local News Award&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/awardpresentation.jpg&#34; alt=&#34;Gavin Rozzi, holding the Excellence in Local News Award&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The website, which has thousands of active users, includes features for auditing government agencies for their compliance with OPRA’s 7-day deadline for responses to requests.&lt;/p&gt;
 
@@ -193,11 +289,34 @@ Cities, towns, counties and other government entities can interpret how this ser
     </item>
     
     <item>
+      <title>911maps</title>
+      <link>/project/911maps/</link>
+      <pubDate>Thu, 22 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>/project/911maps/</guid>
+      <description>
+
+&lt;p&gt;911maps is an open-source web application for mapping and visualizing 911 call data obtained from New Jersey municipalities. It currently supports data exports from the Active911 system, but can be extended to support other types of CAD systems. In addition to mapping and displaying trends in calls, it can produce advanced heatmap visualizations showing call activity in various municipalities.&lt;/p&gt;
+
+&lt;p&gt;The project evolved from my earlier work in 2018 creating the &lt;a href=&#34;https://tr911test.rozzi.media&#34; target=&#34;_blank&#34;&gt;Toms River 911 Call Explorer&lt;/a&gt;, a small web development project that I
+created to visualize &lt;a href=&#34;https://opramachine.com/request/active911_call_data_may_1st_to_j_2&#34; target=&#34;_blank&#34;&gt;data that I obtained using an OPRA request&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The new version, since the 911maps name was adopted, is powered by the Django web framework and is no longer limited solely to Toms River. Currently, all 33 towns in Ocean County and thousands of incidents are tracked by the site, which is nearing a public beta launch.&lt;/p&gt;
+
+&lt;p&gt;I am using the site for research as a part of my graduate studies in Data Science &amp;amp; Strategic Analytics and am working with stakeholders from the community to use the data for combatting opiate addiction.&lt;/p&gt;
+
+&lt;h3 id=&#34;more-details&#34;&gt;More details&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://911ma.ps&#34; target=&#34;_blank&#34;&gt;View the website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/gavinrozzi/toms-river-911-calls&#34; target=&#34;_blank&#34;&gt;View the source code on Github&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>OPRAmachine: 1 Year Later</title>
-      <link>https://www.gavinrozzi.com/post/om-1-year-later/</link>
+      <link>/post/om-1-year-later/</link>
       <pubDate>Wed, 24 Oct 2018 00:00:00 -0400</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/post/om-1-year-later/</guid>
+      <guid>/post/om-1-year-later/</guid>
       <description>
 
 &lt;h2 id=&#34;one-year-ago-today-i-launched-opramachine-https-opramachine-com-and-it-has-been-making-a-significant-impact-on-all-levels-of-new-jersey-government-since-its-inception&#34;&gt;One year ago today, I launched &lt;a href=&#34;https://opramachine.com/&#34; target=&#34;_blank&#34;&gt;OPRAmachine&lt;/a&gt;, and it has been making a significant impact on all levels of New Jersey government since its inception.&lt;/h2&gt;
@@ -219,12 +338,12 @@ Cities, towns, counties and other government entities can interpret how this ser
 &lt;p&gt;Since October, 2017, OPRAmachine has seen:
 &lt;ul&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;li&gt;&lt;strong&gt;4705&lt;/strong&gt; public records requests&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;3296&lt;/strong&gt; followup messages sent&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;690&lt;/strong&gt; registered users&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;1119&lt;/strong&gt; public bodies&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;139&lt;/strong&gt; annotations added to requests&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;393&lt;/strong&gt; tracked requests&lt;/li&gt;
+&lt;p&gt;&lt;li&gt;&lt;strong&gt;7038&lt;/strong&gt; public records requests&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;4262&lt;/strong&gt; followup messages sent&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1130&lt;/strong&gt; registered users&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1147&lt;/strong&gt; public bodies&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;151&lt;/strong&gt; annotations added to requests&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;516&lt;/strong&gt; tracked requests&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;
 
 &lt;p&gt;In the days and months that followed the launch, the site has since taken on a life of its own, and I continue to be impressed by the new use cases that have emerged as more people began to adopt the site.&lt;/p&gt;
@@ -245,7 +364,7 @@ Cities, towns, counties and other government entities can interpret how this ser
 
 &lt;p&gt;While I am optimistic about the success we have attained in just one short year, there are some significant hurdles that we still must overcome to ensure the continued success of OPRAmachine. Going forward, the challenge will be to educate certain &lt;a href=&#34;https://aeanj.org/wp-content/uploads/AEA-Authority-View-Summer-2018.pdf&#34; target=&#34;_blank&#34;&gt;reactionary government officials&lt;/a&gt; about the benefits of the service and advocating for legislative reform that favors electronic disclosure.&lt;/p&gt;
 
-&lt;p&gt;It is my goal to work with government agencies as much as we can, but when all else fails, we will pursue litigation against those government agencies that &lt;a href=&#34;https://www.gavinrozzi.com/post/monmouth-opra-case/&#34;&gt;arbitrarily &amp;amp; unlawfully refuse to process requests&lt;/a&gt; on the basis that they are submitted through the site, and encourage our users to do the same.&lt;/p&gt;
+&lt;p&gt;It is my goal to work with government agencies as much as we can, but when all else fails, we will pursue litigation against those government agencies that &lt;a href=&#34;/post/monmouth-opra-case/&#34;&gt;arbitrarily &amp;amp; unlawfully refuse to process requests&lt;/a&gt; on the basis that they are submitted through the site, and encourage our users to do the same.&lt;/p&gt;
 
 &lt;p&gt;In closing, we&amp;rsquo;ve covered a lot of ground during the first year of OPRAmachine&amp;rsquo;s existence, but our work is far from over. Thank you all of those who have supported us on this journey.&lt;/p&gt;
 </description>
@@ -253,10 +372,9 @@ Cities, towns, counties and other government entities can interpret how this ser
     
     <item>
       <title>Interview with Jersey Shore Online Re: Monmouth County OPRAmachine Lawsuit</title>
-      <link>https://www.gavinrozzi.com/post/monmouth-opra-case/</link>
+      <link>/post/monmouth-opra-case/</link>
       <pubDate>Thu, 18 Oct 2018 00:00:00 -0400</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/post/monmouth-opra-case/</guid>
+      <guid>/post/monmouth-opra-case/</guid>
       <description>
 
 &lt;h2 id=&#34;i-recently-spoke-with-jersey-shore-online-https-www-jerseyshoreonline-com-ocean-county-lawsuit-questions-when-county-can-share-public-records-about-my-participation-in-a-multi-plaintiff-open-public-records-act-lawsuit-against-the-monmouth-county-nj-government-over-their-refusal-to-answer-requests-through-my-site-opramachine-https-opramachine-com&#34;&gt;I recently spoke with &lt;a href=&#34;https://www.jerseyshoreonline.com/ocean-county/lawsuit-questions-when-county-can-share-public-records/&#34; target=&#34;_blank&#34;&gt;Jersey Shore Online&lt;/a&gt; about my participation in a multi-plaintiff Open Public Records Act lawsuit against the Monmouth County, NJ government over their refusal to answer requests through my site &lt;a href=&#34;https://opramachine.com&#34; target=&#34;_blank&#34;&gt;OPRAmachine&lt;/a&gt;.&lt;/h2&gt;
@@ -289,32 +407,30 @@ Cities, towns, counties and other government entities can interpret how this ser
     
     <item>
       <title>&#39;You have to read Rozzi&#39;</title>
-      <link>https://www.gavinrozzi.com/post/insider-100/</link>
+      <link>/post/insider-100/</link>
       <pubDate>Wed, 10 Oct 2018 00:00:00 -0400</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/post/insider-100/</guid>
+      <guid>/post/insider-100/</guid>
       <description>
 
 &lt;h3 id=&#34;i-was-honored-to-be-included-on-the-latest-edition-of-insider-nj-s-media-100-list-https-www-insidernj-com-wp-content-uploads-2018-10-insider-20100-20media-20publication-202018-pdf&#34;&gt;I was honored to be included on the latest edition of Insider NJ&amp;rsquo;s &lt;a href=&#34;https://www.insidernj.com/wp-content/uploads/2018/10/Insider%20100%20Media%20Publication%202018.pdf&#34; target=&#34;_blank&#34;&gt;Media 100 List&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://www.gavinrozzi.com/img/insider100.jpg&#34; alt=&#34;Insider 100&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/insider100.jpg&#34; alt=&#34;Insider 100&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>OPRAmachine Webinar at Montclair</title>
-      <link>https://www.gavinrozzi.com/post/montclair-webinar/</link>
+      <link>/post/montclair-webinar/</link>
       <pubDate>Wed, 22 Aug 2018 00:00:00 -0400</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/post/montclair-webinar/</guid>
+      <guid>/post/montclair-webinar/</guid>
       <description>&lt;p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/_1E2tWOOWzU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/_1E2tWOOWzU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &amp;nbsp;&lt;/p&gt;
 
-&lt;p&gt;On Tuesday, August 21st, 2018 I made my way up to the Montclair University Center for Cooperative Media to present about my work creating the &lt;a href=&#34;https://www.gavinrozzi.com/projects/opramachine/&#34;&gt;OPRAmachine&lt;/a&gt; New Jersey statewide freedom of information portal.&lt;/p&gt;
+&lt;p&gt;On Tuesday, August 21st, 2018 I made my way up to the Montclair University Center for Cooperative Media to present about my work creating the &lt;a href=&#34;/projects/opramachine/&#34;&gt;OPRAmachine&lt;/a&gt; New Jersey statewide freedom of information portal.&lt;/p&gt;
 
 &lt;p&gt;The webinar was attended by both journalists and other individuals interested in making use of the advanced public records research capabilities provided by our platform.&lt;/p&gt;
 
@@ -324,13 +440,12 @@ Cities, towns, counties and other government entities can interpret how this ser
     
     <item>
       <title>Video: Defeating redactions on poorly redacted documents</title>
-      <link>https://www.gavinrozzi.com/post/redactions/</link>
+      <link>/post/redactions/</link>
       <pubDate>Fri, 17 Aug 2018 00:00:00 -0400</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/post/redactions/</guid>
+      <guid>/post/redactions/</guid>
       <description>
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/0NnuA8RMyiY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/0NnuA8RMyiY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 
@@ -361,10 +476,9 @@ Cities, towns, counties and other government entities can interpret how this ser
     
     <item>
       <title>Interview with AEA-NJ Newsletter</title>
-      <link>https://www.gavinrozzi.com/post/aea-nj-interview/</link>
+      <link>/post/aea-nj-interview/</link>
       <pubDate>Thu, 09 Aug 2018 00:00:00 -0400</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/post/aea-nj-interview/</guid>
+      <guid>/post/aea-nj-interview/</guid>
       <description>&lt;p&gt;My work with OPRAmachine recently saw me interviewed by the newsletter of an organization that represents the interests of local and county utilities authorities around the state.&lt;/p&gt;
 
 &lt;p&gt;Eric San Juan, a writer for the &lt;a href=&#34;https://www.aeanj.org/&#34; target=&#34;_blank&#34;&gt;Association of Environmental Authorities of New Jersey&lt;/a&gt;&amp;rsquo;s newsletter, interviewed me earlier in the summer about the impact of my statewide freedom of information platform, OPRAmachine.&lt;/p&gt;
@@ -376,20 +490,19 @@ Cities, towns, counties and other government entities can interpret how this ser
 &lt;p&gt;&lt;a href=&#34;https://aeanj.org/wp-content/uploads/AEA-Authority-View-Summer-2018.pdf&#34; target=&#34;_blank&#34;&gt;The full article&lt;/a&gt; appears in the AEA-NJ&amp;rsquo;s summer, 2018 edition of their &amp;ldquo;Authority View&amp;rdquo; newsletter, which is accessible to member municipal and county utilities authorities.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Article preview:&lt;/strong&gt;
-&lt;img src=&#34;https://www.gavinrozzi.com/img/aeanjarticle.JPG&#34; alt=&#34;Article screenshot&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;/img/aeanjarticle.JPG&#34; alt=&#34;Article screenshot&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Reimagining the police scanner in the era of the software defined radio</title>
-      <link>https://www.gavinrozzi.com/talk/ocradiodefcon/</link>
+      <link>/talk/ocradiodefcon/</link>
       <pubDate>Tue, 07 Aug 2018 00:00:00 -0400</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/talk/ocradiodefcon/</guid>
+      <guid>/talk/ocradiodefcon/</guid>
       <description>&lt;p&gt;Recorded video of talk:
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/Yhuis48SQGk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Yhuis48SQGk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &amp;nbsp;&lt;/p&gt;
@@ -402,19 +515,18 @@ Cities, towns, counties and other government entities can interpret how this ser
     
     <item>
       <title>Using OPRAmachine to file public records requests without the hassle</title>
-      <link>https://www.gavinrozzi.com/talk/montclair/</link>
+      <link>/talk/montclair/</link>
       <pubDate>Tue, 31 Jul 2018 00:00:00 -0400</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/talk/montclair/</guid>
+      <guid>/talk/montclair/</guid>
       <description>&lt;p&gt;Recorded video of webinar:
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/_1E2tWOOWzU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/_1E2tWOOWzU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &amp;nbsp;&lt;/p&gt;
 
-&lt;p&gt;Join me in late August at the Montclair University &lt;a href=&#34;https://centerforcooperativemedia.org/&#34; target=&#34;_blank&#34;&gt;Center for Cooperative Media&lt;/a&gt; to talk about my recent work with &lt;a href=&#34;https://www.gavinrozzi.com/project/opramachine&#34;&gt;OPRAmachine&lt;/a&gt; and give a step-by-step demonstration along with taking audience questions.&lt;/p&gt;
+&lt;p&gt;Join me in late August at the Montclair University &lt;a href=&#34;https://centerforcooperativemedia.org/&#34; target=&#34;_blank&#34;&gt;Center for Cooperative Media&lt;/a&gt; to talk about my recent work with &lt;a href=&#34;/project/opramachine&#34;&gt;OPRAmachine&lt;/a&gt; and give a step-by-step demonstration along with taking audience questions.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Here is their official announcement of the event, copied below:&lt;/strong&gt;&lt;/p&gt;
 
@@ -430,10 +542,9 @@ Cities, towns, counties and other government entities can interpret how this ser
     
     <item>
       <title>Big upgrades to OC Radio Live</title>
-      <link>https://www.gavinrozzi.com/post/ocrl-update-72918/</link>
+      <link>/post/ocrl-update-72918/</link>
       <pubDate>Sun, 29 Jul 2018 00:00:00 -0400</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/post/ocrl-update-72918/</guid>
+      <guid>/post/ocrl-update-72918/</guid>
       <description>
 
 &lt;p&gt;Today I am proud to announce that we have added a significant number of new channels to &lt;a href=&#34;https://ocradio.live&#34; target=&#34;_blank&#34;&gt;Ocean County Radio Live&lt;/a&gt;, my online police fire &amp;amp; EMS scanner and archive service.
@@ -481,10 +592,9 @@ Please consider purhasing a &lt;a href=&#34;https://ocradio.live/plans/&#34; tar
     
     <item>
       <title>OPRAmachine update: The $1000 email metadata &amp; other pushback from government agencies</title>
-      <link>https://www.gavinrozzi.com/post/621-om-update/</link>
+      <link>/post/621-om-update/</link>
       <pubDate>Tue, 26 Jun 2018 00:00:00 -0400</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/post/621-om-update/</guid>
+      <guid>/post/621-om-update/</guid>
       <description>&lt;p&gt;I was once again interviewed by &lt;a href=&#34;https://citizensmedia.tv/&#34; target=&#34;_blank&#34;&gt;Citizens&amp;rsquo; Media TV&amp;rsquo;s&lt;/a&gt; Jeff Epstein about my work with public records &amp;amp; transparency via the OPRAmachine statwewide freedom of information portal that I run.&lt;/p&gt;
 
 &lt;p&gt;Epstein serves as one of the site&amp;rsquo;s volunteer administrators and in this podcast recorded on June 21st, 2018 we discuss some of the challenges that we have encountered running the site, including pushback from government agencies, fee demands for public records &amp;amp; more.&lt;/p&gt;
@@ -497,17 +607,16 @@ Please consider purhasing a &lt;a href=&#34;https://ocradio.live/plans/&#34; tar
     
     <item>
       <title>Rozzi v. Office of the Attorney General</title>
-      <link>https://www.gavinrozzi.com/legal/rozzivoag/</link>
+      <link>/legal/rozzivoag/</link>
       <pubDate>Sat, 23 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/legal/rozzivoag/</guid>
+      <guid>/legal/rozzivoag/</guid>
       <description>
 
 &lt;h2 id=&#34;attorney-general-s-office-violated-public-records-law-by-witholding-email-logs&#34;&gt;Attorney General&amp;rsquo;s Office violated public records law by witholding email logs&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Legal Counsel: &lt;a href=&#34;https://www.pashmanstein.com/attorney/cj-griffin&#34; target=&#34;_blank&#34;&gt;CJ Griffin, Esq.&lt;/a&gt; - Pashman Stein Walder Hayden&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;The New Jersey Attorney General&amp;rsquo;s Office was found to have violated the Open Public Records Act by denying my request for copies of email logs for the OAG&amp;rsquo;s custodian of records. I requested the email logs as a part of my advocacy on behalf of my statewide freedom of information website, &lt;a href=&#34;https://www.gavinrozzi.com/project/opramachine/&#34;&gt;OPRAmachine&lt;/a&gt;. The email logs provided insight into the practices of OAG when it comes to handling OPRA requests.&lt;/p&gt;
+&lt;p&gt;The New Jersey Attorney General&amp;rsquo;s Office was found to have violated the Open Public Records Act by denying my request for copies of email logs for the OAG&amp;rsquo;s custodian of records. I requested the email logs as a part of my advocacy on behalf of my statewide freedom of information website, &lt;a href=&#34;/project/opramachine/&#34;&gt;OPRAmachine&lt;/a&gt;. The email logs provided insight into the practices of OAG when it comes to handling OPRA requests.&lt;/p&gt;
 
 &lt;h3 id=&#34;question-presented&#34;&gt;Question Presented&lt;/h3&gt;
 
@@ -519,27 +628,26 @@ Please consider purhasing a &lt;a href=&#34;https://ocradio.live/plans/&#34; tar
 
 &lt;h3 id=&#34;outcome&#34;&gt;Outcome&lt;/h3&gt;
 
-&lt;p&gt;The Attorney General&amp;rsquo;s office eventually complied with the court order and &lt;a href=&#34;https://www.gavinrozzi.com/post/rozzi-oag/&#34;&gt;turned over the responsive email logs.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The Attorney General&amp;rsquo;s office eventually complied with the court order and &lt;a href=&#34;/post/rozzi-oag/&#34;&gt;turned over the responsive email logs.&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;In the interest of saving resources, I voluntarily waived the portions of the email logs that did not pertain to the deputy attorney general&amp;rsquo;s other roles outside of complying with the state&amp;rsquo;s Open Public Records Act in order to prevent any further delays to accessing the requested public records.&lt;/p&gt;
 
 &lt;h3 id=&#34;case-documents&#34;&gt;Case documents&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.gavinrozzi.com/files/Rozzi-AG Verified Complaint.pdf&#34;&gt;Read my verified complaint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/files/Rozzi-AG Verified Complaint.pdf&#34;&gt;Read my verified complaint&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.gavinrozzi.com/post/rozzi-oag/&#34;&gt;Read my blog post about the documents they released&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/post/rozzi-oag/&#34;&gt;Read my blog post about the documents they released&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Document Production in Rozzi v. OAG</title>
-      <link>https://www.gavinrozzi.com/post/rozzi-oag/</link>
+      <link>/post/rozzi-oag/</link>
       <pubDate>Wed, 30 May 2018 00:00:00 -0400</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/post/rozzi-oag/</guid>
-      <description>&lt;p&gt;I recently obtained &lt;a href=&#34;https://www.gavinrozzi.com/files/OAGemaillogs.pdf&#34;&gt;the following documents&lt;/a&gt; from the New Jersey Attorney General&amp;rsquo;s Office (OAG) which were produced in response to a court order isued in my lawsuit against the OAG. The documents were copies of email logs that show messages sent and received by the OAG&amp;rsquo;s custodian of records, who is responsible for complying with the provision of the New Jersey Open Public Records Act (OPRA) by way of responding to requests made under the state freedom of information law.&lt;/p&gt;
+      <guid>/post/rozzi-oag/</guid>
+      <description>&lt;p&gt;I recently obtained &lt;a href=&#34;/files/OAGemaillogs.pdf&#34;&gt;the following documents&lt;/a&gt; from the New Jersey Attorney General&amp;rsquo;s Office (OAG) which were produced in response to a court order isued in my lawsuit against the OAG. The documents were copies of email logs that show messages sent and received by the OAG&amp;rsquo;s custodian of records, who is responsible for complying with the provision of the New Jersey Open Public Records Act (OPRA) by way of responding to requests made under the state freedom of information law.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.gavinrozzi.com/files/Rozzi-AG Verified Complaint.pdf&#34;&gt;My lawsuit&lt;/a&gt;, which was filed in Mercer County Superior Court, resulted in an an order for the Attorney General&amp;rsquo;s office to produce the (redacted) copies of the documents that I originally requested back in November, 2017. Additional delays were added by the fact that the documents required a significant number of redactions due to the OPRA custodian&amp;rsquo;s additional responsibilities in the OAG, such as those related to homeland security.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/files/Rozzi-AG Verified Complaint.pdf&#34;&gt;My lawsuit&lt;/a&gt;, which was filed in Mercer County Superior Court, resulted in an an order for the Attorney General&amp;rsquo;s office to produce the (redacted) copies of the documents that I originally requested back in November, 2017. Additional delays were added by the fact that the documents required a significant number of redactions due to the OPRA custodian&amp;rsquo;s additional responsibilities in the OAG, such as those related to homeland security.&lt;/p&gt;
 
 &lt;p&gt;My attorney, &lt;a href=&#34;https://www.pashmanstein.com/attorney/cj-griffin&#34; target=&#34;_blank&#34;&gt;CJ Griffin, Esq.&lt;/a&gt; ultimately prevailed over the creative legal argument advanced by the AG&amp;rsquo;s Office. The AG&amp;rsquo;s legal position was particularly novel because the legal briefings cited OPRA cases as old as 2004 while essentially attempting to pretend the New Jersey Supreme Court&amp;rsquo;s ruling in &lt;a href=&#34;http://www.nj.com/politics/index.ssf/2017/03/nj_supreme_court_ruling_could_reshape_what_governm.html&#34; target=&#34;_blank&#34;&gt;Paff v. Galloway Township&lt;/a&gt; (2017) never happened.&lt;/p&gt;
 
@@ -552,10 +660,9 @@ Please consider purhasing a &lt;a href=&#34;https://ocradio.live/plans/&#34; tar
     
     <item>
       <title>A Conversation With Jeff Epstein and Patrick Duff Re: OPRA &amp; Open Government</title>
-      <link>https://www.gavinrozzi.com/post/jeffpatrickopra/</link>
+      <link>/post/jeffpatrickopra/</link>
       <pubDate>Mon, 07 May 2018 00:00:00 -0400</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/post/jeffpatrickopra/</guid>
+      <guid>/post/jeffpatrickopra/</guid>
       <description>&lt;p&gt;I recently spoke with Citizens&amp;rsquo; Media TV&amp;rsquo;s Jeff Epstein and Patrick Duff for an audio interview.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://soundcloud.com/peopleconversations/omgavinpatrick&#34; target=&#34;_blank&#34;&gt;Our conversation&lt;/a&gt; centered on the Open Public Records Act (OPRA), transparency &amp;amp; open government issues centered on my work with public records and how the three of us have made use of my &lt;a href=&#34;https://www.gavinrozzi.com/project/opramachine/&#34; target=&#34;_blank&#34;&gt;OPRAmachine&lt;/a&gt; platform.&lt;/p&gt;
@@ -572,10 +679,9 @@ Please consider purhasing a &lt;a href=&#34;https://ocradio.live/plans/&#34; tar
     
     <item>
       <title>Discussing OPRAmachine&#39;s Impact With WLFR Radio&#39;s Bill Watt</title>
-      <link>https://www.gavinrozzi.com/post/watt-interview/</link>
+      <link>/post/watt-interview/</link>
       <pubDate>Sun, 08 Apr 2018 00:00:00 -0400</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/post/watt-interview/</guid>
+      <guid>/post/watt-interview/</guid>
       <description>&lt;p&gt;On on April 5th, 2018 I joined WLFR Radio&amp;rsquo;s &lt;strong&gt;Watt&amp;rsquo;s The Move&lt;/strong&gt;, Stocton University&amp;rsquo;show
 own radio show that focuses on poliitics and public affairs.&lt;/p&gt;
 
@@ -598,10 +704,9 @@ in Galloway Township, NJ on 91.7 MHz and also has &lt;a href=&#34;http://wlfr.fm
     
     <item>
       <title>Libertarians for Transparent Government v. New Jersey State Police</title>
-      <link>https://www.gavinrozzi.com/legal/njsplawsuit/</link>
+      <link>/legal/njsplawsuit/</link>
       <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/legal/njsplawsuit/</guid>
+      <guid>/legal/njsplawsuit/</guid>
       <description>
 
 &lt;h2 id=&#34;new-jersey-state-police-held-accountable-in-court-for-stalling-on-public-records-requests&#34;&gt;New Jersey State Police held accountable in court for stalling on public records requests&lt;/h2&gt;
@@ -615,7 +720,7 @@ for then-New Jersey Governor Chris Christie&amp;rsquo;s usage of State Police he
 
 &lt;h3 id=&#34;case-documents&#34;&gt;Case documents&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.gavinrozzi.com/files/Cert of Gavin Rozzi for Libertarians-SP2.pdf&#34;&gt;Read my certification&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/files/Cert of Gavin Rozzi for Libertarians-SP2.pdf&#34;&gt;Read my certification&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B66zM58TlOVKRTZERjNvNm1xM0U/view&#34; target=&#34;_blank&#34;&gt;Read the full complaint&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -623,16 +728,15 @@ for then-New Jersey Governor Chris Christie&amp;rsquo;s usage of State Police he
     
     <item>
       <title>OPRAmachine</title>
-      <link>https://www.gavinrozzi.com/project/opramachine/</link>
+      <link>/project/opramachine/</link>
       <pubDate>Sat, 10 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/project/opramachine/</guid>
+      <guid>/project/opramachine/</guid>
       <description>
 
 &lt;h2 id=&#34;winner-of-the-2019-excellence-in-local-news-award&#34;&gt;Winner of the 2019 Excellence in Local News Award&lt;/h2&gt;
 
 &lt;p&gt;OPRAmachine won in the &amp;ldquo;Innovate Local&amp;rdquo; category for the site&amp;rsquo;s innovative approach to public records. &lt;a href=&#34;https://politicsoc.com/2019/02/rozzi-wins-statewide-journalism-award/&#34; target=&#34;_blank&#34;&gt;Details about the award are available here.&lt;/a&gt;
-&lt;img src=&#34;https://www.gavinrozzi.com/img/innovate.png&#34; width=40%&gt;&lt;/p&gt;
+&lt;img src=&#34;/img/innovate.png&#34; width=40%&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;opening-up-new-jersey-government&#34;&gt;Opening up New Jersey government&lt;/h2&gt;
 
@@ -669,12 +773,12 @@ The site has been making an impact and has been used as a research tool by publi
 &lt;p&gt;Since October, 2017, OPRAmachine has seen:
 &lt;ul&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;li&gt;&lt;strong&gt;4705&lt;/strong&gt; public records requests&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;3296&lt;/strong&gt; followup messages sent&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;690&lt;/strong&gt; registered users&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;1119&lt;/strong&gt; public bodies&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;139&lt;/strong&gt; annotations added to requests&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;393&lt;/strong&gt; tracked requests&lt;/li&gt;
+&lt;p&gt;&lt;li&gt;&lt;strong&gt;7038&lt;/strong&gt; public records requests&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;4262&lt;/strong&gt; followup messages sent&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1130&lt;/strong&gt; registered users&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1147&lt;/strong&gt; public bodies&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;151&lt;/strong&gt; annotations added to requests&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;516&lt;/strong&gt; tracked requests&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;latest-opra-requests&#34;&gt;Latest OPRA requests&lt;/h3&gt;
@@ -684,26 +788,20 @@ The site has been making an impact and has been used as a research tool by publi
 &lt;ul&gt;
   
   
-   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/copy_of_police_reports&#34; target=&#34;&#34;&gt;Copy of Police Reports&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/brick_township&#34; target=&#34;&#34;&gt;Brick Township&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: Anonymous Resident&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Successful.&lt;/strong&gt;&lt;p&gt;&lt;i&gt;As per your below OPRA request, please find attached the reports you requested. Redactions were made under the Privacy Act. 
+   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/contract_for_teamsters_local_469_470&#34; target=&#34;&#34;&gt;Contract for Teamsters Local #469&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/brick_township&#34; target=&#34;&#34;&gt;Brick Township&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: OCSN 32&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Successful.&lt;/strong&gt;&lt;p&gt;&lt;i&gt;In response to your OPRA request, please find requested emails attached
 
-Sincerely,
-
-Jessica L. La...&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
+Please be advised that redactions were made and most of the emails and/or atta...&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
   
-   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/studies&#34; target=&#34;&#34;&gt;Studies&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/spring_lake_borough&#34; target=&#34;&#34;&gt;Spring Lake Borough&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: OPRA Watch2019&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Follow up&lt;/strong&gt;&lt;p&gt;&lt;i&gt;Thank you. This completes the request. 
+   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/dialysis&#34; target=&#34;&#34;&gt;Dialysis&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/njdoh_philep&#34; target=&#34;&#34;&gt;NJ Department of Health Division of Public Health Infrastructure, Laboratories and Emergency Preparedness&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: Augustus lee&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Partially successful.&lt;/strong&gt;&lt;p&gt;&lt;i&gt;Dear Requestor the correct address for your request is:
 
-Yours sincerely,
-
-OPRA Watch2019&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
+https://www-njlib.state.nj.us/NJ_OPRA/opraRequest.jsp?deptname=Health&amp;amp;amp;divisionChoice=46:Health...&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
   
-   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/studies&#34; target=&#34;&#34;&gt;Studies&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/spring_lake_borough&#34; target=&#34;&#34;&gt;Spring Lake Borough&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: OPRA Watch2019&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Successful.&lt;/strong&gt;&lt;p&gt;&lt;i&gt;Good morning,
- Please find attached information requested. 
- --
- Dina M. Zahorsky
- Borough Clerk/Registrar
- 423 Warren Avenue
- PO Box 638
- Spring Lake,...&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
+   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/i_would_like_to_know_the_name_of&#34; target=&#34;&#34;&gt;I would like to know the name of the owner of a Garfield property&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/garfield_city&#34; target=&#34;&#34;&gt;Garfield City&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: edward devine&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Successful.&lt;/strong&gt;&lt;p&gt;&lt;i&gt;Dear Mr. Devine:
+
+Kindly see attached,
+
+Drew Pavlica
+Garfield City Clerk&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
   
 &lt;/ul&gt;
 
@@ -721,10 +819,9 @@ OPRA Watch2019&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
     
     <item>
       <title>Ocean County Radio Live</title>
-      <link>https://www.gavinrozzi.com/project/ocradiolive/</link>
+      <link>/project/ocradiolive/</link>
       <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/project/ocradiolive/</guid>
+      <guid>/project/ocradiolive/</guid>
       <description>
 
 &lt;h2 id=&#34;the-new-way-to-scan-ocean-county&#34;&gt;The new way to scan Ocean County&lt;/h2&gt;
@@ -799,7 +896,33 @@ OPRA Watch2019&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;ul&gt;
 
 
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3361/&#34;&gt;#3361&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3363/&#34;&gt;#3363&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/33705/&#34;&gt;#33705&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3379/&#34;&gt;#3379&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3383/&#34;&gt;#3383&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3385/&#34;&gt;#3385&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3401/&#34;&gt;#3401&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3403/&#34;&gt;#3403&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3421/&#34;&gt;#3421&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3423/&#34;&gt;#3423&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3439/&#34;&gt;#3439&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3441/&#34;&gt;#3441&lt;/a&gt;&lt;/li&gt;
+
 &lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3447/&#34;&gt;#3447&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/34685/&#34;&gt;#34685&lt;/a&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/34777/&#34;&gt;#34777&lt;/a&gt;&lt;/li&gt;
 
@@ -812,6 +935,8 @@ OPRA Watch2019&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/35279/&#34;&gt;#35279&lt;/a&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/35368/&#34;&gt;#35368&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3607/&#34;&gt;#3607&lt;/a&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/361/&#34;&gt;#361&lt;/a&gt;&lt;/li&gt;
 
@@ -851,6 +976,8 @@ OPRA Watch2019&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3715/&#34;&gt;#3715&lt;/a&gt;&lt;/li&gt;
 
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3721/&#34;&gt;#3721&lt;/a&gt;&lt;/li&gt;
+
 &lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3737/&#34;&gt;#3737&lt;/a&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3741/&#34;&gt;#3741&lt;/a&gt;&lt;/li&gt;
@@ -869,64 +996,15 @@ OPRA Watch2019&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3759/&#34;&gt;#3759&lt;/a&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3761/&#34;&gt;#3761&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/386/&#34;&gt;#386&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/39/&#34;&gt;#39&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/39061/&#34;&gt;#39061&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/391/&#34;&gt;#391&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/39242/&#34;&gt;#39242&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3-comm-gsp-central/&#34;&gt;3-COMM GSP CENTRAL&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3-comm-tpk-n/&#34;&gt;3-COMM TPK. N.&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4097/&#34;&gt;#4097&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4131/&#34;&gt;#4131&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4133/&#34;&gt;#4133&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4135/&#34;&gt;#4135&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4137/&#34;&gt;#4137&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4139/&#34;&gt;#4139&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/4141/&#34;&gt;#4141&lt;/a&gt;&lt;/li&gt;
-
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
-      <title>Forked River Amateur Radio Club</title>
-      <link>https://www.gavinrozzi.com/project/frnjarc/</link>
-      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/project/frnjarc/</guid>
-      <description>
-
-&lt;h2 id=&#34;serving-the-forked-river-nj-amateur-radio-community&#34;&gt;Serving the Forked River, NJ amateur radio community&lt;/h2&gt;
-
-&lt;p&gt;The Forked River Amateur Radio Club is a new amateur radio club formed to serve amateur radio community of Forked River, NJ and surrounding areas. I currently serve as both the vice president and webmaster of the club. We anticipate on pursuing several projects through this club, such as 2 meter FM repeater and 70 cm band DMR system to cover the Lacey area.&lt;/p&gt;
-
-&lt;p&gt;Given the impact that weather events like Hurricane Sandy have had on the region, we felt that an amateur radio group focused exclusively on our area would be beneficial to both the local amateur radio community as well as the public at large.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://frnjarc.org/&#34; target=&#34;_blank&#34;&gt;View the club&amp;rsquo;s website here.&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Ocean County Politics</title>
-      <link>https://www.gavinrozzi.com/project/politicsoc/</link>
+      <link>/project/politicsoc/</link>
       <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/project/politicsoc/</guid>
+      <guid>/project/politicsoc/</guid>
       <description>
 
 &lt;h2 id=&#34;ocean-county-s-source-political-news-commentary&#34;&gt;Ocean County&amp;rsquo;s source political news &amp;amp; commentary&lt;/h2&gt;
@@ -940,6 +1018,8 @@ OPRA Watch2019&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;ul&gt;
 
 
+&lt;li&gt;&lt;a href=https://politicsoc.com/2019/05/a-note-to-our-readers/&gt;A note to our readers&lt;/a&gt;&lt;/li&gt; 
+    
 &lt;li&gt;&lt;a href=https://politicsoc.com/2019/04/letter-fighting-the-jackson-junk-yard-proposal/&gt;Letter: Fighting the Jackson Junk Yard Proposal&lt;/a&gt;&lt;/li&gt; 
     
 &lt;li&gt;&lt;a href=https://politicsoc.com/2019/03/gopal-decries-lakewood-school-funding-windfall/&gt;Gopal Decries Lakewood School Funding Windfall&lt;/a&gt;&lt;/li&gt; 
@@ -949,8 +1029,6 @@ OPRA Watch2019&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=https://politicsoc.com/2019/03/george-gilmore-trial-hearing-rescheduled-in-gop-chairs-federal-case/&gt;George Gilmore Trial: Hearing Rescheduled in GOP Chair&amp;#8217;s Federal Case&lt;/a&gt;&lt;/li&gt; 
     
 &lt;li&gt;&lt;a href=https://politicsoc.com/2019/03/lt-governor-oliver-coming-to-ocean-county/&gt;Lt. Governor Oliver Coming to Ocean County&lt;/a&gt;&lt;/li&gt; 
-    
-&lt;li&gt;&lt;a href=https://politicsoc.com/2019/02/dep-finds-violations-at-berkeley-municipal-complex/&gt;DEP Finds Violations at Berkeley Municipal Complex&lt;/a&gt;&lt;/li&gt; 
     
 &lt;/ul&gt;
 
@@ -962,10 +1040,9 @@ OPRA Watch2019&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
     
     <item>
       <title>Rozzi v. Lacey Township Board of Education</title>
-      <link>https://www.gavinrozzi.com/legal/rozzivlaceyboe/</link>
+      <link>/legal/rozzivlaceyboe/</link>
       <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/legal/rozzivlaceyboe/</guid>
+      <guid>/legal/rozzivlaceyboe/</guid>
       <description>
 
 &lt;h2 id=&#34;fee-demand-for-public-records-declared-unreasonable-and-unwarranted&#34;&gt;Fee demand for public records declared &amp;ldquo;unreasonable and unwarranted&amp;rdquo;&lt;/h2&gt;
@@ -990,16 +1067,15 @@ OPRA Watch2019&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;h3 id=&#34;case-documents&#34;&gt;Case documents&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.gavinrozzi.com/files/2015-224.pdf&#34;&gt;Final Decision - Rozzi v. Lacey Township Board of Education&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/files/2015-224.pdf&#34;&gt;Final Decision - Rozzi v. Lacey Township Board of Education&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Rozzi v. Ocean County Prosecutor&#39;s Office</title>
-      <link>https://www.gavinrozzi.com/legal/rozzivocp/</link>
+      <link>/legal/rozzivocp/</link>
       <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/legal/rozzivocp/</guid>
+      <guid>/legal/rozzivocp/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;Legal Counsel: Pro Se&lt;/strong&gt;&lt;/p&gt;
@@ -1026,25 +1102,23 @@ OPRA Watch2019&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;h3 id=&#34;case-documents&#34;&gt;Case documents&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.gavinrozzi.com/files/2015-250.pdf&#34;&gt;Final decision - Rozzi v. Ocean County Prosecutor&amp;rsquo;s Office&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/files/2015-250.pdf&#34;&gt;Final decision - Rozzi v. Ocean County Prosecutor&amp;rsquo;s Office&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Municipal Tax Abatements Policy Briefing</title>
-      <link>https://www.gavinrozzi.com/publication/tax-abatements/</link>
+      <link>/publication/tax-abatements/</link>
       <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/publication/tax-abatements/</guid>
+      <guid>/publication/tax-abatements/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Featured on Rachel Maddow Show</title>
-      <link>https://www.gavinrozzi.com/post/rachelmaddow/</link>
+      <link>/post/rachelmaddow/</link>
       <pubDate>Wed, 12 Oct 2016 00:00:00 -0400</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/post/rachelmaddow/</guid>
+      <guid>/post/rachelmaddow/</guid>
       <description>&lt;p&gt;During the 2016 presidential election, I worked to fiercely cover the state, local &amp;amp; federal elections occurring within the communities of Ocean County, New Jersey for my website &lt;a href=&#34;https://politicsoc.com&#34; target=&#34;_blank&#34;&gt;Ocean County Politics&lt;/a&gt;. During this time, my reporting on the cancellation of a GOP fundraiser held for then-Vice Presidential candidate Mike Pence was featured on an episode of the Rachel Maddow.&lt;/p&gt;
 
 &lt;div id=&#34;fb-root&#34;&gt;&lt;/div&gt;
@@ -1063,36 +1137,10 @@ Is lack of interest in Pence events a sign of the air leaving the Trump balloon?
     </item>
     
     <item>
-      <title>Toms River 911 Call Explorer</title>
-      <link>https://www.gavinrozzi.com/project/tomsriver-911/</link>
-      <pubDate>Sun, 10 Jul 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/project/tomsriver-911/</guid>
-      <description>
-
-&lt;p&gt;The &lt;a href=&#34;https://tr911test.rozzi.media&#34; target=&#34;_blank&#34;&gt;Toms River 911 Call Explorer&lt;/a&gt; is a small web development project that I
-created in the summer of 2018 order to make visualzing &lt;a href=&#34;https://opramachine.com/request/active911_call_data_may_1st_to_j_2&#34; target=&#34;_blank&#34;&gt;data that I obtained using an OPRA request&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Content on the website is rendered using the Hugo static site generator, with the request thread on OPRAmachine hosting the actual CSV file with 911 call data.&lt;/p&gt;
-
-&lt;p&gt;Columns from the CSV file are rendered on the homepage of the site after being pulled from OPRAmachine. This setup sees OPRAmachine function as a sort of a &amp;ldquo;poor man&amp;rsquo;s API backend.&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;As additional requests are made for Active911 call data, they can easily be added to the site with simple changes to HTML on the live site.&lt;/p&gt;
-
-&lt;h3 id=&#34;more-details&#34;&gt;More details&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://tomsriver911.ocscanner.news&#34; target=&#34;_blank&#34;&gt;View the website&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/gavinrozzi/toms-river-911-calls&#34; target=&#34;_blank&#34;&gt;View the source code on Github&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Interview with CIO Magazine</title>
-      <link>https://www.gavinrozzi.com/post/ciomag/</link>
+      <link>/post/ciomag/</link>
       <pubDate>Wed, 10 Sep 2014 00:00:00 -0400</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/post/ciomag/</guid>
+      <guid>/post/ciomag/</guid>
       <description>&lt;p&gt;CIO Magazine &lt;a href=&#34;https://www.cio.com/article/2460827/search/seo-sem-top-25-diy-tips-for-better-seo.html&#34; target=&#34;_blank&#34;&gt;wanted my take&lt;/a&gt; on tips you can take to improve search engine rankings for small business websites for an article entitled &amp;ldquo;Top 25 DIY Tips for Better SEO.&amp;rdquo;&lt;/p&gt;
 
 &lt;p&gt;Here’s what I had to say:&lt;/p&gt;
@@ -1104,1053 +1152,6 @@ created in the summer of 2018 order to make visualzing &lt;a href=&#34;https://o
 
 &lt;p&gt;Drupal and Joomla are two worthy WordPress alternatives, Rozzi says. “These free, open-source content management systems come with an assortment of plug-ins that automate much of the SEO workload.”&lt;/p&gt;
 &lt;/blockquote&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Reimagining the police scanner in the era of the SDR</title>
-      <link>https://www.gavinrozzi.com/slides/ocradio-cyberspectrum/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/slides/ocradio-cyberspectrum/</guid>
-      <description>
-
-&lt;h2 id=&#34;toc_0&#34;&gt;📶&lt;/h2&gt;
-
-&lt;h2 id=&#34;reimagining-the-police-scanner-in-the-era-of-the-sdr&#34;&gt;Reimagining the police scanner in the era of the SDR&lt;/h2&gt;
-
-&lt;p&gt;Taking scanning to the next level using distributed RTLSDR receivers &amp;amp; open source software&lt;/p&gt;
-
-&lt;h3 id=&#34;presented-by-gavin-rozzi&#34;&gt;Presented by Gavin Rozzi&lt;/h3&gt;
-
-&lt;p&gt;Cyberspectrum #23 @ DEF CON 2018&lt;/p&gt;
-
-&lt;p&gt;August 9th, 2018&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;sdr-has-the-potential&#34;&gt;SDR has the potential&lt;/h1&gt;
-
-&lt;h2 id=&#34;to-expand-public-knowledge-while-reducing-cost-complexity&#34;&gt;to expand public knowledge while reducing cost &amp;amp; complexity&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;the-problem-with-hardware-scanners&#34;&gt;The problem with hardware scanners&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;hardware-scanners-are-expensive&#34;&gt;Hardware scanners are expensive&lt;/h2&gt;
-
-&lt;p&gt;Digital scanners especially those capable of newer digital protocols are pricey.&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-  ## P25 Phase II scanner - $400
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-  ## RTLSDR dongle - $25
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;hardware-scanners-have-limitations&#34;&gt;Hardware scanners have limitations&lt;/h2&gt;
-
-&lt;p&gt;Traditional scanners can only receive one transmission at a time. But large trunked systems could have activity on multiple channels at once, forcing users to miss out.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;for-many-new-digital-scanners-are-out-of-reach&#34;&gt;For many, new digital scanners are out of reach&lt;/h2&gt;
-
-&lt;p&gt;As agencies continue to adopt radios that use digital modulation. Many scanner enthusiasts are unable or unwilling to obtaing digital scanners due to cost and complexity.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;live-feeds-aren-t-much-better&#34;&gt;Live feeds aren&amp;rsquo;t much better&lt;/h2&gt;
-
-&lt;p&gt;They compensate for some shortcomings and allow portability, but are still limited by the constraints
-of hardware scanners.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;enter-oc-radio-live&#34;&gt;Enter OC Radio Live&lt;/h2&gt;
-
-&lt;p&gt;Using SDR &amp;amp; open source technologies, we can make scanning easier and more user-friendly.
-&lt;a href=&#34;https://ocradio.live/&#34; target=&#34;_blank&#34;&gt;OC Radio Live&lt;/a&gt; is a website that I created to use SDR to stream transmissions from local radio systems.&lt;/p&gt;
-
-&lt;h2 id=&#34;screenshot-https-www-gavinrozzi-com-img-ocrl-new-channels-jpeg&#34;&gt;&lt;img src=&#34;https://www.gavinrozzi.com/img/ocrl-new-channels.jpeg&#34; alt=&#34;Screenshot&#34; /&gt;&lt;/h2&gt;
-
-&lt;h2 id=&#34;how-scanning-can-be-better-with-sdr&#34;&gt;How scanning can be better with SDR&lt;/h2&gt;
-
-&lt;p&gt;OC Radio Live features:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Time shifting, so simultaneous scanner calls on different channels are saved.&lt;/li&gt;
-&lt;li&gt;Multiple receiving sites can allow wide area coverage&lt;/li&gt;
-&lt;li&gt;Transmissions are stored and archived by talkgroup &amp;amp; scanlist&lt;/li&gt;
-&lt;li&gt;Unlike traditional scanner feed archives, no silence is recorded, only activity on channels.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;how-scanning-can-be-better-with-sdr-1&#34;&gt;How scanning can be better with SDR&lt;/h2&gt;
-
-&lt;p&gt;Thanks to &lt;a href=&#34;https://github.com/robotastic/trunk-recorder&#34; target=&#34;_blank&#34;&gt;trunk-recorder&lt;/a&gt; we can record:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Conventional analog repeater / simplex channels&lt;/li&gt;
-&lt;li&gt;Motorola analog trunked systems&lt;/li&gt;
-&lt;li&gt;P25 Phase 1 &amp;amp; 2 digital trunking systems&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;ocean-county-nj-s-radio-systems&#34;&gt;Ocean County, NJ&amp;rsquo;s Radio Systems&lt;/h2&gt;
-
-&lt;p&gt;These capabilities allow us to record the following types of systems using the site:
-&lt;span class=&#34;fragment &#34; &gt;
-  ### Aging 500 MHz Motorola Type II TRS
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-  ### New State &amp;amp; County 700 MHz P25 Phase II systems
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-  ### Analog VHF and UHF conventional channels
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;more-choices&#34;&gt;More Choices&lt;/h2&gt;
-
-&lt;p&gt;Hardware scanners only offer a simple lockout and various banks of channels.
-OC Radio Live has data on invididual channels, entire radio systems and custom scan lists for regions and types of radio traffic.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.gavinrozzi.com/img/slide-images/ocradio/scanlists.JPG&#34; alt=&#34;Scan lists on the site&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;our-receiving-sites&#34;&gt;Our Receiving Sites&lt;/h2&gt;
-
-&lt;p&gt;Toms River, NJ (700, 460 and 155 MHz) (outside)
-&lt;img src=&#34;https://www.gavinrozzi.com/img/slide-images/ocradio/tr-700site.jpg&#34; alt=&#34;Toms River 700 receiving site&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;our-receiving-sites-1&#34;&gt;Our Receiving Sites&lt;/h2&gt;
-
-&lt;p&gt;Lacey, NJ (500 MHz) (inside)
-&lt;img src=&#34;https://www.gavinrozzi.com/img/slide-images/ocradio/IMG_1570.jpg&#34; alt=&#34;Lacey Township receiving site&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;the-open-source-software-powering-the-site&#34;&gt;The open-source software powering the site&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;the-backend&#34;&gt;The backend&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;trunk-recorder by &lt;a href=&#34;https://github.com/robotastic/trunk-recorder&#34; target=&#34;_blank&#34;&gt;Luke Berndt&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Radio transmissions are saved to an Amazon S3 bucket&lt;/li&gt;
-&lt;li&gt;Desktop with powered USB hubs at receiving site 1&lt;/li&gt;
-&lt;li&gt;2U server along with an Ubuntu desktop with 4 SDRs at receiving site 2&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;the-backend-1&#34;&gt;The backend&lt;/h2&gt;
-
-&lt;p&gt;trunk-recorder uses JSON syntax for defining systems and SDRs.
-Some examples of the systems I defined are on &lt;a href=&#34;https://github.com/gavinrozzi/ocradio-configs&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt;
-&lt;img src=&#34;img/slide-images/ocradio/configfile.JPG&#34; alt=&#34;A screenshot of a config file&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;the-backend-2&#34;&gt;The backend&lt;/h2&gt;
-
-&lt;p&gt;Scanning the &lt;a href=&#34;https://www.radioreference.com/apps/db/?sid=7021&#34; target=&#34;_blank&#34;&gt;NJICS 700 MHz system&lt;/a&gt;
-&lt;img src=&#34;img/slide-images/ocradio/recorderoutput.JPG&#34; alt=&#34;trunk-recorder uploading transmissions&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;the-frontend&#34;&gt;The frontend&lt;/h2&gt;
-
-&lt;p&gt;The frontend is hosted on a simple Ubuntu 16.04 VPS on a cloud hosting provider.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Django web framework&lt;/li&gt;
-&lt;li&gt;Nginx as a reverse proxy to daphne&lt;/li&gt;
-&lt;li&gt;trunk-player handles the scanning interface&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;bringing-it-all-together&#34;&gt;Bringing it all together&lt;/h2&gt;
-
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-  * trunk-recorder reads in the JSON configuration file for the system(s) and allocates recorders on
-multiple RF channels within the SDR&amp;rsquo;s bandwidth.
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-  * A bash script passes the transmissions along with JSON metadata to the frontend server, where it is written to a database.
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-  * The transmissions are uploaded to Amazon S3 for storage and deleted from the frontend.
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-  * Users can play live transmissions &amp;amp; access archives on the frontend website.
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;a-rest-api-endpoint-for-every-radio-system&#34;&gt;A REST API Endpoint for every radio system&lt;/h2&gt;
-
-&lt;p&gt;Example request:&lt;/p&gt;
-
-&lt;p&gt;curl &lt;a href=&#34;https://ocradio.live/api_v1/scan/default/?format=json&#34; target=&#34;_blank&#34;&gt;https://ocradio.live/api_v1/scan/default/?format=json&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.gavinrozzi.com/img/slide-images/ocradio/api.JPG&#34; alt=&#34;A sample API response&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;SDR can break down cost &amp;amp; complexity barriers to monitoring public safety radio systems.
-SDR combined with web services can allow receiving setups previously not possible with past hardware radios.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;site-demonstration-q-a&#34;&gt;Site demonstration + Q &amp;amp; A&lt;/h2&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Researching the opiod crisis using OPRA</title>
-      <link>https://www.gavinrozzi.com/slides/opiatecrisis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/slides/opiatecrisis/</guid>
-      <description>
-
-&lt;h2 id=&#34;researching-the-opiod-crisis-with-opra&#34;&gt;Researching the opiod crisis with OPRA&lt;/h2&gt;
-
-&lt;p&gt;Using public records 📄 for a data-driven approach to combatting addiction 💊&lt;/p&gt;
-
-&lt;h3 id=&#34;presented-by-gavin-rozzi&#34;&gt;Presented by Gavin Rozzi&lt;/h3&gt;
-
-&lt;p&gt;Ocean County College&lt;/p&gt;
-
-&lt;p&gt;February 15th, 2019&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;who-am-i&#34;&gt;Who Am I?&lt;/h1&gt;
-
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-  - B.A. Political Science, Stockton University
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-  - Former teaching assistant, constitutional law
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-   - Background in web development, tech &amp;amp; journalism
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;background-on-opra&#34;&gt;Background on OPRA&lt;/h2&gt;
-
-&lt;p&gt;The Open Public Records Act&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-   - A state law, N.J.S.A. 47:1A-1 et seq.
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-   - Gives you the &lt;strong&gt;right&lt;/strong&gt; to access public records
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-   - Applies to state and local public agencies
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-   - Courts and legislature are exempt
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&amp;ldquo;OPRA&amp;rsquo;s clear purpose &amp;hellip; is &amp;lsquo;to maximize public knowledge about public affairs in order to ensure an informed citizenry and to minimize the evils inherent in a secluded process.&amp;rsquo;&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Educ. Law Ctr. v. N.J. Dep&amp;rsquo;t of Educ., 198 N.J. 274, 284 (2009) (quoting Mason v. City of Hoboken, 196 N.J. 51, 64 (2008)).&lt;/strong&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;tracking-overdoses&#34;&gt;Tracking Overdoses&lt;/h2&gt;
-
-&lt;p&gt;OPRA can be used to obtain data on the &lt;strong&gt;frequency&lt;/strong&gt;, &lt;strong&gt;location&lt;/strong&gt; and &lt;strong&gt;details&lt;/strong&gt; of overdoses.&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-  This can be useful for researching the impact of opiates and client supervision.
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;narcan&#34;&gt;Narcan&lt;/h1&gt;
-
-&lt;p&gt;Narcan is a powerful tool for reversing opiate overdoses.&lt;/p&gt;
-
-&lt;p&gt;Each time it is administered, a form is sent to the county prosecutor&amp;rsquo;s and state attorney general&amp;rsquo;s office.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;a-sample-narcan-report&#34;&gt;A Sample Narcan Report&lt;/h2&gt;
-
-&lt;p&gt;View the documents online &lt;a href=&#34;https://opramachine.com/request/2281/response/4385/attach/2/doc06228220180803150440.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.gavinrozzi.com/img/narcanreport.JPG&#34; width=&#34;40%&#34;&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;narcan-reports&#34;&gt;Narcan Reports&lt;/h2&gt;
-
-&lt;p&gt;Can be requested from either the local police department or county prosecutor&amp;rsquo;s office.&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-  Sample OPRA request:&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&amp;ldquo;Copies of all Naloxone administration reports from December 1st, 2018 to January 31st, 2019&amp;rdquo;&lt;/em&gt;
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;police-cad-reports&#34;&gt;Police CAD Reports&lt;/h2&gt;
-
-&lt;h3 id=&#34;cad-computer-aided-dispatch&#34;&gt;CAD: &lt;strong&gt;computer aided dispatch.&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;(Not the drafting software!)&lt;/p&gt;
-
-&lt;p&gt;A searchable police database of calls &amp;amp; incident reports.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;a-sample-cad-report&#34;&gt;A Sample CAD Report&lt;/h2&gt;
-
-&lt;p&gt;From the &lt;a href=&#34;https://opramachine.com/request/3344/response/6721/attach/html/3/20190108094439280.pdf.html&#34; target=&#34;_blank&#34;&gt;Brick Twp.Police Department&lt;/a&gt;
-&lt;img src=&#34;https://www.gavinrozzi.com/img/samplecadreport.JPG&#34; width=&#34;60%&#34;&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;a-sample-cad-narrative&#34;&gt;A Sample CAD Narrative&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.gavinrozzi.com/img/samplecadnarrative.JPG&#34; width=&#34;90%&#34;&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;requesting-overdose-cad-reports&#34;&gt;Requesting Overdose CAD Reports&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://opramachine.com/request/3344/response/6721/attach/html/3/20190108094439280.pdf.html&#34; target=&#34;_blank&#34;&gt;Sample OPRA request&lt;/a&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&amp;ldquo;Please provide the redacted incident and/or police reports for all
-overdoses or possible overdoses in Brick Township, NJ that police and/or EMS responded to. Please include 10/28/18-12/28/18&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;requesting-cad-reports-by-address&#34;&gt;Requesting CAD Reports By Address&lt;/h2&gt;
-
-&lt;p&gt;CAD reports can also be requested by specifying an address and date range.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.gavinrozzi.com/img/sunrise.jpg&#34; width=&#34;80%&#34;&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;911-call-data&#34;&gt;911 Call Data&lt;/h2&gt;
-
-&lt;p&gt;Some towns including Toms River and Seaside Heights are adopting a system called Active911 to coordinate first responders.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;911-call-data-from-active911&#34;&gt;911 Call Data From Active911&lt;/h2&gt;
-
-&lt;p&gt;The app tracks and maps first responders using smartphones. It is proving to be a rich source of data requestable under OPRA.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;active911&#34;&gt;Active911&lt;/h2&gt;
-
-&lt;p&gt;The app, as seen by first responders&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.gavinrozzi.com/img/Active911vaz.jpg&#34; width=&#34;25%&#34;&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;911-call-data-1&#34;&gt;911 Call Data&lt;/h2&gt;
-
-&lt;p&gt;The data, &lt;a href=&#34;https://opramachine.com/request/active911_call_data_aug_2nd_oct&#34; target=&#34;_blank&#34;&gt;as provided by Toms River Fire District 1&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.gavinrozzi.com/img/911data.JPG&#34; width=&#34;100%&#34;&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;mapping-overdoses&#34;&gt;Mapping Overdoses&lt;/h2&gt;
-
-&lt;p&gt;The data can be used to &lt;a href=&#34;https://tr911test.rozzi.media/&#34; target=&#34;_blank&#34;&gt;map incidents&lt;/a&gt; and study trends in drug activity.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.gavinrozzi.com/img/map.JPG&#34; width=&#34;100%&#34;&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;how-to-submit-an-opra-request&#34;&gt;How to Submit an OPRA Request&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Visit &lt;a href=&#34;https://opramachine.com&#34; target=&#34;_blank&#34;&gt;OPRAmachine.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Click &amp;ldquo;Make a request&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Type the name of the town / agency&lt;/li&gt;
-&lt;li&gt;Fill out the request form&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;your-assignment&#34;&gt;Your assignment&lt;/h2&gt;
-
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-   - Use OPRA to obtain data about addiction in your community.
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-   - Use the data to make 3 evidence-based recommendations to your mayor and police chief about how to address problem areas.
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-   - Write a memo implementing your ideas. Support your recommendations with citations to the data.
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;previous-aldc-rmg-collaboration&#34;&gt;Previous ALDC + RMG Collaboration&lt;/h2&gt;
-
-&lt;p&gt;Jobs program (2017)
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/VwVaF-4063Y&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;get-in-touch&#34;&gt;Get in touch&lt;/h2&gt;
-
-&lt;p&gt;Email: gr@gavinrozzi.com&lt;/p&gt;
-
-&lt;p&gt;Phone: (732)-504-3636&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;this-presentation-is-online&#34;&gt;This presentation is online&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://gavinrozzi.com/slides/opiatecrisis/&#34; target=&#34;_blank&#34;&gt;https://gavinrozzi.com/slides/opiatecrisis/&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Using OPRAmachine to file public records requests without the hassle</title>
-      <link>https://www.gavinrozzi.com/slides/montclair/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/slides/montclair/</guid>
-      <description>
-
-&lt;h2 id=&#34;toc_0&#34;&gt;📑:&lt;/h2&gt;
-
-&lt;h2 id=&#34;using-opramachine-to-file-public-records-requests-without-the-hassle&#34;&gt;Using OPRAmachine to file public records requests without the hassle&lt;/h2&gt;
-
-&lt;p&gt;Streamline your public records requests with New Jersey&amp;rsquo;s public records request &amp;amp; research platform.&lt;/p&gt;
-
-&lt;h2 id=&#34;gavin-rozzi&#34;&gt;Gavin Rozzi&lt;/h2&gt;
-
-&lt;p&gt;Presented by the Montclair University Center for Cooperative Media&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;August 21st, 2018&lt;/strong&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;transparency-matters&#34;&gt;Transparency matters&lt;/h1&gt;
-
-&lt;h2 id=&#34;but-getting-results-from-nj-government-can-be-be-difficult&#34;&gt;but getting results from NJ government can be be difficult&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;opramachine&#34;&gt;OPRAmachine&lt;/h1&gt;
-
-&lt;h2 id=&#34;is-a-tool-that-is-simplifying-public-records-requests-in-new-jersey&#34;&gt;is a tool that is simplifying public records requests in New Jersey&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;opramachine-1&#34;&gt;OPRAmachine&lt;/h1&gt;
-
-&lt;h2 id=&#34;allows-users-to-send-track-public-records-requests&#34;&gt;allows users to send &amp;amp; track public records requests&lt;/h2&gt;
-
-&lt;h2 id=&#34;it-then-publishes-all-documents-correspondence-online&#34;&gt;It then publishes all documents &amp;amp; correspondence online&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;opramachine-2&#34;&gt;OPRAmachine&lt;/h1&gt;
-
-&lt;h2 id=&#34;is-built-on-the-premise-that-everything-should-be-public&#34;&gt;is built on the premise that everything should be public.&lt;/h2&gt;
-
-&lt;h2 id=&#34;everything-from-the-initial-request-to-the-final-documents-disposition&#34;&gt;Everything from the initial request, to the final documents / disposition&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;opramachine-3&#34;&gt;OPRAmachine&lt;/h1&gt;
-
-&lt;h2 id=&#34;helps-individual-users-get-an-answer-to-their-request&#34;&gt;helps individual users get an answer to their request.&lt;/h2&gt;
-
-&lt;h2 id=&#34;and-its-database-of-public-records-gets-bigger-everytime-the-site-is-used&#34;&gt;And its database of public records gets bigger everytime the site is used.&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;the-open-public-records-act&#34;&gt;The Open Public Records Act&lt;/h2&gt;
-
-&lt;p&gt;Gives you several &lt;strong&gt;important&lt;/strong&gt; rights:&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-  - You can access any record &amp;ldquo;made, maintained or kept on file&amp;rdquo;*
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-  - Custodian must approve or deny request in 7 business days
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-  - Challenge denied requests in superior court or at the GRC
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;*exemptions apply&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;the-opra-request-process&#34;&gt;The OPRA request process&lt;/h2&gt;
-
-&lt;p&gt;Generally, no matter how the request is submitted, the following steps take place:
-&lt;span class=&#34;fragment &#34; &gt;
-  - Citzen submits their request
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-  - Public agency responds, requests an extension, or denies request
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-  - Citizen obtains records, or challenges denial in court or at the GRC
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;introducing-opramachine&#34;&gt;Introducing OPRAmachine&lt;/h2&gt;
-
-&lt;p&gt;OPRAmachine launched in October, 2017. Within its first month, its database expanded to
-cover all 565 municipalities in New Jersey.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.gavinrozzi.com/img/slide-images/montclair/slide-images/montclair/OM.JPG&#34; alt=&#34;The OPRAmachine website&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;modernizing-public-records&#34;&gt;Modernizing public records&lt;/h2&gt;
-
-&lt;p&gt;OPRAmachine eliminates many of the past pains of the public records request process:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;No wasteful paper forms or in-person visits&lt;/li&gt;
-&lt;li&gt;No fees per page for paper copies / paying for postage&lt;/li&gt;
-&lt;li&gt;No dealing with ancient fax machines&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;modernizing-public-records-1&#34;&gt;Modernizing public records&lt;/h2&gt;
-
-&lt;p&gt;The platform also introduces several new features:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Request updates by town and keyword&lt;/li&gt;
-&lt;li&gt;Advanced search of requests / responses&lt;/li&gt;
-&lt;li&gt;A searchable database of governnment agencies and public records&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;by-the-numbers&#34;&gt;By the numbers&lt;/h1&gt;
-
-&lt;p&gt;Since our launch in October, 2017:&lt;/p&gt;
-
-&lt;h2 id=&#34;927-government-agencies&#34;&gt;927 government agencies&lt;/h2&gt;
-
-&lt;h2 id=&#34;2341-opra-requests&#34;&gt;2341 OPRA requests&lt;/h2&gt;
-
-&lt;h2 id=&#34;10-gb-of-public-documents-data-archived&#34;&gt;10 GB of public documents &amp;amp; data archived&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;how-the-site-works&#34;&gt;How the site works&lt;/h2&gt;
-
-&lt;p&gt;To enable advanced features, each request is assigned a unique tracking ID&lt;/p&gt;
-
-&lt;p&gt;Here&amp;rsquo;s one of them:
- &lt;strong&gt;8f40bc9f&lt;/strong&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;how-the-site-works-1&#34;&gt;How the site works&lt;/h2&gt;
-
-&lt;p&gt;The tracking ID is used to generate a unique email addres for &lt;strong&gt;each&lt;/strong&gt; OPRA request.&lt;/p&gt;
-
-&lt;p&gt;Sample:
-opra+request-1966-&lt;strong&gt;8f40bc9f&lt;/strong&gt;
-@requests.opramachine.com&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;how-responses-are-handled&#34;&gt;How responses are handled&lt;/h2&gt;
-
-&lt;p&gt;When government agencies reply to the request, the site detects the tracking ID.
-This allows responses to OPRA requests to be &lt;strong&gt;automatically published&lt;/strong&gt; online and with the correct request.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;advantages-of-our-approach&#34;&gt;Advantages of our approach&lt;/h2&gt;
-
-&lt;p&gt;Since the OPRA requests are created on our site and ultimately sent via email, no  proprietary softare is needed by government agencies. And paper waste is eliminated.&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-  - For clerks, responding is as simple as hitting &amp;ldquo;reply&amp;rdquo;
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-  - Can easily be integrated with &lt;strong&gt;existing&lt;/strong&gt; email systems
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;filing-requests&#34;&gt;Filing requests&lt;/h2&gt;
-
-&lt;p&gt;All you need is a valid email address to get started filing requests.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://opramachine.com/select_authority&#34; target=&#34;_blank&#34;&gt;Select the government agency&lt;/a&gt; to send your request&lt;/li&gt;
-&lt;li&gt;File up to 7 requests per day (&lt;a href=&#34;https://opramachine.com/help/contact&#34; target=&#34;_blank&#34;&gt;contact us&lt;/a&gt; if you need more)&lt;/li&gt;
-&lt;li&gt;Wait for a response and follow up with the agency as necessary&lt;/li&gt;
-&lt;li&gt;Classify your OPRA request when you get a response&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;note-on-anonymous-requests&#34;&gt;Note on anonymous requests&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;The OPRA law allows citizens to request records &lt;strong&gt;anonymously&lt;/strong&gt; if they choose.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;We believe OPRAmachine is the best way to file anonymous requests because user email addresses
-are &lt;strong&gt;never published&lt;/strong&gt; or revealed to government agencies.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Only each OPRA request&amp;rsquo;s &lt;strong&gt;unique&lt;/strong&gt; email is ever visible to the public or government.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;filing-requests-1&#34;&gt;Filing requests&lt;/h2&gt;
-
-&lt;p&gt;OPRAmachine will notify you when your request gets a response. You&amp;rsquo;ll get an email with a link to view
-the response online.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.gavinrozzi.com/img/slide-images/montclair/newresponse.JPG&#34; alt=&#34;A sample response notification&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;classifying-requests&#34;&gt;Classifying requests&lt;/h2&gt;
-
-&lt;p&gt;An important part of the request process on OPRAmachine is &lt;strong&gt;classifying&lt;/strong&gt; the status of requests.
-Users receive a survey when they get a response to describe the state of their OPRA request.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://www.gavinrozzi.com/img/slide-images/montclair/survey.JPG&#34; alt=&#34;The survey&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;why-classify-requests&#34;&gt;Why classify requests?&lt;/h2&gt;
-
-&lt;p&gt;We ask users to classify requests so we can track outcome and trigger site functionality based on the request&amp;rsquo;s status.&lt;/p&gt;
-
-&lt;p&gt;Since users initially request the records, it&amp;rsquo;s easiest for them to classify their own requests&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;request-states-on-opramachine&#34;&gt;Request states on OPRAmachine&lt;/h2&gt;
-
-&lt;p&gt;There are several states that requests can be classified into, including:&lt;/p&gt;
-
-&lt;h3 id=&#34;partially-successful-img-slide-images-montclair-status-successful-2x-png-successful&#34;&gt;&lt;img src=&#34;https://www.gavinrozzi.com/img/slide-images/montclair/status/successful@2x.png&#34; alt=&#34;Partially Successful&#34; /&gt; Successful&lt;/h3&gt;
-
-&lt;h3 id=&#34;successful-img-slide-images-montclair-status-partiallysuccessful-2x-png-partially-successful&#34;&gt;&lt;img src=&#34;https://www.gavinrozzi.com/img/slide-images/montclair/status/partiallysuccessful@2x.png&#34; alt=&#34;Successful&#34; /&gt; Partially Successful&lt;/h3&gt;
-
-&lt;h3 id=&#34;gone-postal-img-slide-images-montclair-status-postal-2x-png-gone-postal&#34;&gt;&lt;img src=&#34;https://www.gavinrozzi.com/img/slide-images/montclair/status/postal@2x.png&#34; alt=&#34;Gone Postal&#34; /&gt; Gone Postal&lt;/h3&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;more-request-states&#34;&gt;More request states&lt;/h2&gt;
-
-&lt;h3 id=&#34;delivery-error-img-slide-images-montclair-status-delivery-error-2x-png-delivery-error&#34;&gt;&lt;img src=&#34;https://www.gavinrozzi.com/img/slide-images/montclair/status/delivery_error@2x.png&#34; alt=&#34;Delivery Error&#34; /&gt; Delivery Error&lt;/h3&gt;
-
-&lt;h3 id=&#34;not-held-img-slide-images-montclair-status-notheld-2x-png-info-not-held&#34;&gt;&lt;img src=&#34;https://www.gavinrozzi.com/img/slide-images/montclair/status/notheld@2x.png&#34; alt=&#34;Not Held&#34; /&gt; Info Not Held&lt;/h3&gt;
-
-&lt;h3 id=&#34;refused-img-slide-images-montclair-status-refused-2x-png-refused&#34;&gt;&lt;img src=&#34;https://www.gavinrozzi.com/img/slide-images/montclair/status/refused@2x.png&#34; alt=&#34;Refused&#34; /&gt; Refused&lt;/h3&gt;
-
-&lt;h3 id=&#34;overdue-img-slide-images-montclair-status-overdue-2x-png-long-overdue&#34;&gt;&lt;img src=&#34;https://www.gavinrozzi.com/img/slide-images/montclair/status/overdue@2x.png&#34; alt=&#34;Overdue&#34; /&gt; Long Overdue&lt;/h3&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;tracking-opra-requests&#34;&gt;Tracking OPRA requests&lt;/h2&gt;
-
-&lt;p&gt;OPRAmachine lets you track requests &amp;amp; responses on multiple levels:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Your own OPRA requests&lt;/li&gt;
-&lt;li&gt;Other people&amp;rsquo;s requests&lt;/li&gt;
-&lt;li&gt;All requests sent to a particular agency&lt;/li&gt;
-&lt;li&gt;All requests containing a keyword&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Tracking updates are sent daily via email.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;tracking-opra-requests-1&#34;&gt;Tracking OPRA requests&lt;/h2&gt;
-
-&lt;p&gt;A good source of leads for stories!&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;See what topics others are researching and view documents!&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Monitor topics and geographic areas from a unified interface&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Tracking alerts help keep public bodies compliant with OPRA&amp;rsquo;s time limits and reporters on deadline.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;use-case-tracking-opra-requests-and-searches&#34;&gt;Use case: tracking OPRA requests and searches&lt;/h2&gt;
-
-&lt;p&gt;One use case we have identified is that some users will register for an account only to receive &lt;strong&gt;tracking updates&lt;/strong&gt; and not to file their own requests, showing how the public records are being used by 3rd parties.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;using-opramachine-for-research&#34;&gt;Using OPRAmachine for research&lt;/h2&gt;
-
-&lt;p&gt;OPRAmachine has several features that make it attractive a research platform.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Advanced search features&lt;/li&gt;
-&lt;li&gt;Batch OPRA requests&lt;/li&gt;
-&lt;li&gt;Data and API access&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;advanced-search-functionality&#34;&gt;Advanced search functionality&lt;/h2&gt;
-
-&lt;p&gt;OPRAmachine&amp;rsquo;s &lt;strong&gt;advanced search&lt;/strong&gt; tool can help you narrow down requests and documents and requests even further.&lt;/p&gt;
-
-&lt;p&gt;Filter content by the following criteria:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;File type (CSV, XLS, PDF, DOC etc.)&lt;/li&gt;
-&lt;li&gt;Requester&lt;/li&gt;
-&lt;li&gt;Public body&lt;/li&gt;
-&lt;li&gt;Date range&lt;/li&gt;
-&lt;li&gt;Type of public body&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;advanced-search-functionality-1&#34;&gt;Advanced search functionality&lt;/h2&gt;
-
-&lt;h3 id=&#34;opramachine-com-advancedsearch-https-opramachine-com-advancedsearch&#34;&gt;&lt;a href=&#34;https://opramachine.com/advancedsearch&#34; target=&#34;_blank&#34;&gt;opramachine.com/advancedsearch&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;img/slide-images/montclair/advsearch.JPG&#34; alt=&#34;Advanced Search&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;example-advanced-search&#34;&gt;Example: advanced search&lt;/h2&gt;
-
-&lt;p&gt;Here are some sample queries:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://opramachine.com/search/Salary%20filetype:xlsx/all?commit=Search&amp;amp;utf8=%E2%9C%93&#34; target=&#34;_blank&#34;&gt;All OPRA requests regarding &amp;ldquo;Salary&amp;rdquo; and only those in which a Microsoft Excel spreadsheet was provided&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://opramachine.com/search/%20filetype:pdf/all?commit=Search&amp;amp;utf8=%E2%9C%93&#34; target=&#34;_blank&#34;&gt;All OPRA requests containing a PDF file in the response&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;batch-requests&#34;&gt;Batch requests&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;We are enabling comparative research using OPRA with the &lt;strong&gt;batch request&lt;/strong&gt; feature.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;This allows the same request to simultatenously be delivered to multiple government agencies &amp;amp; tracked.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Currently access to this feature is &lt;strong&gt;restricted&lt;/strong&gt; to prevent abuse&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;batch-requests-in-action&#34;&gt;Batch requests in action&lt;/h2&gt;
-
-&lt;p&gt;Here are some succcesful batch OPRA requests:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://opramachine.com/info_request_batch/3&#34; target=&#34;_blank&#34;&gt;Trump visit security costs across law enforcement agencies&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://opramachine.com/info_request_batch/1&#34; target=&#34;_blank&#34;&gt;Police use of force in Ocean County&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://opramachine.com/info_request_batch/11&#34; target=&#34;_blank&#34;&gt;A comparsion of payroll records across charter schools&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://opramachine.com/info_request_batch/11&#34; target=&#34;_blank&#34;&gt;Cell site simulators - who has them and who is using them&lt;/a&gt;
--&lt;a href=&#34;https://opramachine.com/request/elected_official_salaries_benefi_7#incoming-4540&#34; target=&#34;_blank&#34;&gt;Elected official salaries, benefits &amp;amp; reimbursements&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;the-impact&#34;&gt;The impact&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;More people are learning about public records and OPRA&lt;/li&gt;
-&lt;li&gt;Seeing OPRA requests and documents helps individuals make sense of what can be a complex process&lt;/li&gt;
-&lt;li&gt;Users can build off of the work of other requesters&lt;/li&gt;
-&lt;li&gt;The public knows more about the inner workings of government&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;teaching-users-how-to-opra&#34;&gt;Teaching users how to OPRA&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;The site has exposed more people to OPRA and public records, helping them to be better informed&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;By viewing requests and responses, requesters can draft better OPRA requests and know what to expect&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Case study: Jeff Epstein taught citizens how to use it while researching issues in an NJ school district&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;a-word-from-opramachine-administrator-jeff-epstein&#34;&gt;A word from OPRAmachine Administrator Jeff Epstein&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Before &amp;amp; after OPRAmachine&lt;/li&gt;
-&lt;li&gt;Benefits to journalists&lt;/li&gt;
-&lt;li&gt;Limitations of the underlying Alaveteli platform&lt;/li&gt;
-&lt;li&gt;User support requests re: sensitive information&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;who-is-using-opramachine&#34;&gt;Who is using OPRAmachine?&lt;/h2&gt;
-
-&lt;p&gt;The following groups of users are some examples of who is on our platform:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Journalists&lt;/li&gt;
-&lt;li&gt;Nonprofits&lt;/li&gt;
-&lt;li&gt;Concerned citizens&lt;/li&gt;
-&lt;li&gt;Attorneys and paralegals&lt;/li&gt;
-&lt;li&gt;Private investigators&lt;/li&gt;
-&lt;li&gt;Consultants and private investigators&lt;/li&gt;
-&lt;li&gt;Public policy researchers&lt;/li&gt;
-&lt;li&gt;Government employees&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;the-challenges&#34;&gt;The challenges&lt;/h2&gt;
-
-&lt;p&gt;Running a project like this is not without its difficulties.
-Challenges that we have faced could be categorized as either &lt;strong&gt;technical&lt;/strong&gt; or &lt;strong&gt;legal / moderation.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;the-technical-challenges&#34;&gt;The technical challenges&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Ensuring servers don&amp;rsquo;t go down during business hours&lt;/li&gt;
-&lt;li&gt;Rerouting responses that went to the wrong request or didn&amp;rsquo;t come through&lt;/li&gt;
-&lt;li&gt;Educating clerks about the unique addresses our system uses and resolving user issues&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;the-legal-moderation-challenges&#34;&gt;The legal / moderation challenges&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Certain jurisdictions &lt;a href=&#34;https://opramachine.com/body/toms_river_township&#34; target=&#34;_blank&#34;&gt;are outright refusing requests&lt;/a&gt; sent via OPRAmachine.&lt;/li&gt;
-&lt;li&gt;Some records custodians have failed to redact social security numbers and other private information&lt;/li&gt;
-&lt;li&gt;As a site primarily based on user-generated content, we deal with concerns about potential misuse of the platform and spam&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;the-social-security-number-problem&#34;&gt;The Social Security Number problem&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;There have been multiple incidents where municipal government and police departments have inadvertently disclosed social security numbers and other confidential personal identifiers&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;In each instance of one of these types of disclosures, we immediately took down the material to prevent harm to individuals&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;our-solution-automatic-redaction&#34;&gt;Our solution: automatic redaction&lt;/h2&gt;
-
-&lt;p&gt;Our software can &lt;strong&gt;automatically redact&lt;/strong&gt; certain patterns of text.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;This is currently deployed for email addresses on the site. Email addresses are automatically replaced with X&amp;rsquo;s to prevent automated spam bots from harvesting addresses from the site.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Later in 2018, we will deploy this technology for social security numbers. We hope that this will alleviate most instances of unintentional disclosures &amp;amp; further protect user privacy.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;the-big-picture&#34;&gt;The big picture&lt;/h2&gt;
-
-&lt;p&gt;The more than the sum of individual OPRA requests&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-  - Users submit public records requests using the site
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-  - Each public records request contributes to our archive
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-  - More people can be informed without needing to file a request
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;as-an-archive-of-public-knowledge&#34;&gt;As an archive of public knowledge&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Requests and documents are indexed by Google, a driver of new traffic to the site&lt;/li&gt;
-&lt;li&gt;Users can easily share requests via social media, showing the platform&amp;rsquo;s potential to distribute public records&lt;/li&gt;
-&lt;li&gt;Journalists can link to primary source documents and use them in their stories&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;the-future-opramachine-pro&#34;&gt;The future: OPRAmachine Pro&lt;/h2&gt;
-
-&lt;p&gt;A fully featured OPRA toolkit for professional journalists &amp;amp; investigators, OPRAmachine Pro
-will be launching soon to sustain our development
-&lt;img src=&#34;img/slide-images/montclair/ompro.png&#34; alt=&#34;OPRAmachine Pro Logo&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Our core service will always remain free&lt;/strong&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;opramachine-pro&#34;&gt;OPRAmachine Pro&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Pro&lt;/strong&gt; features:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Keep requests private&lt;/li&gt;
-&lt;li&gt;Unlimited batch requests&lt;/li&gt;
-&lt;li&gt;Advanced features &amp;amp; custom request management tools for power users&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;opramachine-pro-1&#34;&gt;OPRAmachine Pro&lt;/h2&gt;
-
-&lt;p&gt;Affordable for individuals and organizations&lt;/p&gt;
-
-&lt;h3 id=&#34;just-10-per-user-per-month&#34;&gt;Just $10 per user per month&lt;/h3&gt;
-
-&lt;p&gt;We are currently &lt;a href=&#34;https://marketing.rozzi.media/register-your-interest-in-opramachine-pro&#34; target=&#34;_blank&#34;&gt;accepting pre-registrations&lt;/a&gt; from anyone interested in signing up for an OPRAmachine Pro account, with the launch of Pro services to be announced at a later date.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;api-for-developers&#34;&gt;API for developers&lt;/h2&gt;
-
-&lt;p&gt;OPRAmachine data is open and accesible from &lt;a href=&#34;https://opramachine.com/help/api&#34; target=&#34;_blank&#34;&gt;multiple endpoints&lt;/a&gt; :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;JSON REST API&lt;/li&gt;
-&lt;li&gt;RSS data feeds&lt;/li&gt;
-&lt;li&gt;OPRA request SQL and CSV &lt;a href=&#34;https://github.com/gavinrozzi/opra-data&#34; target=&#34;_blank&#34;&gt;request databases&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;api-data-accesss&#34;&gt;API data accesss&lt;/h2&gt;
-
-&lt;p&gt;Data can be requested on several levels, including by:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Town / county / public agency&lt;/li&gt;
-&lt;li&gt;Individual users and requests&lt;/li&gt;
-&lt;li&gt;OPRA request classification (succesful, unsuccessful etc.)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;api-example-using-opra-rss-data-to-automate-social-media-posts&#34;&gt;API Example: Using OPRA RSS data to automate social media posts&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;You can use a service like IFTTT to automatically post new content whenever an OPRA RSS feed is updated.&lt;/li&gt;
-&lt;li&gt;We use this approach to update the OPRAmachine Twitter feed everytime a new OPRA is answered.
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Response by New Jersey Department of the Treasury to Gavin Rozzi on August 17, 2018.&lt;br&gt;&lt;br&gt;        Successful.&lt;br&gt;&lt;br&gt; Thanks,&lt;br&gt;&lt;br&gt; Department of the Treasury&lt;br&gt;&lt;br&gt; Government Records Access Unit&lt;br&gt;&lt;br&gt; 609-633-1300&lt;br&gt;&lt;br&gt;                              STATE OF … &lt;a href=&#34;https://t.co/KFdev7zzX6&#34;&gt;https://t.co/KFdev7zzX6&lt;/a&gt;&lt;/p&gt;&amp;mdash; OPRAmachine (@OPRAmachine) &lt;a href=&#34;https://twitter.com/OPRAmachine/status/1031648223948103680?ref_src=twsrc%5Etfw&#34;&gt;August 20, 2018&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;api-example-using-opra-rss-data-to-automate-social-media-posts-1&#34;&gt;API Example: Using OPRA RSS data to automate social media posts&lt;/h2&gt;
-
-&lt;p&gt;One other potential application of this is to automatically post all OPRA requests for a given town on a town website or Facebook page.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;api-example-using-opra-json-data-to-show-a-user-s-opra-requests&#34;&gt;API Example: Using OPRA JSON data to show a user&amp;rsquo;s OPRA requests&lt;/h2&gt;
-
-&lt;p&gt;This example can be seen live with current data on my personal website &lt;a href=&#34;https://www.gavinrozzi.com/&#34; target=&#34;_blank&#34;&gt;gavinrozzi.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The code for this is open-source &lt;a href=&#34;https://github.com/gavinrozzi/alaveteli-hugo-shortcodes.git&#34; target=&#34;_blank&#34;&gt;on Github&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;img/slide-images/montclair/gr-opras.JPG&#34; alt=&#34;Populating a website with OPRA request data is easy&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;these-slides-are-online&#34;&gt;These slides are online!&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://montclair.opramachine.com/&#34; target=&#34;_blank&#34;&gt;montclair.opramachine.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Thank you for attending our webinar!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Contact the OPRAmachine team:&lt;/p&gt;
-
-&lt;p&gt;Email: info@opramachine.com&lt;/p&gt;
-
-&lt;p&gt;Phone: (732)-504-3636&lt;/p&gt;
-
-&lt;hr /&gt;
 </description>
     </item>
     

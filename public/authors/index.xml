@@ -1,33 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on Gavin Rozzi</title>
-    <link>https://www.gavinrozzi.com/authors/</link>
-    <description>Recent content in Authors on Gavin Rozzi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2013-2019 Gavin Rozzi</copyright>
-    <lastBuildDate>Mon, 31 Jul 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.gavinrozzi.com/authors/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>Authors | Gavin Rozzi</title>
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 31 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/thumbnail.jpg</url>
+      <title>Authors</title>
+      <link>/authors/</link>
+    </image>
     
     <item>
       <title>Gavin C. Rozzi</title>
-      <link>https://www.gavinrozzi.com/authors/gavin-c.-rozzi/</link>
+      <link>/authors/gavin-c.-rozzi/</link>
       <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/authors/gavin-c.-rozzi/</guid>
+      <guid>/authors/gavin-c.-rozzi/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>gavin</title>
-      <link>https://www.gavinrozzi.com/authors/gavin/</link>
+      <title></title>
+      <link>/authors/gavin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/authors/gavin/</guid>
-      <description></description>
+      <guid>/authors/gavin/</guid>
+      <description>
+
+&lt;h2 id=&#34;strong-gavin-rozzi-strong-is-an-award-winning-independent-journalist-web-developer-technology-professional-who-has-created-several-successful-local-news-websites-and-civic-technology-platforms-serving-new-jersey&#34;&gt;&lt;strong&gt;Gavin Rozzi&lt;/strong&gt; is an award-winning independent journalist, web developer &amp;amp; technology professional who has created several successful local news websites and civic technology platforms serving New Jersey.&lt;/h2&gt;
+
+&lt;p&gt;Since early 2016, his political news website &lt;a href=&#34;https://politicsoc.com&#34; target=&#34;_blank&#34;&gt;Ocean County Politics&lt;/a&gt; quickly became a &amp;ldquo;must read&amp;rdquo; for its in-depth reporting about local government, campaign finance and investigations of public officials in Ocean County, NJ. Stories first broken by Gavin on Ocean County Politics are frequently cited by larger media outlets, including NJ.com, POLITICO, InsiderNJ and MSNBC&amp;rsquo;s Rachel Maddow Show.&lt;/p&gt;
+
+&lt;p&gt;In 2017 he launched &lt;a href=&#34;https://opramachine.com/&#34; target=&#34;_blank&#34;&gt;OPRAmachine&lt;/a&gt;, a statewide freedom of information portal that automatically publishes public records requests &amp;amp; responses, the first website of its kind to serve New Jersey. The website, which is active in all 21 counties, allows anybody to easily request public documents from state and local government agencies under the New Jersey Open Public Records Act (OPRA).  It was the first production deployment of the open-source &lt;a href=&#34;https://www.mysociety.org/2017/12/06/introducing-opramachine-tackling-political-corruption-in-new-jersey/&#34; target=&#34;_blank&#34;&gt;Alaveteli&lt;/a&gt; platform that targeted a single U.S. state rather than an entire country.&lt;/p&gt;
+
+&lt;p&gt;In 2019, he received the &amp;ldquo;Excellence in Local News Award&amp;rdquo; from the Center for Cooperative Media at Montclair University in the &amp;ldquo;Innovate Local&amp;rdquo; category for his work with OPRAmachine.&lt;/p&gt;
+
+&lt;p&gt;Gavin has been recognized as an authority on government transparency in New Jersey as a result of OPRAmachine&amp;rsquo;s impact. Most recently, he has appeared in court as an expert witness in OPRA cases, testifying in cases involving the production of digital data held by government agencies.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

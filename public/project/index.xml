@@ -1,60 +1,351 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Gavin Rozzi</title>
-    <link>https://www.gavinrozzi.com/project/</link>
-    <description>Recent content in Projects on Gavin Rozzi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2013-2019 Gavin Rozzi</copyright>
-    <lastBuildDate>Sat, 10 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <title>Projects | Gavin Rozzi</title>
+    <link>/project/</link>
+      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 22 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/thumbnail.jpg</url>
+      <title>Projects</title>
+      <link>/project/</link>
+    </image>
     
-	<atom:link href="https://www.gavinrozzi.com/project/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>911maps</title>
+      <link>/project/911maps/</link>
+      <pubDate>Thu, 22 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>/project/911maps/</guid>
+      <description>
+
+&lt;p&gt;911maps is an open-source web application for mapping and visualizing 911 call data obtained from New Jersey municipalities. It currently supports data exports from the Active911 system, but can be extended to support other types of CAD systems. In addition to mapping and displaying trends in calls, it can produce advanced heatmap visualizations showing call activity in various municipalities.&lt;/p&gt;
+
+&lt;p&gt;The project evolved from my earlier work in 2018 creating the &lt;a href=&#34;https://tr911test.rozzi.media&#34; target=&#34;_blank&#34;&gt;Toms River 911 Call Explorer&lt;/a&gt;, a small web development project that I
+created to visualize &lt;a href=&#34;https://opramachine.com/request/active911_call_data_may_1st_to_j_2&#34; target=&#34;_blank&#34;&gt;data that I obtained using an OPRA request&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The new version, since the 911maps name was adopted, is powered by the Django web framework and is no longer limited solely to Toms River. Currently, all 33 towns in Ocean County and thousands of incidents are tracked by the site, which is nearing a public beta launch.&lt;/p&gt;
+
+&lt;p&gt;I am using the site for research as a part of my graduate studies in Data Science &amp;amp; Strategic Analytics and am working with stakeholders from the community to use the data for combatting opiate addiction.&lt;/p&gt;
+
+&lt;h3 id=&#34;more-details&#34;&gt;More details&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://911ma.ps&#34; target=&#34;_blank&#34;&gt;View the website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/gavinrozzi/toms-river-911-calls&#34; target=&#34;_blank&#34;&gt;View the source code on Github&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>OPRAmachine</title>
-      <link>https://www.gavinrozzi.com/project/opramachine/</link>
+      <link>/project/opramachine/</link>
       <pubDate>Sat, 10 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/project/opramachine/</guid>
-      <description>New Jersey&amp;rsquo;s first statewide freedom of information platform</description>
+      <guid>/project/opramachine/</guid>
+      <description>
+
+&lt;h2 id=&#34;winner-of-the-2019-excellence-in-local-news-award&#34;&gt;Winner of the 2019 Excellence in Local News Award&lt;/h2&gt;
+
+&lt;p&gt;OPRAmachine won in the &amp;ldquo;Innovate Local&amp;rdquo; category for the site&amp;rsquo;s innovative approach to public records. &lt;a href=&#34;https://politicsoc.com/2019/02/rozzi-wins-statewide-journalism-award/&#34; target=&#34;_blank&#34;&gt;Details about the award are available here.&lt;/a&gt;
+&lt;img src=&#34;/img/innovate.png&#34; width=40%&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;opening-up-new-jersey-government&#34;&gt;Opening up New Jersey government&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://opramachine.com/&#34; target=&#34;_blank&#34;&gt;OPRAmachine.com&lt;/a&gt; is a first of its kind government transparency project that I recently launched to serve the citizens of the state of New Jersey. The site is powered by the New Jersey &lt;strong&gt;Open Public Records Act&lt;/strong&gt; (OPRA), a freedom of information law that allows any citizen of the state to request public records from state and local government agencies.&lt;/p&gt;
+
+&lt;h3 id=&#34;how-it-works&#34;&gt;How it works&lt;/h3&gt;
+
+&lt;p&gt;OPRAmachine is breaking down barriers by explaining aspects of the OPRA request process. The site allows any citizen to easily file a legally valid public records request and includes a directory that currently includes all 565 municipalities in the state, as well as various state and county governmental agencies. The site has enabled requesters to obtain thousands of pages worth of public records, helping to shine a light on some of the more obscure elements of New Jersey state and local government.&lt;/p&gt;
+
+&lt;p&gt;A unique benefit that OPRAmachine provides is that once a public entity provides documents in response to a request, the documents are subsequently stored in the site&amp;rsquo;s database and made public, allowing the entire public to be able to reap the benefits. This model reduces duplicate requests and serves to further the OPRA law&amp;rsquo;s purpose of maximizing the citizenry&amp;rsquo;s knowledge of public affairs.&lt;/p&gt;
+
+&lt;h3 id=&#34;thousands-of-pages-released&#34;&gt;Thousands of pages released&lt;/h3&gt;
+
+&lt;p&gt;Since its inception in October, 2017, the OPRAmachine platform has enabled the release of thousands of pages of government documents. Our database of public bodoies currently includes all 565 municipalities in New Jersey, with more public bodies being added on a regular basis.
+The site has been making an impact and has been used as a research tool by public officials, journalists and activists seeking to obtain authoritative information about public entities in the state. We recently added a &lt;a href=&#34;https://docs.opramachine.com/&#34; target=&#34;_blank&#34;&gt;documentation&lt;/a&gt; that includes detailed information about the process of making a request through the site, as well as reference material concerning the legal and site administration issues that may arise as a result of the site&amp;rsquo;s operation.&lt;/p&gt;
+
+&lt;h3 id=&#34;praise-for-opramachine&#34;&gt;Praise for OPRAmachine&lt;/h3&gt;
+
+&lt;p&gt;&amp;ldquo;One of the most important tools making New Jersey government more transparent.&amp;rdquo;
+- &lt;a href=&#34;https://www.facebook.com/CitizensMediaTV/posts/1661839777229733&#34; target=&#34;_blank&#34;&gt;Citizens Media TV&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Thanks to Gavin Rozzi’s “OPRA Machine” website, the Atlantic County Government can no longer pretend to be transparent. Now they must do it for real.&amp;rdquo;
+- &lt;a href=&#34;https://atlanticcountynews.com/2017/11/29/atlantic-county-sexual-harassment-payouts-fly-right-below-the-radar/&#34; target=&#34;_blank&#34;&gt;Atlantic County News&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;The latest installation of our Alaveteli software, OPRAmachine, is an interesting new use of the platform. Rather than covering a whole country, as most of the other Alaveteli installations around the world do, it services just a single US state.&amp;rdquo;
+- Gemma Moulder, of the UK-based mySociety, which &lt;a href=&#34;https://www.mysociety.org/2017/12/06/introducing-opramachine-tackling-political-corruption-in-new-jersey/&#34; target=&#34;_blank&#34;&gt;created the open-source software&lt;/a&gt; that powers the OPRAmachine platform.&lt;/p&gt;
+
+&lt;h3 id=&#34;opramachine-s-impact-in-new-jersey&#34;&gt;OPRAmachine&amp;rsquo;s impact in New Jersey&lt;/h3&gt;
+
+&lt;p&gt;Following four months of work, I reflected on some of the accomplishments of the web service &lt;a href=&#34;https://blog.opramachine.com/four-months-later-opramachine-making-an-impact/&#34; target=&#34;_blank&#34;&gt;in this blog post&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;by-the-numbers&#34;&gt;By the numbers&lt;/h3&gt;
+
+&lt;p&gt;Since October, 2017, OPRAmachine has seen:
+&lt;ul&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;li&gt;&lt;strong&gt;7038&lt;/strong&gt; public records requests&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;4262&lt;/strong&gt; followup messages sent&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1130&lt;/strong&gt; registered users&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1147&lt;/strong&gt; public bodies&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;151&lt;/strong&gt; annotations added to requests&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;516&lt;/strong&gt; tracked requests&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;latest-opra-requests&#34;&gt;Latest OPRA requests&lt;/h3&gt;
+
+&lt;p&gt;Powered by the OPRAmachine API&lt;/p&gt;
+
+&lt;ul&gt;
+  
+  
+   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/contract_for_teamsters_local_469_470&#34; target=&#34;&#34;&gt;Contract for Teamsters Local #469&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/brick_township&#34; target=&#34;&#34;&gt;Brick Township&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: OCSN 32&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Successful.&lt;/strong&gt;&lt;p&gt;&lt;i&gt;In response to your OPRA request, please find requested emails attached
+
+Please be advised that redactions were made and most of the emails and/or atta...&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
+  
+   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/dialysis&#34; target=&#34;&#34;&gt;Dialysis&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/njdoh_philep&#34; target=&#34;&#34;&gt;NJ Department of Health Division of Public Health Infrastructure, Laboratories and Emergency Preparedness&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: Augustus lee&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Partially successful.&lt;/strong&gt;&lt;p&gt;&lt;i&gt;Dear Requestor the correct address for your request is:
+
+https://www-njlib.state.nj.us/NJ_OPRA/opraRequest.jsp?deptname=Health&amp;amp;amp;divisionChoice=46:Health...&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
+  
+   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/i_would_like_to_know_the_name_of&#34; target=&#34;&#34;&gt;I would like to know the name of the owner of a Garfield property&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/garfield_city&#34; target=&#34;&#34;&gt;Garfield City&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: edward devine&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Successful.&lt;/strong&gt;&lt;p&gt;&lt;i&gt;Dear Mr. Devine:
+
+Kindly see attached,
+
+Drew Pavlica
+Garfield City Clerk&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
+  
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;chart-of-requests&#34;&gt;Chart of requests&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://opramachine.com/foi-live-creation.png&#34; alt=&#34;OPRAmachine graph&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;links&#34;&gt;Links&lt;/h3&gt;
+
+&lt;p&gt;Main &lt;a href=&#34;https://opramachine.com/&#34; target=&#34;_blank&#34;&gt;OPRAmachine&lt;/a&gt; website.&lt;/p&gt;
+
+&lt;p&gt;Read updates about the project at our &lt;a href=&#34;https://blog.opramachine.com/&#34; target=&#34;_blank&#34;&gt;blog&lt;/a&gt; here.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Ocean County Radio Live</title>
-      <link>https://www.gavinrozzi.com/project/ocradiolive/</link>
+      <link>/project/ocradiolive/</link>
       <pubDate>Mon, 22 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/project/ocradiolive/</guid>
-      <description>Online SDR trunked radio scanner &amp;amp; archive for Ocean County, NJ</description>
-    </item>
-    
-    <item>
-      <title>Forked River Amateur Radio Club</title>
-      <link>https://www.gavinrozzi.com/project/frnjarc/</link>
-      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/project/frnjarc/</guid>
-      <description>HAM radio club serving the greater Forked River, NJ area</description>
+      <guid>/project/ocradiolive/</guid>
+      <description>
+
+&lt;h2 id=&#34;the-new-way-to-scan-ocean-county&#34;&gt;The new way to scan Ocean County&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://ocradio.live/&#34; target=&#34;_blank&#34;&gt;Ocean County Radio Live&lt;/a&gt; is taking the technical complexity and hassle out of radio scanning in Ocean County, New Jersey. This website was launched in late January, 2018 and since that date has continued to stream &amp;amp; archive multiple police, fire &amp;amp; EMS radio channels.&lt;/p&gt;
+
+&lt;p&gt;This website is powered by the latest software defined radio (SDR) technology to process the streams of digital data produced by the Ocean County trunked radio system and also record analog conventional systems used by some departments &amp;amp; squads. The SDRs record radio transmissions and upload them to the site&amp;rsquo;s server, which allows them to easily be played and archived online. When Ocean County activates the new 700 MHz P25 Phase II radio system, our receivers will only need a simple software configuration change in order to pick up the new system&amp;rsquo;s signal. This flexibility makes SDR radios superior for this particular application, allowing us to provide a wide amount of channels on our system.&lt;/p&gt;
+
+&lt;p&gt;The system has a major advantage over all traditional forms of radio scanning as it uses &amp;ldquo;time shifting&amp;rdquo; like a DVR does when recording multiple overlapping TV shows, ensuring that &lt;strong&gt;no transmissions are missed&lt;/strong&gt;, since traditional scanners can only hold on just one channel - potentially missing other calls that could be taking place on different talkgroups.&lt;/p&gt;
+
+&lt;p&gt;This system is powered by multiple R820T SDRs running on a desktop computer and connected to the front-end web server accessed by end users.&lt;/p&gt;
+
+&lt;p&gt;As our base of users continues to grow, I intend on covering more radio systems and adding them to this system.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://ocradio.live/&#34; target=&#34;_blank&#34;&gt;Ocean County Radio Live&lt;/a&gt; web application is based on the open-source &lt;a href=&#34;https://github.com/ScanOC/trunk-player&#34; target=&#34;_blank&#34;&gt;Trunk-Player&lt;/a&gt; Django project. So far, I have contributed one &lt;a href=&#34;https://github.com/ScanOC/trunk-player/commit/8dbc011c96bf19951bc9fa1fbf6c37d5e215dc4a&#34; target=&#34;_blank&#34;&gt;pull request&lt;/a&gt; to the upstream open source software that powers the project, and I plan to contribute more in the future as my schedule allows.&lt;/p&gt;
+
+&lt;h3 id=&#34;current-scan-list-lineup&#34;&gt;Current scan list lineup&lt;/h3&gt;
+
+&lt;ul&gt;
+
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/brick-fire-ems/&#34;&gt;Brick Fire &amp;amp; EMS&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/cape-may-county/&#34;&gt;Cape May County&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/delaware-river-bridges/&#34;&gt;Delaware River Bridges&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/garden-state-parkway/&#34;&gt;Garden State Parkway&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/lacey-twp-police-fire-ems/&#34;&gt;Lacey Twp. Police, Fire &amp;amp; EMS&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/monmouth-county/&#34;&gt;Monmouth County&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/monoc-paramedics/&#34;&gt;MONOC Paramedics&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/new-jersey-dep/&#34;&gt;New Jersey DEP&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/new-jersey-dot/&#34;&gt;New Jersey DOT&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/new-jersey-fish-wildlife/&#34;&gt;New Jersey Fish &amp;amp; Wildlife&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/new-jersey-state-police/&#34;&gt;New Jersey State Police&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/new-jersey-transit-police/&#34;&gt;New Jersey Transit Police&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/new-jersey-turnpike/&#34;&gt;New Jersey Turnpike&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/nj-interoperability-com-sys/&#34;&gt;NJ Interoperability Com. Sys&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/ocean-county-ems/&#34;&gt;Ocean County EMS&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/ocean-county-fire/&#34;&gt;Ocean County Fire&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/ocean-county-law-enforcement/&#34;&gt;Ocean County Law Enforcement&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/ocean-county-p25/&#34;&gt;Ocean County (P25)&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/ocean-county-services/&#34;&gt;Ocean County Services&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/oc-prosecutor-sheriff/&#34;&gt;OC Prosecutor &amp;amp; Sheriff&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/seaside-heights-park/&#34;&gt;Seaside Heights &amp;amp; Park&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/southern-ocean-county/&#34;&gt;Southern Ocean County&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/scan/toms-river-fire-ems/&#34;&gt;Toms River Fire &amp;amp; EMS&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;sample-talkgroups-channel-lineup-click-to-scan&#34;&gt;Sample talkgroups &amp;amp; channel lineup (click to scan)&lt;/h3&gt;
+
+&lt;ul&gt;
+
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3361/&#34;&gt;#3361&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3363/&#34;&gt;#3363&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/33705/&#34;&gt;#33705&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3379/&#34;&gt;#3379&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3383/&#34;&gt;#3383&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3385/&#34;&gt;#3385&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3401/&#34;&gt;#3401&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3403/&#34;&gt;#3403&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3421/&#34;&gt;#3421&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3423/&#34;&gt;#3423&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3439/&#34;&gt;#3439&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3441/&#34;&gt;#3441&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3447/&#34;&gt;#3447&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/34685/&#34;&gt;#34685&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/34777/&#34;&gt;#34777&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/34815/&#34;&gt;#34815&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/34969/&#34;&gt;#34969&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/35247/&#34;&gt;#35247&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/35279/&#34;&gt;#35279&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/35368/&#34;&gt;#35368&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3607/&#34;&gt;#3607&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/361/&#34;&gt;#361&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3611/&#34;&gt;#3611&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3621/&#34;&gt;#3621&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3623/&#34;&gt;#3623&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3625/&#34;&gt;#3625&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3631/&#34;&gt;#3631&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3637/&#34;&gt;#3637&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3639/&#34;&gt;#3639&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3643/&#34;&gt;#3643&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3653/&#34;&gt;#3653&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3655/&#34;&gt;#3655&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3665/&#34;&gt;#3665&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3671/&#34;&gt;#3671&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/36775/&#34;&gt;#36775&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3681/&#34;&gt;#3681&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3683/&#34;&gt;#3683&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3687/&#34;&gt;#3687&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3709/&#34;&gt;#3709&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3715/&#34;&gt;#3715&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3721/&#34;&gt;#3721&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3737/&#34;&gt;#3737&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3741/&#34;&gt;#3741&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3743/&#34;&gt;#3743&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3747/&#34;&gt;#3747&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3749/&#34;&gt;#3749&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3751/&#34;&gt;#3751&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3753/&#34;&gt;#3753&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3755/&#34;&gt;#3755&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://ocradio.live/tg/3759/&#34;&gt;#3759&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
       <title>Ocean County Politics</title>
-      <link>https://www.gavinrozzi.com/project/politicsoc/</link>
+      <link>/project/politicsoc/</link>
       <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/project/politicsoc/</guid>
-      <description>Political news and commentary for the Jersey Shore</description>
-    </item>
+      <guid>/project/politicsoc/</guid>
+      <description>
+
+&lt;h2 id=&#34;ocean-county-s-source-political-news-commentary&#34;&gt;Ocean County&amp;rsquo;s source political news &amp;amp; commentary&lt;/h2&gt;
+
+&lt;p&gt;Ocean County Politics is an independent news website that covers politics and public affairs in the greater Ocean County, NJ region. Ocean County Politics has become known for publishing in-depth accounts of county and municipal governmental activities and behind-the-scenes activities that influence the county&amp;rsquo;s political climate.&lt;/p&gt;
+
+&lt;p&gt;In addition to providing insightful commentary and news, the site also features reader contributed op-eds and letters to the editor.&lt;/p&gt;
+
+&lt;h3 id=&#34;recent-articles&#34;&gt;Recent articles&lt;/h3&gt;
+
+&lt;ul&gt;
+
+
+&lt;li&gt;&lt;a href=https://politicsoc.com/2019/05/a-note-to-our-readers/&gt;A note to our readers&lt;/a&gt;&lt;/li&gt; 
     
-    <item>
-      <title>Toms River 911 Call Explorer</title>
-      <link>https://www.gavinrozzi.com/project/tomsriver-911/</link>
-      <pubDate>Sun, 10 Jul 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/project/tomsriver-911/</guid>
-      <description>Data visualization project that shows fire &amp;amp; EMS calls using Python</description>
+&lt;li&gt;&lt;a href=https://politicsoc.com/2019/04/letter-fighting-the-jackson-junk-yard-proposal/&gt;Letter: Fighting the Jackson Junk Yard Proposal&lt;/a&gt;&lt;/li&gt; 
+    
+&lt;li&gt;&lt;a href=https://politicsoc.com/2019/03/gopal-decries-lakewood-school-funding-windfall/&gt;Gopal Decries Lakewood School Funding Windfall&lt;/a&gt;&lt;/li&gt; 
+    
+&lt;li&gt;&lt;a href=https://politicsoc.com/2019/03/state-probes-berkeley-fire-prevention/&gt;State Probes Berkeley Fire Prevention&lt;/a&gt;&lt;/li&gt; 
+    
+&lt;li&gt;&lt;a href=https://politicsoc.com/2019/03/george-gilmore-trial-hearing-rescheduled-in-gop-chairs-federal-case/&gt;George Gilmore Trial: Hearing Rescheduled in GOP Chair&amp;#8217;s Federal Case&lt;/a&gt;&lt;/li&gt; 
+    
+&lt;li&gt;&lt;a href=https://politicsoc.com/2019/03/lt-governor-oliver-coming-to-ocean-county/&gt;Lt. Governor Oliver Coming to Ocean County&lt;/a&gt;&lt;/li&gt; 
+    
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;follow-ocean-county-politics&#34;&gt;Follow Ocean County Politics&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://politicsoc.com/&#34; target=&#34;_blank&#34;&gt;Read Ocean County Politics here&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

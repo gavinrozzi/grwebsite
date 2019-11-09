@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publication_types on Gavin Rozzi</title>
-    <link>https://www.gavinrozzi.com/publication_types/</link>
-    <description>Recent content in Publication_types on Gavin Rozzi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2013-2019 Gavin Rozzi</copyright>
-    <lastBuildDate>Mon, 31 Jul 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.gavinrozzi.com/publication_types/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>Publication_types | Gavin Rozzi</title>
+    <link>/publication_types/</link>
+      <atom:link href="/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publication_types</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 31 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/thumbnail.jpg</url>
+      <title>Publication_types</title>
+      <link>/publication_types/</link>
+    </image>
     
     <item>
       <title>0</title>
-      <link>https://www.gavinrozzi.com/publication_types/0/</link>
+      <link>/publication_types/0/</link>
       <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/publication_types/0/</guid>
+      <guid>/publication_types/0/</guid>
       <description></description>
     </item>
     

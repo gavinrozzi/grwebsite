@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Gavin Rozzi</title>
-    <link>https://www.gavinrozzi.com/categories/</link>
-    <description>Recent content in Categories on Gavin Rozzi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2013-2019 Gavin Rozzi</copyright>
-    
-	<atom:link href="https://www.gavinrozzi.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>Categories | Gavin Rozzi</title>
+    <link>/categories/</link>
+      <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>/img/thumbnail.jpg</url>
+      <title>Categories</title>
+      <link>/categories/</link>
+    </image>
     
   </channel>
 </rss>

@@ -1,33 +1,130 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>data on Gavin Rozzi</title>
-    <link>https://www.gavinrozzi.com/tags/data/</link>
-    <description>Recent content in data on Gavin Rozzi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2013-2019 Gavin Rozzi</copyright>
-    <lastBuildDate>Sat, 10 Feb 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.gavinrozzi.com/tags/data/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>data | Gavin Rozzi</title>
+    <link>/tags/data/</link>
+      <atom:link href="/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    <description>data</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 22 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/thumbnail.jpg</url>
+      <title>data</title>
+      <link>/tags/data/</link>
+    </image>
     
     <item>
-      <title>OPRAmachine</title>
-      <link>https://www.gavinrozzi.com/project/opramachine/</link>
-      <pubDate>Sat, 10 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/project/opramachine/</guid>
-      <description>New Jersey&amp;rsquo;s first statewide freedom of information platform</description>
+      <title>911maps</title>
+      <link>/project/911maps/</link>
+      <pubDate>Thu, 22 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>/project/911maps/</guid>
+      <description>
+
+&lt;p&gt;911maps is an open-source web application for mapping and visualizing 911 call data obtained from New Jersey municipalities. It currently supports data exports from the Active911 system, but can be extended to support other types of CAD systems. In addition to mapping and displaying trends in calls, it can produce advanced heatmap visualizations showing call activity in various municipalities.&lt;/p&gt;
+
+&lt;p&gt;The project evolved from my earlier work in 2018 creating the &lt;a href=&#34;https://tr911test.rozzi.media&#34; target=&#34;_blank&#34;&gt;Toms River 911 Call Explorer&lt;/a&gt;, a small web development project that I
+created to visualize &lt;a href=&#34;https://opramachine.com/request/active911_call_data_may_1st_to_j_2&#34; target=&#34;_blank&#34;&gt;data that I obtained using an OPRA request&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The new version, since the 911maps name was adopted, is powered by the Django web framework and is no longer limited solely to Toms River. Currently, all 33 towns in Ocean County and thousands of incidents are tracked by the site, which is nearing a public beta launch.&lt;/p&gt;
+
+&lt;p&gt;I am using the site for research as a part of my graduate studies in Data Science &amp;amp; Strategic Analytics and am working with stakeholders from the community to use the data for combatting opiate addiction.&lt;/p&gt;
+
+&lt;h3 id=&#34;more-details&#34;&gt;More details&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://911ma.ps&#34; target=&#34;_blank&#34;&gt;View the website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/gavinrozzi/toms-river-911-calls&#34; target=&#34;_blank&#34;&gt;View the source code on Github&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Toms River 911 Call Explorer</title>
-      <link>https://www.gavinrozzi.com/project/tomsriver-911/</link>
-      <pubDate>Sun, 10 Jul 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/project/tomsriver-911/</guid>
-      <description>Data visualization project that shows fire &amp;amp; EMS calls using Python</description>
+      <title>OPRAmachine</title>
+      <link>/project/opramachine/</link>
+      <pubDate>Sat, 10 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>/project/opramachine/</guid>
+      <description>
+
+&lt;h2 id=&#34;winner-of-the-2019-excellence-in-local-news-award&#34;&gt;Winner of the 2019 Excellence in Local News Award&lt;/h2&gt;
+
+&lt;p&gt;OPRAmachine won in the &amp;ldquo;Innovate Local&amp;rdquo; category for the site&amp;rsquo;s innovative approach to public records. &lt;a href=&#34;https://politicsoc.com/2019/02/rozzi-wins-statewide-journalism-award/&#34; target=&#34;_blank&#34;&gt;Details about the award are available here.&lt;/a&gt;
+&lt;img src=&#34;/img/innovate.png&#34; width=40%&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;opening-up-new-jersey-government&#34;&gt;Opening up New Jersey government&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://opramachine.com/&#34; target=&#34;_blank&#34;&gt;OPRAmachine.com&lt;/a&gt; is a first of its kind government transparency project that I recently launched to serve the citizens of the state of New Jersey. The site is powered by the New Jersey &lt;strong&gt;Open Public Records Act&lt;/strong&gt; (OPRA), a freedom of information law that allows any citizen of the state to request public records from state and local government agencies.&lt;/p&gt;
+
+&lt;h3 id=&#34;how-it-works&#34;&gt;How it works&lt;/h3&gt;
+
+&lt;p&gt;OPRAmachine is breaking down barriers by explaining aspects of the OPRA request process. The site allows any citizen to easily file a legally valid public records request and includes a directory that currently includes all 565 municipalities in the state, as well as various state and county governmental agencies. The site has enabled requesters to obtain thousands of pages worth of public records, helping to shine a light on some of the more obscure elements of New Jersey state and local government.&lt;/p&gt;
+
+&lt;p&gt;A unique benefit that OPRAmachine provides is that once a public entity provides documents in response to a request, the documents are subsequently stored in the site&amp;rsquo;s database and made public, allowing the entire public to be able to reap the benefits. This model reduces duplicate requests and serves to further the OPRA law&amp;rsquo;s purpose of maximizing the citizenry&amp;rsquo;s knowledge of public affairs.&lt;/p&gt;
+
+&lt;h3 id=&#34;thousands-of-pages-released&#34;&gt;Thousands of pages released&lt;/h3&gt;
+
+&lt;p&gt;Since its inception in October, 2017, the OPRAmachine platform has enabled the release of thousands of pages of government documents. Our database of public bodoies currently includes all 565 municipalities in New Jersey, with more public bodies being added on a regular basis.
+The site has been making an impact and has been used as a research tool by public officials, journalists and activists seeking to obtain authoritative information about public entities in the state. We recently added a &lt;a href=&#34;https://docs.opramachine.com/&#34; target=&#34;_blank&#34;&gt;documentation&lt;/a&gt; that includes detailed information about the process of making a request through the site, as well as reference material concerning the legal and site administration issues that may arise as a result of the site&amp;rsquo;s operation.&lt;/p&gt;
+
+&lt;h3 id=&#34;praise-for-opramachine&#34;&gt;Praise for OPRAmachine&lt;/h3&gt;
+
+&lt;p&gt;&amp;ldquo;One of the most important tools making New Jersey government more transparent.&amp;rdquo;
+- &lt;a href=&#34;https://www.facebook.com/CitizensMediaTV/posts/1661839777229733&#34; target=&#34;_blank&#34;&gt;Citizens Media TV&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Thanks to Gavin Rozzi’s “OPRA Machine” website, the Atlantic County Government can no longer pretend to be transparent. Now they must do it for real.&amp;rdquo;
+- &lt;a href=&#34;https://atlanticcountynews.com/2017/11/29/atlantic-county-sexual-harassment-payouts-fly-right-below-the-radar/&#34; target=&#34;_blank&#34;&gt;Atlantic County News&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;The latest installation of our Alaveteli software, OPRAmachine, is an interesting new use of the platform. Rather than covering a whole country, as most of the other Alaveteli installations around the world do, it services just a single US state.&amp;rdquo;
+- Gemma Moulder, of the UK-based mySociety, which &lt;a href=&#34;https://www.mysociety.org/2017/12/06/introducing-opramachine-tackling-political-corruption-in-new-jersey/&#34; target=&#34;_blank&#34;&gt;created the open-source software&lt;/a&gt; that powers the OPRAmachine platform.&lt;/p&gt;
+
+&lt;h3 id=&#34;opramachine-s-impact-in-new-jersey&#34;&gt;OPRAmachine&amp;rsquo;s impact in New Jersey&lt;/h3&gt;
+
+&lt;p&gt;Following four months of work, I reflected on some of the accomplishments of the web service &lt;a href=&#34;https://blog.opramachine.com/four-months-later-opramachine-making-an-impact/&#34; target=&#34;_blank&#34;&gt;in this blog post&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;by-the-numbers&#34;&gt;By the numbers&lt;/h3&gt;
+
+&lt;p&gt;Since October, 2017, OPRAmachine has seen:
+&lt;ul&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;li&gt;&lt;strong&gt;7038&lt;/strong&gt; public records requests&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;4262&lt;/strong&gt; followup messages sent&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1130&lt;/strong&gt; registered users&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1147&lt;/strong&gt; public bodies&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;151&lt;/strong&gt; annotations added to requests&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;516&lt;/strong&gt; tracked requests&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;latest-opra-requests&#34;&gt;Latest OPRA requests&lt;/h3&gt;
+
+&lt;p&gt;Powered by the OPRAmachine API&lt;/p&gt;
+
+&lt;ul&gt;
+  
+  
+   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/contract_for_teamsters_local_469_470&#34; target=&#34;&#34;&gt;Contract for Teamsters Local #469&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/brick_township&#34; target=&#34;&#34;&gt;Brick Township&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: OCSN 32&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Successful.&lt;/strong&gt;&lt;p&gt;&lt;i&gt;In response to your OPRA request, please find requested emails attached
+
+Please be advised that redactions were made and most of the emails and/or atta...&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
+  
+   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/dialysis&#34; target=&#34;&#34;&gt;Dialysis&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/njdoh_philep&#34; target=&#34;&#34;&gt;NJ Department of Health Division of Public Health Infrastructure, Laboratories and Emergency Preparedness&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: Augustus lee&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Partially successful.&lt;/strong&gt;&lt;p&gt;&lt;i&gt;Dear Requestor the correct address for your request is:
+
+https://www-njlib.state.nj.us/NJ_OPRA/opraRequest.jsp?deptname=Health&amp;amp;amp;divisionChoice=46:Health...&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
+  
+   &lt;li&gt;&lt;a href=&#34;https://opramachine.com/request/i_would_like_to_know_the_name_of&#34; target=&#34;&#34;&gt;I would like to know the name of the owner of a Garfield property&lt;/a&gt;&lt;p&gt;Requested from: &lt;a href=&#34;https://opramachine.com/body/garfield_city&#34; target=&#34;&#34;&gt;Garfield City&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Requested by: edward devine&lt;/p&gt; &lt;p&gt;Status: &lt;strong&gt;Successful.&lt;/strong&gt;&lt;p&gt;&lt;i&gt;Dear Mr. Devine:
+
+Kindly see attached,
+
+Drew Pavlica
+Garfield City Clerk&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
+  
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;chart-of-requests&#34;&gt;Chart of requests&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://opramachine.com/foi-live-creation.png&#34; alt=&#34;OPRAmachine graph&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;links&#34;&gt;Links&lt;/h3&gt;
+
+&lt;p&gt;Main &lt;a href=&#34;https://opramachine.com/&#34; target=&#34;_blank&#34;&gt;OPRAmachine&lt;/a&gt; website.&lt;/p&gt;
+
+&lt;p&gt;Read updates about the project at our &lt;a href=&#34;https://blog.opramachine.com/&#34; target=&#34;_blank&#34;&gt;blog&lt;/a&gt; here.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

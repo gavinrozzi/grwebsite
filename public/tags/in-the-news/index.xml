@@ -1,96 +1,288 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>In the news on Gavin Rozzi</title>
-    <link>https://www.gavinrozzi.com/tags/in-the-news/</link>
-    <description>Recent content in In the news on Gavin Rozzi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2013-2019 Gavin Rozzi</copyright>
-    <lastBuildDate>Fri, 03 May 2019 00:00:00 -0400</lastBuildDate>
+    <title>In the news | Gavin Rozzi</title>
+    <link>/tags/in-the-news/</link>
+      <atom:link href="/tags/in-the-news/index.xml" rel="self" type="application/rss+xml" />
+    <description>In the news</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 13 Jul 2019 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>/img/thumbnail.jpg</url>
+      <title>In the news</title>
+      <link>/tags/in-the-news/</link>
+    </image>
     
-	<atom:link href="https://www.gavinrozzi.com/tags/in-the-news/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>Eyes on NJ News Appearance</title>
+      <link>/post/eyes-on-nj/</link>
+      <pubDate>Sat, 13 Jul 2019 00:00:00 -0400</pubDate>
+      <guid>/post/eyes-on-nj/</guid>
+      <description>&lt;p&gt;Join me on Eyes on NJ News this Sunday, July 14th at 7:30 p.m. where I will be appearing on the show and interviewed by host John Edmunds.&lt;/p&gt;
+
+&lt;iframe src=&#34;https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FEyesOnNJ%2Fvideos%2F2970880133138205%2F&amp;width=500&amp;show_text=false&amp;appId=367090096784329&amp;height=500&#34; width=&#34;500&#34; height=&#34;500&#34; style=&#34;border:none;overflow:hidden&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowTransparency=&#34;true&#34; allow=&#34;encrypted-media&#34; allowFullScreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
     
     <item>
       <title>Interview with NJ Tech Weekly</title>
-      <link>https://www.gavinrozzi.com/post/njtech-interview/</link>
+      <link>/post/njtech-interview/</link>
       <pubDate>Fri, 03 May 2019 00:00:00 -0400</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/post/njtech-interview/</guid>
-      <description>I spoke with NJ Tech Weekly&amp;rsquo;s Esther Surden on the impact of OPRAmachine</description>
+      <guid>/post/njtech-interview/</guid>
+      <description>
+
+&lt;h3 id=&#34;this-week-i-had-the-pleasure-of-speaking-with-nj-tech-weekly-s-esther-surden-about-the-technical-aspects-of-my-public-records-research-platform-opramachine-https-opramachine-com&#34;&gt;This week I had the pleasure of speaking with NJ Tech Weekly&amp;rsquo;s Esther Surden about the technical aspects of my public records research platform, &lt;a href=&#34;https://opramachine.com&#34; target=&#34;_blank&#34;&gt;OPRAmachine&lt;/a&gt;&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Gavin Rozzi was a journalist in Ocean County and finishing up his education at Stockton University when he came up with the idea for OPRAmachine.&lt;/p&gt;
+
+&lt;p&gt;OPRAmachine is an open-source platform that lets citizens easily file requests for public records to their local governments, and it makes the requests and answers available to the public.&lt;/p&gt;
+
+&lt;p&gt;New Jersey citizens are guaranteed access to public records via a law that allows them to request such access. The Open Public Records Act (OPRA) states that “government records shall be readily accessible for inspection, copying, or examination by the citizens of this State, with certain exceptions, for the protection of the public interest.”&lt;/p&gt;
+
+&lt;p&gt;Until OPRAmachine: Fulfillment Like The Lawless Wild West
+Cities, towns, counties and other government entities can interpret how this service is to be implemented.  So, until the arrival of OPRAmachine, fulfillment of this service was like the lawless Wild West: People would ask for information from local governments through a traditional paper process, and then hope their requests would be accepted, Rozzi said.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://njtechweekly.com/2019/05/02/journalist-builds-opramachine-a-faster-easier-platform-for-filing-opra-requests/&#34; target=&#34;_blank&#34;&gt;Read the full story at NJ Tech Weekly&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Response to NJ Law Journal Article</title>
-      <link>https://www.gavinrozzi.com/post/njlawjournal-response/</link>
+      <link>/post/njlawjournal-response/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 -0500</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/post/njlawjournal-response/</guid>
-      <description>Responding to an attorney&amp;rsquo;s commentary about OPRAmachine&amp;rsquo;s impact on crime victim privacy</description>
+      <guid>/post/njlawjournal-response/</guid>
+      <description>
+
+&lt;h3 id=&#34;i-am-writing-in-response-to-jonathan-frodella-s-article-that-appeared-in-the-january-17th-2019-edition-of-the-new-jersey-law-journal-entitled-victims-of-serious-crimes-need-more-protection-under-opra-https-finance-yahoo-com-news-victims-serious-crimes-more-protection-120055094-html&#34;&gt;I am writing in response to Jonathan Frodella’s article that appeared in the January 17th, 2019 edition of the New Jersey Law Journal entitled &lt;a href=&#34;https://finance.yahoo.com/news/victims-serious-crimes-more-protection-120055094.html&#34; target=&#34;_blank&#34;&gt;“Victims of Serious Crimes Need More Protection Under OPRA.”&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Mr. Frodella - whose article was written from the perspective of an attorney that advises municipal clerks - contends that services that automatically publish public records requests and responses such as &lt;a href=&#34;https://opramachine.com&#34; target=&#34;_blank&#34;&gt;OPRAmachine&lt;/a&gt;, which I founded in 2017, serve to create a “complication” for custodians of records by not requiring individuals to certify whether or not they were convicted of an indictable offense due to the remote possibility of a convicted criminal requesting information about their victims.&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Online services that automatically publish government records to the world have complicated this issue further by potentially reframing the analysis of victims’ privacy interests,&amp;rdquo; Frodella says.&lt;/p&gt;
+
+&lt;p&gt;When I first launched the OPRAmachine service, our default request template included language that allowed individuals to certify whether or not they were convicted of an indictable offense. However, after discussing the necessity of including this certification with our legal team, we decided to remove it at their recommendation to protect the privacy interests of our requestors and in recognition of the fact that this is not a concern for the overwhelming majority of the thousands of public records requests that have been processed by our service.&lt;/p&gt;
+
+&lt;p&gt;Indeed, OPRA does not limit the right of convicted felons to file OPRA requests. Even currently incarcerated inmates have a right to file OPRA requests. Therefore, there is no reason why a person would need to disclose their conviction status in order to obtain the overwhelming majority of government records. As such, including it on our forms would be extraneous.&lt;/p&gt;
+
+&lt;p&gt;As the OPRA statute is written now, &lt;a href=&#34;https://law.justia.com/codes/new-jersey/2013/title-47/section-47-1a-2.2/&#34; target=&#34;_blank&#34;&gt;N.J.S.A. 47:1A-2.2&lt;/a&gt; &lt;em&gt;might&lt;/em&gt; permit a government agency to ask the requestor about their conviction status given the context of their request. However, this should take place only in the rare circumstances where they need to ascertain whether the person was seeking records “pertaining to the person’s victim or the victim’s family.” Otherwise, there is no reason why a requestor would need to reveal whether or not they have a conviction history.&lt;/p&gt;
+
+&lt;p&gt;Against that background, we chose to follow the advice of our legal team and drop the criminal conviction certifications from the default request template on OPRAmachine last year. So, while there may be potential concerns about the small chance of OPRA custodians releasing records to perpetrators of serious crimes, this is a concern that only applies to an infinitesimally small amount of requests. Records custodians should not throw the baby out with the bathwater and assume the worst about services that automatically publish public records online because of this remote possibility.&lt;/p&gt;
+
+&lt;p&gt;It is settled case law that the documents and records released by custodians of records are themselves government records subject to disclosure under our state freedom of information law. See &lt;em&gt;&lt;a href=&#34;https://caselaw.findlaw.com/nj-superior-court-appellate-division/1768547.html&#34; target=&#34;_blank&#34;&gt;Scheeler v. Office of the Governor&lt;/a&gt;&lt;/em&gt;, 448 N.J. Super. 333 (App. Div. 2017), so in line with the public policy of transparency codified in OPRA, there is absolutely no reason why public records requests and responses should not be published online for the benefit of the public.&lt;/p&gt;
+
+&lt;p&gt;In a perfect world, the innovative model adopted by OPRAmachine would be the default for all government agencies so that the public can be kept apprised of the activities of the bodies they support with their hard-earned tax dollars. That is what my work has centered on for the past two years.&lt;/p&gt;
+
+&lt;p&gt;I created OPRAmachine in response to the dismal state of affairs for compliance with the Open Public Records Act in New Jersey. My own past experiences dealing with state &amp;amp; local government gone awry in my capacity as an independent journalist and transparency advocate have informed my opinions about the law’s implementation and state of compliance in New Jersey.&lt;/p&gt;
+
+&lt;p&gt;For a representative sample of some of the OPRA cases I was involved in where government agencies were found to have broken the law, see &lt;em&gt;&lt;a href=&#34;/legal/rozzivlaceyboe&#34;&gt;Rozzi v. Lacey Township Board of Education&lt;/a&gt;&lt;/em&gt;, GRC complaint 2015-224, &lt;em&gt;&lt;a href=&#34;/legal/rozzivocp&#34;&gt;Rozzi v. Ocean Cty. Prosecutor’s Office&lt;/a&gt;&lt;/em&gt;, GRC complaint 2015-250 and &lt;em&gt;&lt;a href=&#34;/legal/njsplawsuit/&#34;&gt;Libertarians for Transparent Government v. New Jersey State Police.&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Don’t just take my word for it: A 2015 study released by the Center for Public Integrity &lt;a href=&#34;https://publicintegrity.org/accountability/new-jersey-gets-d-grade-in-2015-state-integrity-investigation/&#34; target=&#34;_blank&#34;&gt;gave New Jersey a “D” grade in transparency and accountability and an &amp;ldquo;F&amp;rdquo; for public access to information&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;That is unacceptable. Our state can and must do better, and right now OPRAmachine is one of the only platforms that is pushing back against the current lack of transparency and accountability in New Jersey government by publishing public records and tracking compliance with the law. Government agencies at all levels serve an important purpose by enforcing the law. It&amp;rsquo;s only fair that they comply with their statutory obligations to disclose public records under OPRA and respond to legally valid requests such as those facilitated by my service.&lt;/p&gt;
+
+&lt;p&gt;As a result of the activity on the site, we are producing &lt;a href=&#34;https://github.com/gavinrozzi/opra-data&#34; target=&#34;_blank&#34;&gt;the only statewide dataset that is tracking compliance with the law&lt;/a&gt; by type of government agency, including state offices, counties and independent authorities. Officials must be more proactive in fulfilling their transparency obligations to the public that they serve, and OPRAmachine is an important tool for remedying the current climate for transparency in the Garden State.&lt;/p&gt;
+
+&lt;p&gt;The thesis of Frodella’s commentary would make one think that there is an urgent problem affecting victims of crime. Contrary to his assertions, the sky is not falling for victim privacy. The truth of the matter is that the concerns raised by Mr. Frodella only apply to an exceptionally small number of requests. Records custodians are properly charged with the responsibility of determining whether a request is being submitted by an individual with a conviction seeking information pertaining to their victim(s). Additional exemptions are not necessary, nor should they be added in future iterations of OPRA reform bills pending in the legislature, as they risk diluting the effectiveness of OPRA as an accountability tool.&lt;/p&gt;
+
+&lt;p&gt;While I am grateful for Mr. Frodella&amp;rsquo;s suggestion that agencies subject to OPRA be more &amp;ldquo;user friendly,&amp;rdquo; his advocacy of agencies emphasizing the use of official paper forms is problematic for those concerned with transparency. That remedy is at best anachronistic, and at worst, a way for  local governments to be even less transparent by keeping public records requests hidden from the public at large, turning back the clock on recent advances if they were to be adopted.&lt;/p&gt;
+
+&lt;p&gt;While Frodella says that government agencies should emphasize the use of official forms, he correctly stops short of advising governments that the use of an official form should be required. Forcing requestors to fill out a paper form is archaic, reactionary and a waste of paper as electronic records have become ubiquitous. Some records custodians attempt to ignore the court&amp;rsquo;s decision in &lt;em&gt;&lt;a href=&#34;https://www.courtlistener.com/opinion/2107856/renna-v-county-of-union/&#34; target=&#34;_blank&#34;&gt;Renna v. Cty. of Union, 407 N.J. Super. 230&lt;/a&gt;&lt;/em&gt; (App. Div. 2009) and inaccurately claim that they will not process an OPRA request without an official form being completed.&lt;/p&gt;
+
+&lt;p&gt;The Appellate Division in &lt;em&gt;Renna&lt;/em&gt; made it crystal clear that OPRA requests cannot be denied solely on the basis that they are not submitted on an agency&amp;rsquo;s official form. The &lt;a href=&#34;https://opramachine.com/search/opra%20form/all&#34; target=&#34;_blank&#34;&gt;OPRAmachine database has numerous examples of this&lt;/a&gt;, and fortunately, in many instances requestors pushed back against these additional bureaucratic hurdles erected by clerks to hinder access to public information.&lt;/p&gt;
+
+&lt;p&gt;Government agencies must embrace the public policy considerations that have been enshrined in OPRA by taking steps to be proactively transparent. We must change the culture of government agencies from viewing OPRA as an unfunded mandate from Trenton. OPRA is an important check and balance and a vehicle for ensuring government accountability.&lt;/p&gt;
+
+&lt;p&gt;Frodella also mentioned how the pending case &lt;em&gt;&lt;a href=&#34;/files/Coombs%20et%20al%20-%20Monmouth.pdf&#34;&gt;Coombs et al. v. Cty. of Monmouth&lt;/a&gt;&lt;/em&gt; may impact OPRAmachine and other similar platforms. I joined as a plaintiff in the Coombs matter to stand up for the users of my platform who have been negatively impacted by the unprofessional behavior and bad faith exhibited by Monmouth County officials.&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;Coombs&lt;/em&gt; matter made it to Monmouth County Superior Court&amp;rsquo;s docket when one of the county’s employees negligently failed to redact private information concerning County Prosecutor Christopher Grammicioni. Immediately upon being notified of the breach, we removed the documents upon being contacted by an assistant county counsel. &lt;a href=&#34;https://docs.opramachine.com/site-policies-and-procedures/content-removal/&#34; target=&#34;_blank&#34;&gt;Our stated terms of service&lt;/a&gt; request that government agencies put their reasons in writing for requesting the removal of documents, but we waived it due to exigency of the situation. There’s no denying that the entire situation could have been avoided had the county properly reviewed the documents before releasing them to the public.&lt;/p&gt;
+
+&lt;p&gt;By Monmouth County’s own admission in subsequent court filings, this incident was not the first time that county employees failed to properly redact OPRA documents. The only difference is that because OPRAmachine existed, the public was able to know that the breach had occurred.&lt;/p&gt;
+
+&lt;p&gt;How many other times have government agencies unwittingly compromised private information without the public having the benefit of knowing? That is the real question that should be asked here.&lt;/p&gt;
+
+&lt;p&gt;The Monmouth County government and its legal counsel instead chose to attempt to craft a new exemption by administrative fiat in response to the negligence and lack of care exercised by their employees, likely to save themselves future embarrassment and exercise additional control over the OPRA process as is typical in the capricious fiefdoms that have sprung up in New Jersey state &amp;amp; local government.&lt;/p&gt;
+
+&lt;p&gt;As our attorney Walter Luers wrote in a brief for the case &amp;ldquo;Attempts by public agencies to force records custodians to use specific forms or to make followup requests after they have been denied access to records or to limit the right to make a request to citizens of this State have failed. This case is no different.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://opramachine.com/request/monmouth_county_division_of_soci_4#incoming-3976&#34; target=&#34;_blank&#34;&gt;Their new legally specious OPRA policy&lt;/a&gt; says that the county will deny any OPRA request solely on the basis that the email address indicates the records will be automatically published on the internet. In addition to demonstrating an ignorance of how modern technology works, the policy adopted by Monmouth County contravenes both the letter and spirit of the Open Public Records Act.&lt;/p&gt;
+
+&lt;p&gt;Additionally, as the court observed in &lt;a href=&#34;https://caselaw.findlaw.com/nj-superior-court/1492514.html&#34; target=&#34;_blank&#34;&gt;Asbury Park Press v. Ocean Cty. Prosecutor&amp;rsquo;s Office&lt;/a&gt;, 374 N.J. Super. 312 (Law. Div. 2004):&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Clearly, the court must always maintain a sharp focus on the purpose of OPRA and resist attempts to limit its scope, absent a clear showing that one of its exemptions or exceptions incorporated in the statute by reference is applicable to the requested disclosure. The salutary goal, simply put, is to maximize public knowledge about public affairs in order to ensure an informed citizenry and to minimize the evils inherent in a secluded process.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This, the county cannot do, so both myself and another administrator of the site joined as plaintiffs in OPRAmachine user Jennifer Coombs&amp;rsquo; lawsuit to ensure that the Monmouth County government cannot be permitted to shirk their responsibility to comply with the law just because they don&amp;rsquo;t like the fact that public records requests are being shared with the very public they exist to serve.&lt;/p&gt;
+
+&lt;p&gt;There is no recognized legal precedent that supports the gravamen of the legal theory advanced by Monmouth County to justify their policy, which is an unprecedented blow to transparency in county government and as such, this policy perpetuates a manifest injustice to users of OPRAmachine and those similarly situated.&lt;/p&gt;
+
+&lt;p&gt;In conclusion, transparency and accountability are both vital to ensuring the health of a thriving democracy, both locally and nationally. Government agencies must fulfill their disclosure obligations so that voters may be fully informed when voting in elections and be knowledgeable of the activities of local officials who govern on their behalf. When they fail to do so, they do a disservice not only to their citizens, but to the values that our nation was founded on.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://marketing.rozzi.media/email/preview/7&#34; target=&#34;_blank&#34;&gt;As I pledged in my press release announcing our case against Monmouth County last fall,&lt;/a&gt; our team is prepared to mount a campaign of litigation against any agency that challenges the validity of requests submitted through the OPRAmachine service.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Interview with PrincetonInfo</title>
-      <link>https://www.gavinrozzi.com/post/princetoninfo-interview/</link>
+      <link>/post/princetoninfo-interview/</link>
       <pubDate>Wed, 27 Feb 2019 00:00:00 -0500</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/post/princetoninfo-interview/</guid>
-      <description>I was interviewed by PrincetonInfo about my work modernizing public records with OPRAmachine</description>
+      <guid>/post/princetoninfo-interview/</guid>
+      <description>
+
+&lt;h3 id=&#34;princeton-i-was-interviewed-by-u-s-1-news-publishers-of-the-website-princetoninfo-http-princetoninfo-com-this-week&#34;&gt;PRINCETON - I was interviewed by U.S. 1 News, publishers of the website &lt;a href=&#34;http://princetoninfo.com&#34; target=&#34;_blank&#34;&gt;PrincetonInfo&lt;/a&gt; this week.&lt;/h3&gt;
+
+&lt;p&gt;The interview appeared both online and in the website&amp;rsquo;s print newspapers, which are distributed in the Mercer County region.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/coverUS1.png&#34; alt=&#34;The cover of the print newspaper where the interview was published&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;From their article:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Anyone who has ever tried to request government records in New Jersey knows that authorities and bureaucracies make the information request process intentionally difficult and inconvenient, to discourage the public from seeking information that is required by law to be public. The OPRAMachine bypasses some of this hassle.&lt;/p&gt;
+
+&lt;p&gt;This new tool is clearly a godsend for journalists, and has already been used to good effect. For example, Charlie Kratovil of New Brunswick Today used the OPRAMachine to request payroll records from every town in New Jersey and audited each one to find where towns were violating labor laws.&lt;/p&gt;
+
+&lt;p&gt;But Rozzi says the OPRAMachine is also useful for other groups. Average citizens, law firms, and businesspeople have been using the site to file thousands of requests since it launched last year.&lt;/p&gt;
+
+&lt;p&gt;Rozzi says people in the real estate, property management, and construction have been using it to research properties they are interested in. “They usually look for open permits or liens on a particular property,” he says. “They will say there’s nothing on this property, or maybe there is something, and they’ll take that information and use it in whatever they end up doing for their clients. They prepare a report making sure it’s clear of liens, almost similar to a title search,” he says.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;click-here-to-read-the-full-story-https-princetoninfo-com-opramachine-makes-requesting-records-easy-for-everyone&#34;&gt;&lt;a href=&#34;https://princetoninfo.com/opramachine-makes-requesting-records-easy-for-everyone/&#34; target=&#34;_blank&#34;&gt;Click here to read the full story&lt;/a&gt;&lt;/h3&gt;
+</description>
     </item>
     
     <item>
       <title>Interview with Jersey Shore Online Re: Monmouth County OPRAmachine Lawsuit</title>
-      <link>https://www.gavinrozzi.com/post/monmouth-opra-case/</link>
+      <link>/post/monmouth-opra-case/</link>
       <pubDate>Thu, 18 Oct 2018 00:00:00 -0400</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/post/monmouth-opra-case/</guid>
-      <description>Why we&amp;rsquo;re suing Monmouth County for violating OPRA</description>
+      <guid>/post/monmouth-opra-case/</guid>
+      <description>
+
+&lt;h2 id=&#34;i-recently-spoke-with-jersey-shore-online-https-www-jerseyshoreonline-com-ocean-county-lawsuit-questions-when-county-can-share-public-records-about-my-participation-in-a-multi-plaintiff-open-public-records-act-lawsuit-against-the-monmouth-county-nj-government-over-their-refusal-to-answer-requests-through-my-site-opramachine-https-opramachine-com&#34;&gt;I recently spoke with &lt;a href=&#34;https://www.jerseyshoreonline.com/ocean-county/lawsuit-questions-when-county-can-share-public-records/&#34; target=&#34;_blank&#34;&gt;Jersey Shore Online&lt;/a&gt; about my participation in a multi-plaintiff Open Public Records Act lawsuit against the Monmouth County, NJ government over their refusal to answer requests through my site &lt;a href=&#34;https://opramachine.com&#34; target=&#34;_blank&#34;&gt;OPRAmachine&lt;/a&gt;.&lt;/h2&gt;
+
+&lt;p&gt;The lawsuit stems from the county&amp;rsquo;s refusal to answer legally valid public records requests submitted through the site, which automatically publishes public records requests &amp;amp; responses in all 21 counties of New Jersey.&lt;/p&gt;
+
+&lt;p&gt;In its first year of existence, the civic technology and open government website - the first of its kind targeting New Jersey state &amp;amp; local government - has streamlined and modernized the public records request process in a paperless and easy to use process.&lt;/p&gt;
+
+&lt;p&gt;Monmouth County answered requests through the site without issue throughout 2017 and most of 2018 &lt;a href=&#34;https://blog.opramachine.com/monmouth-opra-lawsuit/&#34; target=&#34;_blank&#34;&gt;until one of their employees failed to redact confidential information.&lt;/a&gt;. When the county employees made a mistake, I took swift corrective action to remove the confidential material within 1 day of being contacted about the issue.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, the county chose to punish users of my site and refuse to answer any requests through the site after the incident.&lt;/p&gt;
+
+&lt;p&gt;This is unaccaptable and an obstruction of the county&amp;rsquo;s transparency obligations under OPRA, the state&amp;rsquo;s freedom of information law. I joined in the case to stand up for our users, who have faced stalls and delays on their records requests. OPRAmachine users includ&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s the portion of the story where I was quoted:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Since announcing the lawsuit at the end of September, Rozzi has been working on changes to OPRAmachine. In an Oct. 9 email to Jersey Shore Online, he explained he’s been working to address privacy concerns raised by Monmouth County.&lt;/p&gt;
+
+&lt;p&gt;“By the end of the month, we anticipate that our changes will allow OPRAmachine to detect and automatically redact social security numbers to protect privacy interests, something that no other proprietary public records solution (that we are aware of in NJ) does,” Rozzi wrote.&lt;/p&gt;
+
+&lt;p&gt;In a separate email the same day, Rozzi explained exactly why he filed suit.&lt;/p&gt;
+
+&lt;p&gt;“We want the court to order Monmouth County to do as they have previously done and honor the legally valid public records requests submitted to them by our users. We hope that the lawsuit will stop the county from treating public records requests differently because they originate from the OPRAmachine service. To remedy the county’s obstruction of the public records request process, we are urging the court to strike down the county’s unprecedented and overreaching policy that limits access to public information and find them in violation of the law.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;read-the-full-story-at-jersey-shore-online-https-www-jerseyshoreonline-com-ocean-county-lawsuit-questions-when-county-can-share-public-records&#34;&gt;Read the full story at &lt;a href=&#34;https://www.jerseyshoreonline.com/ocean-county/lawsuit-questions-when-county-can-share-public-records/&#34; target=&#34;_blank&#34;&gt;Jersey Shore Online&lt;/a&gt;&lt;/h3&gt;
+</description>
     </item>
     
     <item>
       <title>&#39;You have to read Rozzi&#39;</title>
-      <link>https://www.gavinrozzi.com/post/insider-100/</link>
+      <link>/post/insider-100/</link>
       <pubDate>Wed, 10 Oct 2018 00:00:00 -0400</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/post/insider-100/</guid>
-      <description>Joining the InsiderNJ Media 100 List</description>
+      <guid>/post/insider-100/</guid>
+      <description>
+
+&lt;h3 id=&#34;i-was-honored-to-be-included-on-the-latest-edition-of-insider-nj-s-media-100-list-https-www-insidernj-com-wp-content-uploads-2018-10-insider-20100-20media-20publication-202018-pdf&#34;&gt;I was honored to be included on the latest edition of Insider NJ&amp;rsquo;s &lt;a href=&#34;https://www.insidernj.com/wp-content/uploads/2018/10/Insider%20100%20Media%20Publication%202018.pdf&#34; target=&#34;_blank&#34;&gt;Media 100 List&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/insider100.jpg&#34; alt=&#34;Insider 100&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Interview with AEA-NJ Newsletter</title>
-      <link>https://www.gavinrozzi.com/post/aea-nj-interview/</link>
+      <link>/post/aea-nj-interview/</link>
       <pubDate>Thu, 09 Aug 2018 00:00:00 -0400</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/post/aea-nj-interview/</guid>
-      <description>I was interviewed about my work with OPRA and public records for the August, 2018 edition of the newsletter of the Association of Environmental Authorities of New Jersey, which represents local and county utilities authorities.</description>
+      <guid>/post/aea-nj-interview/</guid>
+      <description>&lt;p&gt;My work with OPRAmachine recently saw me interviewed by the newsletter of an organization that represents the interests of local and county utilities authorities around the state.&lt;/p&gt;
+
+&lt;p&gt;Eric San Juan, a writer for the &lt;a href=&#34;https://www.aeanj.org/&#34; target=&#34;_blank&#34;&gt;Association of Environmental Authorities of New Jersey&lt;/a&gt;&amp;rsquo;s newsletter, interviewed me earlier in the summer about the impact of my statewide freedom of information platform, OPRAmachine.&lt;/p&gt;
+
+&lt;p&gt;The AEA-NJ was interested in OPRAmachine because their member authorities are subject to the state&amp;rsquo;s freedom of information law, the New Jersey Open Public Records Act. Many of those authorities have been receiving requests through OPRAmachine and the interview provided an opportunity to communicate my platform&amp;rsquo;s benefits to citizens, public officials and other stakeholders with an interest in obtaining public records from New Jersey state and local government.&lt;/p&gt;
+
+&lt;p&gt;The article and interview were written from the perspective of member authorities and how OPRAmachine may impact them. It also included commentary from a public official who expressed their personal opinions about the site and compliance with New Jersey&amp;rsquo;s OPRA law.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://aeanj.org/wp-content/uploads/AEA-Authority-View-Summer-2018.pdf&#34; target=&#34;_blank&#34;&gt;The full article&lt;/a&gt; appears in the AEA-NJ&amp;rsquo;s summer, 2018 edition of their &amp;ldquo;Authority View&amp;rdquo; newsletter, which is accessible to member municipal and county utilities authorities.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Article preview:&lt;/strong&gt;
+&lt;img src=&#34;/img/aeanjarticle.JPG&#34; alt=&#34;Article screenshot&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Discussing OPRAmachine&#39;s Impact With WLFR Radio&#39;s Bill Watt</title>
-      <link>https://www.gavinrozzi.com/post/watt-interview/</link>
+      <link>/post/watt-interview/</link>
       <pubDate>Sun, 08 Apr 2018 00:00:00 -0400</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/post/watt-interview/</guid>
-      <description>I was interviewed by WLFR&amp;rsquo;s Bill Watt for his show Watt&amp;rsquo;s The Move</description>
+      <guid>/post/watt-interview/</guid>
+      <description>&lt;p&gt;On on April 5th, 2018 I joined WLFR Radio&amp;rsquo;s &lt;strong&gt;Watt&amp;rsquo;s The Move&lt;/strong&gt;, Stocton University&amp;rsquo;show
+own radio show that focuses on poliitics and public affairs.&lt;/p&gt;
+
+&lt;p&gt;During my one hour segment I discussed my work on several fronts. Our interview began with
+talk of my work with my first and most successful project, &lt;a href=&#34;https://www.gavinrozzi.com/project/politicsoc/&#34; target=&#34;_blank&#34;&gt;Ocean County Politics&lt;/a&gt;
+and later pivoted to my work with the &lt;a href=&#34;https://www.gavinrozzi.com/project/opramachine/&#34; target=&#34;_blank&#34;&gt;OPRAmachine&lt;/a&gt; freedom of information portal and
+how it is making New Jersey government more transparent as a result of its impact.&lt;/p&gt;
+
+&lt;p&gt;The final segment of the show was spent discussing my analysis of the upcoming 2018 primary races, specifically with regard to the senate
+and congressional seats that will be in play.&lt;/p&gt;
+
+&lt;p&gt;WLFR is the student-run radio station of Stockton University, and broadcasts
+in Galloway Township, NJ on 91.7 MHz and also has &lt;a href=&#34;http://wlfr.fm/&#34; target=&#34;_blank&#34;&gt;a feed online&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;See below for a video of me discussing OPRAmachine:&lt;/p&gt;
+
+&lt;iframe src=&#34;https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fgavinrozzi%2Fvideos%2F10208691053793200%2F&amp;show_text=0&amp;width=267&#34; width=&#34;267&#34; height=&#34;476&#34; style=&#34;border:none;overflow:hidden&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowTransparency=&#34;true&#34; allowFullScreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+</description>
     </item>
     
     <item>
       <title>Featured on Rachel Maddow Show</title>
-      <link>https://www.gavinrozzi.com/post/rachelmaddow/</link>
+      <link>/post/rachelmaddow/</link>
       <pubDate>Wed, 12 Oct 2016 00:00:00 -0400</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/post/rachelmaddow/</guid>
-      <description>A story I wrote about the 2016 campaign was featured on MSNBC&amp;rsquo;s The Rachel Maddow Show.</description>
+      <guid>/post/rachelmaddow/</guid>
+      <description>&lt;p&gt;During the 2016 presidential election, I worked to fiercely cover the state, local &amp;amp; federal elections occurring within the communities of Ocean County, New Jersey for my website &lt;a href=&#34;https://politicsoc.com&#34; target=&#34;_blank&#34;&gt;Ocean County Politics&lt;/a&gt;. During this time, my reporting on the cancellation of a GOP fundraiser held for then-Vice Presidential candidate Mike Pence was featured on an episode of the Rachel Maddow.&lt;/p&gt;
+
+&lt;div id=&#34;fb-root&#34;&gt;&lt;/div&gt;
+&lt;script&gt;(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = &#39;https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.11&amp;appId=111682819550624&#39;;
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, &#39;script&#39;, &#39;facebook-jssdk&#39;));&lt;/script&gt;
+
+&lt;div class=&#34;fb-video&#34; data-href=&#34;https://www.facebook.com/therachelmaddowshow/videos/10153990933079067/&#34; data-width=&#34;500&#34; data-show-text=&#34;true&#34;&gt;&lt;blockquote cite=&#34;https://www.facebook.com/therachelmaddowshow/videos/10153990933079067/&#34; class=&#34;fb-xfbml-parse-ignore&#34;&gt;&lt;a href=&#34;https://www.facebook.com/therachelmaddowshow/videos/10153990933079067/&#34;&gt;Pence fundraiser interest too low to be worth his time&lt;/a&gt;&lt;p&gt;Two Mike Pence fundraisers cancelled for lack of interest, one in Nebraska, one in New Jersey.
+
+Is lack of interest in Pence events a sign of the air leaving the Trump balloon?&lt;/p&gt;Posted by &lt;a href=&#34;https://www.facebook.com/therachelmaddowshow/&#34;&gt;The Rachel Maddow Show&lt;/a&gt; on Tuesday, October 11, 2016&lt;/blockquote&gt;&lt;/div&gt;
+</description>
     </item>
     
     <item>
       <title>Interview with CIO Magazine</title>
-      <link>https://www.gavinrozzi.com/post/ciomag/</link>
+      <link>/post/ciomag/</link>
       <pubDate>Wed, 10 Sep 2014 00:00:00 -0400</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/post/ciomag/</guid>
-      <description>I speak with CIO Magazine about WordPress</description>
+      <guid>/post/ciomag/</guid>
+      <description>&lt;p&gt;CIO Magazine &lt;a href=&#34;https://www.cio.com/article/2460827/search/seo-sem-top-25-diy-tips-for-better-seo.html&#34; target=&#34;_blank&#34;&gt;wanted my take&lt;/a&gt; on tips you can take to improve search engine rankings for small business websites for an article entitled &amp;ldquo;Top 25 DIY Tips for Better SEO.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Here’s what I had to say:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;WordPress is, in essence, a blogging platform. But many businesses use it as the content management system for a complete website.&lt;/p&gt;
+
+&lt;p&gt;Yoast’s WordPress SEO Plugin (free) is a favorite among many SEO experts. “I recommend it to my clients because it allows the automation and easy integration of important SEO strategies,” says Gavin Rozzi, president, Gavin Rozzi Technology.&lt;/p&gt;
+
+&lt;p&gt;Drupal and Joomla are two worthy WordPress alternatives, Rozzi says. “These free, open-source content management systems come with an assortment of plug-ins that automate much of the SEO workload.”&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
     </item>
     
   </channel>

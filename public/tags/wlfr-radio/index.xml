@@ -1,24 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>WLFR Radio on Gavin Rozzi</title>
-    <link>https://www.gavinrozzi.com/tags/wlfr-radio/</link>
-    <description>Recent content in WLFR Radio on Gavin Rozzi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2013-2019 Gavin Rozzi</copyright>
-    <lastBuildDate>Sun, 08 Apr 2018 00:00:00 -0400</lastBuildDate>
-    
-	<atom:link href="https://www.gavinrozzi.com/tags/wlfr-radio/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>WLFR Radio | Gavin Rozzi</title>
+    <link>/tags/wlfr-radio/</link>
+      <atom:link href="/tags/wlfr-radio/index.xml" rel="self" type="application/rss+xml" />
+    <description>WLFR Radio</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 08 Apr 2018 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>/img/thumbnail.jpg</url>
+      <title>WLFR Radio</title>
+      <link>/tags/wlfr-radio/</link>
+    </image>
     
     <item>
       <title>Discussing OPRAmachine&#39;s Impact With WLFR Radio&#39;s Bill Watt</title>
-      <link>https://www.gavinrozzi.com/post/watt-interview/</link>
+      <link>/post/watt-interview/</link>
       <pubDate>Sun, 08 Apr 2018 00:00:00 -0400</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/post/watt-interview/</guid>
-      <description>I was interviewed by WLFR&amp;rsquo;s Bill Watt for his show Watt&amp;rsquo;s The Move</description>
+      <guid>/post/watt-interview/</guid>
+      <description>&lt;p&gt;On on April 5th, 2018 I joined WLFR Radio&amp;rsquo;s &lt;strong&gt;Watt&amp;rsquo;s The Move&lt;/strong&gt;, Stocton University&amp;rsquo;show
+own radio show that focuses on poliitics and public affairs.&lt;/p&gt;
+
+&lt;p&gt;During my one hour segment I discussed my work on several fronts. Our interview began with
+talk of my work with my first and most successful project, &lt;a href=&#34;https://www.gavinrozzi.com/project/politicsoc/&#34; target=&#34;_blank&#34;&gt;Ocean County Politics&lt;/a&gt;
+and later pivoted to my work with the &lt;a href=&#34;https://www.gavinrozzi.com/project/opramachine/&#34; target=&#34;_blank&#34;&gt;OPRAmachine&lt;/a&gt; freedom of information portal and
+how it is making New Jersey government more transparent as a result of its impact.&lt;/p&gt;
+
+&lt;p&gt;The final segment of the show was spent discussing my analysis of the upcoming 2018 primary races, specifically with regard to the senate
+and congressional seats that will be in play.&lt;/p&gt;
+
+&lt;p&gt;WLFR is the student-run radio station of Stockton University, and broadcasts
+in Galloway Township, NJ on 91.7 MHz and also has &lt;a href=&#34;http://wlfr.fm/&#34; target=&#34;_blank&#34;&gt;a feed online&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;See below for a video of me discussing OPRAmachine:&lt;/p&gt;
+
+&lt;iframe src=&#34;https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fgavinrozzi%2Fvideos%2F10208691053793200%2F&amp;show_text=0&amp;width=267&#34; width=&#34;267&#34; height=&#34;476&#34; style=&#34;border:none;overflow:hidden&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowTransparency=&#34;true&#34; allowFullScreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+</description>
     </item>
     
   </channel>

@@ -1,51 +1,173 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Legals on Gavin Rozzi</title>
-    <link>https://www.gavinrozzi.com/legal/</link>
-    <description>Recent content in Legals on Gavin Rozzi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2013-2019 Gavin Rozzi</copyright>
-    <lastBuildDate>Sat, 23 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <title>Legals | Gavin Rozzi</title>
+    <link>/legal/</link>
+      <atom:link href="/legal/index.xml" rel="self" type="application/rss+xml" />
+    <description>Legals</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 27 May 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/thumbnail.jpg</url>
+      <title>Legals</title>
+      <link>/legal/</link>
+    </image>
     
-	<atom:link href="https://www.gavinrozzi.com/legal/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>Coombs et al. v. County of Monmouth</title>
+      <link>/legal/coombsmonmouth/</link>
+      <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
+      <guid>/legal/coombsmonmouth/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Legal Counsel: Walter Luers, Esq.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Docket No.: MON-L-003195-18&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Statutory provision at issue: &lt;a href=&#34;https://law.justia.com/codes/new-jersey/2017/title-47/section-47-1a-6/&#34; target=&#34;_blank&#34;&gt;N.J.S.A. 47:1A-6(g.) &lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Question Presented&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Can the Monmouth County, NJ government deny OPRA requests solely on the basis that they will be automatically published online?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Holding&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;Monmouth County Superior Court&lt;/strong&gt;, Assignment Judge Lisa P. Thornton ruled that the county violated the Open Public Records Act by denying requests.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Outcome&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Monmouth County was ordered to respond to records requests via OPRAmachine, ending the denials that took place from 2018-19 under the new policy.&lt;/p&gt;
+
+&lt;h3 id=&#34;case-documents&#34;&gt;Case documents&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;/files/Coombsruling.pdf&#34;&gt;Final decision - Coombs et al. v. County of Monmouth&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Rozzi v. Office of the Attorney General</title>
-      <link>https://www.gavinrozzi.com/legal/rozzivoag/</link>
+      <link>/legal/rozzivoag/</link>
       <pubDate>Sat, 23 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/legal/rozzivoag/</guid>
-      <description>AG&amp;rsquo;s office violated New Jersey public records law, judge rules.</description>
+      <guid>/legal/rozzivoag/</guid>
+      <description>
+
+&lt;h2 id=&#34;attorney-general-s-office-violated-public-records-law-by-witholding-email-logs&#34;&gt;Attorney General&amp;rsquo;s Office violated public records law by witholding email logs&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Legal Counsel: &lt;a href=&#34;https://www.pashmanstein.com/attorney/cj-griffin&#34; target=&#34;_blank&#34;&gt;CJ Griffin, Esq.&lt;/a&gt; - Pashman Stein Walder Hayden&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The New Jersey Attorney General&amp;rsquo;s Office was found to have violated the Open Public Records Act by denying my request for copies of email logs for the OAG&amp;rsquo;s custodian of records. I requested the email logs as a part of my advocacy on behalf of my statewide freedom of information website, &lt;a href=&#34;/project/opramachine/&#34;&gt;OPRAmachine&lt;/a&gt;. The email logs provided insight into the practices of OAG when it comes to handling OPRA requests.&lt;/p&gt;
+
+&lt;h3 id=&#34;question-presented&#34;&gt;Question Presented&lt;/h3&gt;
+
+&lt;p&gt;Was the New Jersey Attorney General&amp;rsquo;s Office&amp;rsquo;s denial of a request for copies for email logs - on the basis that all of the logs should be withheld because a portion contained confidential information - a violation of the Open Public Records Act, N.J.S.A. 47:1A-1 et seq.?&lt;/p&gt;
+
+&lt;h3 id=&#34;holding&#34;&gt;Holding&lt;/h3&gt;
+
+&lt;p&gt;Judge Mary Jacobson, A.J.S.C. held that the Attorney General&amp;rsquo;s refusal to produce the logs as originally requested constituted a violation of OPRA and ordered the OAG to disclose the requested email logs that were responsive to the initial public records request.&lt;/p&gt;
+
+&lt;h3 id=&#34;outcome&#34;&gt;Outcome&lt;/h3&gt;
+
+&lt;p&gt;The Attorney General&amp;rsquo;s office eventually complied with the court order and &lt;a href=&#34;/post/rozzi-oag/&#34;&gt;turned over the responsive email logs.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In the interest of saving resources, I voluntarily waived the portions of the email logs that did not pertain to the deputy attorney general&amp;rsquo;s other roles outside of complying with the state&amp;rsquo;s Open Public Records Act in order to prevent any further delays to accessing the requested public records.&lt;/p&gt;
+
+&lt;h3 id=&#34;case-documents&#34;&gt;Case documents&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;/files/Rozzi-AG Verified Complaint.pdf&#34;&gt;Read my verified complaint&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/post/rozzi-oag/&#34;&gt;Read my blog post about the documents they released&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Libertarians for Transparent Government v. New Jersey State Police</title>
-      <link>https://www.gavinrozzi.com/legal/njsplawsuit/</link>
+      <link>/legal/njsplawsuit/</link>
       <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/legal/njsplawsuit/</guid>
-      <description>Lawsuit reveals practice of OPRA violations at New Jersey State Police</description>
+      <guid>/legal/njsplawsuit/</guid>
+      <description>
+
+&lt;h2 id=&#34;new-jersey-state-police-held-accountable-in-court-for-stalling-on-public-records-requests&#34;&gt;New Jersey State Police held accountable in court for stalling on public records requests&lt;/h2&gt;
+
+&lt;p&gt;The case Libertarians for Transparent Government v. New Jersey State Police was an important case that revealed unacceptable practices by the New Jersey State Police.&lt;/p&gt;
+
+&lt;p&gt;The case revealed a pattern and practice of failure to comply with the requirements of the state&amp;rsquo;s Open Public Records Act (OPRA) after a judge in the case issued a ruling.&lt;/p&gt;
+
+&lt;p&gt;I participated in the case by way of filing a certification detailing my experience with attempting to obtain helicopter usage logs
+for then-New Jersey Governor Chris Christie&amp;rsquo;s usage of State Police helicopters. My certification details my own experience with the State Police and how they took repeated extensions prior to providing me with heavily redacted helicopter usage records.&lt;/p&gt;
+
+&lt;h3 id=&#34;case-documents&#34;&gt;Case documents&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;/files/Cert of Gavin Rozzi for Libertarians-SP2.pdf&#34;&gt;Read my certification&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/0B66zM58TlOVKRTZERjNvNm1xM0U/view&#34; target=&#34;_blank&#34;&gt;Read the full complaint&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Rozzi v. Lacey Township Board of Education</title>
-      <link>https://www.gavinrozzi.com/legal/rozzivlaceyboe/</link>
+      <link>/legal/rozzivlaceyboe/</link>
       <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/legal/rozzivlaceyboe/</guid>
-      <description>GRC Reverses Fee Demand for Public Records</description>
+      <guid>/legal/rozzivlaceyboe/</guid>
+      <description>
+
+&lt;h2 id=&#34;fee-demand-for-public-records-declared-unreasonable-and-unwarranted&#34;&gt;Fee demand for public records declared &amp;ldquo;unreasonable and unwarranted&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Legal Counsel: Pro Se&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GRC Complaint 2015-224&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Statutory provision at issue: &lt;a href=&#34;https://www.nj.gov/grc/pdf/OPRASpecialServiceCharge.pdf&#34; target=&#34;_blank&#34;&gt;N.J.S.A. 47:1A-5(c.)&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;After being on their docket for close to two years, the New Jersey Government Records Council (GRC) ruled in my favor after I filed a complaint captioned Gavin C. Rozzi v. Lacey Township Board of Education, GRC complaint 2015-224. The GRC ordered the Lacey Township Board of Education to refund an $85 &amp;ldquo;special service fee&amp;rdquo; the board&amp;rsquo;s business administrator imposed for copies of checks that showed the board&amp;rsquo;s contracted attorney received health benefits through a school district plan.&lt;/p&gt;
+
+&lt;h3 id=&#34;question-presented&#34;&gt;Question Presented&lt;/h3&gt;
+
+&lt;p&gt;Did the Lacey Township Board of Education&amp;rsquo;s imposition of an $85 &amp;ldquo;special service fee&amp;rdquo; for copies of checks that showed the school board attorney - a contracted professional - was receiving health benefits through a district plan violate the Open Public Records Act, N.J.S.A. 47:1A-1 et seq.?&lt;/p&gt;
+
+&lt;h3 id=&#34;holding&#34;&gt;Holding&lt;/h3&gt;
+
+&lt;p&gt;The GRC held that the special service fee was &amp;ldquo;unreasonable and unwarranted&amp;rdquo; and issued an interim order compelling the district to refund the $85 &amp;ldquo;special service fee&amp;rdquo; that was charged to me before I could receive the requested records.&lt;/p&gt;
+
+&lt;p&gt;I filed the complaint because it was my belief that the true purpose of the fee was the chill public records requests rather than legitimately recover expenses.&lt;/p&gt;
+
+&lt;h3 id=&#34;case-documents&#34;&gt;Case documents&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;/files/2015-224.pdf&#34;&gt;Final Decision - Rozzi v. Lacey Township Board of Education&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Rozzi v. Ocean County Prosecutor&#39;s Office</title>
-      <link>https://www.gavinrozzi.com/legal/rozzivocp/</link>
+      <link>/legal/rozzivocp/</link>
       <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/legal/rozzivocp/</guid>
-      <description>GRC declares county prosecutor violated OPRA law by witholding documents</description>
+      <guid>/legal/rozzivocp/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Legal Counsel: Pro Se&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GRC Complaint 2015-250&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Statutory provision at issue: &lt;a href=&#34;https://law.justia.com/codes/new-jersey/2017/title-47/section-47-1a-5/&#34; target=&#34;_blank&#34;&gt;N.J.S.A. 47:1A-5(g.) &lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Question Presented&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Did the Ocean County Prosecutor&amp;rsquo;s Office violate OPRA by failing to provide a response&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Holding&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;New Jersey Government Records Council (GRC)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;response provided to an Open Public Records Act (OPRA) request was legally insufficient under the OPRA law&amp;rsquo;s requirements.&lt;/p&gt;
+
+&lt;p&gt;This case was filed at the same time a lawsuit that was filed against the OCPO by open government activist Harry Scheeler. Scheeler&amp;rsquo;s lawsuit sought similar documents as those that were issue in this case.&lt;/p&gt;
+
+&lt;h3 id=&#34;outcome&#34;&gt;Outcome&lt;/h3&gt;
+
+&lt;p&gt;While the GRC did indeed find a violation of OPRA on the part of the county prosecutor&amp;rsquo;s office, they did not order the prosecutor&amp;rsquo;s office to produce any documents or find a &amp;ldquo;knowing and willful&amp;rdquo; violation of OPRA. It should note that the records custodian who was at the center of this case would would later be removed from his position, with his social media posts even going so far as to call for&lt;/p&gt;
+
+&lt;h3 id=&#34;case-documents&#34;&gt;Case documents&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;/files/2015-250.pdf&#34;&gt;Final decision - Rozzi v. Ocean County Prosecutor&amp;rsquo;s Office&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

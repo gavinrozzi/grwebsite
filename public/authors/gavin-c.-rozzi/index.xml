@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gavin C. Rozzi on Gavin Rozzi</title>
-    <link>https://www.gavinrozzi.com/authors/gavin-c.-rozzi/</link>
-    <description>Recent content in Gavin C. Rozzi on Gavin Rozzi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2013-2019 Gavin Rozzi</copyright>
-    <lastBuildDate>Mon, 31 Jul 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.gavinrozzi.com/authors/gavin-c.-rozzi/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>Gavin C. Rozzi | Gavin Rozzi</title>
+    <link>/authors/gavin-c.-rozzi/</link>
+      <atom:link href="/authors/gavin-c.-rozzi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Gavin C. Rozzi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 31 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/thumbnail.jpg</url>
+      <title>Gavin C. Rozzi</title>
+      <link>/authors/gavin-c.-rozzi/</link>
+    </image>
     
     <item>
       <title>Municipal Tax Abatements Policy Briefing</title>
-      <link>https://www.gavinrozzi.com/publication/tax-abatements/</link>
+      <link>/publication/tax-abatements/</link>
       <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.gavinrozzi.com/publication/tax-abatements/</guid>
-      <description>I present a summary of some of the current issues involving the administration of state &amp;amp; local tax abatement policy and its effects on revenues of taxing entities within the municipality.</description>
+      <guid>/publication/tax-abatements/</guid>
+      <description></description>
     </item>
     
   </channel>

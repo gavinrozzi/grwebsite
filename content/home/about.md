@@ -1,16 +1,14 @@
 +++
-# About/Biography widget.
-widget = "about"
-headless = true 
-active = true
-weight = 1
+# About widget.
+widget = "about"  # See https://sourcethemes.com/academic/docs/page-builder/
+headless = true  # This file represents a page section.
+active = true  # Activate this widget? true/false
+weight = 20  # Order that this section will appear in.
+
 title = "Biography"
 
 # Choose the user profile to display
-# This should be the username of a profile in your `content/author/` folder.
+# This should be the username of a profile in your `content/authors/` folder.
+# See https://sourcethemes.com/academic/docs/get-started/#introduce-yourself
 author = "gavin"
-[design.background]
-  gradient_start = "#55b6e7"
-  gradient_end = "#6696ed"
-  text_color_light = true
 +++
