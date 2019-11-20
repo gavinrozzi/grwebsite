@@ -14,6 +14,8 @@ role: Journalist, Public Records Researcher & Web Developer
 
 # Organizations/Affiliations
 organizations:
+- name: Wildfire Web Services, LLC.
+  url: "https://wildfire-ent.com"
 - name: Rozzi Media Group
   url: "https://rozzi.media"
 
