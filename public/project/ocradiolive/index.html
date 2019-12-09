@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.5.0">
+  <meta name="generator" content="Source Themes Academic 4.6.3">
 
   
 
@@ -226,24 +226,35 @@
 
 
   
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
+    <div class="d-none d-lg-inline-flex">
       <a class="navbar-brand" href="/">Gavin Rozzi</a>
-      
-      <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span><i class="fas fa-bars"></i></span>
-      </button>
-      
+    </div>
+    
 
     
-    <div class="collapse navbar-collapse" id="navbar">
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Gavin Rozzi</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
 
       
-      
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav d-md-inline-flex">
         
 
         
@@ -392,29 +403,28 @@
         
 
       
+
+        
       </ul>
-      <ul class="navbar-nav ml-auto">
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
       
 
-        
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
 
-        
-        <li class="nav-item">
-          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
-        </li>
-        
+      
 
-        
+    </ul>
 
-        
-        <li class="nav-item">
-          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
-        </li>
-        
-
-      </ul>
-
-    </div>
   </div>
 </nav>
 
@@ -567,181 +577,6 @@
 
     <div class="article-style">
       
-
-<h2 id="the-new-way-to-scan-ocean-county">The new way to scan Ocean County</h2>
-
-<p><a href="https://ocradio.live/" target="_blank">Ocean County Radio Live</a> is taking the technical complexity and hassle out of radio scanning in Ocean County, New Jersey. This website was launched in late January, 2018 and since that date has continued to stream &amp; archive multiple police, fire &amp; EMS radio channels.</p>
-
-<p>This website is powered by the latest software defined radio (SDR) technology to process the streams of digital data produced by the Ocean County trunked radio system and also record analog conventional systems used by some departments &amp; squads. The SDRs record radio transmissions and upload them to the site&rsquo;s server, which allows them to easily be played and archived online. When Ocean County activates the new 700 MHz P25 Phase II radio system, our receivers will only need a simple software configuration change in order to pick up the new system&rsquo;s signal. This flexibility makes SDR radios superior for this particular application, allowing us to provide a wide amount of channels on our system.</p>
-
-<p>The system has a major advantage over all traditional forms of radio scanning as it uses &ldquo;time shifting&rdquo; like a DVR does when recording multiple overlapping TV shows, ensuring that <strong>no transmissions are missed</strong>, since traditional scanners can only hold on just one channel - potentially missing other calls that could be taking place on different talkgroups.</p>
-
-<p>This system is powered by multiple R820T SDRs running on a desktop computer and connected to the front-end web server accessed by end users.</p>
-
-<p>As our base of users continues to grow, I intend on covering more radio systems and adding them to this system.</p>
-
-<p>The <a href="https://ocradio.live/" target="_blank">Ocean County Radio Live</a> web application is based on the open-source <a href="https://github.com/ScanOC/trunk-player" target="_blank">Trunk-Player</a> Django project. So far, I have contributed one <a href="https://github.com/ScanOC/trunk-player/commit/8dbc011c96bf19951bc9fa1fbf6c37d5e215dc4a" target="_blank">pull request</a> to the upstream open source software that powers the project, and I plan to contribute more in the future as my schedule allows.</p>
-
-<h3 id="current-scan-list-lineup">Current scan list lineup</h3>
-
-<ul>
-
-
-<li><a href="https://ocradio.live/scan/brick-fire-ems/">Brick Fire &amp; EMS</a></li>
-
-<li><a href="https://ocradio.live/scan/cape-may-county/">Cape May County</a></li>
-
-<li><a href="https://ocradio.live/scan/delaware-river-bridges/">Delaware River Bridges</a></li>
-
-<li><a href="https://ocradio.live/scan/garden-state-parkway/">Garden State Parkway</a></li>
-
-<li><a href="https://ocradio.live/scan/lacey-twp-police-fire-ems/">Lacey Twp. Police, Fire &amp; EMS</a></li>
-
-<li><a href="https://ocradio.live/scan/monmouth-county/">Monmouth County</a></li>
-
-<li><a href="https://ocradio.live/scan/monoc-paramedics/">MONOC Paramedics</a></li>
-
-<li><a href="https://ocradio.live/scan/new-jersey-dep/">New Jersey DEP</a></li>
-
-<li><a href="https://ocradio.live/scan/new-jersey-dot/">New Jersey DOT</a></li>
-
-<li><a href="https://ocradio.live/scan/new-jersey-fish-wildlife/">New Jersey Fish &amp; Wildlife</a></li>
-
-<li><a href="https://ocradio.live/scan/new-jersey-state-police/">New Jersey State Police</a></li>
-
-<li><a href="https://ocradio.live/scan/new-jersey-transit-police/">New Jersey Transit Police</a></li>
-
-<li><a href="https://ocradio.live/scan/new-jersey-turnpike/">New Jersey Turnpike</a></li>
-
-<li><a href="https://ocradio.live/scan/nj-interoperability-com-sys/">NJ Interoperability Com. Sys</a></li>
-
-<li><a href="https://ocradio.live/scan/ocean-county-ems/">Ocean County EMS</a></li>
-
-<li><a href="https://ocradio.live/scan/ocean-county-fire/">Ocean County Fire</a></li>
-
-<li><a href="https://ocradio.live/scan/ocean-county-law-enforcement/">Ocean County Law Enforcement</a></li>
-
-<li><a href="https://ocradio.live/scan/ocean-county-p25/">Ocean County (P25)</a></li>
-
-<li><a href="https://ocradio.live/scan/ocean-county-services/">Ocean County Services</a></li>
-
-<li><a href="https://ocradio.live/scan/oc-prosecutor-sheriff/">OC Prosecutor &amp; Sheriff</a></li>
-
-<li><a href="https://ocradio.live/scan/seaside-heights-park/">Seaside Heights &amp; Park</a></li>
-
-<li><a href="https://ocradio.live/scan/southern-ocean-county/">Southern Ocean County</a></li>
-
-<li><a href="https://ocradio.live/scan/toms-river-fire-ems/">Toms River Fire &amp; EMS</a></li>
-
-</ul>
-
-<h3 id="sample-talkgroups-channel-lineup-click-to-scan">Sample talkgroups &amp; channel lineup (click to scan)</h3>
-
-<ul>
-
-
-<li><a href="https://ocradio.live/tg/3361/">#3361</a></li>
-
-<li><a href="https://ocradio.live/tg/3363/">#3363</a></li>
-
-<li><a href="https://ocradio.live/tg/33705/">#33705</a></li>
-
-<li><a href="https://ocradio.live/tg/3379/">#3379</a></li>
-
-<li><a href="https://ocradio.live/tg/3383/">#3383</a></li>
-
-<li><a href="https://ocradio.live/tg/3385/">#3385</a></li>
-
-<li><a href="https://ocradio.live/tg/3401/">#3401</a></li>
-
-<li><a href="https://ocradio.live/tg/3403/">#3403</a></li>
-
-<li><a href="https://ocradio.live/tg/3421/">#3421</a></li>
-
-<li><a href="https://ocradio.live/tg/3423/">#3423</a></li>
-
-<li><a href="https://ocradio.live/tg/3439/">#3439</a></li>
-
-<li><a href="https://ocradio.live/tg/3441/">#3441</a></li>
-
-<li><a href="https://ocradio.live/tg/3447/">#3447</a></li>
-
-<li><a href="https://ocradio.live/tg/34685/">#34685</a></li>
-
-<li><a href="https://ocradio.live/tg/34777/">#34777</a></li>
-
-<li><a href="https://ocradio.live/tg/34815/">#34815</a></li>
-
-<li><a href="https://ocradio.live/tg/34969/">#34969</a></li>
-
-<li><a href="https://ocradio.live/tg/35247/">#35247</a></li>
-
-<li><a href="https://ocradio.live/tg/35279/">#35279</a></li>
-
-<li><a href="https://ocradio.live/tg/35368/">#35368</a></li>
-
-<li><a href="https://ocradio.live/tg/3607/">#3607</a></li>
-
-<li><a href="https://ocradio.live/tg/361/">#361</a></li>
-
-<li><a href="https://ocradio.live/tg/3611/">#3611</a></li>
-
-<li><a href="https://ocradio.live/tg/3621/">#3621</a></li>
-
-<li><a href="https://ocradio.live/tg/3623/">#3623</a></li>
-
-<li><a href="https://ocradio.live/tg/3625/">#3625</a></li>
-
-<li><a href="https://ocradio.live/tg/3631/">#3631</a></li>
-
-<li><a href="https://ocradio.live/tg/3637/">#3637</a></li>
-
-<li><a href="https://ocradio.live/tg/3639/">#3639</a></li>
-
-<li><a href="https://ocradio.live/tg/3643/">#3643</a></li>
-
-<li><a href="https://ocradio.live/tg/3653/">#3653</a></li>
-
-<li><a href="https://ocradio.live/tg/3655/">#3655</a></li>
-
-<li><a href="https://ocradio.live/tg/3665/">#3665</a></li>
-
-<li><a href="https://ocradio.live/tg/3671/">#3671</a></li>
-
-<li><a href="https://ocradio.live/tg/36775/">#36775</a></li>
-
-<li><a href="https://ocradio.live/tg/3681/">#3681</a></li>
-
-<li><a href="https://ocradio.live/tg/3683/">#3683</a></li>
-
-<li><a href="https://ocradio.live/tg/3687/">#3687</a></li>
-
-<li><a href="https://ocradio.live/tg/3709/">#3709</a></li>
-
-<li><a href="https://ocradio.live/tg/3715/">#3715</a></li>
-
-<li><a href="https://ocradio.live/tg/3721/">#3721</a></li>
-
-<li><a href="https://ocradio.live/tg/3737/">#3737</a></li>
-
-<li><a href="https://ocradio.live/tg/3741/">#3741</a></li>
-
-<li><a href="https://ocradio.live/tg/3743/">#3743</a></li>
-
-<li><a href="https://ocradio.live/tg/3747/">#3747</a></li>
-
-<li><a href="https://ocradio.live/tg/3749/">#3749</a></li>
-
-<li><a href="https://ocradio.live/tg/3751/">#3751</a></li>
-
-<li><a href="https://ocradio.live/tg/3753/">#3753</a></li>
-
-<li><a href="https://ocradio.live/tg/3755/">#3755</a></li>
-
-<li><a href="https://ocradio.live/tg/3759/">#3759</a></li>
-
-</ul>
-
     </div>
 
     
@@ -1015,8 +850,7 @@
 
     
     <div class="article-style">
-      Recorded video of talk:   &nbsp;
-I will be speaking about my experience implementing open source software and working the RTLSDR …
+      Recorded video of talk:   I will be speaking about my experience implementing open source software and working the RTLSDR platform to …
     </div>
     
 
@@ -1073,6 +907,10 @@ I will be speaking about my experience implementing open source software and wor
 
 
 
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/slides/ocradio-cyberspectrum/" target="_blank">
+    Slides
+  </a>
   
 
 
@@ -1137,7 +975,7 @@ I will be speaking about my experience implementing open source software and wor
 
     
     
-    <script>hljs.initHighlightingOnLoad();</script>
+    <script>const code_highlighting = true;</script>
     
 
     
@@ -1204,7 +1042,7 @@ I will be speaking about my experience implementing open source software and wor
     
     
     
-    <script src="/js/academic.min.d6bd04fdad2ad213aa8111c5a3b72fc5.js"></script>
+    <script src="/js/academic.min.600a2e440c16093e23e26e90951c4d4b.js"></script>
 
     
 
@@ -1220,7 +1058,7 @@ I will be speaking about my experience implementing open source software and wor
   
 
   <p class="powered-by">
-    
+    Copyright © 2019 Gavin Rozzi. All rights reserved &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

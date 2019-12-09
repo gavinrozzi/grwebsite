@@ -3,22 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
-    <lastmod>2019-08-09T00:00:00-04:00</lastmod>
+    <loc>/post/apparticle/</loc>
+    <lastmod>2019-10-06T00:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/geigersql/</loc>
-    <lastmod>2019-08-09T00:00:00-04:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2019-10-06T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/in-the-news/</loc>
+    <lastmod>2019-10-06T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/opramachine/</loc>
+    <lastmod>2019-10-06T00:00:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2019-08-09T00:00:00-04:00</lastmod>
+    <lastmod>2019-10-06T00:00:00-04:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
+    <lastmod>2019-10-06T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/geigersql/</loc>
     <lastmod>2019-08-09T00:00:00-04:00</lastmod>
   </url>
   
@@ -28,8 +43,43 @@
   </url>
   
   <url>
-    <loc>/tags/in-the-news/</loc>
-    <lastmod>2019-07-13T00:00:00-04:00</lastmod>
+    <loc>/publication_types/0/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/gavin-c.-rozzi/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/john-froonjian-edd/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/oliver-cooke-phd/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/underground-economy/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -69,11 +119,6 @@
   
   <url>
     <loc>/post/njtech-interview/</loc>
-    <lastmod>2019-05-03T00:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/opramachine/</loc>
     <lastmod>2019-05-03T00:00:00-04:00</lastmod>
   </url>
   
@@ -248,32 +293,7 @@
   </url>
   
   <url>
-    <loc>/publication_types/0/</loc>
-    <lastmod>2017-07-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-    <lastmod>2017-07-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/gavin-c.-rozzi/</loc>
-    <lastmod>2017-07-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/tax-abatements/</loc>
-    <lastmod>2017-07-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2017-07-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
     <lastmod>2017-07-31T00:00:00+00:00</lastmod>
   </url>
   
@@ -313,6 +333,22 @@
   
   <url>
     <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/slides/ocradio-cyberspectrum/</loc>
+  </url>
+  
+  <url>
+    <loc>/slides/opiatecrisis/</loc>
+  </url>
+  
+  <url>
+    <loc>/slides/</loc>
+  </url>
+  
+  <url>
+    <loc>/slides/montclair/</loc>
   </url>
   
 </urlset>
