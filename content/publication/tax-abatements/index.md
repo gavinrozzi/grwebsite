@@ -1,5 +1,5 @@
 +++
-title = "Municipal Tax Abatements Policy Briefing"
+title = "Municipal Tax Abatements Policy Brief"
 date = "2017-07-31"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
