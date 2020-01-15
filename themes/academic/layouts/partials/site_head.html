@@ -142,12 +142,13 @@
   {{ end }}
 
   <link rel="manifest" href="{{ "index.webmanifest" | relLangURL }}">
-  <link rel="icon" type="image/png" href="{{ "img/icon-32.png" | relURL }}">
-  <link rel="apple-touch-icon" type="image/png" href="{{ "img/icon-192.png" | relURL }}">
+  <link rel="icon" type="image/png" href="{{(partial "functions/get_icon" 32).RelPermalink}}">
+  <link rel="apple-touch-icon" type="image/png" href="{{(partial "functions/get_icon" 192).RelPermalink}}">
 
   <link rel="canonical" href="{{ .Permalink }}">
 
   {{ $featured_image := (.Resources.ByType "image").GetMatch "*featured*" }}
+  {{ $has_logo := fileExists "assets/images/logo.png" }}
   {{ $og_image := "" }}
   {{ $twitter_card := "summary_large_image" }}
   {{ if $featured_image }}
@@ -156,14 +157,14 @@
     {{ $og_image = printf "img/%s" .Params.header.image | absURL }}
   {{ else if site.Params.sharing_image }}
     {{ $og_image = printf "img/%s" site.Params.sharing_image | absURL }}
-  {{ else if site.Params.logo }}
-    {{ $og_image = (printf "img/%s" site.Params.logo) | absURL }}
+  {{ else if $has_logo }}
+    {{ $og_image = (partial "functions/get_logo" (dict "constraint" "fit" "size" 300)).Permalink }}
     {{ $twitter_card = "summary" }}
   {{ else if site.Params.avatar }}
     {{ $og_image = (printf "img/%s" site.Params.avatar) | absURL }}
     {{ $twitter_card = "summary" }}
   {{ else }}
-    {{ $og_image = "img/icon-192.png" | absURL }}
+    {{ $og_image = (partial "functions/get_icon" 512).Permalink }}
     {{ $twitter_card = "summary" }}
   {{ end }}
   {{ $scr.Set "og_image" $og_image }}{{/* Set `og_image` globally for `rss.xml`. */}}
@@ -174,7 +175,7 @@
   {{ end }}
   <meta property="og:site_name" content="{{ site.Title }}">
   <meta property="og:url" content="{{ .Permalink }}">
-  <meta property="og:title" content="{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ site.Title }}">
+  <meta property="og:title" content="{{ if not .IsHome }}{{ .Params.name | default .Title }} | {{ end }}{{ site.Title }}">
   <meta property="og:description" content="{{ $desc }}">
   {{- with $og_image -}}
   <meta property="og:image" content="{{.}}">
@@ -198,6 +199,6 @@
 
   {{ partial "custom_head" . }}
 
-  <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ site.Title }}</title>
+  <title>{{ if not .IsHome }}{{ .Params.name | default .Title }} | {{ end }}{{ site.Title }}</title>
 
 </head>
