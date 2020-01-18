@@ -1,14 +1,12 @@
-+++
-date = 2020-01-17
-draft = false
-tags = ["Data Science"]
-title = "Mapping Philadelphia's Bike Sharing Data"
-summary = ""
-
-[header]
-image = ""
-caption = ""
-+++
+---
+title: Mapping Philadelphia's Bike Sharing Data
+date: 2020-01-17
+math: false
+diagram: false
+image:
+  placement: 3
+  preview_only: true
+---
 
 ### Indego operates a bike sharing network in Philadelphia. They also publish anonymized data detailing usage of the service.
 
