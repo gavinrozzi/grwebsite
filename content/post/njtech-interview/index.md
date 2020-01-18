@@ -21,4 +21,4 @@ caption = ""
 >Until OPRAmachine: Fulfillment Like The Lawless Wild West
 Cities, towns, counties and other government entities can interpret how this service is to be implemented.  So, until the arrival of OPRAmachine, fulfillment of this service was like the lawless Wild West: People would ask for information from local governments through a traditional paper process, and then hope their requests would be accepted, Rozzi said.
 
-[Read the full story at NJ Tech Weekly](https://njtechweekly.com/2019/05/02/journalist-builds-opramachine-a-faster-easier-platform-for-filing-opra-requests/)
+[Read the full story at NJ Tech Weekly](https://njtechweekly.com/journalist-builds-opramachine-a-faster-easier-platform-for-filing-opra-requests/)
