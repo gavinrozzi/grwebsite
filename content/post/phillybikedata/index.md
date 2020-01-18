@@ -50,7 +50,7 @@ I chose to represent the Indego30 plan as a red star, walk up (no plan) as a blu
 The end result of the Python script will be a PNG file for each quarter's worth of data from 2015 to the present, stored in the current working directory. Thus, each iteration of the Python code will produce one frame for the final GIF.
 
 ### Putting it all together
-At this point, all that is left to do is stitch the PNG files created by the Python script into the final animated GIF shown at the top of this post. Fortunately the ImageMagick library makes this task quite easy and scriptable. The final line of the script makes use of the convert command provided by ImageMagick to stitch all of the PNG files into the final animated GIF visualing trends in bike usage over time.
+At this point, all that is left to do is stitch the PNG files created by the Python script into the final animated GIF shown at the top of this post. Fortunately the ImageMagick library makes this task quite easy and scriptable. The final line of the script makes use of the convert command provided by ImageMagick to stitch all of the PNG files into the final animated GIF visualizng trends in bike usage over time.
 
 ## The code
 
