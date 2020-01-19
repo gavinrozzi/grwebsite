@@ -18,7 +18,7 @@ As a part of my coursework for the [Data Science & Strategic Analytics](https://
 To create the visualization, I wanted to create a simple and repeatable workflow. Rather than designing multiple scripts that had to be run individually or doing things manually, my goal from a technical standpoint was to have a single script that I could execute from the command line that would run all of the needed code and output a final animated GIF suitable for sharing.
 
 ### Downloading the data
-The bash script works by first obtaining a list of all quarterly data files published on the Indego website. It does this by using a grep expression to filter out just the URLs we are interested from the HTML code of the web page that we have downloaded using curl. It stores the list of URLs as an array and iterates over each URL to download a ZIP file containing data in CSV format. 
+The bash script works by first obtaining a list of all quarterly data files published on the Indego website. It does this by using a grep expression to filter out just the URLs we are interested in from the HTML code of the web page that we have downloaded using curl. It stores the list of URLs as an array and iterates over each URL to download a ZIP file containing data in CSV format. 
 
 To conserve bandwidth, I used the -N argument in the script's calls to wget to tell the it not to download the data files if they are already present on the user's computer and have not changed on the server.
 
