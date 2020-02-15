@@ -29,7 +29,7 @@ Programming the repeater required taking a trip back in time to 2002, as I had t
 
 ### The STM-32-DVM-MTR2K
 
-We chose to utilize the [STM-32-DVM-MTR2K](http://ks-dmr.net/2019/04/11/introducing-the-stm32-dvm-mtr2k/) board to provide digital voice support to the repeater. This board builds upon prior open hardware and work of the MMDVM and Raspberry Pi platforms in order to provide a "plug-and-play" solution that will work for MTR2000 repeaters. We've tried other MMDVM boards and didn't much success. This board is by far the easiest way to convert an analog repeater into a multi-mode digital system.
+We chose to utilize the [STM-32-DVM-MTR2K](http://ks-dmr.net/2019/04/11/introducing-the-stm32-dvm-mtr2k/) board to provide digital voice support to the repeater. This board builds upon prior open hardware and work of the MMDVM and Raspberry Pi platforms in order to provide a "plug-and-play" solution that will work for MTR2000 repeaters. We've tried other MMDVM boards and didn't have much success. This board is by far the easiest way to convert an analog repeater into a multi-mode digital system.
 
 ![MTR2000](/img/stm32.jpg)
 
