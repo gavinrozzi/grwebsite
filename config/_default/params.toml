@@ -86,7 +86,7 @@ edit_page = {repo_url = "https://github.com/gavinrozzi/grwebsite", repo_branch =
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "hello@gavinrozzi.com"
-phone = "(732)-504-3636"
+phone = ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
