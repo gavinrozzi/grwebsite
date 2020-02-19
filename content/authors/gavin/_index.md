@@ -10,17 +10,15 @@ authors:
 superuser: true
 
 # Role/position
-role: Journalist, Public Records Researcher & Web Developer
+role: Pushing the boundaries of data, technology & public policy
 
 # Organizations/Affiliations
 organizations:
-- name: Wildfire Web Services, LLC.
-  url: "https://wildfire-ent.com"
-- name: Rozzi Media Group
-  url: "https://rozzi.media"
+- name: Stockton University
+  url: "https://stockton.edu"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Journalist, Public Records Researcher & Web Developer.
+bio: Gavin Rozzi is an MS candidate pursuing a degree in Data Science & Strategic Analytics at Stockton University.
 
 interests:
 - Linux, open source & Python
@@ -72,10 +70,10 @@ email: ""
 
 ## <strong>Gavin Rozzi</strong> is an award-winning independent journalist, web developer & technology professional who has created several successful local news websites and civic technology platforms serving New Jersey. 
 
-Since early 2016, his political news website [Ocean County Politics](https://politicsoc.com) quickly became a "must read" for its in-depth reporting about local government, campaign finance and investigations of public officials in Ocean County, NJ. Stories first broken by Gavin on Ocean County Politics are frequently cited by larger media outlets, including NJ.com, POLITICO, InsiderNJ and MSNBC's Rachel Maddow Show.
+From early 2016 - 2019, his political news website [Ocean County Politics](https://politicsoc.com) quickly became a "must read" for its in-depth reporting about local government, campaign finance and investigations of public officials in Ocean County, NJ. Stories first broken by Gavin on Ocean County Politics were frequently cited by larger media outlets, including NJ.com, POLITICO, InsiderNJ and MSNBC's Rachel Maddow Show.
 
 In 2017 he launched [OPRAmachine](https://opramachine.com/), a statewide freedom of information portal that automatically publishes public records requests & responses, the first website of its kind to serve New Jersey. The website, which is active in all 21 counties, allows anybody to easily request public documents from state and local government agencies under the New Jersey Open Public Records Act (OPRA).  It was the first production deployment of the open-source [Alaveteli](https://www.mysociety.org/2017/12/06/introducing-opramachine-tackling-political-corruption-in-new-jersey/) platform that targeted a single U.S. state rather than an entire country.
 
-In 2019, he received the "Excellence in Local News Award" from the Center for Cooperative Media at Montclair University in the "Innovate Local" category for his work with OPRAmachine.
+In 2019, he received the "Excellence in Local News Award" from the Center for Cooperative Media at Montclair University in the "Innovate Local" category for his work modernizing the public with OPRAmachine.
 
-Gavin has been recognized as an authority on government transparency in New Jersey as a result of OPRAmachine's impact. Most recently, he has appeared in court as an expert witness in OPRA cases, testifying in cases involving the production of digital data held by government agencies.
+Gavin has been recognized as an authority on government transparency and open data in New Jersey as a result of OPRAmachine's impact. Most recently, he has appeared in court as an expert witness in OPRA cases, testifying in cases involving the production of digital data held by government agencies.
