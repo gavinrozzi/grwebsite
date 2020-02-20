@@ -30,7 +30,7 @@ Data should objectively tell the story about trends in emergency incidents in ci
 
 ## Active911
 
-I was able to execute on my idea for creating my own heatmapping system came about when I learned of agencies in my community adopting Active911 to coordinate their responses to emergency incidents using their smartphones. [Active911](https://www.active911.com/) is a mobile app with a web component that allows first responders to coordinate their responses to incidents via a mobile app. It does so by receiving data from the CAD utilized by dispatch centers. 
+I was able to execute on my idea for creating my own heatmapping system when I learned of agencies in my community adopting Active911 to coordinate their responses to emergency incidents using their smartphones. [Active911](https://www.active911.com/) is a mobile app with a web component that allows first responders to coordinate their responses to incidents via a mobile app. It does so by receiving data from the CAD utilized by dispatch centers. 
 
 Multiple endpoints are provided by Active911's backend, including RSS feeds and other mechanisms for sharing data. Some agencies that have adopted the system provide open access to [the real-time RSS feeds of call data](http://wiki.active911.com/wiki/index.php/Publishing_your_alarms:_RSS_and_web_widgets), and even have them embedded as a widget on their websites, but I have not been able to find any in New Jersey that do so.
 
