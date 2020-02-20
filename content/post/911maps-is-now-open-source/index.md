@@ -24,7 +24,7 @@ The proprietary nature of the software provided by CAD vendors means that these 
 
 Seeing these visualizations in my Twitter feed got me thinking:
 
- **Why shouldn't the public, researchers and other concerned stakeholders not be able to produce these same visualizations and see what is taking place in their communities?**
+ **Why should the public, researchers and other concerned stakeholders not be able to produce these same visualizations and see what is taking place in their communities?**
 
 Data should objectively tell the story about trends in emergency incidents in cities and municipalities. Now, not all data is truthful or useful for this purpose, but we should at least be able to assume that the records created by public safety authorities will accurately reflect trends in calls for service, making it suitable for research and analysis purposes.
 
