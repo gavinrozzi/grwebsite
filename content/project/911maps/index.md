@@ -39,6 +39,6 @@ I am using the site for research as a part of my graduate studies in Data Scienc
 
 ### More details
 
-[View the website](https://911ma.ps)
+[View the website](http://911ma.ps:8000)
 
-[View the source code on Github](https://github.com/gavinrozzi/toms-river-911-calls)
+[View the source code on Github](https://github.com/gavinrozzi/911maps-v1)
