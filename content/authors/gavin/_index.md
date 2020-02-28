@@ -74,6 +74,6 @@ From early 2016 - 2019, his political news website [Ocean County Politics](https
 
 In 2017 he launched [OPRAmachine](https://opramachine.com/), a statewide freedom of information portal that automatically publishes public records requests & responses, the first website of its kind to serve New Jersey. The website, which is active in all 21 counties, allows anybody to easily request public documents from state and local government agencies under the New Jersey Open Public Records Act (OPRA).  It was the first production deployment of the open-source [Alaveteli](https://www.mysociety.org/2017/12/06/introducing-opramachine-tackling-political-corruption-in-new-jersey/) platform that targeted a single U.S. state rather than an entire country.
 
-In 2019, he received the "Excellence in Local News Award" from the Center for Cooperative Media at Montclair University in the "Innovate Local" category for his work modernizing the public with OPRAmachine.
+In 2019, he received the "Excellence in Local News Award" from the Center for Cooperative Media at Montclair University in the "Innovate Local" category for his work modernizing public records with OPRAmachine.
 
 Gavin has been recognized as an authority on government transparency and open data in New Jersey as a result of OPRAmachine's impact. Most recently, he has appeared in court as an expert witness in OPRA cases, testifying in cases involving the production of digital data held by government agencies.
