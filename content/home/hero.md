@@ -2,13 +2,13 @@
 # Hero widget.
 widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "Academic"
+title = "3D Printing Masks for COVID-19"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
-hero_media = "hero-academic.png"
+hero_media = "3dprinter.jpg"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -37,22 +37,18 @@ hero_media = "hero-academic.png"
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
 [cta]
-  url = "https://sourcethemes.com/academic/docs/install/"
-  label = "Get Started"
+  url = "https://docs.google.com/forms/d/e/1FAIpQLScH7MKM1nGlYAcnBevILOQtV1Rwsy1nxUK4wJurB9h-du8HfQ/viewform"
+  label = "Request a Mask or Face Shield"
   icon_pack = "fas"
-  icon = "download"
+  icon = "user-nurse"
   
 [cta_alt]
-  url = "https://sourcethemes.com/academic/"
-  label = "View Documentation"
+  url = "https://www.paypal.me/GavinRozzi"
+  label = "Or donate so I can keep making more"
 
 # Note. An optional note to show underneath the links.
 [cta_note]
-  label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
+  label = 'Masks are NOT for sale at this time and are being given to healthcare workers and first responders on the frontlines. Priority will be given to ICU / emergency departments and hospitals.'
 +++
 
-**The Best Way to Create the Website You Want from Markdown (or Jupyter/RStudio)**
-
-Build **Anything** with Widgets
-
-<span style="text-shadow: none;"><a class="github-button" href="https://github.com/gcushen/hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span>
+I am currently [using my 3D printer to make masks and PPE](https://stockton.edu/news/2020/data-science-major-prints-protective-masks-for-health-care-workers.html) for healthcare workers combatting the COVID-19 pandemic in New Jersey.
