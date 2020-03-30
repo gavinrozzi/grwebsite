@@ -51,4 +51,4 @@ hero_media = "3dprinter.jpg"
   label = 'Masks are NOT for sale at this time and are being given to healthcare workers and first responders on the frontlines. Priority will be given to ICU / emergency departments and hospitals.'
 +++
 
-I am currently [using my 3D printer to make masks and PPE](https://stockton.edu/news/2020/data-science-major-prints-protective-masks-for-health-care-workers.html) for healthcare workers combatting the COVID-19 pandemic in New Jersey.
+I am currently [using my 3D printer to make masks and PPE](https://stockton.edu/news/2020/data-science-major-prints-protective-masks-for-health-care-workers.html) for healthcare workers combating the COVID-19 pandemic in New Jersey.
