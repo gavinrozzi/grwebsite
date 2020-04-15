@@ -46,14 +46,14 @@ I am using filters from vacuum cleaner bags cut into a small square. I chose vac
 ### Are the masks sterilized?
 Using the resources available to me, I aim to be as sterile as possible under the unusual circumstances we are all facing. I have a UV-C wand that is used for disinfecting. I run this over the masks and other items that I make to try and destroy any virus material that may be on the masks or filament. I also follow social distancing guidelines when delivering the masks. No personal contact takes place during pick-ups.
 
-### How can maks and shields  be requested?
+### How can masks and shields  be requested?
 [Please use this form to request a mask.](https://docs.google.com/forms/d/e/1FAIpQLScH7MKM1nGlYAcnBevILOQtV1Rwsy1nxUK4wJurB9h-du8HfQ/viewform) It's important that you use that form as I can't effectively track informal requests that come through via various channels. Also, please do not request equipment if you are located outside of New Jersey at this time. Right now I have enough demand within the state of New Jersey and need to prioritize that for now, but if things calm down here and the funds allow it I am open to shipping equipment to other states.
 
 ### Who are you donating the masks to?
 Primarily, I am donating the masks to essential healthcare workers that are on the front lines of the battle against COVID-19 and lack the required personal protective equipment. I have provided masks to doctors, nurses, testing site employees, support staff and home healthcare workers and others that are likely to come into contact with those who are infected.
 
 ### How can I support this work?
-We always need more filament and supplies, so if you'd like to make a donation [you can use this link.](https://paypal.me/GavinRozzi) or if you have specific supplies such as plastic or elastic you can use the contact form on my website to get in touch.
+We always need more filament and supplies, so if you'd like to make a donation [you can use this link,](https://paypal.me/GavinRozzi) or if you have specific supplies such as plastic or elastic you can use the contact form on my website to get in touch.
 
 ### I am not a healthcare worker, can I buy a mask?
 **Not at this time.** Due to the overwhelming demand, my efforts are concentrated on getting masks and equipment to front line healthcare workers that are most likely to be exposed to the novel coronavirus. Once I am able to fulfill these requests I am going to release a wait list for members of the general public to register their interest. There will be a small fee for masks for those who are not healthcare workers in order to cover materials.
