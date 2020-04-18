@@ -165,6 +165,13 @@ link_authors = true
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
 plugins_js  = []
 
+[avatar]
+  # Get user avatars from Gravatar.com? (true/false)
+  gravatar = false
+
+  # Choose a shape for avatar images. Options: circle, square.
+  shape = "circle"
+
 # Configuration of publication pages.
 [publications]
   # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
@@ -249,3 +256,10 @@ plugins_js  = []
 [marketing]
   google_analytics = ""
   google_tag_manager = ""
+
+############################
+## Content Management System
+############################
+[cms]
+  # See https://sourcethemes.com/academic/docs/install/#install-with-web-browser
+  netlify_cms = true
