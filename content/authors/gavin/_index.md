@@ -14,6 +14,8 @@ role: Pushing the boundaries of data, technology & public policy
 
 # Organizations/Affiliations
 organizations:
+- name: Rutgers Urban & Civic Informatics Lab
+  url: "https://rucilab.rutgers.edu/2020/04/16/gavin-rozzi/"
 - name: Stockton University
   url: "https://stockton.edu"
 
@@ -30,7 +32,7 @@ education:
   courses:
   - course: M.S., Data Science & Strategic Analytics
     institution: Stockton University
-    year: expected 2020
+    year: 2020
   - course: B.A., Political Science
     institution: Stockton University
     year: 2018
