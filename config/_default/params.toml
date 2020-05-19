@@ -166,7 +166,7 @@ link_authors = true
 plugins_js  = []
 
 # Copyright footer
-copyright_license = {enable = true, allow_derivatives = false, share_alike = true, allow_commercial = false, notice = "Copyright &copy; Gavin Rozzi. This work is licensed under {license}"}
+copyright_license = {enable = true, allow_derivatives = false, share_alike = true, allow_commercial = false, notice = "Copyright &copy; Gavin Rozzi. This work is licensed under {license}. The views expressed on this website are of Gavin Rozzi's alone and do not represent any employer or organization."}
 
 [avatar]
   # Get user avatars from Gravatar.com? (true/false)
