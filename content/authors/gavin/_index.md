@@ -23,10 +23,11 @@ organizations:
 bio: Gavin Rozzi is an MS candidate pursuing a degree in Data Science & Strategic Analytics at Stockton University.
 
 interests:
-- Linux, open source & Python
-- Politics & government
+- Linux, open source software
+- Public policy
 - Data science
 - Civic tech
+- Python & R development
 
 education:
   courses:
@@ -51,6 +52,9 @@ social:
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=slj82AIAAAAJ
+- icon: orcid
+  icon_pack: fab
+  link: https://orcid.org/0000-0002-9969-8175
 - icon: github
   icon_pack: fab
   link: https://github.com/gavinrozzi
@@ -70,7 +74,7 @@ email: ""
 #- Visitors
 ---
 
-## <strong>Gavin Rozzi</strong> is an award-winning independent journalist, web developer & technology professional who has created several successful local news websites and civic technology platforms serving New Jersey. 
+## <strong>Gavin Rozzi</strong> is an award-winning researcher, former journalist, web developer & technology professional who has created several successful local news websites and civic technology platforms serving New Jersey. 
 
 From early 2016 - 2019, his political news website [Ocean County Politics](https://politicsoc.com) quickly became a "must read" for its in-depth reporting about local government, campaign finance and investigations of public officials in Ocean County, NJ. Stories first broken by Gavin on Ocean County Politics were frequently cited by larger media outlets, including NJ.com, POLITICO, InsiderNJ and MSNBC's Rachel Maddow Show.
 
