@@ -2,3 +2,4 @@ public/
 .idea/
 .Rproj.user
 resources/_gen/
+*.content
