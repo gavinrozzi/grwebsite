@@ -36,7 +36,7 @@ selected = true
 #projects = [""]
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "files/Underground-economy-report-2019-1.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
