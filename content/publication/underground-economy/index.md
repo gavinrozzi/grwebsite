@@ -20,7 +20,7 @@ publication_types = ["0"]
 publication = ""
 
 # Abstract and optional shortened version.
-abstract = "Working with state labor leaders, the William J. Hughes Center for Public Policy at Stockton University was contracted to study the Underground Construction Economy in New Jersey. I served as a Research Assistant for this project and researched state legislation related to the misclassification of employees as independent contractors among other tasks."
+abstract = "The William J. Hughes Center for Public Policy was contracted to study the underground commercial construction economy in the state of New Jersey in 2016 for the Bricklayers and Allied Craftworkers Labor Management Committee of New Jersey, the Carpenter Contractor Trust, Associated Construction Contractors of New Jersey and Masonry Contractors of New Jersey. This research took a multi-pronged approach in exploring policy and best practices, presenting a data-driven analysis of the underground economy in New Jersey, and allowing construction leaders to speak freely about their experiences in the industry. The BACNJ and industry partners ACCNJ, MCNJ, Northeast Regional Council of Carpenters and Operating Engineers Local #825 contracted with the Hughes Center to update its original research in spring 2019. This report contains the updated findings. This report finds that the underground construction economy continues to thrive in New Jersey despite attention resulting from the original report and some steps taken by the state government to address the problem."
 
 summary = ""
 
