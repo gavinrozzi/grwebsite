@@ -19,9 +19,17 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  title = "Recognized by NJ Governor Phil Murphy"
+  organization = "Office of the Governor"
+  certificate_url = ""
+  date_start = "2019-04-01"
+  date_end = ""
+  description = "For donating 3D printed PPE to healthcare workers"
+
+[[item]]
   title = "Excellence in Local News 2019, Innovate Local"
   organization = "Center for Cooperative Media at Montclair University"
-  certificate_url = "/img/awardcertificate.jpg"
+  certificate_url = "/media/awardcertificate.jpg"
   date_start = "2019-02-09"
   date_end = ""
   description = "Received for my work with OPRAmachine"
