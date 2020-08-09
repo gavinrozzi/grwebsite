@@ -24,7 +24,7 @@ Using raw data exported from the OPRAmachine database, the dashboard presents ma
 
 While these data represent a significant milestone in terms of quantifying the number of requests sent to particular jurisdictions in New Jersey, I want to be very clear that there may be some fringe cases that impact the accuracy of the statistics reported within this dataset. For example, certain types of OPRA requests may require more work from public authorities in order to compile a response. As of now, we have no way of taking into account simple vs. complex OPRA requests, so future iterations of this work will likely address this and other issues.
 
-One other thing to keep in mind is that the total number of public authorities and users may have discrepancies between the dashboard and the OPRAmachine website. The dashboard can only take into account users and authorities that have actually received requests via OPRAmachine, so if an authority never received a request we are not producing any statistics for it.
+One other thing to keep in mind is that the total number of public authorities and users may have discrepancies between the dashboard and the OPRAmachine website. The dashboard can only take into account users and authorities that have actually received requests via OPRAmachine, so if an authority never was sent a request we are not producing any statistics for it.
 Another key assumption that this dataset makes is that users are accurately classifying the responses to OPRA requests that they receive. We are unable to manually review the thousands of requests or automatically classify them, so we rely on users to answer a survey question about the response they receive from public authorities.
 
 ## Future plans
