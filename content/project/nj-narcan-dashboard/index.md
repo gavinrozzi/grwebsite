@@ -10,7 +10,7 @@ summary = "A tool for researching the opiod epidemic in New Jersey and where & w
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["data", "transparency"]
+tags = ["data", "Data Visualization"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

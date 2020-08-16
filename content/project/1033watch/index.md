@@ -10,7 +10,7 @@ summary = "Track military hardware shipments to local police"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["data", "transparency"]
+tags = ["data", "transparency","Data Visualization"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

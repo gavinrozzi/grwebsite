@@ -13,7 +13,7 @@ image_preview = "tr911.jpeg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["data"]
+tags = ["Data Visualization"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

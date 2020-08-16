@@ -10,7 +10,7 @@ summary = "New Jersey's first statewide freedom of information platform"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["data", "transparency"]
+tags = ["data", "transparency","platform"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
