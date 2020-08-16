@@ -20,7 +20,7 @@ organizations:
   url: "https://stockton.edu"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Gavin Rozzi is an MS candidate pursuing a degree in Data Science & Strategic Analytics at Stockton University.
+bio: Gavin Rozzi is a data scientist from New Jersey. Gavin studies urban informatics, environmental factors affecting the spread of COVID-19 & public policy development.
 
 interests:
 - Linux, open source software
