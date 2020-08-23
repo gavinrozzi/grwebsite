@@ -59,6 +59,7 @@ logo = ""
 highlight = true
 highlight_languages = ["r"]  # Add support for highlighting additional languages
 # highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
+highlight_superuser = true
 
 # Enable LaTeX math rendering? true/false
 #   If false, you can enable math on a per page basis as needed.
@@ -268,3 +269,6 @@ copyright_license = {enable = true, allow_derivatives = false, share_alike = tru
 [cms]
   # See https://sourcethemes.com/academic/docs/install/#install-with-web-browser
   netlify_cms = true
+
+[icon.pack]
+ai = true

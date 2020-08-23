@@ -3,7 +3,7 @@ title = "The Underground Construction Economy in New Jersey"
 date = "2019-07-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Oliver Cooke, PhD", "John Froonjian, EdD", "Gavin C. Rozzi"]
+authors = ["Oliver Cooke", "John Froonjian", "gavin"]
 
 # Publication type.
 # Legend:
@@ -25,7 +25,7 @@ abstract = "The William J. Hughes Center for Public Policy was contracted to stu
 summary = ""
 
 # Featured image thumbnail (optional)
-image_preview = ""
+image_preview = "undergroundthumbnail.JPG"
 
 # Is this a selected publication? (true/false)
 selected = true
@@ -54,12 +54,6 @@ url_source = ""
 math = false
 
 # Does the content use source code highlighting?
-highlight = true
-
-# Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-[header]
-image = ""
-caption = ""
+highlight = false
 
 +++

@@ -1,9 +1,9 @@
 +++
-title = "Municipal Tax Abatements Policy Brief"
+title = "Municipal tax abatements policy brief"
 date = "2017-07-31"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Gavin C. Rozzi"]
+authors = ["gavin"]
 
 # Publication type.
 # Legend:
@@ -20,11 +20,12 @@ publication_types = ["0"]
 publication = "In *Election 2017: The Policy Priorities of New Jersey College Students*,  William J. Hughes Center for Public Policy at Stockton University."
 
 # Abstract and optional shortened version.
-abstract = "I present a summary of some of the current issues involving the administration of state & local tax abatement policy and its effects on revenues of taxing entities within the municipality. Speciifc emphasis is made on the impact o Payment in Lieu of Taxes (PILOT). I also present some possible policy solutions that can be considered to address some of the excesses of current tax abatement policy in New Jersey."
-summary = "I present a summary of some of the current issues involving the administration of state & local tax abatement policy and its effects on revenues of taxing entities within the municipality."
+abstract = "New Jersey municipalities can grant tax abatements, which allow for a significant reduction or elimination of property taxes paid to local government by certain types of development projects. Currently, New Jersey law gives municipalities broad discretion to grant tax abatements; the vast majority of abatements negotiated between municipalities and developers do not provide for any revenue to taxing entities other than the municipal government – such ascounties, fire districts and boards of education. This is because existing state law does not require themunicipality to distribute the revenue derived from abatements as they do regular property taxes collected from other properties with their borders."
+
+summary = ""
 
 # Featured image thumbnail (optional)
-image_preview = "Rozzi tax abatements.jpg"
+image_preview = ""
 
 # Is this a selected publication? (true/false)
 selected = true
@@ -54,11 +55,5 @@ math = false
 
 # Does the content use source code highlighting?
 highlight = true
-
-# Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-[header]
-image = "Rozzi tax abatements.jpg"
-caption = "A preview of the policy briefing."
 
 +++

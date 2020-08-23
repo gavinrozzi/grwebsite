@@ -3,7 +3,7 @@ title = "The first statewide, open access dataset tracking public records reques
 date = "2020-07-16"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Gavin C. Rozzi"]
+authors = ["gavin"]
 
 # Publication type.
 # Legend:
@@ -38,8 +38,8 @@ selected = true
 url_pdf = ""
 url_preprint = "/files/The first statewide, open access dataset tracking public records requests in New Jersey.pdf"
 url_code = ""
-url_dataset = ""
-url_project = ""
+url_dataset = "https://data.mendeley.com/datasets/bg8w9mfths/1"
+url_project = "/project/opramachine"
 url_slides = ""
 url_video = ""
 url_poster = ""

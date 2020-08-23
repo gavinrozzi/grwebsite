@@ -26,7 +26,7 @@ caption = "A screenshot of the OPRAmachine.com homepage"
 +++
 ## Winner of the 2019 Excellence in Local News Award
 OPRAmachine won in the "Innovate Local" category for the site's innovative approach to public records. [Details about the award are available here.](https://politicsoc.com/2019/02/rozzi-wins-statewide-journalism-award/)
-<img src="/img/innovate.png" width=40%>
+<img src="/media/innovate.png" width=40%>
 
 
 ## Opening up New Jersey government
