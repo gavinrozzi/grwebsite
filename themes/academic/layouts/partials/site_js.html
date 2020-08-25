@@ -42,13 +42,6 @@
     <script>const code_highlighting = false;</script>
     {{ end }}
 
-    {{/* Initialise default theme. */}}
-    {{ if eq ($scr.Get "light") true }}
-    <script>const isSiteThemeDark = false;</script>
-    {{ else }}
-    <script>const isSiteThemeDark = true;</script>
-    {{ end }}
-
     {{ if ne site.Params.search.engine 0 }}
     {{/* Configure search engine. */}}
     {{ $min_length := site.Params.search.academic.min_length | default 1 }}
@@ -138,6 +131,14 @@
         });
       }
     </script>
+    {{ end }}
+
+    {{/* Charts */}}
+    {{ if .HasShortcode "chart" }}
+    <script>
+      window.PlotlyConfig = {MathJaxConfig: 'local'};
+    </script>
+    {{ printf "<script src=\"%s\" integrity=\"%s\" crossorigin=\"anonymous\"></script>" (printf $js.plotly.url $js.plotly.version) $js.plotly.sri | safeHTML }}
     {{ end }}
 
     {{/* Disqus Comment Count JS. */}}
