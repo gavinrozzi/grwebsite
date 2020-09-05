@@ -35,15 +35,15 @@ selected = true
 #projects = [""]
 
 # Links (optional).
-url_pdf = ""
-url_preprint = "/files/The first statewide, open access dataset tracking public records requests in New Jersey.pdf"
+url_pdf = "/files/pagination_DIB_106265 2.pdf"
+url_preprint = ""
 url_code = ""
 url_dataset = "https://data.mendeley.com/datasets/bg8w9mfths/1"
 url_project = "/project/opramachine"
 url_slides = ""
 url_video = ""
 url_poster = ""
-url_source = ""
+url_source = "https://doi.org/10.1016/j.dib.2020.106265"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.

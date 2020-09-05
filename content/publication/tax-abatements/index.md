@@ -1,5 +1,5 @@
 +++
-title = "Municipal tax abatements policy brief"
+title = "Municipal Tax Abatements"
 date = "2017-07-31"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -44,7 +44,7 @@ url_project = ""
 url_slides = ""
 url_video = ""
 url_poster = ""
-url_source = ""
+url_source = "https://stockton.edu/hughes-center/documents/2017-0731-election-2017.pdf"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
