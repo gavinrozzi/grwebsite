@@ -24,7 +24,7 @@ abstract = "State freedom of information laws are vital mechanisms for providing
 summary = ""
 
 # Featured image thumbnail (optional)
-image_preview = ""
+image_preview = "https://ars.els-cdn.com/content/image/1-s2.0-S2352340920X00023-cov150h.gif"
 
 # Is this a selected publication? (true/false)
 selected = true
