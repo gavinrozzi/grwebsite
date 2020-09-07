@@ -1,58 +1,30 @@
-+++
-title = "Using OPRAmachine to file public records requests without the hassle"
-date = 2018-07-31T00:00:00  # Schedule page publish date.
-draft = false
-
-# Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with `#`.
-time_start = 2018-08-21T14:00:00
-time_end = 2018-08-21T15:00:00
-
-# Abstract and optional shortened version.
-abstract = "I will be presenting an in-person and webinar event about OPRAmachine, my statewide freedom of information platform serving New Jersey."
-summary = ""
-
-# Name of event and optional event URL.
-event = "Using OPRAmachine to file public records requests without the hassle"
-event_url = "https://www.eventbrite.com/e/using-opramachine-to-file-public-records-requests-without-the-hassle-tickets-48653465826?aff=efbeventtix"
-
-# Location of event.
-location = "Montclair. New Jersey"
-
-# Is this a selected talk? (true/false)
-selected = true
-
-# Projects (optional).
-#   Associate this talk with one or more of your projects.
-#   Simply enter your project's filename without extension.
-#   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
-#   Otherwise, set `projects = []`.
-projects = ["opramachine"]
-
-# Tags (optional).
-#   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["opra"]
-
-# Links (optional).
-url_pdf = "/files/montclair-slides.pdf"
-slides = "montclair"
-url_video = "https://www.youtube.com/watch?v=_1E2tWOOWzU"
-url_code = ""
-
-# Does the content use math formatting?
-math = true
-
-# Does the content use source code highlighting?
-highlight = true
-
-# Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-[header]
-image = "headers/montclair.jpg"
-caption = ""
-
-+++
-
+---
+abstract: I will be presenting an in-person and webinar event about OPRAmachine, my
+  statewide freedom of information platform serving New Jersey.
+date: 2018-07-31 00:00:00
+draft: false
+event: Using OPRAmachine to file public records requests without the hassle
+event_url: https://www.eventbrite.com/e/using-opramachine-to-file-public-records-requests-without-the-hassle-tickets-48653465826?aff=efbeventtix
+header:
+  caption: ''
+  image: headers/montclair.jpg
+highlight: true
+location: Montclair. New Jersey
+math: true
+projects:
+- opramachine
+selected: true
+slides: montclair
+summary: ''
+tags:
+- opra
+time_end: 2018-08-21 15:00:00
+time_start: 2018-08-21 14:00:00
+title: Using OPRAmachine to file public records requests without the hassle
+url_code: ''
+url_pdf: /files/montclair-slides.pdf
+url_video: https://www.youtube.com/watch?v=_1E2tWOOWzU
+---
 Recorded video of webinar:
 {{< youtube _1E2tWOOWzU >}}
 &nbsp;

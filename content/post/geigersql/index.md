@@ -1,15 +1,14 @@
-+++
-date = 2019-08-09
-draft = false
-tags = [""]
-title = "GeigerSQL: Storing geiger counter data in a PostgreSQL database"
-summary = ""
-
-[header]
-image = "headers/geigersql.jpg"
-caption = ""
-+++
-
+---
+date: 2019-08-09
+draft: false
+header:
+  caption: ''
+  image: headers/geigersql.jpg
+summary: ''
+tags:
+- ''
+title: 'GeigerSQL: Storing geiger counter data in a PostgreSQL database'
+---
 Living in close proximity to the Oyster Creek nuclear power plant in Lacey Township has always left me interested in studying background radiation and some of the safety concerns associated with the aging plant, which has since shut down.
 
 A few years ago I purchased an electronic geiger counter to monitor radiation, but never did much with it. Eventually I discovered Geigerlog, an open-source program for interfacing with electronic geiger counters and taking readings.

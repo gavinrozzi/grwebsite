@@ -1,32 +1,17 @@
-+++
-# Date this page was created.
-date = "2017-12-12"
-
-# Project title.
-title = "Rozzi v. Lacey Township Board of Education"
-
-# Project summary to display on homepage.
-summary = "GRC Reverses Fee Demand for Public Records"
-
-# Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "GRLaceyBOE.jpeg"
-
-# Tags: can be used for filtering projects.
-# Example: `tags = ["lacey township board of education", "opra"]`
-tags = ["opra", "legal"]
-
-# Optional external URL for project (replaces project detail page).
-external_link = ""
-
-# Does the project detail page use math formatting?
-math = false
-
-# Optional featured image (relative to `static/img/` folder).
-[header]
-image = ""
-caption = "Unresonable fees for public records were reveresed in this case"
-
-+++
+---
+date: '2017-12-12'
+external_link: ''
+header:
+  caption: Unresonable fees for public records were reveresed in this case
+  image: ''
+image_preview: GRLaceyBOE.jpeg
+math: false
+summary: GRC Reverses Fee Demand for Public Records
+tags:
+- opra
+- legal
+title: Rozzi v. Lacey Township Board of Education
+---
 ## Fee demand for public records declared "unreasonable and unwarranted"
 
 **Legal Counsel: Pro Se**

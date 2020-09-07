@@ -1,32 +1,17 @@
-+++
-# Date this page was created.
-date = "2018-06-23"
-
-# Project title.
-title = "Rozzi v. Office of the Attorney General"
-
-# Project summary to display on homepage.
-summary = "AG's office violated New Jersey public records law, judge rules."
-
-# Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "GRvOAG.JPG"
-
-# Tags: can be used for filtering projects.
-# Example: `tags = ["lacey township board of education", "opra"]`
-tags = ["opra", "legal"]
-
-# Optional external URL for project (replaces project detail page).
-external_link = ""
-
-# Does the project detail page use math formatting?
-math = false
-
-# Optional featured image (relative to `static/img/` folder).
-[header]
-image = ""
-caption = ""
-
-+++
+---
+date: '2018-06-23'
+external_link: ''
+header:
+  caption: ''
+  image: ''
+image_preview: GRvOAG.JPG
+math: false
+summary: AG's office violated New Jersey public records law, judge rules.
+tags:
+- opra
+- legal
+title: Rozzi v. Office of the Attorney General
+---
 ## Attorney General's Office violated public records law by witholding email logs
 
 **Legal Counsel: [CJ Griffin, Esq.](https://www.pashmanstein.com/attorney/cj-griffin) - Pashman Stein Walder Hayden**

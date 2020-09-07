@@ -1,15 +1,14 @@
-+++
-date = 2018-05-07
-draft = false
-tags = ["OPRAmachine"]
-title = "A Conversation With Jeff Epstein and Patrick Duff Re: OPRA & Open Government"
-summary = "I spoke with Jeff & Patrick about public records research and recent developments."
-
-[header]
-image = "headers/patrick-gavin-jeff.jpg"
-caption = "Patrick Duff, Gavin Rozzi & Jeff Epstein"
-+++
-
+---
+date: 2018-05-07
+draft: false
+header:
+  caption: Patrick Duff, Gavin Rozzi & Jeff Epstein
+  image: headers/patrick-gavin-jeff.jpg
+summary: I spoke with Jeff & Patrick about public records research and recent developments.
+tags:
+- OPRAmachine
+title: 'A Conversation With Jeff Epstein and Patrick Duff Re: OPRA & Open Government'
+---
 I recently spoke with Citizens' Media TV's Jeff Epstein and Patrick Duff for an audio interview.
 
 [Our conversation](https://soundcloud.com/peopleconversations/omgavinpatrick) centered on the Open Public Records Act (OPRA), transparency & open government issues centered on my work with public records and how the three of us have made use of my [OPRAmachine](https://www.gavinrozzi.com/project/opramachine/) platform.
@@ -21,4 +20,3 @@ Duff is one of the most active users of OPRAmachine, having used the site to fil
 **Listen to the full interview:**
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/440247858&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-

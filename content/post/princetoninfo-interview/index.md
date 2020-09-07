@@ -1,15 +1,16 @@
-+++
-date = 2019-02-27
-draft = false
-tags = ["OPRAmachine", "In the news"]
-title = "Interview with PrincetonInfo"
-summary = "I was interviewed by PrincetonInfo about my work modernizing public records with OPRAmachine"
-
-[header]
-image = ""
-caption = ""
-+++
-
+---
+date: 2019-02-27
+draft: false
+header:
+  caption: ''
+  image: ''
+summary: I was interviewed by PrincetonInfo about my work modernizing public records
+  with OPRAmachine
+tags:
+- OPRAmachine
+- In the news
+title: Interview with PrincetonInfo
+---
 ### PRINCETON - I was interviewed by U.S. 1 News, publishers of the website [PrincetonInfo](http://princetoninfo.com) this week.
 
 The interview appeared both online and in the website's print newspapers, which are distributed in the Mercer County region.

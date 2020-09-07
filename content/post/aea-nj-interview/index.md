@@ -1,14 +1,17 @@
-+++
-date = 2018-08-09
-draft = false
-tags = ["OPRAmachine", "In the news"]
-title = "Interview with AEA-NJ Newsletter"
-summary = "I was interviewed about my work with OPRA and public records for the August, 2018 edition of the newsletter of the Association of Environmental Authorities of New Jersey, which represents local and county utilities authorities."
-
-[header]
-image = "headers/OPRAmachinequote.jpg"
-caption = "A quote from the article."
-+++
+---
+date: 2018-08-09
+draft: false
+header:
+  caption: A quote from the article.
+  image: headers/OPRAmachinequote.jpg
+summary: I was interviewed about my work with OPRA and public records for the August,
+  2018 edition of the newsletter of the Association of Environmental Authorities of
+  New Jersey, which represents local and county utilities authorities.
+tags:
+- OPRAmachine
+- In the news
+title: Interview with AEA-NJ Newsletter
+---
 My work with OPRAmachine recently saw me interviewed by the newsletter of an organization that represents the interests of local and county utilities authorities around the state.
 
 Eric San Juan, a writer for the [Association of Environmental Authorities of New Jersey](https://www.aeanj.org/)'s newsletter, interviewed me earlier in the summer about the impact of my statewide freedom of information platform, OPRAmachine.

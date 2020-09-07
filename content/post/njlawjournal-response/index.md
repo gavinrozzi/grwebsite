@@ -1,15 +1,16 @@
-+++
-date = 2019-03-09
-draft = false
-tags = ["OPRAmachine", "In the news"]
-title = "Response to NJ Law Journal Article"
-summary = "Responding to an attorney's commentary about OPRAmachine's impact on crime victim privacy"
-
-[header]
-image = ""
-caption = ""
-+++
-
+---
+date: 2019-03-09
+draft: false
+header:
+  caption: ''
+  image: ''
+summary: Responding to an attorney's commentary about OPRAmachine's impact on crime
+  victim privacy
+tags:
+- OPRAmachine
+- In the news
+title: Response to NJ Law Journal Article
+---
 ### I am writing in response to Jonathan Frodella’s article that appeared in the January 17th, 2019 edition of the New Jersey Law Journal entitled [“Victims of Serious Crimes Need More Protection Under OPRA.”](https://finance.yahoo.com/news/victims-serious-crimes-more-protection-120055094.html)
 
 Mr. Frodella - whose article was written from the perspective of an attorney that advises municipal clerks - contends that services that automatically publish public records requests and responses such as [OPRAmachine](https://opramachine.com), which I founded in 2017, serve to create a “complication” for custodians of records by not requiring individuals to certify whether or not they were convicted of an indictable offense due to the remote possibility of a convicted criminal requesting information about their victims.

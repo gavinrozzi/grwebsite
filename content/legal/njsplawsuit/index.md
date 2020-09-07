@@ -1,32 +1,17 @@
-+++
-# Date this page was created.
-date = "2018-02-11"
-
-# Project title.
-title = "Libertarians for Transparent Government v. New Jersey State Police"
-
-# Project summary to display on homepage.
-summary = "Lawsuit reveals practice of OPRA violations at New Jersey State Police"
-
-# Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "RozziCert.jpg"
-
-# Tags: can be used for filtering projects.
-# Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["opra", "legal"]
-
-# Optional external URL for project (replaces project detail page).
-external_link = ""
-
-# Does the project detail page use math formatting?
-math = false
-
-# Optional featured image (relative to `static/img/` folder).
-[header]
-image = ""
-caption = "The certification I filed in the case."
-
-+++
+---
+date: '2018-02-11'
+external_link: ''
+header:
+  caption: The certification I filed in the case.
+  image: ''
+image_preview: RozziCert.jpg
+math: false
+summary: Lawsuit reveals practice of OPRA violations at New Jersey State Police
+tags:
+- opra
+- legal
+title: Libertarians for Transparent Government v. New Jersey State Police
+---
 ## New Jersey State Police held accountable in court for stalling on public records requests
 
 The case Libertarians for Transparent Government v. New Jersey State Police was an important case that revealed unacceptable practices by the New Jersey State Police.

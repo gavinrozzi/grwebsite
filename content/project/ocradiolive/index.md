@@ -1,35 +1,18 @@
-+++
-# Date this page was created.
-date = "2018-01-22"
-
-# Project title.
-title = "Ocean County Radio Live"
-
-# Project summary to display on homepage.
-summary = "Online SDR trunked radio scanner & archive for Ocean County, NJ"
-
-# Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "ocradio.jpg"
-
-# Tags: can be used for filtering projects.
-# Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["radio","SDR"]
-
-# Optional external URL for project (replaces project detail page).
-external_link = ""
-
-# Does the project detail page use math formatting?
-math = false
-
-links = [{icon_pack = "fas", icon="broadcast-tower", name="Start scanning", url = "https://ocradio.live/scan/default/"}]
-
-
-# Optional featured image (relative to `static/img/` folder).
-[header]
-image = ""
-caption = "Ocean County Radio Live"
-
-+++
+---
+date: '2018-01-22'
+external_link: ''
+header:
+  caption: Ocean County Radio Live
+  image: ''
+image_preview: ocradio.jpg
+links:
+math: false
+summary: Online SDR trunked radio scanner & archive for Ocean County, NJ
+tags:
+- radio
+- SDR
+title: Ocean County Radio Live
+---
 ## The new way to scan Ocean County
 
 [Ocean County Radio Live](https://ocradio.live/) is taking the technical complexity and hassle out of radio scanning in Ocean County, New Jersey. This website was launched in late January, 2018 and since that date has continued to stream & archive multiple police, fire & EMS radio channels.

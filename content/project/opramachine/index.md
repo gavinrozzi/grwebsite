@@ -1,29 +1,17 @@
-+++
-# Date this page was created.
-date = "2018-02-10"
-
-# Project title.
-title = "OPRAmachine"
-
-# Project summary to display on homepage.
-summary = "New Jersey's first statewide freedom of information platform"
-
-# Tags: can be used for filtering projects.
-# Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["data", "transparency","platform"]
-
-# Optional external URL for project (replaces project detail page).
-external_link = ""
-
-# Does the project detail page use math formatting?
-math = false
-links = [{icon_pack = "fas", icon="file", name="Search public records", url = "https://opramachine.com/"}]
-
-# Optional featured image (relative to `static/img/` folder).
-[image]
-caption = "A screenshot of the OPRAmachine.com homepage"
-
-+++
+---
+date: '2018-02-10'
+external_link: ''
+image:
+  caption: A screenshot of the OPRAmachine.com homepage
+links:
+math: false
+summary: New Jersey's first statewide freedom of information platform
+tags:
+- data
+- transparency
+- platform
+title: OPRAmachine
+---
 ## Winner of the 2019 Excellence in Local News Award
 OPRAmachine won in the "Innovate Local" category for the site's innovative approach to public records. [Details about the award are available here.](https://politicsoc.com/2019/02/rozzi-wins-statewide-journalism-award/)
 <img src="/media/innovate.png" width=40%>

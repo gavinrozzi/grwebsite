@@ -1,17 +1,16 @@
-+++
-date = 2019-02-09
-draft = false
-tags = ["OPRAmachine", "Awards"]
-title = "Rozzi Wins Excellence in Local News Award"
-summary = "Gavin Rozzi wins the 2019 Excellence in Local News Award in the Innovate Local category from NJ News Commons"
-
-[header]
-image = ""
-caption = ""
-+++
-
-
-
+---
+date: 2019-02-09
+draft: false
+header:
+  caption: ''
+  image: ''
+summary: Gavin Rozzi wins the 2019 Excellence in Local News Award in the Innovate
+  Local category from NJ News Commons
+tags:
+- OPRAmachine
+- Awards
+title: Rozzi Wins Excellence in Local News Award
+---
 ![Gavin Rozzi, holding the Excellence in Local News Award](/img/gavin_award2.jpg)
 
 PRESS RELEASE

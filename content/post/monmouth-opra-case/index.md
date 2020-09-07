@@ -1,14 +1,16 @@
-+++
-date = 2018-10-18
-draft = false
-title = "Interview with Jersey Shore Online Re: Monmouth County OPRAmachine Lawsuit"
-summary = "Why we're suing Monmouth County for violating OPRA"
-tags = ["OPRAmachine", "Legal", "In the news"]
-[header]
-image = "JSOquote.jpg"
-caption = ""
-+++
-
+---
+date: 2018-10-18
+draft: false
+header:
+  caption: ''
+  image: JSOquote.jpg
+summary: Why we're suing Monmouth County for violating OPRA
+tags:
+- OPRAmachine
+- Legal
+- In the news
+title: 'Interview with Jersey Shore Online Re: Monmouth County OPRAmachine Lawsuit'
+---
 ## I recently spoke with [Jersey Shore Online](https://www.jerseyshoreonline.com/ocean-county/lawsuit-questions-when-county-can-share-public-records/) about my participation in a multi-plaintiff Open Public Records Act lawsuit against the Monmouth County, NJ government over their refusal to answer requests through my site [OPRAmachine](https://opramachine.com).
 
 The lawsuit stems from the county's refusal to answer legally valid public records requests submitted through the site, which automatically publishes public records requests & responses in all 21 counties of New Jersey.

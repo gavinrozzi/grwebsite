@@ -1,9 +1,8 @@
-+++
-title = "Reimagining the police scanner in the era of the SDR"
-[slides]
-theme = "moon"
-+++
-
+---
+slides:
+  theme: moon
+title: Reimagining the police scanner in the era of the SDR
+---
 ## 📶
 
 ## Reimagining the police scanner in the era of the SDR

@@ -1,15 +1,14 @@
-+++
-date = 2018-10-24
-draft = false
-tags = ["OPRAmachine"]
-title = "OPRAmachine: 1 Year Later"
-summary = "Reflections on how the site grew from 2017-18"
-
-[header]
-image = "OPRA1y.jpg"
-caption = ""
-+++
-
+---
+date: 2018-10-24
+draft: false
+header:
+  caption: ''
+  image: OPRA1y.jpg
+summary: Reflections on how the site grew from 2017-18
+tags:
+- OPRAmachine
+title: 'OPRAmachine: 1 Year Later'
+---
 ## One year ago today, I launched [OPRAmachine](https://opramachine.com/), and it has been making a significant impact on all levels of New Jersey government since its inception.
 
 OPRAmachine began with a simple premise: to maximize government transparency in New Jersey by automatically publishing public records requests & responses.

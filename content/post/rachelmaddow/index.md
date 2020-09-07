@@ -1,14 +1,17 @@
-+++
-date = 2016-10-12
-draft = false
-tags = ["2016 Election", "Rachel Maddow", "In the news"]
-title = "Featured on Rachel Maddow Show"
-summary = "A story I wrote about the 2016 campaign was featured on MSNBC's The Rachel Maddow Show."
-[header]
-image = "headers/maddowcover.JPG"
-caption = "Screenshot of the Rachel Maddow Show"
-+++
-
+---
+date: 2016-10-12
+draft: false
+header:
+  caption: Screenshot of the Rachel Maddow Show
+  image: headers/maddowcover.JPG
+summary: A story I wrote about the 2016 campaign was featured on MSNBC's The Rachel
+  Maddow Show.
+tags:
+- 2016 Election
+- Rachel Maddow
+- In the news
+title: Featured on Rachel Maddow Show
+---
 During the 2016 presidential election, I worked to fiercely cover the state, local & federal elections occurring within the communities of Ocean County, New Jersey for my website [Ocean County Politics](https://politicsoc.com). During this time, my reporting on the cancellation of a GOP fundraiser held for then-Vice Presidential candidate Mike Pence was featured on an episode of the Rachel Maddow.
 
 <div id="fb-root"></div>

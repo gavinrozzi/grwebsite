@@ -1,15 +1,17 @@
-+++
-date = 2018-05-30
-draft = false
-tags = ["OPRAmachine", "Public Records", "Legal"]
-title = "Document Production in Rozzi v. OAG"
-summary = "State court judge in Trenton orders New Jersey Attorney General's Office to produce email logs after legal dispute."
-
-[header]
-image = "headers/rozzioag.jpg"
-caption = "My lawsuit against the AG's office"
-+++
-
+---
+date: 2018-05-30
+draft: false
+header:
+  caption: My lawsuit against the AG's office
+  image: headers/rozzioag.jpg
+summary: State court judge in Trenton orders New Jersey Attorney General's Office
+  to produce email logs after legal dispute.
+tags:
+- OPRAmachine
+- Public Records
+- Legal
+title: Document Production in Rozzi v. OAG
+---
 I recently obtained [the following documents](/files/OAGemaillogs.pdf) from the New Jersey Attorney General's Office (OAG) which were produced in response to a court order isued in my lawsuit against the OAG. The documents were copies of email logs that show messages sent and received by the OAG's custodian of records, who is responsible for complying with the provision of the New Jersey Open Public Records Act (OPRA) by way of responding to requests made under the state freedom of information law.
 
 [My lawsuit](/files/Rozzi-AG Verified Complaint.pdf), which was filed in Mercer County Superior Court, resulted in an an order for the Attorney General's office to produce the (redacted) copies of the documents that I originally requested back in November, 2017. Additional delays were added by the fact that the documents required a significant number of redactions due to the OPRA custodian's additional responsibilities in the OAG, such as those related to homeland security.

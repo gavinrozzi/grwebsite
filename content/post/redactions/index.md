@@ -1,15 +1,15 @@
-+++
-date = 2018-08-17
-draft = false
-tags = ["OPRA"]
-title = "Video: Defeating redactions on poorly redacted documents"
-summary = "Using one of my own public records requests as example, I show how you can find out information that was redacted when public officials mess up."
-
-[header]
-image = "headers/unredact.JPG"
-caption = ""
-+++
-
+---
+date: 2018-08-17
+draft: false
+header:
+  caption: ''
+  image: headers/unredact.JPG
+summary: Using one of my own public records requests as example, I show how you can
+  find out information that was redacted when public officials mess up.
+tags:
+- OPRA
+title: 'Video: Defeating redactions on poorly redacted documents'
+---
 {{< youtube 0NnuA8RMyiY >}}
 
 &nbsp;
@@ -32,4 +32,3 @@ Video of the judge's remarks was quickly posted to social media, where it circul
 In my own video embedded above in this blog post, I use one of my own past public records requests to demonstrate how removing redactions and accessing hidden material is possible when public officials improperly attempt to redact information. The video shows the end result of me using Adobe Acrobat to delete the black boxes of text used to "redact" information from email logs provided in response to a 2017 public records request from a New Jersey school district.
 
 While these instances are not common, journalists owe it to themselves to double check the documents that they receive in response to their public records requests, as sometimes the mistakes of government agencies may work to the benefit of your story.
-

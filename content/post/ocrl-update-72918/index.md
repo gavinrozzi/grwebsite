@@ -1,15 +1,14 @@
-+++
-date = 2018-07-29
-draft = false
-tags = ["radio"]
-title = "Big upgrades to OC Radio Live"
-summary = "New channels added to my cloud-based software defined trunked radio scanner."
-
-[header]
-image = "ocrl-new-channels.jpeg"
-caption = ""
-+++
-
+---
+date: 2018-07-29
+draft: false
+header:
+  caption: ''
+  image: ocrl-new-channels.jpeg
+summary: New channels added to my cloud-based software defined trunked radio scanner.
+tags:
+- radio
+title: Big upgrades to OC Radio Live
+---
 Today I am proud to announce that we have added a significant number of new channels to [Ocean County Radio Live](https://ocradio.live), my online police fire & EMS scanner and archive service.
 The service now supports listening to two 700 MHz digital trunked radio systems, Ocean County's and the New Jersey Interoperability Communications System, which hosts channels for the State Police,
 Fish & Wildlife and numerous other state and local agencies.

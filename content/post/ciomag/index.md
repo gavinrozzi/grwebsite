@@ -1,11 +1,13 @@
-+++
-date = 2014-09-10
-draft = false
-tags = ["WordPress", "CIO", "In the news"]
-title = "Interview with CIO Magazine"
-summary = "I speak with CIO Magazine about WordPress"
-+++
-
+---
+date: 2014-09-10
+draft: false
+summary: I speak with CIO Magazine about WordPress
+tags:
+- WordPress
+- CIO
+- In the news
+title: Interview with CIO Magazine
+---
 CIO Magazine [wanted my take](https://www.cio.com/article/2460827/search/seo-sem-top-25-diy-tips-for-better-seo.html) on tips you can take to improve search engine rankings for small business websites for an article entitled "Top 25 DIY Tips for Better SEO."
 
 Here’s what I had to say:

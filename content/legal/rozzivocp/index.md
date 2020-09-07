@@ -1,32 +1,17 @@
-+++
-# Date this page was created.
-date = "2017-12-12"
-
-# Project title.
-title = "Rozzi v. Ocean County Prosecutor's Office"
-
-# Project summary to display on homepage.
-summary = "GRC declares county prosecutor violated OPRA law by witholding documents"
-
-# Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "GRvOCP.jpeg"
-
-# Tags: can be used for filtering projects.
-# Example: `tags = ["oceancounty", "opra"]`
-tags = ["opra", "legal"]
-
-# Optional external URL for project (replaces project detail page).
-external_link = ""
-
-# Does the project detail page use math formatting?
-math = false
-
-# Optional featured image (relative to `static/img/` folder).
-[header]
-image = ""
-caption = "A preview of the GRC's decision in this case"
-
-+++
+---
+date: '2017-12-12'
+external_link: ''
+header:
+  caption: A preview of the GRC's decision in this case
+  image: ''
+image_preview: GRvOCP.jpeg
+math: false
+summary: GRC declares county prosecutor violated OPRA law by witholding documents
+tags:
+- opra
+- legal
+title: Rozzi v. Ocean County Prosecutor's Office
+---
 **Legal Counsel: Pro Se** 
 
 **GRC Complaint 2015-250**

@@ -1,58 +1,29 @@
-+++
-title = "Reimagining the police scanner in the era of the software defined radio"
-date = 2018-08-07T00:00:00  # Schedule page publish date.
-draft = false
-
-# Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with `#`.
-time_start = 2018-08-09T22:00:00
-time_end = 2018-08-10T01:00:00
-
-# Abstract and optional shortened version.
-abstract = ""
-summary = ""
-
-# Name of event and optional event URL.
-event = "Cyberspectrum #23 @ DEF CON 2018"
-event_url = "https://www.meetup.com/Cyberspectrum/events/253258931/"
-
-# Location of event.
-location = "Las Vegas, Nevada"
-
-# Is this a selected talk? (true/false)
-selected = true
-
-# Projects (optional).
-#   Associate this talk with one or more of your projects.
-#   Simply enter your project's filename without extension.
-#   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
-#   Otherwise, set `projects = []`.
-projects = ["ocradiolive"]
-
-# Tags (optional).
-#   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = ["radio"]
-
-# Links (optional).
-url_pdf = "/files/cyberspectrum-slides.pdf"
-slides = "ocradio-cyberspectrum"
-url_video = "https://www.youtube.com/watch?v=Yhuis48SQGk"
-url_code = ""
-
-# Does the content use math formatting?
-math = true
-
-# Does the content use source code highlighting?
-highlight = true
-
-# Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-[header]
-image = ""
-caption = ""
-
-+++
-
+---
+abstract: ''
+date: 2018-08-07 00:00:00
+draft: false
+event: 'Cyberspectrum #23 @ DEF CON 2018'
+event_url: https://www.meetup.com/Cyberspectrum/events/253258931/
+header:
+  caption: ''
+  image: ''
+highlight: true
+location: Las Vegas, Nevada
+math: true
+projects:
+- ocradiolive
+selected: true
+slides: ocradio-cyberspectrum
+summary: ''
+tags:
+- radio
+time_end: 2018-08-10 01:00:00
+time_start: 2018-08-09 22:00:00
+title: Reimagining the police scanner in the era of the software defined radio
+url_code: ''
+url_pdf: /files/cyberspectrum-slides.pdf
+url_video: https://www.youtube.com/watch?v=Yhuis48SQGk
+---
 Recorded video of talk:
 {{< youtube Yhuis48SQGk >}}
 &nbsp;

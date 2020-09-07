@@ -1,33 +1,16 @@
-+++
-# Date this page was created.
-date = "2018-11-22"
-
-# Project title.
-title = "911maps"
-
-# Project summary to display on homepage.
-summary = "Map and analyze 911 call data"
-
-# Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "tr911.jpeg"
-
-# Tags: can be used for filtering projects.
-# Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Data Visualization"]
-
-# Optional external URL for project (replaces project detail page).
-external_link = ""
-
-# Does the project detail page use math formatting?
-math = false
-
-# Optional featured image (relative to `static/img/` folder).
-[header]
-image = ""
-caption = ""
-
-+++
-
+---
+date: '2018-11-22'
+external_link: ''
+header:
+  caption: ''
+  image: ''
+image_preview: tr911.jpeg
+math: false
+summary: Map and analyze 911 call data
+tags:
+- Data Visualization
+title: 911maps
+---
 911maps is an open-source web application for mapping and visualizing 911 call data obtained from New Jersey municipalities. It currently supports data exports from the Active911 system, but can be extended to support other types of CAD systems. In addition to mapping and displaying trends in calls, it can produce advanced heatmap visualizations showing call activity in various municipalities.
 
 The project evolved from my earlier work in 2018 creating the [Toms River 911 Call Explorer](https://tr911test.rozzi.media), a small web development project that I

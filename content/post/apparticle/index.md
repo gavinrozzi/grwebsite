@@ -1,15 +1,16 @@
-+++
-date = 2019-10-06
-draft = false
-tags = ["OPRAmachine", "In the news"]
-title = "Asbury Park Press Interview"
-summary = "I was interviewed by the Asbury Park Press regarding my work creating the OPRAmachine freedom of information portal"
-
-[header]
-image = ""
-caption = ""
-+++
-
+---
+date: 2019-10-06
+draft: false
+header:
+  caption: ''
+  image: ''
+summary: I was interviewed by the Asbury Park Press regarding my work creating the
+  OPRAmachine freedom of information portal
+tags:
+- OPRAmachine
+- In the news
+title: Asbury Park Press Interview
+---
 ### I was interviewed by Asbury Park Press editorial page editor Randy Bergmann regarding my work with OPRAmachine and how it has made an impact on New Jersey.
 
 The interview appeared both online (subscribers only) and in printed Gannett newspapers that circulate throughout New Jersey.

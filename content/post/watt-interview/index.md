@@ -1,15 +1,16 @@
-+++
-date = 2018-04-08
-draft = false
-tags = ["OPRAmachine", "WLFR Radio", "In the news"]
-title = "Discussing OPRAmachine's Impact With WLFR Radio's Bill Watt"
-summary = "I was interviewed by WLFR's Bill Watt for his show Watt's The Move"
-
-[header]
-image = "headers/gavin-billy.jpg"
-caption = "Left to right: Bill Watt, Gavin Rozzi"
-+++
-
+---
+date: 2018-04-08
+draft: false
+header:
+  caption: 'Left to right: Bill Watt, Gavin Rozzi'
+  image: headers/gavin-billy.jpg
+summary: I was interviewed by WLFR's Bill Watt for his show Watt's The Move
+tags:
+- OPRAmachine
+- WLFR Radio
+- In the news
+title: Discussing OPRAmachine's Impact With WLFR Radio's Bill Watt
+---
 On on April 5th, 2018 I joined WLFR Radio's **Watt's The Move**, Stocton University'show
 own radio show that focuses on poliitics and public affairs.
 

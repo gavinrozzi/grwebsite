@@ -1,10 +1,8 @@
-+++
-title = "Using OPRAmachine to file public records requests without the hassle"
-
-[slides]
-theme = "league"
-+++
-
+---
+slides:
+  theme: league
+title: Using OPRAmachine to file public records requests without the hassle
+---
 ## 📑:
 
 ## Using OPRAmachine to file public records requests without the hassle

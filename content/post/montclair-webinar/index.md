@@ -1,15 +1,15 @@
-+++
-date = 2018-08-22
-draft = false
-tags = ["OPRAmachine"]
-title = "OPRAmachine Webinar at Montclair"
-summary = "I presented a free webinar at Montclair University on streamlining public records requests"
-
-[header]
-image = "headers/dave-gavin-jeff.jpg"
-caption = "Left to right: Dave Lansing, Gavin Rozzi & Jeff Epstein"
-+++
-
+---
+date: 2018-08-22
+draft: false
+header:
+  caption: 'Left to right: Dave Lansing, Gavin Rozzi & Jeff Epstein'
+  image: headers/dave-gavin-jeff.jpg
+summary: I presented a free webinar at Montclair University on streamlining public
+  records requests
+tags:
+- OPRAmachine
+title: OPRAmachine Webinar at Montclair
+---
 {{< youtube _1E2tWOOWzU >}}
 &nbsp;
 

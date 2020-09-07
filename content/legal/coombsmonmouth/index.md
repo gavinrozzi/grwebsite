@@ -1,32 +1,18 @@
-+++
-# Date this page was created.
-date = "2019-05-27"
-
-# Project title.
-title = "Coombs et al. v. County of Monmouth"
-
-# Project summary to display on homepage.
-summary = "County broke law by refusing public records requests because they would be published online."
-
-# Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "GRvOCP.jpeg"
-
-# Tags: can be used for filtering projects.
-# Example: `tags = ["oceancounty", "opra"]`
-tags = ["opra", "legal"]
-
-# Optional external URL for project (replaces project detail page).
-external_link = ""
-
-# Does the project detail page use math formatting?
-math = false
-
-# Optional featured image (relative to `static/img/` folder).
-[header]
-image = ""
-caption = "A preview of the GRC's decision in this case"
-
-+++
+---
+date: '2019-05-27'
+external_link: ''
+header:
+  caption: A preview of the GRC's decision in this case
+  image: ''
+image_preview: GRvOCP.jpeg
+math: false
+summary: County broke law by refusing public records requests because they would be
+  published online.
+tags:
+- opra
+- legal
+title: Coombs et al. v. County of Monmouth
+---
 **Legal Counsel: Walter Luers, Esq.** 
 
 **Docket No.: MON-L-003195-18**

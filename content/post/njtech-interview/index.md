@@ -1,15 +1,15 @@
-+++
-date = 2019-05-03
-draft = false
-tags = ["OPRAmachine", "In the news"]
-title = "Interview with NJ Tech Weekly"
-summary = "I spoke with NJ Tech Weekly's Esther Surden on the impact of OPRAmachine"
-
-[header]
-image = ""
-caption = ""
-+++
-
+---
+date: 2019-05-03
+draft: false
+header:
+  caption: ''
+  image: ''
+summary: I spoke with NJ Tech Weekly's Esther Surden on the impact of OPRAmachine
+tags:
+- OPRAmachine
+- In the news
+title: Interview with NJ Tech Weekly
+---
 ### This week I had the pleasure of speaking with NJ Tech Weekly's Esther Surden about the technical aspects of my public records research platform, [OPRAmachine](https://opramachine.com)
 
 >Gavin Rozzi was a journalist in Ocean County and finishing up his education at Stockton University when he came up with the idea for OPRAmachine.

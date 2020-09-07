@@ -1,9 +1,8 @@
-+++
-title = "Researching the opiod crisis using OPRA"
-[slides]
-theme = "black"
-+++
-
+---
+slides:
+  theme: black
+title: Researching the opiod crisis using OPRA
+---
 ## Researching the opiod crisis with OPRA
 
 Using public records 📄 for a data-driven approach to combatting addiction 💊
