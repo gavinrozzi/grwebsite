@@ -9,9 +9,11 @@ content:
     tag: '*'
   - name: Data Visualization
     tag: Data Visualization
+  - name: Open Source Software
+    tag: Open Source Software
   - name: Platforms
     tag: platform
-  - name: Software Defined Radio
+  - name: SDR
     tag: SDR
   filter_default: 0
   page_type: project
