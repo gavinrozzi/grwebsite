@@ -50,7 +50,7 @@ title: The first statewide, open access dataset tracking public records requests
   New Jersey
 url_code: ''
 url_dataset: https://data.mendeley.com/datasets/bg8w9mfths/1
-url_pdf: /files/pagination_DIB_106265 2.pdf
+url_pdf: /files/1-s2.0-S2352340920311598-main.pdf
 url_poster: ''
 url_preprint: ''
 url_project: /project/opramachine
