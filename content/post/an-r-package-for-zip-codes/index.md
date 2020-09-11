@@ -18,7 +18,7 @@ The package provides a comprehensive, offline dataset for US ZIP codes in additi
 
 Social science researchers, data scientists and others who are studying topics in the United States have likely come across data at the ZIP code level. There's really nothing special about ZIP codes, as they really only exist to identify USPS service areas, and are not meant to track demographic changes over time such as Census tracts, but they are still an ubiquitous and widely understood way of identifying the approximate geographic location of data, such as [COVID-19 case counts.](https://github.com/nychealth/coronavirus-data/blob/master/tests-by-zcta.csv)
 
-For data science projects involving data that is at the ZIP code level, I've found myself doing a lot of repetitive tasks for reading in and integrating ZIP codes. And since here in New Jersey, our ZIP codes start with trailing zeroes, I'm used to R, Excel and other tools being "helpful" and cutting off the leading zeroes, making the ZIP codes not terribly useful.
+For data science projects involving data that is at the ZIP code level, I've found myself doing a lot of repetitive tasks for reading in and integrating ZIP codes. And since here in New Jersey, our ZIP codes start with leading zeroes, I'm used to R, Excel and other tools being "helpful" and cutting off the leading zeroes, making the ZIP codes not terribly useful.
 
 There are a few good libraries for Python that provide useful data and functions for looking up ZIP codes and related data, such as [uszipcode](https://pypi.org/project/uszipcode/) but nothing with similar functionality is currently available for R, hence the motivation for creating zipcodeR.
 
