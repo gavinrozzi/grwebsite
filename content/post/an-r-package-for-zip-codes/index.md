@@ -14,6 +14,7 @@ In this post I will introduce [zipcodeR](https://gavinrozzi.github.io/zipcodeR/)
 
 The package provides a comprehensive, offline dataset for US ZIP codes in addition to integrating outside open data sources from the Census Bureau and Department of Housing & Urban development to aid researchers and data science practitioners working with ZIP code-level data in R.
 
+
 ## Why a new package is needed
 
 Social science researchers, data scientists and others who are studying topics in the United States have likely come across data at the ZIP code level. There's really nothing special about ZIP codes, as they really only exist to identify USPS service areas, and are not meant to track demographic changes over time such as Census tracts, but they are still an ubiquitous and widely understood way of identifying the approximate geographic location of data, such as [COVID-19 case counts.](https://github.com/nychealth/coronavirus-data/blob/master/tests-by-zcta.csv)
@@ -30,6 +31,11 @@ That packaged provided data on ZIP codes aggregated from multiple sources simila
 In creating this package, I wanted to both find a way of simplifying my personal workflow by eliminating the drudgery of making multiple calls to ```read_csv()``` and ```dplyr``` to filter and wrangle ZIP code data, while also avoiding the work of manually integrating outside data sources everytime I wanted to do something with data at the ZIP code level.
 
 ## Installation & usage
+
+**UPDATE: 9/18/2020** zipcodeR can now be installed from CRAN, the official R package library. You can install it from the R console by running:
+```r
+install.packages('zipcodeR')
+```
 The latest development version of the package can be installed directly from Github using devtools. Make sure you have devtools installed on your system first by running 
 ```r  
 install.packages('devtools')
