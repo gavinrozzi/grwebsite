@@ -29,6 +29,12 @@ slides:
 
 The package provides an integrated set of data and functions that help you save time when working with ZIP code data in R by making it easy to lookup ZIP codes across multiple geographies withour relying on web services.
 
+The current release of the package can be installed from CRAN by entering the following at the R console:
+
+```r
+install.packages(‘zipcodeR’)
+```
+
 The latest development version of the package can currently be installed from Github using devtools:
 
 ```r
