@@ -28,7 +28,7 @@ Pro access allows for the batch submission of an unlimited number of OPRA reques
 
 ## How to apply
 
-### [Click here to access the application form](https://docs.google.com/forms/d/e/1FAIpQLSckXivpq6b-27IK3GHAHKgyBBD7vumGgjzAdRE_YKn_5xzPGw/viewform?usp=sf_link
+### [Click here to access the application form](https://docs.google.com/forms/d/e/1FAIpQLSckXivpq6b-27IK3GHAHKgyBBD7vumGgjzAdRE_YKn_5xzPGw/viewform?usp=sf_link)
 
 **Please note: if you previously applied when applications were first opened, no further action is required on your part. We will consider your original application, or you may revise your existing proposal.**
 
