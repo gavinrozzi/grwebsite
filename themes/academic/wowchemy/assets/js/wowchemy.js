@@ -1,6 +1,6 @@
 /*************************************************
- *  Academic
- *  https://github.com/gcushen/hugo-academic
+ *  Wowchemy
+ *  https://github.com/wowchemy/wowchemy-hugo-modules
  *
  *  Core JS functions and initialization.
  **************************************************/
@@ -756,6 +756,9 @@
         toggleSearchDialog();
       }
     });
+
+    // Init. author notes (tooltips).
+    $('[data-toggle="tooltip"]').tooltip();
 
   });
 
