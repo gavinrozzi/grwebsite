@@ -13,7 +13,7 @@ location:
 math: false
 projects: []
 selected: true
-slides: ''
+slides: 'https://foi-webinar.gavinrozzi.com'
 summary: ''
 tags:
 - ''
