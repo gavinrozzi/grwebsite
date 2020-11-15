@@ -1,15 +1,6 @@
-mediaTypes:
-  application/manifest+json:
-    suffixes:
-      - webmanifest
-outputFormats:
-  WebAppManifest:
-    mediaType: application/manifest+json
-    rel: manifest
 module:
-  hugoVersion:
-    min: '0.78.0'
-    extended: true
+  imports:
+    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy
   mounts:
     - source: content
       target: content
@@ -25,7 +16,3 @@ module:
       target: i18n
     - source: archetypes
       target: archetypes
-taxonomies: []
-params:
-  theme: minimal
-  font: native
