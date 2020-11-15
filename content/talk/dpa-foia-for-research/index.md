@@ -20,6 +20,6 @@ tags:
 title: Using Freedom of Information Laws to Enhance Academic Research
 url_code: ''
 url_pdf: ''
-url_video: ''
+url_video: 'https://www.youtube.com/watch?v=GQ8IFO6gCys'
 publishDate: "2020-09-20T00:00:00Z"
 ---

@@ -18,7 +18,7 @@ tags:
 - ''
 title: 'Keeping Them Honest: Using the Power of OPRA to Hold Public Officials Accountable'
 url_code: ''
-url_pdf: ''
+url_pdf: '/files/PDNJ Slides.pdf'
 url_video: ''
 publishDate: "2020-11-12T00:00:00Z"
 ---
