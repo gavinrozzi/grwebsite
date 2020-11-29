@@ -1,6 +1,6 @@
 ---
 title: zipcodeR
-summary: An R package that makes dealing with ZIP codes painless.
+summary: An R package that makes dealing with ZIP codes painless
 tags:
 - Open Source Software
 date: "2020-09-08T00:00:00Z"
