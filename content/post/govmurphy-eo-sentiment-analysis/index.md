@@ -16,13 +16,13 @@ Here is what I found:
 
 ![Plot of sentiment expressed in Gov. Murphy's Executive Orders](/media/eosentiment.png)
 
-The top3 executive orders with the lowest sentiment scores in 2020 were: 
+The bottom 3 executive orders with the lowest sentiment scores in 2020 were: 
 
 1.  **EO-174** Governor Murphy Declares State of Emergency in Response to Hurricane Isaias
 2. **EO-139** Governor Murphy Directs U.S. and New Jersey Flags to Fly at Half-Staff in Honor of the 75th Anniversary of V-E Day
 3. **EO-114** Governor Murphy Directs U.S. and New Jersey Flags to Fly at Half-Staff Indefinitely in Honor of Those Who Have Lost Their Lives or Have Been Affected by COVID-19
 
-While the top 3 orders with the highese sentiment scores were:
+While the top 3 orders with the highest sentiment scores were:
 
 1. **EO-101** Governor Murphy Directs U.S. and New Jersey Flags to Fly at Half-Staff in Honor of Former State Police Superintendent Colonel Justin J. Dintino
 2. **EO-205** the U.S. and New Jersey flags be flown at half-staff at all state buildings and facilities on Thursday, December 3, 2020, in honor of U.S. Air Force Captain Kelliann Leli
