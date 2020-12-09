@@ -16,6 +16,8 @@ Here is what I found:
 
 ![Plot of sentiment expressed in Gov. Murphy's Executive Orders](/media/eosentiment.png)
 
+Each executive order was graphed based upon its sentiment score in the above plot.
+
 The bottom 3 executive orders with the lowest sentiment scores in 2020 were: 
 
 1.  **EO-174** Governor Murphy Declares State of Emergency in Response to Hurricane Isaias
