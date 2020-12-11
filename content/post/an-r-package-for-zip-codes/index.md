@@ -8,6 +8,7 @@ image:
   preview_only: false
 tags:
 - Open Source Software
+- R
 ---
 
 In this post I will introduce [zipcodeR](https://gavinrozzi.github.io/zipcodeR/), my new open-source R package that provides a set of integrated functions and data that make working with ZIP code-level data easier in R.
