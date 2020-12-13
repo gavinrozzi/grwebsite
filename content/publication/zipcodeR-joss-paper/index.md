@@ -1,5 +1,5 @@
 ---
-abstract: 'zipcodeRis a new R package intended to make working with datasets containing U.S. ZIPcodes easier & simplify the process of relating ZIP code level data to other geographies inR. The package provides an offline database of ZIP codes & related socio-demographic datafor over 41,000 ZIP codes in all 50 states.  It enables the efficient retrieval of ZIP codes atthe national, state & county level along with geocoding existing data containg ZIP codes foruse in research.zipcodeRaddresses limitations inherent in past packages to provide a new,general-purpose solution to assist with processing ZIP code-level data.'
+abstract: 'zipcodeR is a new R package intended to make working with datasets containing U.S. ZIP codes easier & simplify the process of relating ZIP code level data to other geographies in R. The package provides an offline database of ZIP codes & related socio-demographic data for over 41,000 ZIP codes in all 50 states.  It enables the efficient retrieval of ZIP codes at the national, state & county level along with geocoding existing data containg ZIP codes for use in research.zipcodeR addresses limitations inherent in past packages to provide a new, general-purpose solution to assist with processing ZIP code-level data.'
 authors:
 - gavin
 date: '2020-12-12'
