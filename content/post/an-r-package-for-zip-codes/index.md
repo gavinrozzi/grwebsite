@@ -45,7 +45,7 @@ Then, install zipcodeR by running
 ```r
 devtools::install_github("gavinrozzi/zipcodeR")
 ```
-The current version has also been submitted to the official R package repository, the Comprehensive R Archive Network (CRAN). If the package is accepted for publication there, it will be possible to install it via another call to ```install.packages()```.
+**UPDATE 12/13/2020: A new version of zipcodeR has been accepted for publication on CRAN. A blog post detailing new features will be published in the coming days**
 
 ### Currently implemented features
 At this point, after about a weekend worth of work on this, I feel that zipcodeR is now at the minimum viable product stage. Most of the basic functions one would expect from a library handling ZIP codes have been implemented, although there are still additional features I am hoping to implement in the future.
