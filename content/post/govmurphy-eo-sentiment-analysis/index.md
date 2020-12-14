@@ -16,7 +16,7 @@ Here is what I found:
 
 ## Overall sentiment of Gov. Murphy's 2020 Executive Orders
 
-![Plot of sentiment expressed in Gov. Murphy's Executive Orders](/media/eosentiment.png)
+{{< figure src="/media/eosentiment.png" title="Plot of sentiment expressed in Gov. Murphy's Executive Orders" >}}
 
 Each executive order was graphed based upon its sentiment score in the above plot.
 
@@ -34,7 +34,7 @@ While the top 3 orders with the highest sentiment scores were:
 
 ## Emotions in 2020 Executive Order Language
 
-![Emotions expressed in Gov. Murphy's Executive Orders](/media/emotions.png)
+{{< figure src="/media/emotions.png" title="Emotions expressed in Gov. Murphy's Executive Orders" >}}
 
 Interestingly enough, the most common emotion expressed in the governor's executive orders was trust, followed by fear. The least two common emotions were disgust and surprise respectively. These emotions are defined by the [NRC Word-Emotion Association Lexicon](https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm) designed by Saif Mohamed and implemented as a function by syuzhet.
 

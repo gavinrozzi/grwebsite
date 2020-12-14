@@ -11,10 +11,14 @@ tags:
 - R
 ---
 
+
 In this post I will introduce [zipcodeR](https://gavinrozzi.github.io/zipcodeR/), my new open-source R package that provides a set of integrated functions and data that make working with ZIP code-level data easier in R.
+
+{{< tweet 1310610453039648775 >}}
 
 The package provides a comprehensive, offline dataset for US ZIP codes in addition to integrating outside open data sources from the Census Bureau and Department of Housing & Urban development to aid researchers and data science practitioners working with ZIP code-level data in R.
 
+**Update 12/13/2020: a new version of the package has been published. Details on changes [can be found here.](/post/zipcoder-update1/)**
 
 ## Why a new package is needed
 
@@ -45,7 +49,6 @@ Then, install zipcodeR by running
 ```r
 devtools::install_github("gavinrozzi/zipcodeR")
 ```
-**UPDATE 12/13/2020: A new version of zipcodeR has been accepted for publication on CRAN. A blog post detailing new features will be published in the coming days**
 
 ### Currently implemented features
 At this point, after about a weekend worth of work on this, I feel that zipcodeR is now at the minimum viable product stage. Most of the basic functions one would expect from a library handling ZIP codes have been implemented, although there are still additional features I am hoping to implement in the future.
