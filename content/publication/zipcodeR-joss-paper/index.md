@@ -20,7 +20,7 @@ url_dataset: ''
 url_pdf: /files/zipcodeR-preprint.pdf
 url_poster: ''
 url_preprint: ''
-url_project: /project/zipcodeR
+url_project: /project/zipcoder/
 url_slides: ''
 url_source: ''
 url_video: ''
