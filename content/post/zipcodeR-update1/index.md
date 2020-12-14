@@ -43,5 +43,3 @@ As always, review [the documentation](https://gavinrozzi.github.io/zipcodeR/inde
 This update aims to improve upon the initial features of `zipcodeR`, but there is still more work to be done. In the next release I aim to implement some much-requested GIS related features for geocoding ZIP codes performing geographic lookups.
 
 It has also been really cool to see how folks have been using `zipcodeR` in their work. So far I've seen two very interesting project done by graudate students in data science and urban informatics that implemented the package. I'm always interested in hearing about interesting use cases of the package, so feel free to reach out if you're working on anything particularly interesting.
-
-I have also submitted a short paper to the [Journal of Open Source Software](https://joss.theoj.org/) describing the package and a few of its underlying motivations and use cases that may be of interest to users. A preprint of the paper [can be viewed here.](/publication/zipcoder-joss-paper/)
