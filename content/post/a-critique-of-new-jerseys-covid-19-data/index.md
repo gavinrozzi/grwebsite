@@ -35,7 +35,7 @@ Links to external websites that don't provide data, however helpful they may be,
 
 New Jersey's COVID-19 data dashboard is actually a mishmash of two popular technologies used for publishing online dashboards. While the main dashboard interface is built with [ArcGIS StoryMaps,](https://storymaps.arcgis.com/) several of the core views of the dashboard are actually built with [Tableau](https://www.tableau.com/). 
 
-One of the most frustrating and arbitrary barriers to accessing the state's COVID-19 data results from attempting to actually download some of the data that is presented on some dashboards. New Jersey's Tableau-based dashboards provide an option to download the contents of the dashboard to save a local copy to your device. Unfortunately, New Jersey's explicitly disable the option to download copies of the underlying data presented in the state's COVID-19 dashboard.
+One of the most frustrating and arbitrary barriers to accessing the state's COVID-19 data results from attempting to actually download some of the data that is presented on some dashboards. New Jersey's Tableau-based dashboards provide an option to download the contents of the dashboard to save a local copy to your device. Unfortunately, New Jersey's explicitly disabled the option to download copies of the underlying data presented in the state's COVID-19 dashboard.
 
 {{< figure src="/media/covid-download.jpg" title="The download prompt for the state COVID dashboard" >}}
 
