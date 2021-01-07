@@ -13,11 +13,11 @@ superuser: true
 role: Pushing the boundaries of data, technology & public policy
 
 # Organizations/Affiliations
-organizations:
-- name: Rutgers Urban & Civic Informatics Lab
-  url: "https://rucilab.rutgers.edu/2020/04/16/gavin-rozzi/"
-- name: Stockton University
-  url: "https://stockton.edu"
+#organizations:
+#- name: Rutgers Urban & Civic Informatics Lab
+#  url: "https://rucilab.rutgers.edu/2020/04/16/gavin-rozzi/"
+#- name: Stockton University
+#  url: "https://stockton.edu"
 
 # Short bio (displayed in user profile at end of posts)
 bio: Gavin Rozzi is a data scientist from New Jersey. Gavin studies urban informatics, environmental factors affecting the spread of COVID-19 & public policy development.
@@ -84,14 +84,4 @@ email: ""
 #- Visitors
 ---
 
-## **Gavin Rozzi** is an award-winning data scientist, web developer & former journalist who has created several successful local news websites and open-source civic technology platforms serving New Jersey. 
-
-Previously, he wrote about political news and produced podcasts and interactive content focused on Ocean County, NJ at [Ocean County Politics.](/project/politicsoc/) Stories first broken by Gavin were often cited by larger media outlets, including NJ.com, POLITICO, InsiderNJ and MSNBC’s Rachel Maddow Show.
-
-In 2017 he launched [OPRAmachine](/project/opramachine/), a statewide freedom of information portal that automatically publishes public records requests & responses made under New Jersey's Open Public Records Act (OPRA), [the first website of its kind](/publication/opramachine-data-paper/) to exclusively serve New Jersey. 
-
-Gavin has been recognized as an authority on government transparency and open data within the state as a result of his platform's impact. He has also appeared in court as an expert witness, testifying in cases involving the production of digital data held by government agencies, and has succesfully appealed denials of access to public records in court. He also regularly provides expert commentary to the media on open government, public affairs, technology issues and related topics.
-
-Gavin has previously conducted public opinion and public policy research at the [William J. Hughes Center for Public Policy](https://stockton.edu/hughes-center/) at Stockton University, where he worked on data analysis for state legislative and issue polls, in addition to serving as a co-author of the Center's report on [New Jersey's underground construction economy.](/publication/underground-economy/)
-
-He is currently working as a data scientist with the [Rutgers Urban & Civic Informatics Lab](https://rucilab.rutgers.edu) at the [Edward J. Bloustein School of Planning & Public Policy](https://bloustein.rutgers.edu/) at Rutgers University, where he works to apply emerging technologies, GIS and big data analytics to inform data-driven public policy development and the creation of smart, socially just & sustainable cities.
+**Gavin Rozzi** is an award-winning data scientist, web developer & former journalist who has created several successful local news websites and open-source civic technology platforms serving New Jersey. 
