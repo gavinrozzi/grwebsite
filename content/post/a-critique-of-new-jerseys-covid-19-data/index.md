@@ -1,12 +1,12 @@
 ---
-title: A critique of New Jersey's COVID-19 data
-date: 2020-12-29
-math: false
+date: "2020-12-29"
 diagram: false
 image:
+  caption: A screenshot of New Jersey's COVID-19 data dashboard.
   placement: 1
-  caption: "A screenshot of New Jersey's COVID-19 data dashboard."
   preview_only: false
+math: false
+title: A critique of New Jersey's COVID-19 data
 ---
 
 In this post I will explore how New Jersey compares to neighboring states in terms of the granularity, format and accessibility of raw data about COVID-19 cases and deaths made available to the public during the pandemic's outbreak in 2020. I conclude that New Jersey is failing to adequately publish raw data on COVID-19 cases for use in research and journalistic reporting, falling short compared to others in the tri-state region. 

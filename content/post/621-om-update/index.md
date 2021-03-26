@@ -1,8 +1,8 @@
 ---
-date: 2018-06-26
+date: "2018-06-26"
 draft: false
 header:
-  caption: ''
+  caption: ""
   image: opramachine-interview2.jpg
 summary: I was recently interviewed about some of the legal & technical challenges
   the OPRAmachine team has encountered while running the site.

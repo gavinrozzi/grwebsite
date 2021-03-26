@@ -1,5 +1,5 @@
 ---
-date: 2014-09-10
+date: "2014-09-10"
 draft: false
 summary: I speak with CIO Magazine about WordPress
 tags:

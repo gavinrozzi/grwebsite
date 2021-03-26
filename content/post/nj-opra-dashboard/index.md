@@ -1,11 +1,11 @@
 ---
-title: A new dashboard for visualizing NJ OPRA data
-date: 2020-08-08
-math: false
+date: "2020-08-08"
 diagram: false
 image:
   placement: 3
   preview_only: false
+math: false
+title: A new dashboard for visualizing NJ OPRA data
 ---
 
 ### I'm thrilled to announce the public release of [a new interactive dashboard](https://rozzi.shinyapps.io/nj-opra-dashboard/) created from 3 years of OPRA request metadata collected via [OPRAmachine.](https://opramachine.com)

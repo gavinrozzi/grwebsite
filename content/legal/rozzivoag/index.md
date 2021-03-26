@@ -1,9 +1,9 @@
 ---
-date: '2018-06-23'
-external_link: ''
+date: "2018-06-23"
+external_link: ""
 header:
-  caption: ''
-  image: ''
+  caption: ""
+  image: ""
 image_preview: GRvOAG.JPG
 math: false
 summary: AG's office violated New Jersey public records law, judge rules.

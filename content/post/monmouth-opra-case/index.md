@@ -1,8 +1,8 @@
 ---
-date: 2018-10-18
+date: "2018-10-18"
 draft: false
 header:
-  caption: ''
+  caption: ""
   image: JSOquote.jpg
 summary: Why we're suing Monmouth County for violating OPRA
 tags:

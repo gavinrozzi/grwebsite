@@ -1,9 +1,9 @@
 ---
-date: '2020-08-08'
-external_link: ''
+date: "2020-08-08"
+external_link: ""
 header:
-  caption: ''
-  image: ''
+  caption: ""
+  image: ""
 math: false
 summary: A tool for researching the opiod epidemic in New Jersey and where & when
   overdoses are occuring

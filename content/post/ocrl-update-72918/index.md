@@ -1,8 +1,8 @@
 ---
-date: 2018-07-29
+date: "2018-07-29"
 draft: false
 header:
-  caption: ''
+  caption: ""
   image: ocrl-new-channels.jpeg
 summary: New channels added to my cloud-based software defined trunked radio scanner.
 tags:

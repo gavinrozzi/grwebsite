@@ -1,9 +1,9 @@
 ---
-date: '2017-12-12'
-external_link: ''
+date: "2017-12-12"
+external_link: ""
 header:
   caption: Unresonable fees for public records were reveresed in this case
-  image: ''
+  image: ""
 image_preview: GRLaceyBOE.jpeg
 math: false
 summary: GRC Reverses Fee Demand for Public Records

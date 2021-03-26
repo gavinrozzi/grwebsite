@@ -1,14 +1,14 @@
 ---
-title: An R package that makes working with US ZIP codes painless
-date: 2020-09-08
-math: false
+date: "2020-09-08"
 diagram: false
 image:
   placement: 3
   preview_only: false
+math: false
 tags:
 - Open Source Software
 - R
+title: An R package that makes working with US ZIP codes painless
 ---
 
 

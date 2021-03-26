@@ -1,5 +1,5 @@
 ---
-date: 2018-04-08
+date: "2018-04-08"
 draft: false
 header:
   caption: 'Left to right: Bill Watt, Gavin Rozzi'

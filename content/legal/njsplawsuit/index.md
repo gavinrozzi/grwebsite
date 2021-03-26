@@ -1,9 +1,9 @@
 ---
-date: '2018-02-11'
-external_link: ''
+date: "2018-02-11"
+external_link: ""
 header:
   caption: The certification I filed in the case.
-  image: ''
+  image: ""
 image_preview: RozziCert.jpg
 math: false
 summary: Lawsuit reveals practice of OPRA violations at New Jersey State Police

@@ -1,12 +1,12 @@
 ---
-abstract: ''
-date: 2018-08-07 00:00:00
+abstract: ""
+date: "2018-08-07 00:00:00"
 draft: false
 event: 'Cyberspectrum #23 @ DEF CON 2018'
 event_url: https://www.meetup.com/Cyberspectrum/events/253258931/
 header:
-  caption: ''
-  image: ''
+  caption: ""
+  image: ""
 highlight: true
 location: Las Vegas, Nevada
 math: true
@@ -14,13 +14,13 @@ projects:
 - ocradiolive
 selected: true
 slides: ocradio-cyberspectrum
-summary: ''
+summary: ""
 tags:
 - radio
-time_end: 2018-08-10 01:00:00
-time_start: 2018-08-09 22:00:00
+time_end: "2018-08-10 01:00:00"
+time_start: "2018-08-09 22:00:00"
 title: Reimagining the police scanner in the era of the software defined radio
-url_code: ''
+url_code: ""
 url_pdf: /files/cyberspectrum-slides.pdf
 url_video: https://www.youtube.com/watch?v=Yhuis48SQGk
 ---

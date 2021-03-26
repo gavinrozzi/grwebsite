@@ -1,9 +1,9 @@
 ---
-date: 2019-10-06
+date: "2019-10-06"
 draft: false
 header:
-  caption: ''
-  image: ''
+  caption: ""
+  image: ""
 summary: I was interviewed by the Asbury Park Press regarding my work creating the
   OPRAmachine freedom of information portal
 tags:

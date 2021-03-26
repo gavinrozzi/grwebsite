@@ -1,5 +1,5 @@
 ---
-date: 2018-05-30
+date: "2018-05-30"
 draft: false
 header:
   caption: My lawsuit against the AG's office

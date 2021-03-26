@@ -1,12 +1,12 @@
 ---
 abstract: I will be presenting an in-person and webinar event about OPRAmachine, my
   statewide freedom of information platform serving New Jersey.
-date: 2018-07-31 00:00:00
+date: "2018-07-31 00:00:00"
 draft: false
 event: Using OPRAmachine to file public records requests without the hassle
 event_url: https://www.eventbrite.com/e/using-opramachine-to-file-public-records-requests-without-the-hassle-tickets-48653465826?aff=efbeventtix
 header:
-  caption: ''
+  caption: ""
   image: headers/montclair.jpg
 highlight: true
 location: Montclair. New Jersey
@@ -15,13 +15,13 @@ projects:
 - opramachine
 selected: true
 slides: montclair
-summary: ''
+summary: ""
 tags:
 - opra
-time_end: 2018-08-21 15:00:00
-time_start: 2018-08-21 14:00:00
+time_end: "2018-08-21 15:00:00"
+time_start: "2018-08-21 14:00:00"
 title: Using OPRAmachine to file public records requests without the hassle
-url_code: ''
+url_code: ""
 url_pdf: /files/montclair-slides.pdf
 url_video: https://www.youtube.com/watch?v=_1E2tWOOWzU
 ---

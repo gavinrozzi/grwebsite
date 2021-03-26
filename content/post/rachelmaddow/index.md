@@ -1,5 +1,5 @@
 ---
-date: 2016-10-12
+date: "2016-10-12"
 draft: false
 header:
   caption: Screenshot of the Rachel Maddow Show

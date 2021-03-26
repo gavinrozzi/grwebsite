@@ -34,28 +34,28 @@ abstract: 'State freedom of information laws are vital mechanisms for providing 
   responses that can be used to evaluate the law’s implementation throughout the state.'
 authors:
 - gavin
-date: '2020-07-16'
+date: "2020-07-16"
 header:
-  caption: ''
-  image: ''
+  caption: ""
+  image: ""
 highlight: true
 image_preview: https://ars.els-cdn.com/content/image/1-s2.0-S2352340920X00023-cov150h.gif
 math: false
 publication: Data in Brief
 publication_types:
-- '2'
+- "2"
 selected: true
-summary: ''
+summary: ""
 title: The first statewide, open access dataset tracking public records requests in
   New Jersey
-url_code: ''
+url_code: ""
 url_dataset: https://data.mendeley.com/datasets/bg8w9mfths/1
 url_pdf: /files/1-s2.0-S2352340920311598-main.pdf
-url_poster: ''
-url_preprint: ''
+url_poster: ""
+url_preprint: ""
 url_project: /project/opramachine
-url_slides: ''
+url_slides: ""
 url_source: https://doi.org/10.1016/j.dib.2020.106265
-url_video: ''
+url_video: ""
 ---
 

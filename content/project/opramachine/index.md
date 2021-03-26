@@ -1,9 +1,9 @@
 ---
-date: '2018-02-10'
-external_link: ''
+date: "2018-02-10"
+external_link: ""
 image:
   caption: A screenshot of the OPRAmachine.com homepage
-links:
+links: null
 math: false
 summary: New Jersey's first statewide freedom of information platform
 tags:

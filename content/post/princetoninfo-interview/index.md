@@ -1,9 +1,9 @@
 ---
-date: 2019-02-27
+date: "2019-02-27"
 draft: false
 header:
-  caption: ''
-  image: ''
+  caption: ""
+  image: ""
 summary: I was interviewed by PrincetonInfo about my work modernizing public records
   with OPRAmachine
 tags:

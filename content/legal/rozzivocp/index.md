@@ -1,9 +1,9 @@
 ---
-date: '2017-12-12'
-external_link: ''
+date: "2017-12-12"
+external_link: ""
 header:
   caption: A preview of the GRC's decision in this case
-  image: ''
+  image: ""
 image_preview: GRvOCP.jpeg
 math: false
 summary: GRC declares county prosecutor violated OPRA law by witholding documents

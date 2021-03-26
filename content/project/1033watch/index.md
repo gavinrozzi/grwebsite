@@ -1,9 +1,9 @@
 ---
-date: '2020-06-06'
-external_link: ''
+date: "2020-06-06"
+external_link: ""
 header:
-  caption: ''
-  image: ''
+  caption: ""
+  image: ""
 math: false
 summary: Track military hardware shipments to local police
 tags:

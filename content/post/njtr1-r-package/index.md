@@ -1,13 +1,13 @@
 ---
-title: "njtr1: An R package to download & analyze New Jersey car crash data"
-date: 2021-01-20
-math: false
+date: "2021-01-20"
 diagram: false
 image:
   placement: 3
   preview_only: false
+math: false
 tags:
 - R
+title: 'njtr1: An R package to download & analyze New Jersey car crash data'
 ---
 
 In this post I will introduce `njtr1`, [my new R package](https://cran.r-project.org/web/packages/njtr1/index.html) that makes it easier to research road safety in New Jersey using open data released by the New Jersey Department of Transportation with a consistent and simple API, eliminating the manual drudgery currently inherent in working with these data. 

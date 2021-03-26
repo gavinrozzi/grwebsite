@@ -1,9 +1,9 @@
 ---
-date: '2020-11-29'
-external_link: ''
+date: "2020-11-29"
+external_link: ""
 header:
-  caption: ''
-  image: ''
+  caption: ""
+  image: ""
 math: false
 summary: The encyclopedia of New Jersey politics
 tags:

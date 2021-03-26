@@ -1,5 +1,5 @@
 ---
-date: 2018-08-09
+date: "2018-08-09"
 draft: false
 header:
   caption: A quote from the article.

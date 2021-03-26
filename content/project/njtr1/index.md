@@ -1,28 +1,19 @@
 ---
-title: njtr1
-summary: An R package that makes it easy to download and analyze New Jersey car crash data
+date: "2021-01-17T00:00:00Z"
+external_link: ""
+image:
+  caption: null
+  focal_point: Smart
+slides: null
+summary: An R package that makes it easy to download and analyze New Jersey car crash
+  data
 tags:
 - Open Source Software
-date: "2021-01-17T00:00:00Z"
-
-# Optional external URL for project (replaces project detail page).
-external_link: ""
-
-image:
-  caption: 
-  focal_point: Smart
-
-url_code: "https://github.com/gavinrozzi/njtr1"
-url_pdf: "https://cran.r-project.org/web/packages/njtr1/njtr1.pdf"
+title: njtr1
+url_code: https://github.com/gavinrozzi/njtr1
+url_pdf: https://cran.r-project.org/web/packages/njtr1/njtr1.pdf
 url_slides: ""
 url_video: ""
-
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: 
 ---
 
 [njtr1](https://gavinrozzi.github.io/njtr1/) is an R package that makes it easy to obtain detailed data on car crashes in New Jersey for transportation planning, analyis and research.

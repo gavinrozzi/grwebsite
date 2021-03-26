@@ -3,12 +3,12 @@ abstract: I will be speaking about how the New Jersey Open Public Records Act (O
   can be applied to researching the opiod addiction crisis. Using example requests,
   I will show how addiction professionals can tap into various types of police records
   and data to track the extent of the opiod crisis, including overdoses.
-date: 2019-02-12 00:00:00
+date: "2019-02-12 00:00:00"
 draft: false
 event: A data-driven approach to combatting addiction
-event_url: ''
+event_url: ""
 header:
-  caption: ''
+  caption: ""
   image: opiodcover.jpg
 highlight: true
 location: Ocean County College
@@ -17,15 +17,15 @@ projects:
 - opramachine
 selected: true
 slides: opiatecrisis
-summary: ''
+summary: ""
 tags:
 - opra
-time_end: 2019-02-15 19:00:00
-time_start: 2019-02-15 17:00:00
+time_end: "2019-02-15 19:00:00"
+time_start: "2019-02-15 17:00:00"
 title: A data-driven approach to combatting addiction
-url_code: ''
-url_pdf: ''
-url_video: ''
+url_code: ""
+url_pdf: ""
+url_video: ""
 ---
 After the presentation, Ocean County College addiction studies students are going to implement the concepts discussed in the talk [in order to complete their term project.](/files/ALDC 101 Term Project Assignment.pdf)
 

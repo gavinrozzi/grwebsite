@@ -1,8 +1,8 @@
 ---
-date: 2018-08-17
+date: "2018-08-17"
 draft: false
 header:
-  caption: ''
+  caption: ""
   image: headers/unredact.JPG
 summary: Using one of my own public records requests as example, I show how you can
   find out information that was redacted when public officials mess up.

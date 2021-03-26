@@ -1,11 +1,11 @@
 ---
-title: 911maps is now open source!
-date: 2020-02-20
-math: false
+date: "2020-02-20"
 diagram: false
 image:
   placement: 3
   preview_only: false
+math: false
+title: 911maps is now open source!
 ---
 
 ### I am open-sourcing [the codebase for 911maps](https://github.com/gavinrozzi/911maps-v1), the web app I have been building since early last year.

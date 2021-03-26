@@ -1,10 +1,10 @@
 ---
-date: 2019-07-13
+date: "2019-07-13"
 draft: false
 header:
-  caption: ''
-  image: ''
-summary: ''
+  caption: ""
+  image: ""
+summary: ""
 tags:
 - In the news
 title: Eyes on NJ News Appearance

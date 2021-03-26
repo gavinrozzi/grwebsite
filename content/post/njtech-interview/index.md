@@ -1,9 +1,9 @@
 ---
-date: 2019-05-03
+date: "2019-05-03"
 draft: false
 header:
-  caption: ''
-  image: ''
+  caption: ""
+  image: ""
 summary: I spoke with NJ Tech Weekly's Esther Surden on the impact of OPRAmachine
 tags:
 - OPRAmachine

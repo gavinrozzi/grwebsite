@@ -1,11 +1,11 @@
 ---
-title: Building a digital, interoperable radio system for Lacey Township
-date: 2020-02-15
-math: false
+date: "2020-02-15"
 diagram: false
 image:
   placement: 3
   preview_only: false
+math: false
+title: Building a digital, interoperable radio system for Lacey Township
 ---
 
 ### When Hurricane Sandy struck in 2012, power, internet and cell phone service were knocked out for many across the Jersey Shore.

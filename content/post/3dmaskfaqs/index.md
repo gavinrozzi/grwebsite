@@ -1,11 +1,11 @@
 ---
-title: Your questions answered on 3D-printed PPE for healthcare workers
-date: 2020-04-14
-math: false
+date: "2020-04-14"
 diagram: false
 image:
   placement: 3
   preview_only: false
+math: false
+title: Your questions answered on 3D-printed PPE for healthcare workers
 ---
 
 ### I've heard from quite a few of you interested in my work 3D printing masks and face shields for healthcare workers during the coronavirus pandemic, so I wanted to write this blog post to cover some of the most frequently asked questions I am getting.

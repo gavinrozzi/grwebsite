@@ -1,13 +1,14 @@
 ---
-date: 2020-09-13
+date: "2020-09-13"
 draft: false
 header:
-  caption: 'The batch request feature of OPRAmachine Pro'
-  image:
-summary:
+  caption: The batch request feature of OPRAmachine Pro
+  image: null
+summary: null
 tags:
 - OPRAmachine
-title: 'Applications now being accepted for OPRAmachine Pro access for public-interest & scholarly research'
+title: Applications now being accepted for OPRAmachine Pro access for public-interest
+  & scholarly research
 ---
 
 [Back in February,](https://blog.opramachine.com/opramachine-research-fellowship/) we announced plans to accept applications from the community for a new public-interest initiative, the OPRAmachine Research Fellowship.

@@ -1,9 +1,9 @@
 ---
-date: 2019-02-09
+date: "2019-02-09"
 draft: false
 header:
-  caption: ''
-  image: ''
+  caption: ""
+  image: ""
 summary: Gavin Rozzi wins the 2019 Excellence in Local News Award in the Innovate
   Local category from NJ News Commons
 tags:

@@ -1,9 +1,9 @@
 ---
-date: '2019-05-27'
-external_link: ''
+date: "2019-05-27"
+external_link: ""
 header:
   caption: A preview of the GRC's decision in this case
-  image: ''
+  image: ""
 image_preview: GRvOCP.jpeg
 math: false
 summary: County broke law by refusing public records requests because they would be

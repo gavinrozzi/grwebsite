@@ -1,28 +1,18 @@
 ---
-title: zipcodeR
+date: "2020-09-08T00:00:00Z"
+external_link: ""
+image:
+  caption: null
+  focal_point: Smart
+slides: null
 summary: An R package that makes dealing with ZIP codes painless
 tags:
 - Open Source Software
-date: "2020-09-08T00:00:00Z"
-
-# Optional external URL for project (replaces project detail page).
-external_link: ""
-
-image:
-  caption: 
-  focal_point: Smart
-
-url_code: "https://github.com/gavinrozzi/zipcodeR"
-url_pdf: "https://cran.r-project.org/web/packages/zipcodeR/zipcodeR.pdf"
+title: zipcodeR
+url_code: https://github.com/gavinrozzi/zipcodeR
+url_pdf: https://cran.r-project.org/web/packages/zipcodeR/zipcodeR.pdf
 url_slides: ""
 url_video: ""
-
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: 
 ---
 
 [zipcodeR](https://gavinrozzi.github.io/zipcodeR/) is an R package that makes dealing with ZIP codes painless.

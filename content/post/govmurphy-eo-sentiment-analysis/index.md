@@ -1,13 +1,13 @@
 ---
-title: "Sentiment analysis of Governor Murphy's executive orders"
-date: 2020-12-08
-math: false
+date: "2020-12-08"
 diagram: false
 image:
   placement: 3
   preview_only: true
+math: false
 tags:
 - R
+title: Sentiment analysis of Governor Murphy's executive orders
 ---
 
 There has been a lot of interest in Governor Murphy's executive orders and the various public health restrictions they've codified during the COVID-19 pandemic. In this post I will show how [sentiment analysis](https://monkeylearn.com/sentiment-analysis/) can be applied to the governor's executive orders in New Jersey to analyze the content of them.

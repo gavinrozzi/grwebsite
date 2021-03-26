@@ -10,25 +10,25 @@ abstract: New Jersey municipalities can grant tax abatements, which allow for a 
   from other properties with their borders.
 authors:
 - gavin
-date: '2017-07-31'
+date: "2017-07-31"
 highlight: true
-image_preview: ''
+image_preview: ""
 math: false
 publication: 'In *Election 2017: The Policy Priorities of New Jersey College Students*,  William
   J. Hughes Center for Public Policy at Stockton University.'
 publication_types:
-- '0'
+- "0"
 selected: true
-summary: ''
+summary: ""
 title: Municipal Tax Abatements
-url_code: ''
-url_dataset: ''
+url_code: ""
+url_dataset: ""
 url_pdf: /files/Rozzi tax abatements.pdf
-url_poster: ''
-url_preprint: ''
-url_project: ''
-url_slides: ''
+url_poster: ""
+url_preprint: ""
+url_project: ""
+url_slides: ""
 url_source: https://stockton.edu/hughes-center/documents/2017-0731-election-2017.pdf
-url_video: ''
+url_video: ""
 ---
 

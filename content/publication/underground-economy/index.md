@@ -17,24 +17,24 @@ authors:
 - Oliver Cooke
 - John Froonjian
 - gavin
-date: '2019-07-01'
+date: "2019-07-01"
 highlight: false
 image_preview: undergroundthumbnail.JPG
 math: false
-publication: ''
+publication: ""
 publication_types:
-- '0'
+- "0"
 selected: true
-summary: ''
+summary: ""
 title: The Underground Construction Economy in New Jersey
-url_code: ''
-url_dataset: ''
+url_code: ""
+url_dataset: ""
 url_pdf: files/Underground-economy-report-2019-1.pdf
-url_poster: ''
-url_preprint: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
+url_poster: ""
+url_preprint: ""
+url_project: ""
+url_slides: ""
+url_source: ""
+url_video: ""
 ---
 

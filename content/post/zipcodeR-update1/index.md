@@ -1,13 +1,13 @@
 ---
-title: "What's new in zipcodeR v0.2?"
 date: "2020-12-13"
-math: false
 diagram: false
 image:
   placement: 3
   preview_only: false
+math: false
 tags:
 - R
+title: What's new in zipcodeR v0.2?
 ---
 
 I first released my open-source R package for processing U.S. ZIP codes, [zipcodeR](https://cran.r-project.org/web/packages/zipcodeR/index.html), in September. From then until December, when I am writing this, the package has received more than 3000 downloads and a lot of interest from the community.

@@ -1,11 +1,11 @@
 ---
-title: Mapping Philadelphia's Bike Sharing Data
-date: 2020-01-17
-math: false
+date: "2020-01-17"
 diagram: false
 image:
   placement: 3
   preview_only: true
+math: false
+title: Mapping Philadelphia's Bike Sharing Data
 ---
 
 ### Indego operates a bike sharing network in Philadelphia. They also publish anonymized data detailing usage of the service.

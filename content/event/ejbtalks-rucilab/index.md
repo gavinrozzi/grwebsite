@@ -9,25 +9,25 @@ abstract: The [Rutgers Urban and Civic Informatics Lab (RUCI Lab)](https://rucil
   using geographic and social media data to predict the long-term social and economic
   impacts of COVID-19 on society, as well as Gavin's personal interest utilizing emerging
   technology -- 3D printing PPEs for frontline healthcare workers.
-date: 2020-05-11 10:00:00
+date: "2020-05-11 10:00:00"
 draft: false
-event: ''
-event_url: ''
+event: ""
+event_url: ""
 header:
-  caption: ''
-  image: ''
+  caption: ""
+  image: ""
 highlight: false
 location: New Brunswick, New Jersey
 math: false
 projects: []
 selected: true
-slides: ''
-summary: ''
+slides: ""
+summary: ""
 tags:
-- ''
+- ""
 title: Using Data and Emerging Technologies to Improve Urban Life
-url_code: ''
-url_pdf: ''
-url_video: ''
+url_code: ""
+url_pdf: ""
+url_video: ""
 ---
 <iframe src="https://anchor.fm/ejbtalks/embed/episodes/Using-Data-and-Emerging-Technologies-to-Improve-Urban-Life-edlgj4/a-a244nl7" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>

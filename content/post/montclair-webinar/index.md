@@ -1,5 +1,5 @@
 ---
-date: 2018-08-22
+date: "2018-08-22"
 draft: false
 header:
   caption: 'Left to right: Dave Lansing, Gavin Rozzi & Jeff Epstein'

@@ -1,5 +1,5 @@
 ---
-date: 2018-05-07
+date: "2018-05-07"
 draft: false
 header:
   caption: Patrick Duff, Gavin Rozzi & Jeff Epstein

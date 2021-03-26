@@ -1,9 +1,9 @@
 ---
-date: 2019-03-09
+date: "2019-03-09"
 draft: false
 header:
-  caption: ''
-  image: ''
+  caption: ""
+  image: ""
 summary: Responding to an attorney's commentary about OPRAmachine's impact on crime
   victim privacy
 tags:

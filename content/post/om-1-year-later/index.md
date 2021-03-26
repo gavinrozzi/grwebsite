@@ -1,8 +1,8 @@
 ---
-date: 2018-10-24
+date: "2018-10-24"
 draft: false
 header:
-  caption: ''
+  caption: ""
   image: OPRA1y.jpg
 summary: Reflections on how the site grew from 2017-18
 tags:
