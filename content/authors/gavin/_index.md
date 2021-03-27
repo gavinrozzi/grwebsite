@@ -49,4 +49,4 @@ superuser: true
 title: Gavin C. Rozzi
 ---
 
-**Gavin Rozzi** is an award-winning data scientist, web developer & former journalist who has created several successful local news websites and open-source civic technology platforms serving New Jersey. 
+## **Gavin Rozzi** is an award-winning data scientist, web developer & former journalist who has created several successful local news websites and open-source civic technology platforms serving New Jersey. 
