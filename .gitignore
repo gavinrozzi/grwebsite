@@ -7,3 +7,6 @@ resources/_gen/
 *.content
 *.content
 *.content
+
+# Local Netlify folder
+.netlify
