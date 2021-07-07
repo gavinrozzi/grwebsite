@@ -18,9 +18,9 @@ summary: ""
 title: "zipcodeR: Advancing the analysis of spatial data at the ZIP code level in R"
 url_code: ""
 url_dataset: 
-url_pdf: 
+url_pdf: /files/1-s2.0-S2665963821000373-main-2.pdf
 url_poster: ""
-url_preprint: /files/zipcodeR_paper.pdf
+url_preprint: ""
 url_project: /project/zipcoder
 url_slides: ""
 url_source: "https://www.sciencedirect.com/science/article/pii/S2665963821000373"
