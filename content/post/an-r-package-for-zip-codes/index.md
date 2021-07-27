@@ -11,6 +11,7 @@ tags:
 title: An R package that makes working with US ZIP codes painless
 ---
 
+{{< cta cta_text="Using zipcodeR in academic work? Check out the journal article!" cta_link="/publication/zipcoder-software-paper/" cta_new_tab="false" >}}
 
 In this post I will introduce [zipcodeR](https://gavinrozzi.github.io/zipcodeR/), my new open-source R package that provides a set of integrated functions and data that make working with ZIP code-level data easier in R.
 
