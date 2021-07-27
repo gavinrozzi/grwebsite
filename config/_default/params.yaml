@@ -23,10 +23,10 @@ twitter: 'gavroz'
 email: 
 phone:
 address:
-  street: 
-  city: 
+  street: PO Box 1232
+  city: Forked River
   region: New Jersey
-  postcode: ''
+  postcode: 08731
   country: United States
   country_code: US
 coordinates:
@@ -147,4 +147,4 @@ cms:
   local_backend: false
 icon:
   pack:
-    ai: false
+    ai: true
