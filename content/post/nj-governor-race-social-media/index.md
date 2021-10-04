@@ -52,7 +52,7 @@ Hashtags are an interesting item to study when looking at topics discussed on so
 
 Tuesday night's debate was clearly a driver of chatter related to the race. The hashtag "#njgovdebate" was the most popular among tweets referencing either candidate in the last 30 days. 
 
-Following the debate, Team Murphy doubled down on negative campaign rhetoric against Jack Ciattarelli by linking his statements made during the debate with the hashtag "#jackwilltakeusback," which was used most frequently with tweets that also referenced the debate hashtag. Several pro-Ciattarelli and NJGOP hashtags, such as "#letsfixnj" and "#jack4nj" were also used frequently in with posts about the debate.
+Following the debate, Team Murphy doubled down on negative campaign rhetoric against Jack Ciattarelli by linking his statements made during the debate with the hashtag "#jackwilltakeusback," which was used most frequently with tweets that also referenced the debate hashtag. Several pro-Ciattarelli and NJGOP hashtags, such as "#letsfixnj" and "#jack4nj" were also used frequently within posts about the debate.
 
 Two other clusters of hashtags were apparent from this network analysis as well. A range of issue-oriented hashtags, such as "#medicaid," "#healthcare," "#votingrights" and #jobs" appeared in a cluster used in conjunction with with the hashtags "#njpolitics," "#nj" and "#newjersey," suggesting particular concern with these issues among Twitter users.
 
