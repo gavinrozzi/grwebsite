@@ -69,5 +69,5 @@ Phil Murphy's campaign account, (@philmurphynj) was the most frequently mentione
 It was interesting to see that a number of influential political consultants, journalists & academic institutions were also frequently mentioned along with the candidates in tweets regarding the election.
 
 ## How this was done
-All analysis was performed using R 4.1.1 and the [quanteda](https://joss.theoj.org/papers/10.21105/joss.00774) package.
+All analysis was performed using R 4.1.1 and the [quanteda](https://joss.theoj.org/papers/10.21105/joss.00774) package. Sentiment analysis was performed using [sentimentr](https://github.com/trinker/sentimentr)
 
