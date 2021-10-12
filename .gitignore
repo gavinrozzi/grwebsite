@@ -3,14 +3,11 @@ public/
 .Rproj.user
 resources/_gen/
 *.content
-*.content
-*.content
-*.content
-*.content
+.Rhistory
+
+
 
 # Local Netlify folder
 .netlify
 .DS_Store
-.Rhistory
-.Rhistory
 .Rhistory
