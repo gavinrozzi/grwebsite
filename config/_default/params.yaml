@@ -7,7 +7,7 @@
 
 theme: cyberpunk
 day_night: true
-font: 'classic'
+font: 'classic-fixed'
 font_size: L
 
 # SEO
