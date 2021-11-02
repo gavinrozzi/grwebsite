@@ -7,7 +7,7 @@
 
 theme: cyberpunk
 day_night: true
-font: 'classic-fixed'
+font: 'gr-custom'
 font_size: L
 
 # SEO
@@ -49,7 +49,7 @@ contact_links:
 
 main_menu:
   enable: true
-  align: l
+  align: c
   show_logo: true
   show_language: false
   show_day_night: true
@@ -66,9 +66,10 @@ address_format: en-us
 
 highlight: true
 highlight_languages:
-  - r
+  - R
   - python
   - latex
+  - yml
 math: false
 diagram: false
 privacy_pack: false

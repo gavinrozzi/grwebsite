@@ -14,11 +14,12 @@ education:
 email: ""
 highlight_name: true
 interests:
-- Linux, open source software
-- Public policy
-- Data science
-- Civic tech
-- Python & R development
+- Open source civic tech
+- Public policy analytics
+- Data science for public good
+- R & Python development
+
+
 role: Pushing the boundaries of data, technology & public policy
 social:
 - icon: envelope

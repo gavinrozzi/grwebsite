@@ -22,7 +22,7 @@ I'm pretty keen on the power of automating data science and software development
 Actions are defined by a simple YAML file that lives in the `.github/workflows` directory in your repository. [Here is the one I wrote](https://github.com/gavinrozzi/nj-executive-orders/blob/main/.github/workflows/scrape-eo.yaml) for this project:
 
 ## The workflow
-```{yaml}
+```yml
 on:
   schedule:
     - cron: '0 4 * * *'

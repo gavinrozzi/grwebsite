@@ -1,5 +1,5 @@
 ---
-active: false
+active: true
 content:
   count: 20
   taxonomy: tags
@@ -9,7 +9,7 @@ design:
 headless: true
 subtitle: ''
 title: Popular Topics
-weight: 120
+weight: 140
 widget: tag_cloud
 ---
 

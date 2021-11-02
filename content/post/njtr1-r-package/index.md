@@ -43,7 +43,7 @@ Fortunately, `njtr1` make it possible eliminate such manual drudgery and begin i
 
 Rather than manually hunting around for download links, the package makes it dead simple to start working with New Jersey crash data in R like so:
 
-```r
+```R
 library(njtr1)
 
 # Get crash data for the year 2019

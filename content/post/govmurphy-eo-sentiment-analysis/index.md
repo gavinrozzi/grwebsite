@@ -53,7 +53,7 @@ With more than 200 exective orders issued by Governor Murphy, I figured that sen
 
 
 ### Code
-```{r}
+```R
 library(jsonlite)
 library(pdftools)
 library(syuzhet)

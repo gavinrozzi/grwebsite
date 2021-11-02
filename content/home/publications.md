@@ -19,7 +19,7 @@ design:
 headless: true
 subtitle: ''
 title: Recent Publications
-weight: 90
+weight: 65
 widget: pages
 ---
 
