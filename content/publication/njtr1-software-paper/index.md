@@ -18,9 +18,9 @@ summary: ""
 title: "njtr1: An R package for researching road safety in New Jersey using open crash data"
 url_code: ""
 url_dataset: 
-url_pdf: /files/njtr1-paper-accepted.pdf
+url_pdf: ""
 url_poster: ""
-url_preprint: ""
+url_preprint: "/files/njtr1-paper-accepted.pdf"
 url_project: /project/njtr1
 url_slides: ""
 url_source: ""
