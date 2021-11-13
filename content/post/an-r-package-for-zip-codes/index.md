@@ -39,15 +39,15 @@ In creating this package, I wanted to both find a way of simplifying my personal
 ## Installation & usage
 
 **UPDATE: 9/18/2020** zipcodeR can now be installed from CRAN, the official R package library. You can install it from the R console by running:
-```R
+```r
 install.packages('zipcodeR')
 ```
 The latest development version of the package can be installed directly from Github using devtools. Make sure you have devtools installed on your system first by running 
-```R
+```r
 install.packages('devtools')
 ```
 Then, install zipcodeR by running
-```R
+```r
 devtools::install_github("gavinrozzi/zipcodeR")
 ```
 
@@ -64,7 +64,7 @@ Here's what is currently working in v0.1.0:
 
 And here is an example of basic usage of the zipcodeR library:
 
-```R
+```r
 # Load the library into your R session
 library(zipcodeR)
 
