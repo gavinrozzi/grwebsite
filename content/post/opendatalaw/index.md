@@ -57,7 +57,7 @@ Other state agencies have been similarly half-hearted in their embrace of a cent
 
 I could go on and on with more examples of this type of problematic design and half-baked data sharing schemes across the state. But I'll stop here for now.
 
-# What a New Jersey open data law might look like?
+# What might a New Jersey open data law look like?
 A theoretical New Jersey open data law could be the third prong in making government more open, accessible & accountable to the public. This open data law would work in conjunction with OPRA and the Open Public Meetings Act (OPMA) to cover much of the categories of electronically stored information that should be able to be proactively published online. It would not replace either of the state's two transparency laws, rather it would build off their prior successes and help to implement their spirit & intent through new methods of data sharing.
 
 We don't need to look very far to see succesful open data laws in practice that New Jersey could model. One of the biggest success stores in open data has been New York City's open data law, [first adopted at the behest former mayor Michael Bloomberg in 2012](https://opendata.cityofnewyork.us/open-data-law/) which required that the city compile and publish all of its datasets in a single open data portal by 2018. The City still must respond to requests under the New York Freedom of Information Law (FOIL), which is similar to OPRA, but many of the most commonly requested datasets can be freely and instantly downloaded through the open data portal.
