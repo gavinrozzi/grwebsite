@@ -31,7 +31,7 @@ New Jersey state agencies [have left much to be desired](/post/a-critique-of-new
 
 Despite the Murphy Administration's proclamation that "data determines dates" with respect to public health restrictions implemented during the pandemic, the New Jersey Department of Health (NJDOH) has done [the bare minimum](https://www.northjersey.com/story/news/new-jersey/2020/06/12/coronavirus-nj-you-can-now-look-up-cases-deaths-your-zip-code/3175245001/) in terms of making COVID-19 data available to the public and researchers. NJDOH records custodians have been less than helpful - sometimes dragging out their response to a simple OPRA request for municipal COVID-19 data by taking over a year's worth of extensions, with no credible justification for doing so.
 
-This intransigence has lead to others to fill-in the gaps in municipal COVID-19 data by [manually collecting numbers of cases and deaths announced at press conferences](https://doi.org/10.1016/j.dib.2021.107426), among other measures. This is far from an ideal or workable solution for the long term.
+This intransigence has led to others to fill-in the gaps in municipal COVID-19 data by [manually collecting numbers of cases and deaths announced at press conferences](https://doi.org/10.1016/j.dib.2021.107426), among other measures. This is far from an ideal or workable solution for the long term.
 
 A state open data law enshrining a commitment to sharing machine-readable data would have helped to rein in this problematic behavior by NJDOH officials. Unfortunately, absent OPRA lawsuits challenging their failure to release public data, there will no incentive for state agencies to do better with sharing data.
 
