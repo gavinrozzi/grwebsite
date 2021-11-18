@@ -25,5 +25,6 @@ url_project: /project/zipcoder
 url_slides: ""
 url_source: "https://www.sciencedirect.com/science/article/pii/S2665963821000373"
 url_video: ""
+doi: "https://doi.org/10.1016/j.simpa.2021.100099"
 ---
 

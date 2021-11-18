@@ -57,5 +57,6 @@ url_project: /project/opramachine
 url_slides: ""
 url_source: https://doi.org/10.1016/j.dib.2020.106265
 url_video: ""
+doi: "https://doi.org/10.1016/j.dib.2020.106265"
 ---
 
