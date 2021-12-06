@@ -15,13 +15,13 @@ math: false
 publication: Poster session presented at 17th Research Data Alliance Plenary Meeting
 publication_types:
 - "1"
-selected: true
+selected: false
 summary: ""
 title: "Using Civic Technology to Monitor Freedom of Information in New Jersey"
 url_code: ""
 url_dataset: 
-url_pdf: /files/UsingCivicTechnologytoMonitorFreedomofInformationinNewJersey_20210416042747.pdf
-url_poster: ""
+url_pdf: 
+url_poster: "/files/UsingCivicTechnologytoMonitorFreedomofInformationinNewJersey_20210416042747.pdf"
 url_preprint: ""
 url_project: /project/opramachine
 url_slides: ""
