@@ -20,7 +20,7 @@ url_code: ""
 url_dataset: 
 url_pdf: "/files/1-s2.0-S2665963821000762-main.pdf"
 url_poster: ""
-url_preprint: "/files/njtr1-paper-accepted.pdf"
+url_preprint: ""
 url_project: /project/njtr1
 url_slides: ""
 url_source: "https://www.sciencedirect.com/science/article/pii/S2665963821000762"
