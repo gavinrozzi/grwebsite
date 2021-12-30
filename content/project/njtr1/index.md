@@ -9,6 +9,7 @@ summary: An R package that makes it easy to download and analyze New Jersey car 
   data
 tags:
 - Open Source Software
+- R
 title: njtr1
 url_code: https://github.com/gavinrozzi/njtr1
 url_pdf: https://cran.r-project.org/web/packages/njtr1/njtr1.pdf

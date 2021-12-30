@@ -8,6 +8,7 @@ slides: null
 summary: An R package that makes dealing with ZIP codes painless
 tags:
 - Open Source Software
+- R
 title: zipcodeR
 url_code: https://github.com/gavinrozzi/zipcodeR
 url_pdf: https://cran.r-project.org/web/packages/zipcodeR/zipcodeR.pdf
