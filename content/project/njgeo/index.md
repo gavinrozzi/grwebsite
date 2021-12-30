@@ -1,5 +1,5 @@
 ---
-date: "2021-01-17T00:00:00Z"
+date: "2021-12-30T00:00:00Z"
 external_link: ""
 image:
   caption: null
@@ -10,7 +10,7 @@ summary: An R for geocoding data using New Jersey's official geocoding service
 tags:
 - Open Source Software
 - R
-title: njtr1
+title: njgeo
 url_code: https://github.com/gavinrozzi/njgeo
 url_pdf: 
 url_slides: ""
