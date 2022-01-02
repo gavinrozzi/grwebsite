@@ -18,7 +18,7 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    X-Frame-Options: SAMEORIGIN
+    X-Frame-Options = "SAMEORIGIN"
 
 
 [[plugins]]
