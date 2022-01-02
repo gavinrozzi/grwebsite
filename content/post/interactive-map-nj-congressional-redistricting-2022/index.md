@@ -8,6 +8,7 @@ math: false
 tags:
 - R
 - Politics
+- Data Visualization
 title: 'Interactive map: 2022 New Jersey congressional redistricting'
 ---
 
