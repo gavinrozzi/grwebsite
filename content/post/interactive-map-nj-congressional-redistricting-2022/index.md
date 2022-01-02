@@ -31,7 +31,6 @@ I created the above map using the following R code:
 ```{r}
 library(sf)
 library(leaflet)
-library(rayshader)
 library(tidyverse)
 
 
