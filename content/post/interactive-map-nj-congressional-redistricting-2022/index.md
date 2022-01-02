@@ -18,7 +18,7 @@ The controversial, closed-door process resulted in the Commission's chair, forme
 
 Following the adoption of the map, the Commission released PDF copies of maps that denote the split between municipalities. The PDFs aren't that great for zooming in to see the precise differences, and a GIS shapefile didn't become available until later.
 
-The Commission subsequently released shapefile that shows the precise boundaries of each congressional district, which I processed andvisualized below in an interactive map:
+The Commission subsequently released a shapefile that shows the precise boundaries of each congressional district, which I processed andvisualized below in an interactive map:
 
 <iframe seamless
 src="/leaflet/njcongdists/index.html" width="100%" height="900">
