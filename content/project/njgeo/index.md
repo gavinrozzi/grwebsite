@@ -5,7 +5,7 @@ image:
   caption: null
   focal_point: Smart
 slides: null
-summary: An R for geocoding data using New Jersey's official geocoding service
+summary: An R package for geocoding data using New Jersey's official geocoding service
   data
 tags:
 - Open Source Software
