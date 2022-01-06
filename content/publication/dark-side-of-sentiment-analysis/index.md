@@ -21,7 +21,7 @@ title: "The Dark Side of Sentiment Analysis:
 An Exploratory Review Using Lexicons, Dictionaries, and a Statistical Monkey and Chimp"
 url_code: ""
 url_dataset: 
-url_pdf: ""
+url_pdf: "/files/SSRN-id4000087.pdf"
 url_poster: ""
 url_preprint: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4000087"
 url_project: ""
