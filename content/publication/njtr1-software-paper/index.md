@@ -27,5 +27,3 @@ url_source: "https://www.sciencedirect.com/science/article/pii/S2665963821000762
 url_video: ""
 doi: "https://doi.org/10.1016/j.simpa.2021.100176"
 ---
-
-This is a preprint of the accepted manuscript that is pending publication online at the journal *Software Impacts*. This will be updated with the final version once the publication process is complete.
