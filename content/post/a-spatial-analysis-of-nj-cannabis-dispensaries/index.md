@@ -1,5 +1,5 @@
 ---
-title: "A spatial analysis of New Jersey's medical cannabis dispensary accesibility"
+title: "A spatial analysis of New Jersey's medical cannabis dispensary accessibility"
 author: "Gavin C. Rozzi"
 date: "2022-04-17"
 output:
