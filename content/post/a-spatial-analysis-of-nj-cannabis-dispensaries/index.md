@@ -57,7 +57,7 @@ shows the individual isochrones, colored at 10 minute intervals.
 Individual dispensaries are mapped as pink points.
 
 Municipalities are mapped and colored by population, and were included
-in this map if 100% of their boundaries were placed them at a maximum
+in this map if 100% of their boundaries placed them at a maximum
 drive time of 30 minutes or greater to reach the nearest dispensary.
 
 110 municipalities which are home to 756,034 New Jerseyans face maximum
