@@ -21,8 +21,5 @@
     X-Frame-Options = "SAMEORIGIN"
 
 
-[[plugins]]
-  package = "netlify-plugin-hugo-cache-resources"
-  [plugins.inputs]
-    debug = true
+
 
