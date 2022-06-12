@@ -21,7 +21,7 @@ design:
   background: {}
   columns: '2'
   flip_alt_rows: false
-  view: 3
+  view: masonry
 headless: true
 subtitle: ''
 title: Projects
