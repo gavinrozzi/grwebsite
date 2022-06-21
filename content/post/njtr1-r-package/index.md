@@ -8,6 +8,7 @@ math: false
 tags:
 - R
 title: 'njtr1: An R package to download & analyze New Jersey car crash data'
+summary: Working with New Jersey-specific motor vehicle crash data can generate valuable insights for researchers and transportation planners, but finding it requires digging through government websites and manually cleaning the data. This post introduces {njtr1}, a new R package that automates the acquisition and cleaning of motor vehicle crash data published by the New Jersey Department of Transportation.
 ---
 
 In this post I will introduce `njtr1`, [my new R package](https://cran.r-project.org/web/packages/njtr1/index.html) that makes it easier to research road safety in New Jersey using open data released by the New Jersey Department of Transportation with a consistent and simple API, eliminating the manual drudgery currently inherent in working with these data. 

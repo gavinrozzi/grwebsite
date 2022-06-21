@@ -9,6 +9,7 @@ math: false
 tags:
 - R
 title: "Automating web scraping with GitHub Actions and R: an example from New Jersey"
+summary: GitHub Actions is a powerful tool for automating workflows using the GitHub platform. This post presents an example of using GitHub actions to automatically run a web scraper in R using the {rvest} package and commit the results to a repository to automatically update a CSV with structured data pulled from the web.
 ---
 
 [GitHub Actions](https://github.com/features/actions) is a powerful tool for building code, running tests & other repetitive tasks related to software development. It's also a powerful, if somewhat underutilized tool for deploying web scrapers written in R to the internet and automatically publishing a version-controlled copy of the scraped data using GitHub.

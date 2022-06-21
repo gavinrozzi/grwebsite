@@ -9,6 +9,7 @@ tags:
 - R
 - NJ Politics
 title: What social media data tells us about the New Jersey governor's race
+summary: Social media is a powerful tool for mining public opinion. This post presents a basic sentiment analysis of a collection of tweets sent about the two candidates for the 2021 New Jersey governor's race.
 ---
 
 Many people are talking about the 2021 governor's race in New Jersey online, especially after the first official debate this past week. In this post, I present an analysis of online chatter about the campaign created using the content of tweets posted by Governor Phil Murphy and his Republican challenger, Assemblyman Jack Ciattarelli and tweets posted about both of them in the last 30 days by Twitter users.

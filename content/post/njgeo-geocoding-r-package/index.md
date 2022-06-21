@@ -8,6 +8,7 @@ output:
     fig_retina: 2
     preserve_yaml: true
 title: New Jersey’s official geocoding API now has a client for R
+summary: Using New Jersey's official state geocoding service and related APIs just got a lot easier! This post introduces {njgeo}, a new package for R that simplifies working with New Jersey-specific spatial datasets.
 ---
 
 I am often critical of the lack of, or inconsistent availability of

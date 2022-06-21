@@ -8,6 +8,7 @@ math: false
 tags:
 - R
 title: What's new in zipcodeR v0.2?
+summary: This post reviews some of the changes that have been made to the {zipcodeR} package in version 0.2 which was recently accepted by CRAN.
 ---
 
 I first released my open-source R package for processing U.S. ZIP codes, [zipcodeR](https://cran.r-project.org/web/packages/zipcodeR/index.html), in September. From then until December, when I am writing this, the package has received more than 3000 downloads and a lot of interest from the community.

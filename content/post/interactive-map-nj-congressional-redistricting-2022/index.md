@@ -10,6 +10,7 @@ tags:
 - Politics
 - Data Visualization
 title: 'Interactive map: 2022 New Jersey congressional redistricting'
+summary: New Jersey's new congressional districts have been finalized by the New Jersey Congressional Redistricting Commission. This post presents an interactive visualization of the new boundaries that will take effect beginning with the new election cycle for the state's 12 congressional districts.
 ---
 
 The [New Jersey Congressional Redistricting Commission](https://www.njredistrictingcommission.org) recently wrapped up the process of redrawing the state's congressional districts based on new Census data. These new districts will take effect beginning this year and shape congressional elections for the next decade.

@@ -8,6 +8,7 @@ output:
     df_print: kable
     fig_retina: 3
 always_allow_html: true
+summary: Despite the state's progress on expansion of adult recreational use and medical cannabis, one third of New Jersey counties lack access to even a single dispensary. This post presents a spatial analysis of New Jersey's medical cannabis dispensary focusing how far residents must travel to obtain cannabis in the state.
 ---
 
 ## One third of NJ counties lack even a single dispensary

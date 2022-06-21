@@ -7,6 +7,7 @@ image:
   preview_only: true
 math: false
 title: It's time for New Jersey to adopt a state open data law
+summary: Amid the COVID-19 pandemic, many public agencies are failing to adequately share data with the public. Given the lack of effectiveness of existing state policy to open up administrative data, this post proposes the development of a new open data law to create a policy mandate for sharing data with the public.
 ---
 
 In speaking with people about open government and open data issues around New Jersey, I am often asked for my views on the state of access to information. In this post, I propose a new vision: It's time for New Jersey to adopt a state open data law and require state & local government to proactively publish certain types of records online. This will ultimately serve to create a better experience for both public & private sector data users & reduce the burden of responding to OPRA requests for government by codifying a public policy of data sharing into state law, following other succesful open data laws.
