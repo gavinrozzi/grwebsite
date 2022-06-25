@@ -79,7 +79,7 @@ features:
     gravatar: false
     shape: circle
   comment:
-    provider: ''
+    provider: 'disqus'
     disqus:
       shortname: 'gavin-rozzi'
       show_count: true
