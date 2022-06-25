@@ -81,7 +81,7 @@ features:
   comment:
     provider: ''
     disqus:
-      shortname: ''
+      shortname: 'gavin-rozzi'
       show_count: true
     commento:
       url: ''

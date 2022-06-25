@@ -23,6 +23,6 @@ tags:
 title: Introduction to the Power of GitHub for Analytics
 url_code: ""
 url_pdf: ""
-url_video: ""
+url_video: https://bloustein.rutgers.edu/graduate/public-informatics/ejb-intelligent-informatics/
 ---
 ![](/media/ejbinformatics.jpeg)

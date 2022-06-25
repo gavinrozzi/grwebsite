@@ -21,5 +21,5 @@ title: "Predicting the Vulnerability of New Jersey Communities to
 Opiate Overdoses Using People, Places & Things: A Spatial Risk Modeling Approach"
 url_code: ""
 url_pdf: "/files/EJBresearchday.pdf"
-url_video: "https://bloustein.rutgers.edu/research-day/"
+url_video: " https://go.rutgers.edu/rozzi-research-day-talk"
 ---
