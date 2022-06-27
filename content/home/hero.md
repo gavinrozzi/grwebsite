@@ -5,13 +5,13 @@ headless: true
 cta:
   icon: envelope
   icon_pack: fas
-  label: Get in touch
+  label: Sign up for newsletter
+  url: https://www.getrevue.co/profile/gcr
+cta_alt: 
+  label: Get in touch 
   url: /#contact
-cta_alt:
-  label:
-  url: 
 cta_note:
-  label:
+  label: Insights delivered to your inbox
 design:
   background:
     gradient_end: '#833ab4'
