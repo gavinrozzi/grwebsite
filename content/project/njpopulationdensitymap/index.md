@@ -6,7 +6,7 @@ image:
   focal_point: Smart
 slides: null
 summary: 
-  data
+  A map showcasing the diverse population density of New Jersey, with a 3D-printed component
 tags:
 - Data Visualization
 - R
@@ -23,7 +23,7 @@ This map won the First Place award in the 3D category as well as an Honorable Me
 
 The code to reproduce the map is below:
 
-```{r}
+```{R}
 # New Jersey Population Density Map
 # By Gavin Rozzi
 
