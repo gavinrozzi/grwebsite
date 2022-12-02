@@ -21,13 +21,13 @@ content:
       captcha: true
 
   # Contact details (edit or remove options as required)
-  email: hello@gavinrozzi.com
-  phone: +1 (609)-222-4161
+  email: 
+  phone: 
   address:
-    street: PO Box 1232
-    city: Forked River
-    region: NJ
-    postcode: '08731'
+    street: 
+    city: 
+    region: 
+    postcode:
     country: United States
     country_code: US
   coordinates:
