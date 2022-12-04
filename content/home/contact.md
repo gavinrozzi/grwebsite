@@ -28,11 +28,11 @@ content:
     city: 
     region: 
     postcode:
-    country: United States
-    country_code: US
+    country: 
+    country_code: 
   coordinates:
-    latitude: ''
-    longitude: ''
+    latitude: 
+    longitude: 
   appointment_url: ''
   contact_links:
     - icon: twitter
