@@ -47,7 +47,7 @@ social:
   label: Follow me on LinkedIn
   link: https://www.linkedin.com/in/gavin-rozzi/
 superuser: true
-title: Gavin C. Rozzi
+title: Gavin Rozzi
 ---
 
 ## **Gavin Rozzi** is an award-winning data scientist, web developer & independent journalist who has created several successful local news websites and open-source civic information platforms serving New Jersey. 
