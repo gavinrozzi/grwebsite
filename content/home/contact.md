@@ -35,10 +35,6 @@ content:
     longitude: 
   appointment_url: ''
   contact_links:
-    - icon: twitter
-      icon_pack: fab
-      name: DM Me
-      link: 'https://twitter.com/gavroz'
 
 design:
   columns: '2'
