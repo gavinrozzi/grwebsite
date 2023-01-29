@@ -2,6 +2,9 @@
 authors:
 - gavin
 bio: Gavin Rozzi is a data scientist from New Jersey with expertise in leveraging public sector datasets, spatial data & mapping and emerging technologies to inform public policy development.
+organizations:
+  - name: 39 North Labs, LLC.
+    url: https://39n.io/?ref=grwebsite
 education:
   courses:
   - course: M.S., Data Science & Strategic Analytics
@@ -46,7 +49,7 @@ superuser: true
 title: Gavin Rozzi
 ---
 
-## **Gavin Rozzi** is an award-winning data scientist, web developer & former independent journalist who has created several successful local news websites and open-source civic information platforms serving New Jersey. 
+## **Gavin Rozzi** is an award-winning data scientist, web developer & former independent journalist who has created several successful local news websites and open-source civic information platforms serving New Jersey.
 
 Rozzi is currently a data scientist with a background in public policy research and education. He has a unique blend of skills and experience that enables him to drive value through data-driven decision making. With a strong track record of success in data analytics and a commitment to staying at the forefront of emerging technologies, he has consistently delivered valuable insights and driven results for a wide range of organizations.
 
