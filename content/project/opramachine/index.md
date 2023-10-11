@@ -48,10 +48,6 @@ Following four months of work, I reflected on some of the accomplishments of the
 ### By the numbers
 {{% opramachine_stats %}}
 
-### Latest OPRA requests
-Powered by the OPRAmachine API
-
-{{% opramachine_requests %}}
 
 ### Chart of requests
 
