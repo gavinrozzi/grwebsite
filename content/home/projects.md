@@ -1,5 +1,5 @@
 ---
-active: false
+active: true
 advanced:
   css_class: ''
   css_style: ''
