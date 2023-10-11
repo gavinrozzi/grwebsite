@@ -8,3 +8,5 @@
 [module]
   [[module.imports]]
     path = "github.com/wowchemy/wowchemy-hugo-modules/wowchemy"
+
+ignoreErrors = ["error-remote-getjson"]

@@ -86,3 +86,5 @@ cascade:
     header:
       navbar:
         enable: true
+
+ignoreErrors = ["error-remote-getjson"]
