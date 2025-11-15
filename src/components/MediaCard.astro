@@ -1,0 +1,289 @@
+---
+interface Props {
+  title: string;
+  summary: string;
+  date: Date;
+  slug: string;
+  type: 'talk' | 'interview' | 'press' | 'podcast' | 'award';
+  venue: string;
+  location?: string;
+  url?: string;
+  embedUrl?: string;
+  featured?: boolean;
+}
+
+const { title, summary, date, slug, type, venue, location, url, embedUrl, featured } = Astro.props;
+
+const formattedDate = new Intl.DateTimeFormat('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+}).format(date);
+
+const typeLabels = {
+  talk: 'Conference Talk',
+  interview: 'Interview',
+  press: 'Press Coverage',
+  podcast: 'Podcast',
+  award: 'Award'
+};
+
+const typeIcons = {
+  talk: `<path d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/><path d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"/>`,
+  interview: `<path d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"/>`,
+  press: `<path d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/>`,
+  podcast: `<path d="M9.348 14.651a3.75 3.75 0 010-5.303m5.304 0a3.75 3.75 0 010 5.303m-7.425 2.122a6.75 6.75 0 010-9.546m9.546 0a6.75 6.75 0 010 9.546M5.106 18.894c-3.808-3.808-3.808-9.98 0-13.789m13.788 0c3.808 3.808 3.808 9.981 0 13.79M12 12h.008v.007H12V12zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"/>`,
+  award: `<path d="M16.5 18.75h-9m9 0a3 3 0 013 3h-15a3 3 0 013-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 01-.982-3.172M9.497 14.25a7.454 7.454 0 00.981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 007.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 002.748 1.35m8.272-6.842V4.5c0 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 012.916.52 6.003 6.003 0 01-5.395 4.972m0 0a6.726 6.726 0 01-2.749 1.35m0 0a6.772 6.772 0 01-3.044 0"/>`
+};
+---
+
+<article class:list={['media-card', `media-card--${type}`, { 'media-card--featured': featured }]}>
+  <div class="media-card__header">
+    <div class="media-card__icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <Fragment set:html={typeIcons[type]} />
+      </svg>
+    </div>
+    <div class="media-card__meta">
+      <span class="media-card__type">{typeLabels[type]}</span>
+      <time datetime={date.toISOString()} class="media-card__date">
+        {formattedDate}
+      </time>
+    </div>
+    {featured && <span class="media-card__badge">Featured</span>}
+  </div>
+
+  <div class="media-card__content">
+    <h3 class="media-card__title">
+      <a href={`/media/${slug}`}>{title}</a>
+    </h3>
+
+    <div class="media-card__venue">
+      <svg class="venue-icon" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"/>
+      </svg>
+      <span>{venue}</span>
+      {location && <span class="media-card__location"> • {location}</span>}
+    </div>
+
+    <p class="media-card__summary">{summary}</p>
+
+    <div class="media-card__actions">
+      <a href={`/media/${slug}`} class="media-card__link media-card__link--primary">
+        Read More
+        <svg viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+        </svg>
+      </a>
+      {url && (
+        <a href={url} class="media-card__link media-card__link--secondary" target="_blank" rel="noopener noreferrer">
+          External Link
+          <svg viewBox="0 0 20 20" fill="currentColor">
+            <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"/>
+            <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"/>
+          </svg>
+        </a>
+      )}
+    </div>
+  </div>
+</article>
+
+<style>
+  .media-card {
+    background: white;
+    border: 1px solid var(--color-neutral-200);
+    border-radius: var(--radius-xl);
+    padding: var(--space-6);
+    transition: all var(--transition-base);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .media-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-4px);
+  }
+
+  .media-card--featured {
+    border-color: var(--color-primary);
+    box-shadow: var(--shadow-md);
+  }
+
+  .media-card--talk {
+    border-left: 4px solid #3b82f6;
+  }
+
+  .media-card--interview {
+    border-left: 4px solid #8b5cf6;
+  }
+
+  .media-card--press {
+    border-left: 4px solid #10b981;
+  }
+
+  .media-card--podcast {
+    border-left: 4px solid #f59e0b;
+  }
+
+  .media-card--award {
+    border-left: 4px solid #ef4444;
+  }
+
+  .media-card__header {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-3);
+    margin-bottom: var(--space-4);
+  }
+
+  .media-card__icon {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: var(--radius-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(249, 115, 22, 0.1) 0%, rgba(20, 184, 166, 0.1) 100%);
+  }
+
+  .media-card__icon svg {
+    width: 24px;
+    height: 24px;
+    color: var(--color-primary);
+  }
+
+  .media-card__meta {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+  }
+
+  .media-card__type {
+    font-size: var(--text-xs);
+    font-weight: var(--font-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--color-primary);
+  }
+
+  .media-card__date {
+    font-size: var(--text-sm);
+    color: var(--color-text-secondary);
+  }
+
+  .media-card__badge {
+    flex-shrink: 0;
+    padding: var(--space-1) var(--space-2);
+    background: var(--gradient-primary);
+    color: white;
+    border-radius: var(--radius-md);
+    font-size: var(--text-xs);
+    font-weight: var(--font-bold);
+    text-transform: uppercase;
+  }
+
+  .media-card__content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .media-card__title {
+    font-size: var(--text-xl);
+    font-weight: var(--font-bold);
+    line-height: var(--leading-tight);
+    margin-bottom: var(--space-3);
+  }
+
+  .media-card__title a {
+    color: var(--color-text-primary);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+  }
+
+  .media-card__title a:hover {
+    color: var(--color-primary);
+  }
+
+  .media-card__venue {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: var(--text-sm);
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-3);
+  }
+
+  .venue-icon {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+  }
+
+  .media-card__location {
+    color: var(--color-text-secondary);
+  }
+
+  .media-card__summary {
+    color: var(--color-text-secondary);
+    line-height: var(--leading-relaxed);
+    margin-bottom: var(--space-4);
+    flex: 1;
+  }
+
+  .media-card__actions {
+    display: flex;
+    gap: var(--space-3);
+    flex-wrap: wrap;
+    margin-top: auto;
+  }
+
+  .media-card__link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: var(--text-sm);
+    font-weight: var(--font-medium);
+    text-decoration: none;
+    transition: all var(--transition-fast);
+  }
+
+  .media-card__link svg {
+    width: 16px;
+    height: 16px;
+    transition: transform var(--transition-fast);
+  }
+
+  .media-card__link--primary {
+    color: var(--color-primary);
+  }
+
+  .media-card__link--primary:hover {
+    gap: var(--space-3);
+  }
+
+  .media-card__link--primary:hover svg {
+    transform: translateX(2px);
+  }
+
+  .media-card__link--secondary {
+    color: var(--color-text-secondary);
+  }
+
+  .media-card__link--secondary:hover {
+    color: var(--color-primary);
+  }
+
+  @media (max-width: 640px) {
+    .media-card {
+      padding: var(--space-4);
+    }
+
+    .media-card__title {
+      font-size: var(--text-lg);
+    }
+  }
+</style>

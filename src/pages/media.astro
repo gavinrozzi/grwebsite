@@ -1,57 +1,418 @@
 ---
+import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import MediaCard from '../components/MediaCard.astro';
+
+const allMedia = await getCollection('media');
+
+const sortedMedia = allMedia.sort((a, b) => {
+  return b.data.date.getTime() - a.data.date.getTime();
+});
+
+const featuredMedia = sortedMedia.filter(item => item.data.featured);
+
+const mediaByType = {
+  talk: sortedMedia.filter(item => item.data.type === 'talk'),
+  podcast: sortedMedia.filter(item => item.data.type === 'podcast'),
+  press: sortedMedia.filter(item => item.data.type === 'press'),
+  interview: sortedMedia.filter(item => item.data.type === 'interview'),
+  award: sortedMedia.filter(item => item.data.type === 'award'),
+};
+
+const stats = {
+  talks: mediaByType.talk.length,
+  podcasts: mediaByType.podcast.length,
+  press: mediaByType.press.length,
+  awards: mediaByType.award.length,
+};
 ---
 
 <BaseLayout
-  title="Media & Speaking - Gavin Rozzi"
-  description="Conference talks, interviews, press mentions, and media appearances discussing civic technology and digital transformation."
+  title="Digital Press Room - Gavin Rozzi"
+  description="Conference talks, podcast appearances, press coverage, and media highlights on civic technology, digital transformation, and government innovation."
 >
-  <section class="page-hero">
+  <section class="press-hero">
     <div class="container">
-      <h1 class="page-title">Media & Speaking</h1>
-      <p class="page-subtitle">
-        Talks, interviews, and press coverage on civic technology and digital innovation
-      </p>
+      <div class="hero-content">
+        <h1 class="page-title">Digital Press Room</h1>
+        <p class="page-subtitle">
+          Sharing insights on civic technology, digital transformation, and building platforms that serve the public interest
+        </p>
+        <div class="press-stats">
+          <div class="stat-item">
+            <span class="stat-value">{stats.talks}</span>
+            <span class="stat-label">Conference Talks</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-value">{stats.podcasts}</span>
+            <span class="stat-label">Podcast Episodes</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-value">{stats.press}</span>
+            <span class="stat-label">Press Features</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-value">{stats.awards}</span>
+            <span class="stat-label">Awards</span>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section class="content-section">
+  {featuredMedia.length > 0 && (
+    <section class="featured-section">
+      <div class="container">
+        <h2 class="section-title">Featured Media</h2>
+        <div class="media-grid">
+          {featuredMedia.map(item => (
+            <MediaCard
+              title={item.data.title}
+              summary={item.data.summary || ''}
+              date={item.data.date}
+              slug={item.slug}
+              type={item.data.type}
+              venue={item.data.venue}
+              location={item.data.location}
+              url={item.data.url}
+              embedUrl={item.data.embedUrl}
+              featured={true}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  {mediaByType.talk.length > 0 && (
+    <section class="media-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Conference Talks & Presentations</h2>
+          <p class="section-description">
+            Speaking engagements at conferences, universities, and professional events on civic technology, open data, and digital government.
+          </p>
+        </div>
+        <div class="media-grid">
+          {mediaByType.talk.map(item => (
+            <MediaCard
+              title={item.data.title}
+              summary={item.data.summary || ''}
+              date={item.data.date}
+              slug={item.slug}
+              type={item.data.type}
+              venue={item.data.venue}
+              location={item.data.location}
+              url={item.data.url}
+              embedUrl={item.data.embedUrl}
+              featured={false}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  {mediaByType.podcast.length > 0 && (
+    <section class="media-section media-section--alt">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Podcast Appearances</h2>
+          <p class="section-description">
+            In-depth conversations about building civic technology, government modernization, and the intersection of policy and code.
+          </p>
+        </div>
+        <div class="media-grid">
+          {mediaByType.podcast.map(item => (
+            <MediaCard
+              title={item.data.title}
+              summary={item.data.summary || ''}
+              date={item.data.date}
+              slug={item.slug}
+              type={item.data.type}
+              venue={item.data.venue}
+              location={item.data.location}
+              url={item.data.url}
+              embedUrl={item.data.embedUrl}
+              featured={false}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  {mediaByType.press.length > 0 && (
+    <section class="media-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Press Coverage</h2>
+          <p class="section-description">
+            Media coverage of civic technology projects and digital government initiatives.
+          </p>
+        </div>
+        <div class="media-grid">
+          {mediaByType.press.map(item => (
+            <MediaCard
+              title={item.data.title}
+              summary={item.data.summary || ''}
+              date={item.data.date}
+              slug={item.slug}
+              type={item.data.type}
+              venue={item.data.venue}
+              location={item.data.location}
+              url={item.data.url}
+              embedUrl={item.data.embedUrl}
+              featured={false}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  {mediaByType.award.length > 0 && (
+    <section class="media-section media-section--alt">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Recognition & Awards</h2>
+          <p class="section-description">
+            Honors recognizing contributions to civic technology, journalism, and government innovation.
+          </p>
+        </div>
+        <div class="media-grid">
+          {mediaByType.award.map(item => (
+            <MediaCard
+              title={item.data.title}
+              summary={item.data.summary || ''}
+              date={item.data.date}
+              slug={item.slug}
+              type={item.data.type}
+              venue={item.data.venue}
+              location={item.data.location}
+              url={item.data.url}
+              embedUrl={item.data.embedUrl}
+              featured={false}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="contact-cta">
     <div class="container">
-      <p class="coming-soon">
-        Media & Speaking page coming soon. This will include conference talks, podcast interviews, press mentions, and other media appearances.
-      </p>
+      <div class="cta-card">
+        <h2 class="cta-title">Speaking & Media Inquiries</h2>
+        <p class="cta-text">
+          Available for conference talks, podcast interviews, and expert commentary on civic technology, digital transformation, and government innovation.
+        </p>
+        <a href="/contact" class="cta-button">
+          Get in Touch
+          <svg viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+          </svg>
+        </a>
+      </div>
     </div>
   </section>
 </BaseLayout>
 
 <style>
-  .page-hero {
+  .press-hero {
     padding: var(--space-12) 0 var(--space-8);
     text-align: center;
     background: linear-gradient(135deg, rgba(249, 115, 22, 0.05) 0%, rgba(20, 184, 166, 0.05) 100%);
   }
 
+  .hero-content {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
   .page-title {
     font-size: var(--text-5xl);
+    font-weight: var(--font-bold);
     margin-bottom: var(--space-3);
   }
 
   .page-subtitle {
     font-size: var(--text-xl);
     color: var(--color-text-secondary);
-    max-width: 700px;
-    margin: 0 auto;
+    margin-bottom: var(--space-8);
   }
 
-  .content-section {
+  .press-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-4);
+    margin-top: var(--space-8);
+  }
+
+  .stat-item {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    padding: var(--space-4);
+    background: white;
+    border: 1px solid var(--color-neutral-200);
+    border-radius: var(--radius-lg);
+  }
+
+  .stat-value {
+    font-size: var(--text-4xl);
+    font-weight: var(--font-bold);
+    color: var(--color-primary);
+  }
+
+  .stat-label {
+    font-size: var(--text-sm);
+    color: var(--color-text-secondary);
+  }
+
+  .featured-section,
+  .media-section {
     padding: var(--space-12) 0;
   }
 
-  .coming-soon {
+  .media-section--alt {
+    background: linear-gradient(135deg, rgba(249, 115, 22, 0.02) 0%, rgba(20, 184, 166, 0.02) 100%);
+  }
+
+  .section-header {
     text-align: center;
+    max-width: 800px;
+    margin: 0 auto var(--space-8);
+  }
+
+  .section-title {
+    font-size: var(--text-3xl);
+    font-weight: var(--font-bold);
+    margin-bottom: var(--space-3);
+  }
+
+  .section-description {
     font-size: var(--text-lg);
     color: var(--color-text-secondary);
-    max-width: 600px;
+    line-height: var(--leading-relaxed);
+  }
+
+  .media-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: var(--space-6);
+  }
+
+  .contact-cta {
+    padding: var(--space-12) 0;
+    background: linear-gradient(135deg, rgba(249, 115, 22, 0.05) 0%, rgba(20, 184, 166, 0.05) 100%);
+  }
+
+  .cta-card {
+    max-width: 700px;
     margin: 0 auto;
+    text-align: center;
+    padding: var(--space-8);
+    background: white;
+    border: 2px solid var(--color-primary);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .cta-title {
+    font-size: var(--text-3xl);
+    font-weight: var(--font-bold);
+    margin-bottom: var(--space-3);
+  }
+
+  .cta-text {
+    font-size: var(--text-lg);
+    color: var(--color-text-secondary);
+    line-height: var(--leading-relaxed);
+    margin-bottom: var(--space-6);
+  }
+
+  .cta-button {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-3) var(--space-6);
+    background: var(--gradient-primary);
+    color: white;
+    border-radius: var(--radius-lg);
+    font-weight: var(--font-bold);
+    text-decoration: none;
+    transition: all var(--transition-base);
+    box-shadow: var(--shadow-md);
+  }
+
+  .cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+    gap: var(--space-3);
+  }
+
+  .cta-button svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  @media (max-width: 968px) {
+    .press-stats {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .media-grid {
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+  }
+
+  @media (max-width: 640px) {
+    .press-hero {
+      padding: var(--space-8) 0 var(--space-6);
+    }
+
+    .page-title {
+      font-size: var(--text-4xl);
+    }
+
+    .page-subtitle {
+      font-size: var(--text-lg);
+    }
+
+    .press-stats {
+      grid-template-columns: 1fr;
+      gap: var(--space-3);
+    }
+
+    .media-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .featured-section,
+    .media-section,
+    .contact-cta {
+      padding: var(--space-8) 0;
+    }
+
+    .section-title {
+      font-size: var(--text-2xl);
+    }
+
+    .section-description {
+      font-size: var(--text-base);
+    }
+
+    .cta-card {
+      padding: var(--space-6);
+    }
+
+    .cta-title {
+      font-size: var(--text-2xl);
+    }
+
+    .cta-text {
+      font-size: var(--text-base);
+    }
   }
 </style>
