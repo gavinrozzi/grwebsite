@@ -71,7 +71,7 @@
           <div class="impact-stage">
             <div class="stage-icon">📊</div>
             <h3 class="stage-title">Measurable Impact</h3>
-            <p class="stage-description">Built-in analytics and performance tracking from day one, ensuring every platform delivers actionable insights that drive continuous improvement and demonstrate real-world value to stakeholders</p>
+            <p class="stage-description">Analytics and performance tracking built into every platform to drive improvement</p>
           </div>
         </div>
       </div>
@@ -266,7 +266,7 @@
 
   .impact-diagram {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: var(--space-4);
     padding: var(--space-6);
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.95) 100%);
@@ -279,6 +279,9 @@
   .impact-stage {
     flex: 1;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .stage-icon {
@@ -307,6 +310,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 52px;
   }
 
   .expertise-right {
