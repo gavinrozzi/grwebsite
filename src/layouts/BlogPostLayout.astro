@@ -1,0 +1,463 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import SocialShare from '../components/SocialShare.astro';
+
+interface Props {
+  frontmatter: {
+    title: string;
+    date: Date;
+    updated?: Date;
+    summary: string;
+    description?: string;
+    author: string;
+    tags: string[];
+    category?: string;
+    image?: {
+      url: string;
+      alt: string;
+    };
+  };
+}
+
+const { frontmatter } = Astro.props;
+const { title, date, updated, summary, description, author, tags, category, image } = frontmatter;
+
+const formattedDate = new Intl.DateTimeFormat('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+}).format(date);
+
+const formattedUpdated = updated ? new Intl.DateTimeFormat('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+}).format(updated) : null;
+
+const currentUrl = new URL(Astro.url.pathname, Astro.site);
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": title,
+  "description": description || summary,
+  "image": image?.url || `${Astro.site}images/profile/headshot.jpg`,
+  "datePublished": date.toISOString(),
+  "dateModified": (updated || date).toISOString(),
+  "author": {
+    "@type": "Person",
+    "name": author,
+    "url": String(Astro.site)
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Gavin Rozzi",
+    "url": String(Astro.site)
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": currentUrl.toString()
+  }
+};
+---
+
+<BaseLayout
+  title={`${title} | Gavin Rozzi`}
+  description={description || summary}
+  image={image?.url}
+>
+  <Fragment slot="head">
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  </Fragment>
+
+  <article class="blog-post">
+    <header class="post-header">
+      <div class="container">
+        {category && (
+          <div class="post-category">
+            <span class="category-badge">{category}</span>
+          </div>
+        )}
+
+        <h1 class="post-title">{title}</h1>
+
+        <div class="post-meta">
+          <div class="author-info">
+            <img
+              src="/images/profile/headshot.jpg"
+              alt={author}
+              class="author-avatar"
+              width="48"
+              height="48"
+            />
+            <div class="author-details">
+              <span class="author-name">{author}</span>
+              <div class="post-date-info">
+                <time datetime={date.toISOString()} class="post-date">
+                  {formattedDate}
+                </time>
+                {formattedUpdated && (
+                  <span class="post-updated">
+                    (Updated {formattedUpdated})
+                  </span>
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {tags.length > 0 && (
+          <div class="post-tags">
+            {tags.map(tag => (
+              <a href={`/blog?tag=${encodeURIComponent(tag)}`} class="tag">
+                #{tag}
+              </a>
+            ))}
+          </div>
+        )}
+      </div>
+    </header>
+
+    {image && (
+      <div class="featured-image">
+        <img src={image.url} alt={image.alt} loading="eager" />
+      </div>
+    )}
+
+    <div class="post-content container">
+      <div class="prose">
+        <slot />
+      </div>
+
+      <SocialShare title={title} url={currentUrl.toString()} description={summary} />
+
+      <div class="post-footer">
+        <div class="author-bio">
+          <img
+            src="/images/profile/headshot.jpg"
+            alt={author}
+            class="bio-avatar"
+            width="80"
+            height="80"
+          />
+          <div class="bio-content">
+            <h3 class="bio-name">About {author}</h3>
+            <p class="bio-text">
+              Digital Transformation & Civic Technology Executive building data-driven platforms that turn policy into impact.
+              Experienced in React, TypeScript, Next.js, and modern government technology solutions.
+            </p>
+            <div class="bio-links">
+              <a href="/portfolio" class="bio-link">View Projects</a>
+              <a href="/contact" class="bio-link">Get in Touch</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="back-to-blog">
+        <a href="/blog" class="back-link">
+          <svg viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd"/>
+          </svg>
+          Back to all articles
+        </a>
+      </div>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .blog-post {
+    padding-top: var(--space-4);
+  }
+
+  .post-header {
+    padding: var(--space-8) 0;
+  }
+
+  .post-category {
+    margin-bottom: var(--space-3);
+  }
+
+  .category-badge {
+    display: inline-block;
+    padding: var(--space-1) var(--space-3);
+    background: var(--gradient-primary);
+    color: white;
+    border-radius: var(--radius-full);
+    font-size: var(--text-xs);
+    font-weight: var(--font-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .post-title {
+    font-size: var(--text-5xl);
+    font-weight: var(--font-bold);
+    line-height: var(--leading-tight);
+    margin-bottom: var(--space-6);
+    color: var(--color-text-primary);
+  }
+
+  .post-meta {
+    margin-bottom: var(--space-4);
+  }
+
+  .author-info {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+  }
+
+  .author-avatar {
+    border-radius: var(--radius-full);
+    border: 2px solid var(--color-primary);
+  }
+
+  .author-details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .author-name {
+    font-weight: var(--font-bold);
+    color: var(--color-text-primary);
+  }
+
+  .post-date-info {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: var(--text-sm);
+    color: var(--color-text-secondary);
+  }
+
+  .post-updated {
+    font-style: italic;
+  }
+
+  .post-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+  }
+
+  .tag {
+    padding: var(--space-1) var(--space-2);
+    background-color: rgba(249, 115, 22, 0.1);
+    color: var(--color-primary);
+    border-radius: var(--radius-md);
+    font-size: var(--text-sm);
+    font-weight: var(--font-medium);
+    text-decoration: none;
+    transition: all var(--transition-fast);
+  }
+
+  .tag:hover {
+    background-color: rgba(249, 115, 22, 0.2);
+    transform: translateY(-1px);
+  }
+
+  .featured-image {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto var(--space-8);
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+  }
+
+  .featured-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .post-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .prose {
+    font-size: var(--text-lg);
+    line-height: var(--leading-relaxed);
+    color: var(--color-text-primary);
+  }
+
+  .prose :global(h2) {
+    font-size: var(--text-3xl);
+    font-weight: var(--font-bold);
+    margin-top: var(--space-8);
+    margin-bottom: var(--space-4);
+    color: var(--color-text-primary);
+  }
+
+  .prose :global(h3) {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-bold);
+    margin-top: var(--space-6);
+    margin-bottom: var(--space-3);
+    color: var(--color-text-primary);
+  }
+
+  .prose :global(p) {
+    margin-bottom: var(--space-4);
+  }
+
+  .prose :global(ul), .prose :global(ol) {
+    margin-bottom: var(--space-4);
+    padding-left: var(--space-6);
+  }
+
+  .prose :global(li) {
+    margin-bottom: var(--space-2);
+  }
+
+  .prose :global(a) {
+    color: var(--color-primary);
+    text-decoration: underline;
+    transition: color var(--transition-fast);
+  }
+
+  .prose :global(a:hover) {
+    color: var(--color-primary-hover);
+  }
+
+  .prose :global(code) {
+    background-color: var(--color-neutral-100);
+    padding: 0.2em 0.4em;
+    border-radius: var(--radius-sm);
+    font-family: var(--font-mono);
+    font-size: 0.9em;
+  }
+
+  .prose :global(pre) {
+    background-color: var(--color-neutral-800);
+    color: var(--color-neutral-50);
+    padding: var(--space-4);
+    border-radius: var(--radius-lg);
+    overflow-x: auto;
+    margin-bottom: var(--space-4);
+  }
+
+  .prose :global(pre code) {
+    background-color: transparent;
+    padding: 0;
+    color: inherit;
+  }
+
+  .prose :global(blockquote) {
+    border-left: 4px solid var(--color-primary);
+    padding-left: var(--space-4);
+    margin: var(--space-6) 0;
+    font-style: italic;
+    color: var(--color-text-secondary);
+  }
+
+  .post-footer {
+    margin-top: var(--space-12);
+    padding-top: var(--space-8);
+    border-top: 2px solid var(--color-neutral-200);
+  }
+
+  .author-bio {
+    display: flex;
+    gap: var(--space-4);
+    padding: var(--space-6);
+    background: linear-gradient(135deg, rgba(249, 115, 22, 0.05) 0%, rgba(20, 184, 166, 0.05) 100%);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--color-neutral-200);
+  }
+
+  .bio-avatar {
+    border-radius: var(--radius-lg);
+    flex-shrink: 0;
+  }
+
+  .bio-content {
+    flex: 1;
+  }
+
+  .bio-name {
+    font-size: var(--text-xl);
+    font-weight: var(--font-bold);
+    margin-bottom: var(--space-2);
+  }
+
+  .bio-text {
+    color: var(--color-text-secondary);
+    line-height: var(--leading-relaxed);
+    margin-bottom: var(--space-3);
+  }
+
+  .bio-links {
+    display: flex;
+    gap: var(--space-3);
+  }
+
+  .bio-link {
+    color: var(--color-primary);
+    font-weight: var(--font-medium);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+  }
+
+  .bio-link:hover {
+    color: var(--color-primary-hover);
+    text-decoration: underline;
+  }
+
+  .back-to-blog {
+    margin-top: var(--space-8);
+    padding-top: var(--space-6);
+  }
+
+  .back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    color: var(--color-primary);
+    font-weight: var(--font-medium);
+    text-decoration: none;
+    transition: gap var(--transition-fast);
+  }
+
+  .back-link:hover {
+    gap: var(--space-3);
+  }
+
+  .back-link svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  @media (max-width: 968px) {
+    .post-title {
+      font-size: var(--text-4xl);
+    }
+
+    .prose {
+      font-size: var(--text-base);
+    }
+
+    .author-bio {
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .post-header {
+      padding: var(--space-6) 0;
+    }
+
+    .post-title {
+      font-size: var(--text-3xl);
+    }
+
+    .bio-links {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+</style>

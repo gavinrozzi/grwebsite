@@ -1,10 +1,25 @@
 ---
+import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import BlogCard from '../components/BlogCard.astro';
+
+const allPosts = await getCollection('blog', ({ data }) => {
+  return data.draft !== true;
+});
+
+const sortedPosts = allPosts.sort((a, b) => {
+  return b.data.date.getTime() - a.data.date.getTime();
+});
+
+const featuredPosts = sortedPosts.filter(post => post.data.featured);
+const regularPosts = sortedPosts.filter(post => !post.data.featured);
+
+const uniqueTags = [...new Set(allPosts.flatMap(post => post.data.tags))].sort();
 ---
 
 <BaseLayout
   title="Blog - Gavin Rozzi"
-  description="Thoughts on digital transformation, civic technology, data science, and public policy."
+  description="Insights on digital transformation, civic technology, data science, and public policy. Exploring open data, government modernization, and building platforms that serve the public."
 >
   <section class="page-hero">
     <div class="container">
@@ -12,15 +27,81 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       <p class="page-subtitle">
         Insights on digital transformation, civic technology, and data-driven policymaking
       </p>
+      <div class="blog-stats">
+        <span class="stat">{allPosts.length} articles</span>
+        <span class="stat-separator">•</span>
+        <span class="stat">{uniqueTags.length} topics</span>
+      </div>
     </div>
   </section>
 
-  <section class="content-section">
+  {featuredPosts.length > 0 && (
+    <section class="featured-section">
+      <div class="container">
+        <h2 class="section-title">Featured Articles</h2>
+        <div class="featured-grid">
+          {featuredPosts.map(post => (
+            <BlogCard
+              title={post.data.title}
+              summary={post.data.summary}
+              date={post.data.date}
+              slug={post.slug}
+              tags={post.data.tags}
+              image={post.data.image}
+              featured={true}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="posts-section">
     <div class="container">
-      <p class="coming-soon">
-        Blog migration from Hugo in progress. 40+ posts covering civic technology, open data, and public policy coming soon.
-        View the <a href="/#featured-work">featured projects</a> in the meantime.
-      </p>
+      <h2 class="section-title">All Articles</h2>
+      <div class="posts-grid">
+        {regularPosts.map(post => (
+          <BlogCard
+            title={post.data.title}
+            summary={post.data.summary}
+            date={post.data.date}
+            slug={post.slug}
+            tags={post.data.tags}
+            image={post.data.image}
+            featured={false}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="topics-section">
+    <div class="container">
+      <h2 class="section-title">Browse by Topic</h2>
+      <div class="topics-grid">
+        {uniqueTags.map(tag => (
+          <a href={`/blog?tag=${encodeURIComponent(tag)}`} class="topic-tag">
+            #{tag}
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="subscribe-section">
+    <div class="container">
+      <div class="subscribe-card">
+        <h2 class="subscribe-title">Stay Updated</h2>
+        <p class="subscribe-text">
+          Subscribe to the RSS feed to get notified when new articles are published.
+        </p>
+        <a href="/rss.xml" class="subscribe-btn" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20C5 20 4 19 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1z"/>
+          </svg>
+          Subscribe via RSS
+        </a>
+      </div>
     </div>
   </section>
 </BaseLayout>
@@ -42,22 +123,168 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     color: var(--color-text-secondary);
     max-width: 700px;
     margin: 0 auto;
+    margin-bottom: var(--space-4);
   }
 
-  .content-section {
+  .blog-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-3);
+    font-size: var(--text-sm);
+    color: var(--color-text-secondary);
+  }
+
+  .stat {
+    font-weight: var(--font-medium);
+  }
+
+  .stat-separator {
+    color: var(--color-neutral-400);
+  }
+
+  .featured-section,
+  .posts-section,
+  .topics-section {
     padding: var(--space-12) 0;
   }
 
-  .coming-soon {
+  .section-title {
+    font-size: var(--text-3xl);
+    font-weight: var(--font-bold);
+    margin-bottom: var(--space-8);
     text-align: center;
-    font-size: var(--text-lg);
-    color: var(--color-text-secondary);
-    max-width: 600px;
+  }
+
+  .featured-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: var(--space-6);
+  }
+
+  .posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: var(--space-6);
+  }
+
+  .topics-section {
+    background: linear-gradient(135deg, rgba(249, 115, 22, 0.03) 0%, rgba(20, 184, 166, 0.03) 100%);
+  }
+
+  .topics-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    justify-content: center;
+    max-width: 900px;
     margin: 0 auto;
   }
 
-  .coming-soon a {
-    color: var(--color-primary);
-    text-decoration: underline;
+  .topic-tag {
+    padding: var(--space-2) var(--space-4);
+    background-color: white;
+    border: 1px solid var(--color-neutral-300);
+    color: var(--color-text-primary);
+    border-radius: var(--radius-full);
+    font-size: var(--text-sm);
+    font-weight: var(--font-medium);
+    text-decoration: none;
+    transition: all var(--transition-fast);
+  }
+
+  .topic-tag:hover {
+    background: var(--gradient-primary);
+    color: white;
+    border-color: transparent;
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+  }
+
+  .subscribe-section {
+    padding: var(--space-12) 0;
+  }
+
+  .subscribe-card {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: var(--space-8);
+    background: linear-gradient(135deg, rgba(249, 115, 22, 0.05) 0%, rgba(20, 184, 166, 0.05) 100%);
+    border: 1px solid var(--color-neutral-200);
+    border-radius: var(--radius-xl);
+  }
+
+  .subscribe-title {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-bold);
+    margin-bottom: var(--space-3);
+  }
+
+  .subscribe-text {
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-6);
+    line-height: var(--leading-relaxed);
+  }
+
+  .subscribe-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-3) var(--space-6);
+    background: var(--gradient-primary);
+    color: white;
+    border-radius: var(--radius-lg);
+    font-weight: var(--font-bold);
+    text-decoration: none;
+    transition: all var(--transition-base);
+    box-shadow: var(--shadow-md);
+  }
+
+  .subscribe-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .subscribe-btn svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  @media (max-width: 968px) {
+    .featured-grid,
+    .posts-grid {
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+  }
+
+  @media (max-width: 640px) {
+    .page-hero {
+      padding: var(--space-8) 0 var(--space-6);
+    }
+
+    .page-title {
+      font-size: var(--text-4xl);
+    }
+
+    .page-subtitle {
+      font-size: var(--text-lg);
+    }
+
+    .featured-grid,
+    .posts-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .featured-section,
+    .posts-section,
+    .topics-section,
+    .subscribe-section {
+      padding: var(--space-8) 0;
+    }
+
+    .subscribe-card {
+      padding: var(--space-6);
+    }
   }
 </style>

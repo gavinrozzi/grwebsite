@@ -23,11 +23,31 @@
             }
           ]
         },
+        "updated": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "integer",
+              "format": "unix-time"
+            }
+          ]
+        },
         "summary": {
           "type": "string"
         },
         "description": {
           "type": "string"
+        },
+        "author": {
+          "type": "string",
+          "default": "Gavin Rozzi"
         },
         "image": {
           "type": "object",
@@ -39,6 +59,10 @@
               "type": "string"
             }
           },
+          "required": [
+            "url",
+            "alt"
+          ],
           "additionalProperties": false
         },
         "tags": {
@@ -47,6 +71,9 @@
             "type": "string"
           },
           "default": []
+        },
+        "category": {
+          "type": "string"
         },
         "draft": {
           "type": "boolean",
@@ -62,7 +89,8 @@
       },
       "required": [
         "title",
-        "date"
+        "date",
+        "summary"
       ],
       "additionalProperties": false
     }
