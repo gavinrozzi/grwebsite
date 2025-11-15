@@ -1,35 +1,51 @@
 ---
+/**
+ * Featured Projects Component
+ *
+ * Displays a curated selection of portfolio projects on the homepage.
+ * Each featured project links directly to its corresponding portfolio detail page.
+ *
+ * Integration Notes:
+ * - Project slugs must match the filename in src/content/portfolio/
+ * - External links are shown as secondary actions
+ * - Clicking "View Project" navigates to the full portfolio entry
+ */
+
 const featuredProjects = [
   {
     title: 'NJ Eviction Guide',
+    slug: 'nj-eviction-guide', // Links to /portfolio/nj-eviction-guide
     category: 'Government Impact',
     description: 'Interactive self-help tool connecting New Jersey\'s most vulnerable residents directly to housing assistance and legal resources.',
     impact: 'Empowering residents to navigate the eviction process',
-    link: 'https://evictionguide.nj.gov',
+    externalLink: 'https://evictionguide.nj.gov',
     tags: ['React', 'TypeScript', 'Public Service'],
   },
   {
     title: 'Municipal Lead Reporting Portal',
+    slug: 'municipal-lead-portal', // Links to /portfolio/municipal-lead-portal
     category: 'Government Compliance',
     description: 'Statewide compliance platform capturing residential lead-paint inspection data for all 564 New Jersey municipalities.',
     impact: 'Operationalized NJ\'s Lead Paint Inspection Law',
-    link: 'https://www.nj.gov/dca/dhcr/MuniLeadReportPort.shtml',
+    externalLink: 'https://www.nj.gov/dca/dhcr/MuniLeadReportPort.shtml',
     tags: ['Data Collection', 'Compliance', 'GIS'],
   },
   {
     title: 'OPRAmachine',
+    slug: 'opramachine', // Links to /portfolio/opramachine
     category: 'Civic Technology',
     description: 'New Jersey\'s first statewide freedom of information platform, processing 75,000+ public records requests and releasing 250GB of open data.',
     impact: 'Transforming government transparency in NJ',
-    link: 'https://opramachine.com',
+    externalLink: 'https://opramachine.com',
     tags: ['Ruby on Rails', 'Open Data', 'Transparency'],
   },
   {
     title: 'zipcodeR',
+    slug: 'zipcoder', // Links to /portfolio/zipcoder
     category: 'Open Source',
     description: 'R package for working with ZIP code data, published in Software Impacts journal and available on CRAN.',
     impact: 'Used by researchers nationwide',
-    link: 'https://github.com/gavinrozzi/zipcodeR',
+    externalLink: 'https://github.com/gavinrozzi/zipcodeR',
     tags: ['R', 'Open Source', 'Research'],
   },
 ];
@@ -46,7 +62,7 @@ const featuredProjects = [
 
     <div class="projects-grid">
       {featuredProjects.map((project) => (
-        <article class="project-card">
+        <article class="project-card" data-project-slug={project.slug}>
           <div class="project-category">{project.category}</div>
           <h3 class="project-title">{project.title}</h3>
           <p class="project-description">{project.description}</p>
@@ -59,14 +75,26 @@ const featuredProjects = [
               <span class="tag">{tag}</span>
             ))}
           </div>
-          <a
-            href={project.link}
-            class="project-link"
-            target={project.link.startsWith('http') ? '_blank' : undefined}
-            rel={project.link.startsWith('http') ? 'noopener noreferrer' : undefined}
-          >
-            View Project →
-          </a>
+          <div class="project-actions">
+            <a
+              href={`/portfolio/${project.slug}`}
+              class="project-link primary"
+              data-portfolio-link
+            >
+              View Project →
+            </a>
+            {project.externalLink && (
+              <a
+                href={project.externalLink}
+                class="project-link secondary"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Visit live site"
+              >
+                🌐
+              </a>
+            )}
+          </div>
         </article>
       ))}
     </div>
@@ -189,19 +217,42 @@ const featuredProjects = [
     font-weight: var(--font-medium);
   }
 
-  .project-link {
-    display: inline-flex;
+  /* Updated actions layout to accommodate both links */
+  .project-actions {
+    display: flex;
     align-items: center;
-    color: var(--color-primary);
-    font-weight: var(--font-medium);
-    text-decoration: none;
-    transition: all var(--transition-fast);
+    justify-content: space-between;
+    gap: var(--space-3);
     margin-top: auto;
   }
 
-  .project-link:hover {
+  .project-link {
+    display: inline-flex;
+    align-items: center;
+    font-weight: var(--font-medium);
+    text-decoration: none;
+    transition: all var(--transition-fast);
+  }
+
+  .project-link.primary {
+    color: var(--color-primary);
+    flex-grow: 1;
+  }
+
+  .project-link.primary:hover {
     gap: var(--space-1);
     color: var(--color-primary-hover);
+  }
+
+  .project-link.secondary {
+    font-size: var(--text-xl);
+    color: var(--color-text-secondary);
+    transition: all var(--transition-fast);
+  }
+
+  .project-link.secondary:hover {
+    color: var(--color-primary);
+    transform: scale(1.2);
   }
 
   .cta-section {
