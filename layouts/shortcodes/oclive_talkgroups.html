@@ -1,6 +1,0 @@
-<ul>
-{{ $oclivetalkgroups := getJSON "https://ocradio.live/api_v1/talkgroups/?format=json&page=4" }}
-{{range $oclivetalkgroups.results}}
-<li><a href="https://ocradio.live/tg/{{ .slug }}/">{{ .alpha_tag }}</a></li>
-{{ end }}
-</ul>

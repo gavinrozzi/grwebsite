@@ -1,6 +1,0 @@
-<ul>
-{{ $oclivetalkgroupsp25 := getJSON "https://ocradio.live/api_v1/scan/ocean-county-p25/" }}
-{{range first 10 $oclivetalkgroupsp25.results}}
-<li><a href="https://ocradio.live/tg/{{ .talkgroup_info.slug }}/">{{ .talkgroup_info.alpha_tag }}</a></li>
-{{ end }}
-</ul>

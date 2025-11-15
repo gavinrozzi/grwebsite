@@ -1,6 +1,0 @@
-<ul>
-{{ $oclivescanlists := getJSON "https://ocradio.live/api_v1/scanlist/?format=json" }}
-{{range $oclivescanlists.results}}
-<li><a href="https://ocradio.live/scan/{{ .slug }}/">{{ .name }}</a></li>
-{{ end }}
-</ul>

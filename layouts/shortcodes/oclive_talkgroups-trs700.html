@@ -1,6 +1,0 @@
-<ul>
-{{ $oclivetalkgroupsnjics := getJSON "https://ocradio.live/api_v1/scan/nj-interoperability-com-sys/" }}
-{{range first 10 $oclivetalkgroupsnjics.results}}
-<li><a href="https://ocradio.live/tg/{{ .talkgroup_info.slug }}/">{{ .talkgroup_info.alpha_tag }}</a></li>
-{{ end }}
-</ul>
