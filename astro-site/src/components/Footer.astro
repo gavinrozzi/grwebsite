@@ -1,0 +1,241 @@
+---
+const currentYear = new Date().getFullYear();
+
+const socialLinks = [
+  { name: 'GitHub', url: 'https://github.com/gavinrozzi', icon: 'github' },
+  { name: 'LinkedIn', url: 'https://www.linkedin.com/in/gavin-rozzi/', icon: 'linkedin' },
+  { name: 'Google Scholar', url: 'https://scholar.google.com/citations?user=slj82AIAAAAJ', icon: 'scholar' },
+  { name: 'Twitter/X', url: 'https://x.com/gavroz', icon: 'twitter' },
+];
+
+const footerLinks = [
+  { name: 'Portfolio', path: '/portfolio' },
+  { name: 'Blog', path: '/blog' },
+  { name: 'Publications', path: '/publications' },
+  { name: 'Media & Speaking', path: '/media' },
+  { name: 'Contact', path: '/contact' },
+];
+---
+
+<footer class="footer">
+  <div class="footer-content container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <h3 class="footer-title">Gavin Rozzi</h3>
+        <p class="footer-description">
+          Digital Transformation & Civic Technology Executive building data-driven platforms that turn policy into impact.
+        </p>
+        <div class="social-links">
+          {socialLinks.map((link) => (
+            <a
+              href={link.url}
+              class="social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={link.name}
+            >
+              <span class="social-icon" data-icon={link.icon}></span>
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <h4 class="footer-links-title">Quick Links</h4>
+        <ul class="footer-nav">
+          {footerLinks.map((link) => (
+            <li>
+              <a href={link.path} class="footer-link">
+                {link.name}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4 class="footer-links-title">Get in Touch</h4>
+        <p class="contact-info">
+          <a href="mailto:gr@gavinrozzi.com" class="footer-link">gr@gavinrozzi.com</a>
+        </p>
+        <p class="contact-info">
+          <a href="tel:+16094473555" class="footer-link">(609) 447-3555</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="copyright">
+        © {currentYear} Gavin Rozzi. Licensed under{' '}
+        <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener noreferrer" class="license-link">
+          CC BY-NC-ND 4.0
+        </a>
+      </p>
+      <p class="disclaimer">
+        Views expressed on this website are personal and do not represent those of my employers or organizations of which I am a part.
+      </p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    background-color: var(--color-neutral-800);
+    color: var(--color-neutral-50);
+    padding: var(--space-12) 0 var(--space-6);
+    margin-top: var(--space-16);
+  }
+
+  .footer-content {
+    max-width: var(--container-width);
+  }
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: var(--space-8);
+    margin-bottom: var(--space-8);
+  }
+
+  .footer-title {
+    font-family: var(--font-heading);
+    font-size: var(--text-xl);
+    font-weight: var(--font-bold);
+    color: var(--color-primary);
+    margin-bottom: var(--space-3);
+  }
+
+  .footer-description {
+    color: var(--color-neutral-300);
+    margin-bottom: var(--space-4);
+    line-height: var(--leading-relaxed);
+  }
+
+  .social-links {
+    display: flex;
+    gap: var(--space-2);
+  }
+
+  .social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius-md);
+    color: var(--color-neutral-50);
+    transition: all var(--transition-fast);
+  }
+
+  .social-link:hover {
+    background-color: var(--color-primary);
+    transform: translateY(-2px);
+  }
+
+  .social-icon {
+    width: 20px;
+    height: 20px;
+    display: block;
+  }
+
+  .social-icon[data-icon="github"]::before {
+    content: 'GH';
+  }
+
+  .social-icon[data-icon="linkedin"]::before {
+    content: 'in';
+  }
+
+  .social-icon[data-icon="scholar"]::before {
+    content: 'GS';
+  }
+
+  .social-icon[data-icon="twitter"]::before {
+    content: '𝕏';
+  }
+
+  .footer-links-title {
+    font-family: var(--font-heading);
+    font-size: var(--text-base);
+    font-weight: var(--font-bold);
+    color: var(--color-neutral-50);
+    margin-bottom: var(--space-3);
+  }
+
+  .footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-nav li {
+    margin-bottom: var(--space-2);
+  }
+
+  .footer-link {
+    color: var(--color-neutral-300);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+    font-size: var(--text-sm);
+  }
+
+  .footer-link:hover {
+    color: var(--color-primary);
+  }
+
+  .contact-info {
+    margin-bottom: var(--space-2);
+    color: var(--color-neutral-300);
+    font-size: var(--text-sm);
+  }
+
+  .footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: var(--space-6);
+    text-align: center;
+  }
+
+  .copyright,
+  .disclaimer {
+    color: var(--color-neutral-400);
+    font-size: var(--text-sm);
+    margin-bottom: var(--space-2);
+  }
+
+  .license-link {
+    color: var(--color-neutral-300);
+    text-decoration: underline;
+  }
+
+  .license-link:hover {
+    color: var(--color-primary);
+  }
+
+  @media (max-width: 968px) {
+    .footer-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-6);
+    }
+
+    .footer-about {
+      grid-column: 1 / -1;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .footer {
+      padding: var(--space-8) 0 var(--space-4);
+      margin-top: var(--space-12);
+    }
+
+    .footer-grid {
+      grid-template-columns: 1fr;
+      gap: var(--space-6);
+    }
+
+    .footer-about {
+      grid-column: auto;
+    }
+  }
+</style>

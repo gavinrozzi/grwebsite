@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Media & Speaking - Gavin Rozzi"
+  description="Conference talks, interviews, press mentions, and media appearances discussing civic technology and digital transformation."
+>
+  <section class="page-hero">
+    <div class="container">
+      <h1 class="page-title">Media & Speaking</h1>
+      <p class="page-subtitle">
+        Talks, interviews, and press coverage on civic technology and digital innovation
+      </p>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="container">
+      <p class="coming-soon">
+        Media & Speaking page coming soon. This will include conference talks, podcast interviews, press mentions, and other media appearances.
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-hero {
+    padding: var(--space-12) 0 var(--space-8);
+    text-align: center;
+    background: linear-gradient(135deg, rgba(249, 115, 22, 0.05) 0%, rgba(20, 184, 166, 0.05) 100%);
+  }
+
+  .page-title {
+    font-size: var(--text-5xl);
+    margin-bottom: var(--space-3);
+  }
+
+  .page-subtitle {
+    font-size: var(--text-xl);
+    color: var(--color-text-secondary);
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .content-section {
+    padding: var(--space-12) 0;
+  }
+
+  .coming-soon {
+    text-align: center;
+    font-size: var(--text-lg);
+    color: var(--color-text-secondary);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+</style>
