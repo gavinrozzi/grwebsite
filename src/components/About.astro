@@ -22,17 +22,18 @@
             strategic technology integration that makes government services more responsive and citizen-focused.
           </p>
           <p>
-            Before joining government, I founded <strong>OPRAmachine</strong>, New Jersey's first statewide freedom of
+            Before joining government, I founded <a href="/portfolio/opramachine" class="project-link"><strong>OPRAmachine</strong></a>, New Jersey's first statewide freedom of
             information platform, which has processed over 75,000 public records requests and released 250GB of government
-            data. I've also published open-source tools used by researchers nationwide, including <strong>zipcodeR</strong>,
+            data. I've also published open-source tools used by researchers nationwide, including <a href="/portfolio/zipcoder" class="project-link"><strong>zipcodeR</strong></a>,
             an R package available on CRAN.
           </p>
           <p>
             I hold an M.S. in Data Science & Strategic Analytics and a B.A. in Political Science from Stockton University,
-            where I graduated with a 4.0 and 3.9 GPA respectively. Currently a candidate for the <strong>Certified Public
-            Manager Program</strong>, I bring comprehensive knowledge of public sector operations with particular expertise
-            in New Jersey's governmental landscape. My work has been recognized with the Governor's Team of Excellence
-            Award and first place in the NJ DEP GIS Mapping Contest.
+            where I graduated with a 4.0 and 3.9 GPA respectively. I am currently a candidate for the <strong>Certified Public
+            Manager (CPM) Program</strong>, which I began in October 2025 and am on track to complete in September 2026.
+            This comprehensive professional development program demonstrates my commitment to excellence in public sector
+            leadership and deepens my expertise in New Jersey's governmental landscape. My work has been recognized with
+            the Governor's Team of Excellence Award and first place in the NJ DEP GIS Mapping Contest.
           </p>
         </div>
       </div>
@@ -121,6 +122,20 @@
   .about-text strong {
     color: var(--color-primary);
     font-weight: var(--font-bold);
+  }
+
+  .about-text .project-link {
+    text-decoration: none;
+    transition: opacity var(--transition-fast);
+  }
+
+  .about-text .project-link:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+  }
+
+  .about-text .project-link strong {
+    color: var(--color-primary);
   }
 
   .about-sidebar {

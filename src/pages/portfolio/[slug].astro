@@ -1,0 +1,338 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const portfolioEntries = await getCollection('portfolio');
+  return portfolioEntries.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+interface Props {
+  entry: CollectionEntry<'portfolio'>;
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+
+const categoryLabels = {
+  'government': 'Government',
+  'civic-tech': 'Civic Technology',
+  'open-source': 'Open Source',
+  'research': 'Research',
+};
+---
+
+<BaseLayout
+  title={`${entry.data.title} - Portfolio - Gavin Rozzi`}
+  description={entry.data.summary}
+>
+  <article class="portfolio-detail">
+    <header class="portfolio-header">
+      <div class="container">
+        <div class="breadcrumb">
+          <a href="/">Home</a>
+          <span class="separator">→</span>
+          <a href="/portfolio">Portfolio</a>
+          <span class="separator">→</span>
+          <span class="current">{entry.data.title}</span>
+        </div>
+
+        <h1 class="portfolio-title">{entry.data.title}</h1>
+        <p class="portfolio-summary">{entry.data.summary}</p>
+
+        <div class="portfolio-meta">
+          <span class="category">{categoryLabels[entry.data.category]}</span>
+          <time class="date" datetime={entry.data.date.toISOString()}>
+            {entry.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long' })}
+          </time>
+        </div>
+
+        {entry.data.metrics && entry.data.metrics.length > 0 && (
+          <div class="metrics">
+            {entry.data.metrics.map((metric) => (
+              <div class="metric">
+                <div class="metric-value">{metric.value}</div>
+                <div class="metric-label">{metric.label}</div>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {entry.data.links && (
+          <div class="project-links">
+            {entry.data.links.website && (
+              <a href={entry.data.links.website} target="_blank" rel="noopener noreferrer" class="project-link">
+                🌐 Visit Website
+              </a>
+            )}
+            {entry.data.links.github && (
+              <a href={entry.data.links.github} target="_blank" rel="noopener noreferrer" class="project-link">
+                💻 View on GitHub
+              </a>
+            )}
+            {entry.data.links.documentation && (
+              <a href={entry.data.links.documentation} target="_blank" rel="noopener noreferrer" class="project-link">
+                📖 Documentation
+              </a>
+            )}
+          </div>
+        )}
+      </div>
+    </header>
+
+    <section class="portfolio-content">
+      <div class="container">
+        <div class="content-wrapper">
+          <Content />
+        </div>
+
+        {entry.data.tags && entry.data.tags.length > 0 && (
+          <div class="tags">
+            {entry.data.tags.map((tag) => (
+              <span class="tag">{tag}</span>
+            ))}
+          </div>
+        )}
+      </div>
+    </section>
+
+    <section class="back-section">
+      <div class="container">
+        <a href="/portfolio" class="back-link">← Back to Portfolio</a>
+      </div>
+    </section>
+  </article>
+</BaseLayout>
+
+<style>
+  .portfolio-detail {
+    min-height: 100vh;
+  }
+
+  .portfolio-header {
+    padding: var(--space-8) 0 var(--space-6);
+    background: linear-gradient(135deg, rgba(249, 115, 22, 0.05) 0%, rgba(20, 184, 166, 0.05) 100%);
+    border-bottom: 1px solid var(--color-neutral-200);
+  }
+
+  .breadcrumb {
+    font-size: var(--text-sm);
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-4);
+  }
+
+  .breadcrumb a {
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+
+  .breadcrumb a:hover {
+    text-decoration: underline;
+  }
+
+  .breadcrumb .separator {
+    margin: 0 var(--space-2);
+    opacity: 0.5;
+  }
+
+  .breadcrumb .current {
+    color: var(--color-text-primary);
+  }
+
+  .portfolio-title {
+    font-size: var(--text-5xl);
+    margin-bottom: var(--space-3);
+    color: var(--color-text-primary);
+  }
+
+  .portfolio-summary {
+    font-size: var(--text-xl);
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-4);
+    line-height: var(--leading-relaxed);
+    max-width: 800px;
+  }
+
+  .portfolio-meta {
+    display: flex;
+    gap: var(--space-4);
+    align-items: center;
+    margin-bottom: var(--space-6);
+  }
+
+  .category {
+    display: inline-block;
+    padding: var(--space-1) var(--space-3);
+    background-color: var(--color-primary);
+    color: white;
+    border-radius: var(--radius-full);
+    font-size: var(--text-sm);
+    font-weight: var(--font-semibold);
+  }
+
+  .date {
+    color: var(--color-text-secondary);
+    font-size: var(--text-sm);
+  }
+
+  .metrics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: var(--space-4);
+    margin-bottom: var(--space-6);
+  }
+
+  .metric {
+    background-color: white;
+    padding: var(--space-4);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--color-neutral-200);
+    text-align: center;
+  }
+
+  .metric-value {
+    font-size: var(--text-3xl);
+    font-weight: var(--font-bold);
+    color: var(--color-primary);
+    margin-bottom: var(--space-1);
+  }
+
+  .metric-label {
+    font-size: var(--text-sm);
+    color: var(--color-text-secondary);
+  }
+
+  .project-links {
+    display: flex;
+    gap: var(--space-3);
+    flex-wrap: wrap;
+  }
+
+  .project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-2) var(--space-4);
+    background-color: white;
+    color: var(--color-primary);
+    text-decoration: none;
+    border: 2px solid var(--color-primary);
+    border-radius: var(--radius-md);
+    font-weight: var(--font-semibold);
+    transition: all var(--transition-fast);
+  }
+
+  .project-link:hover {
+    background-color: var(--color-primary);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+  }
+
+  .portfolio-content {
+    padding: var(--space-12) 0;
+  }
+
+  .content-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .content-wrapper :global(h2) {
+    font-size: var(--text-3xl);
+    margin-top: var(--space-8);
+    margin-bottom: var(--space-4);
+    color: var(--color-text-primary);
+  }
+
+  .content-wrapper :global(h3) {
+    font-size: var(--text-2xl);
+    margin-top: var(--space-6);
+    margin-bottom: var(--space-3);
+    color: var(--color-text-primary);
+  }
+
+  .content-wrapper :global(p) {
+    margin-bottom: var(--space-4);
+    line-height: var(--leading-relaxed);
+    color: var(--color-text-secondary);
+  }
+
+  .content-wrapper :global(ul) {
+    margin-bottom: var(--space-4);
+    padding-left: var(--space-6);
+  }
+
+  .content-wrapper :global(li) {
+    margin-bottom: var(--space-2);
+    line-height: var(--leading-relaxed);
+    color: var(--color-text-secondary);
+  }
+
+  .content-wrapper :global(strong) {
+    color: var(--color-text-primary);
+    font-weight: var(--font-bold);
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    margin-top: var(--space-8);
+    padding-top: var(--space-6);
+    border-top: 1px solid var(--color-neutral-200);
+  }
+
+  .tag {
+    padding: var(--space-1) var(--space-3);
+    background-color: var(--color-neutral-100);
+    color: var(--color-text-secondary);
+    border-radius: var(--radius-full);
+    font-size: var(--text-sm);
+  }
+
+  .back-section {
+    padding: var(--space-8) 0;
+    border-top: 1px solid var(--color-neutral-200);
+  }
+
+  .back-link {
+    display: inline-flex;
+    align-items: center;
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: var(--font-semibold);
+    transition: transform var(--transition-fast);
+  }
+
+  .back-link:hover {
+    transform: translateX(-4px);
+    text-decoration: underline;
+  }
+
+  @media (max-width: 640px) {
+    .portfolio-title {
+      font-size: var(--text-3xl);
+    }
+
+    .portfolio-summary {
+      font-size: var(--text-lg);
+    }
+
+    .metrics {
+      grid-template-columns: 1fr;
+    }
+
+    .project-links {
+      flex-direction: column;
+    }
+
+    .project-link {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+</style>

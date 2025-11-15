@@ -121,3 +121,111 @@ Added Certified Public Manager credential with context:
 **Update Date:** November 15, 2025
 **Status:** ✅ Complete and Deployed
 **Build Status:** ✅ Passing
+
+---
+
+## Update 2: Project Links & Enhanced CPM Details
+
+### Changes Made
+
+#### 1. Project Name Anchor Links ✅
+
+**OPRAmachine**
+- **Before:** Plain bold text with no link
+- **After:** Clickable anchor link → `/portfolio/opramachine`
+
+**zipcodeR**
+- **Before:** Plain bold text with no link  
+- **After:** Clickable anchor link → `/portfolio/zipcoder`
+
+**Visual Style:**
+- Orange-bolded text maintained (using primary color)
+- Hover effect: Slight opacity change + underline
+- Links open portfolio detail pages with full project information
+
+#### 2. Enhanced CPM Candidacy Details ✅
+
+**Updated Text:**
+> "I am currently a candidate for the **Certified Public Manager (CPM) Program**, which I began in October 2025 and am on track to complete in September 2026. This comprehensive professional development program demonstrates my commitment to excellence in public sector leadership and deepens my expertise in New Jersey's governmental landscape."
+
+**Key Additions:**
+- ✅ Start date: October 2025
+- ✅ Expected completion: September 2026
+- ✅ Framing as professional development commitment
+- ✅ Connection to public sector leadership excellence
+- ✅ Tie-in to NJ governmental expertise
+
+#### 3. Portfolio Content Created ✅
+
+**New Portfolio Pages:**
+
+**OPRAmachine** (`/portfolio/opramachine`)
+- Full project overview and impact
+- Metrics: 75,000+ requests, 250GB data, 565 agencies
+- Links to website and GitHub
+- Category: Civic Technology
+- Tags: civic tech, government transparency, public records, OPRA, open data
+
+**zipcodeR** (`/portfolio/zipcoder`)
+- Comprehensive package description
+- Metrics: 10,000+ monthly downloads, 50+ GitHub stars
+- Links to CRAN, GitHub, and documentation
+- Category: Open Source
+- Tags: R, open source, geospatial, data science, CRAN
+
+**Portfolio Page Template:**
+- Dynamic routing with [slug].astro
+- Breadcrumb navigation
+- Metrics display
+- External links (website, GitHub, documentation)
+- Full markdown content rendering
+- Tags and categorization
+- Responsive design with mobile optimization
+
+---
+
+## Technical Details
+
+### Files Modified
+1. `src/components/About.astro`
+   - Added anchor links to OPRAmachine and zipcodeR
+   - Enhanced CPM candidacy with timeline details
+   - Added CSS for project link hover effects
+
+### Files Created
+1. `src/content/portfolio/opramachine.md`
+   - Complete project documentation
+   - Metrics and impact data
+   - External links and metadata
+
+2. `src/content/portfolio/zipcoder.md`
+   - Package documentation
+   - Usage statistics
+   - Links to CRAN, GitHub, and docs
+
+3. `src/pages/portfolio/[slug].astro`
+   - Dynamic portfolio detail page template
+   - Breadcrumb navigation
+   - Metrics visualization
+   - Responsive design
+   - Full markdown content rendering
+
+### Build Results
+- ✅ **Pages Generated:** 8 (6 original + 2 portfolio pages)
+- ✅ **Build Status:** Successful (0 errors, 0 warnings)
+- ✅ **Portfolio Links:** Working and accessible
+- ✅ **Content Rendering:** Markdown properly formatted
+- ✅ **Responsive Design:** Mobile-friendly layouts
+
+### URL Structure
+- Homepage: `/` (contains project links)
+- Portfolio index: `/portfolio`
+- OPRAmachine detail: `/portfolio/opramachine`
+- zipcodeR detail: `/portfolio/zipcoder`
+
+---
+
+**Update 2 Date:** November 15, 2025
+**Status:** ✅ Complete and Deployed
+**Build Status:** ✅ Passing (8 pages)
+**Links:** ✅ Functional with full portfolio pages
