@@ -135,22 +135,18 @@ const footerLinks = [
     display: flex;
     align-items: center;
     justify-content: center;
-    background: white;
-    padding: 4px;
+    background: linear-gradient(135deg, #f97316 0%, #14b8a6 100%);
+    padding: 3px;
+    box-shadow: var(--shadow-md);
   }
 
-  .monogram-badge::before {
+  .monogram-badge::after {
     content: '';
     position: absolute;
-    inset: 0;
+    inset: 3px;
     border-radius: 50%;
-    padding: 3px;
-    background: linear-gradient(135deg, #f97316 0%, #14b8a6 100%);
-    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-    -webkit-mask-composite: xor;
-    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-    mask-composite: exclude;
-    box-shadow: var(--shadow-md);
+    background: var(--color-neutral-800);
+    z-index: 0;
   }
 
   .monogram-letters {
