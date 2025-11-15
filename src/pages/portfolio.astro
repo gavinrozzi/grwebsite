@@ -473,9 +473,16 @@ const categoryLabels = {
     }
 
     .filter-btn {
-      flex: 1;
+      /* Allow buttons to grow but prevent text overflow */
+      flex: 1 1 auto;
       justify-content: center;
-      min-width: 0;
+      min-width: 0; /* Allow flexbox to shrink below content size */
+      max-width: 100%; /* Prevent overflow beyond container */
+
+      /* Handle text overflow gracefully */
+      white-space: nowrap; /* Keep text on single line */
+      overflow: hidden; /* Hide overflowing text */
+      text-overflow: ellipsis; /* Add ellipsis for truncated text */
     }
 
     .portfolio-grid {
@@ -496,6 +503,15 @@ const categoryLabels = {
     .filter-btn {
       font-size: var(--text-xs);
       padding: var(--space-1) var(--space-3);
+
+      /* Ensure adequate touch target size (min 44x44px for accessibility) */
+      min-height: 44px;
+    }
+
+    .filter-btn .count {
+      /* Reduce count opacity on very small screens to emphasize label */
+      opacity: 0.7;
+      font-size: 0.65rem; /* Slightly smaller than xs on mobile */
     }
 
     .portfolio-card {
@@ -504,6 +520,18 @@ const categoryLabels = {
 
     .project-title {
       font-size: var(--text-xl);
+    }
+  }
+
+  /* Additional breakpoint for very small devices (320px) */
+  @media (max-width: 375px) {
+    .filter-btn {
+      /* On very small screens, allow wrapping for better readability */
+      white-space: normal;
+      word-break: break-word; /* Break long words if necessary */
+      text-align: center;
+      line-height: 1.3; /* Tighter line height for wrapped text */
+      padding: var(--space-2) var(--space-2);
     }
   }
 </style>
