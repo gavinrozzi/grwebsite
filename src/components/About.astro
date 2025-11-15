@@ -97,6 +97,20 @@
         </div>
       </div>
     </div>
+
+    <div class="about-image">
+      <div class="presentation-frame">
+        <img
+          src="/images/profile/presentation.jpg"
+          alt="Gavin Rozzi delivering a presentation"
+          class="presentation-photo"
+          width="380"
+          height="570"
+          loading="lazy"
+        />
+        <div class="image-caption">Leading civic technology initiatives</div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -124,8 +138,9 @@
 
   .about-grid {
     display: grid;
-    grid-template-columns: 1fr 400px;
+    grid-template-columns: 1fr 380px 400px;
     gap: var(--space-8);
+    align-items: start;
   }
 
   .about-text p {
@@ -150,6 +165,42 @@
 
   .about-text .project-link strong {
     color: var(--color-primary);
+  }
+
+  .about-image {
+    position: sticky;
+    top: calc(var(--space-20) + var(--space-4));
+  }
+
+  .presentation-frame {
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+    transition: transform var(--transition-base), box-shadow var(--transition-base);
+    background: linear-gradient(135deg, rgba(249, 115, 22, 0.05) 0%, rgba(20, 184, 166, 0.05) 100%);
+    border: 1px solid var(--color-neutral-200);
+  }
+
+  .presentation-frame:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  }
+
+  .presentation-photo {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    background-color: var(--color-neutral-100);
+  }
+
+  .image-caption {
+    padding: var(--space-3);
+    text-align: center;
+    font-size: var(--text-sm);
+    color: var(--color-text-secondary);
+    font-style: italic;
+    background: white;
   }
 
   .about-sidebar {
@@ -236,9 +287,32 @@
     margin-right: var(--space-2);
   }
 
+  @media (max-width: 1200px) {
+    .about-grid {
+      grid-template-columns: 1fr 320px;
+      gap: var(--space-6);
+    }
+
+    .about-image {
+      position: static;
+      grid-column: 2;
+      grid-row: 1 / span 2;
+    }
+
+    .about-sidebar {
+      grid-column: 2;
+    }
+  }
+
   @media (max-width: 968px) {
     .about-grid {
       grid-template-columns: 1fr;
+    }
+
+    .about-image {
+      order: -1;
+      max-width: 400px;
+      margin: 0 auto;
     }
 
     .about-sidebar {
