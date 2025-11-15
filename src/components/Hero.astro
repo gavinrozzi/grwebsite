@@ -33,6 +33,7 @@
 
         <div class="impact-diagram">
           <div class="impact-stage">
+            <div class="stage-icon">📋</div>
             <h3 class="stage-title">Policy Challenge</h3>
             <p class="stage-description">Complex government mandates requiring technical implementation</p>
           </div>
@@ -50,6 +51,7 @@
           </div>
 
           <div class="impact-stage">
+            <div class="stage-icon">⚙️</div>
             <h3 class="stage-title">Technical Solution</h3>
             <p class="stage-description">Modern frameworks and data infrastructure built for scale</p>
           </div>
@@ -67,8 +69,9 @@
           </div>
 
           <div class="impact-stage">
+            <div class="stage-icon">📊</div>
             <h3 class="stage-title">Measurable Impact</h3>
-            <p class="stage-description">75K+ requests, 564 municipalities, 250GB open data released</p>
+            <p class="stage-description">Built-in analytics and performance tracking from day one, ensuring every platform delivers actionable insights that drive continuous improvement and demonstrate real-world value to stakeholders</p>
           </div>
         </div>
       </div>
@@ -278,6 +281,11 @@
     text-align: center;
   }
 
+  .stage-icon {
+    font-size: var(--text-4xl);
+    margin-bottom: var(--space-2);
+  }
+
   .stage-title {
     font-size: var(--text-lg);
     font-weight: var(--font-bold);
@@ -459,6 +467,11 @@
   }
 
   @media (max-width: 640px) {
+    .stage-icon {
+      font-size: var(--text-3xl);
+      margin-bottom: var(--space-1);
+    }
+
     .expertise-headline {
       font-size: var(--text-xl);
     }
