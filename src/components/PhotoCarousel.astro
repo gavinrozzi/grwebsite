@@ -1,0 +1,658 @@
+---
+import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
+
+const photos = await getCollection('photos');
+const sortedPhotos = photos.sort((a, b) => a.data.order - b.data.order);
+---
+
+<div class="photo-carousel-wrapper">
+  <div class="photo-carousel">
+    <button class="carousel-nav carousel-nav-prev" aria-label="Previous photo">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+
+    <div class="carousel-main">
+      <div class="carousel-track">
+        {sortedPhotos.map((photo, index) => (
+          <div class="carousel-slide" data-index={index}>
+            <div class="slide-image-wrapper">
+              <img
+                src={photo.data.image}
+                alt={photo.data.alt}
+                class="slide-image"
+                loading={index === 0 ? 'eager' : 'lazy'}
+              />
+              <button class="image-expand" aria-label="View full size">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M15 3H21V9M9 21H3V15M21 3L14 10M3 21L10 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+            </div>
+            <div class="slide-caption">
+              <div class="caption-content">
+                <h3 class="caption-title">{photo.data.title}</h3>
+                {photo.data.event && <p class="caption-event">{photo.data.event}</p>}
+                <p class="caption-text">{photo.data.caption}</p>
+                {photo.data.location && (
+                  <p class="caption-meta">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M21 10C21 17 12 23 12 23C12 23 3 17 3 10C3 7.61305 3.94821 5.32387 5.63604 3.63604C7.32387 1.94821 9.61305 1 12 1C14.3869 1 16.6761 1.94821 18.364 3.63604C20.0518 5.32387 21 7.61305 21 10Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    {photo.data.location}
+                  </p>
+                )}
+                <p class="caption-date">
+                  {new Date(photo.data.date).toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                  })}
+                </p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <button class="carousel-nav carousel-nav-next" aria-label="Next photo">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+
+    <div class="carousel-indicators">
+      {sortedPhotos.map((_, index) => (
+        <button
+          class={`indicator ${index === 0 ? 'active' : ''}`}
+          aria-label={`Go to photo ${index + 1}`}
+          data-index={index}
+        />
+      ))}
+    </div>
+  </div>
+
+  <div class="carousel-thumbnails">
+    {sortedPhotos.map((photo, index) => (
+      <button
+        class={`thumbnail ${index === 0 ? 'active' : ''}`}
+        data-index={index}
+        aria-label={`View ${photo.data.title}`}
+      >
+        <img
+          src={photo.data.image}
+          alt={photo.data.alt}
+          loading="lazy"
+        />
+      </button>
+    ))}
+  </div>
+</div>
+
+<dialog class="lightbox" aria-label="Full size image viewer">
+  <div class="lightbox-content">
+    <button class="lightbox-close" aria-label="Close lightbox">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+    <img src="" alt="" class="lightbox-image" />
+  </div>
+</dialog>
+
+<script>
+  class PhotoCarousel {
+    private carousel: HTMLElement;
+    private track: HTMLElement;
+    private slides: NodeListOf<HTMLElement>;
+    private prevBtn: HTMLButtonElement;
+    private nextBtn: HTMLButtonElement;
+    private indicators: NodeListOf<HTMLButtonElement>;
+    private thumbnails: NodeListOf<HTMLButtonElement>;
+    private lightbox: HTMLDialogElement;
+    private lightboxImage: HTMLImageElement;
+    private lightboxClose: HTMLButtonElement;
+    private expandButtons: NodeListOf<HTMLButtonElement>;
+    private currentIndex: number = 0;
+    private autoplayInterval: number | null = null;
+    private touchStartX: number = 0;
+    private touchEndX: number = 0;
+
+    constructor() {
+      this.carousel = document.querySelector('.photo-carousel') as HTMLElement;
+      this.track = document.querySelector('.carousel-track') as HTMLElement;
+      this.slides = document.querySelectorAll('.carousel-slide');
+      this.prevBtn = document.querySelector('.carousel-nav-prev') as HTMLButtonElement;
+      this.nextBtn = document.querySelector('.carousel-nav-next') as HTMLButtonElement;
+      this.indicators = document.querySelectorAll('.carousel-indicators .indicator');
+      this.thumbnails = document.querySelectorAll('.carousel-thumbnails .thumbnail');
+      this.lightbox = document.querySelector('.lightbox') as HTMLDialogElement;
+      this.lightboxImage = document.querySelector('.lightbox-image') as HTMLImageElement;
+      this.lightboxClose = document.querySelector('.lightbox-close') as HTMLButtonElement;
+      this.expandButtons = document.querySelectorAll('.image-expand');
+
+      this.init();
+    }
+
+    private init(): void {
+      this.prevBtn.addEventListener('click', () => this.prev());
+      this.nextBtn.addEventListener('click', () => this.next());
+
+      this.indicators.forEach((indicator) => {
+        indicator.addEventListener('click', (e) => {
+          const index = parseInt((e.currentTarget as HTMLElement).dataset.index || '0');
+          this.goToSlide(index);
+        });
+      });
+
+      this.thumbnails.forEach((thumbnail) => {
+        thumbnail.addEventListener('click', (e) => {
+          const index = parseInt((e.currentTarget as HTMLElement).dataset.index || '0');
+          this.goToSlide(index);
+        });
+      });
+
+      this.expandButtons.forEach((btn) => {
+        btn.addEventListener('click', () => this.openLightbox());
+      });
+
+      this.lightboxClose.addEventListener('click', () => this.closeLightbox());
+      this.lightbox.addEventListener('click', (e) => {
+        if (e.target === this.lightbox) {
+          this.closeLightbox();
+        }
+      });
+
+      this.track.addEventListener('touchstart', (e) => {
+        this.touchStartX = e.touches[0].clientX;
+      }, { passive: true });
+
+      this.track.addEventListener('touchend', (e) => {
+        this.touchEndX = e.changedTouches[0].clientX;
+        this.handleSwipe();
+      }, { passive: true });
+
+      document.addEventListener('keydown', (e) => this.handleKeyboard(e));
+
+      this.carousel.addEventListener('mouseenter', () => this.pauseAutoplay());
+      this.carousel.addEventListener('mouseleave', () => this.startAutoplay());
+
+      this.startAutoplay();
+    }
+
+    private goToSlide(index: number): void {
+      this.currentIndex = index;
+      const offset = -index * 100;
+      this.track.style.transform = `translateX(${offset}%)`;
+
+      this.indicators.forEach((indicator, i) => {
+        indicator.classList.toggle('active', i === index);
+      });
+
+      this.thumbnails.forEach((thumbnail, i) => {
+        thumbnail.classList.toggle('active', i === index);
+      });
+
+      const activeThumbnail = this.thumbnails[index] as HTMLElement;
+      activeThumbnail.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+    }
+
+    private next(): void {
+      const nextIndex = (this.currentIndex + 1) % this.slides.length;
+      this.goToSlide(nextIndex);
+    }
+
+    private prev(): void {
+      const prevIndex = (this.currentIndex - 1 + this.slides.length) % this.slides.length;
+      this.goToSlide(prevIndex);
+    }
+
+    private handleSwipe(): void {
+      const swipeThreshold = 50;
+      const diff = this.touchStartX - this.touchEndX;
+
+      if (Math.abs(diff) > swipeThreshold) {
+        if (diff > 0) {
+          this.next();
+        } else {
+          this.prev();
+        }
+      }
+    }
+
+    private handleKeyboard(e: KeyboardEvent): void {
+      if (this.lightbox.open) {
+        if (e.key === 'Escape') {
+          this.closeLightbox();
+        }
+        return;
+      }
+
+      switch (e.key) {
+        case 'ArrowLeft':
+          this.prev();
+          break;
+        case 'ArrowRight':
+          this.next();
+          break;
+        case 'Home':
+          this.goToSlide(0);
+          break;
+        case 'End':
+          this.goToSlide(this.slides.length - 1);
+          break;
+      }
+    }
+
+    private startAutoplay(): void {
+      const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (prefersReducedMotion) return;
+
+      this.autoplayInterval = window.setInterval(() => {
+        this.next();
+      }, 5000);
+    }
+
+    private pauseAutoplay(): void {
+      if (this.autoplayInterval) {
+        clearInterval(this.autoplayInterval);
+        this.autoplayInterval = null;
+      }
+    }
+
+    private openLightbox(): void {
+      const currentSlide = this.slides[this.currentIndex];
+      const img = currentSlide.querySelector('.slide-image') as HTMLImageElement;
+
+      this.lightboxImage.src = img.src;
+      this.lightboxImage.alt = img.alt;
+      this.lightbox.showModal();
+      this.pauseAutoplay();
+    }
+
+    private closeLightbox(): void {
+      this.lightbox.close();
+      this.startAutoplay();
+    }
+  }
+
+  if (document.querySelector('.photo-carousel')) {
+    new PhotoCarousel();
+  }
+</script>
+
+<style>
+  .photo-carousel-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .photo-carousel {
+    position: relative;
+    width: 100%;
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+    background: linear-gradient(135deg, rgba(249, 115, 22, 0.05) 0%, rgba(20, 184, 166, 0.05) 100%);
+    border: 1px solid var(--color-neutral-200);
+    box-shadow: var(--shadow-xl);
+  }
+
+  .carousel-main {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: transform;
+  }
+
+  .carousel-slide {
+    min-width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .slide-image-wrapper {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    background-color: var(--color-neutral-100);
+    overflow: hidden;
+  }
+
+  .slide-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .image-expand {
+    position: absolute;
+    top: var(--space-4);
+    right: var(--space-4);
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.95);
+    border: none;
+    border-radius: var(--radius-lg);
+    cursor: pointer;
+    transition: all var(--transition-base);
+    color: var(--color-text-primary);
+    box-shadow: var(--shadow-md);
+    opacity: 0;
+  }
+
+  .slide-image-wrapper:hover .image-expand {
+    opacity: 1;
+  }
+
+  .image-expand:hover {
+    background: white;
+    transform: scale(1.05);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .slide-caption {
+    padding: var(--space-6);
+    background: white;
+  }
+
+  .caption-content {
+    max-width: 600px;
+  }
+
+  .caption-title {
+    font-size: var(--text-xl);
+    font-weight: var(--font-bold);
+    color: var(--color-text-primary);
+    margin-bottom: var(--space-2);
+  }
+
+  .caption-event {
+    font-size: var(--text-base);
+    font-weight: var(--font-medium);
+    color: var(--color-primary);
+    margin-bottom: var(--space-2);
+  }
+
+  .caption-text {
+    font-size: var(--text-base);
+    color: var(--color-text-secondary);
+    line-height: var(--leading-relaxed);
+    margin-bottom: var(--space-3);
+  }
+
+  .caption-meta {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: var(--text-sm);
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-1);
+  }
+
+  .caption-date {
+    font-size: var(--text-sm);
+    color: var(--color-text-secondary);
+    font-style: italic;
+  }
+
+  .carousel-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.95);
+    border: none;
+    border-radius: var(--radius-full);
+    cursor: pointer;
+    transition: all var(--transition-base);
+    color: var(--color-text-primary);
+    box-shadow: var(--shadow-md);
+    z-index: 10;
+  }
+
+  .carousel-nav:hover {
+    background: white;
+    transform: translateY(-50%) scale(1.05);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .carousel-nav-prev {
+    left: var(--space-4);
+  }
+
+  .carousel-nav-next {
+    right: var(--space-4);
+  }
+
+  .carousel-indicators {
+    position: absolute;
+    bottom: calc(var(--space-6) + 120px);
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: var(--space-2);
+    z-index: 10;
+  }
+
+  .indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: var(--radius-full);
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    cursor: pointer;
+    transition: all var(--transition-base);
+    padding: 0;
+  }
+
+  .indicator:hover {
+    background: rgba(255, 255, 255, 0.8);
+    transform: scale(1.2);
+  }
+
+  .indicator.active {
+    background: white;
+    width: 24px;
+  }
+
+  .carousel-thumbnails {
+    display: flex;
+    gap: var(--space-3);
+    padding: var(--space-4);
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-primary) var(--color-neutral-200);
+  }
+
+  .carousel-thumbnails::-webkit-scrollbar {
+    height: 6px;
+  }
+
+  .carousel-thumbnails::-webkit-scrollbar-track {
+    background: var(--color-neutral-200);
+    border-radius: var(--radius-full);
+  }
+
+  .carousel-thumbnails::-webkit-scrollbar-thumb {
+    background: var(--color-primary);
+    border-radius: var(--radius-full);
+  }
+
+  .thumbnail {
+    flex-shrink: 0;
+    width: 100px;
+    height: 60px;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    border: 3px solid transparent;
+    cursor: pointer;
+    transition: all var(--transition-base);
+    padding: 0;
+    background: none;
+  }
+
+  .thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .thumbnail:hover {
+    border-color: var(--color-primary);
+    transform: scale(1.05);
+  }
+
+  .thumbnail.active {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 2px rgba(249, 115, 22, 0.2);
+  }
+
+  .lightbox {
+    border: none;
+    padding: 0;
+    max-width: 95vw;
+    max-height: 95vh;
+    background: transparent;
+    outline: none;
+  }
+
+  .lightbox::backdrop {
+    background: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(8px);
+  }
+
+  .lightbox-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lightbox-image {
+    max-width: 90vw;
+    max-height: 90vh;
+    object-fit: contain;
+    border-radius: var(--radius-lg);
+  }
+
+  .lightbox-close {
+    position: absolute;
+    top: -48px;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border: none;
+    border-radius: var(--radius-full);
+    cursor: pointer;
+    transition: all var(--transition-base);
+    color: var(--color-text-primary);
+  }
+
+  .lightbox-close:hover {
+    background: var(--color-neutral-100);
+    transform: scale(1.1);
+  }
+
+  @media (max-width: 768px) {
+    .carousel-nav {
+      width: 40px;
+      height: 40px;
+    }
+
+    .carousel-nav-prev {
+      left: var(--space-2);
+    }
+
+    .carousel-nav-next {
+      right: var(--space-2);
+    }
+
+    .slide-caption {
+      padding: var(--space-4);
+    }
+
+    .caption-title {
+      font-size: var(--text-lg);
+    }
+
+    .caption-text {
+      font-size: var(--text-sm);
+    }
+
+    .thumbnail {
+      width: 80px;
+      height: 48px;
+    }
+
+    .image-expand {
+      width: 40px;
+      height: 40px;
+      opacity: 1;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .carousel-nav {
+      width: 36px;
+      height: 36px;
+    }
+
+    .carousel-indicators {
+      bottom: calc(var(--space-4) + 80px);
+    }
+
+    .slide-caption {
+      padding: var(--space-3);
+    }
+
+    .caption-title {
+      font-size: var(--text-base);
+    }
+
+    .caption-text {
+      font-size: var(--text-xs);
+    }
+
+    .thumbnail {
+      width: 60px;
+      height: 40px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .carousel-track {
+      transition: none;
+    }
+
+    .carousel-nav,
+    .indicator,
+    .thumbnail {
+      transition: none;
+    }
+  }
+</style>

@@ -1,0 +1,76 @@
+{
+  "$ref": "#/definitions/photos",
+  "definitions": {
+    "photos": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "date": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "integer",
+              "format": "unix-time"
+            }
+          ]
+        },
+        "image": {
+          "type": "string"
+        },
+        "alt": {
+          "type": "string"
+        },
+        "caption": {
+          "type": "string"
+        },
+        "event": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string",
+          "enum": [
+            "speaking",
+            "award",
+            "community",
+            "panel",
+            "workshop",
+            "other"
+          ],
+          "default": "other"
+        },
+        "order": {
+          "type": "number",
+          "default": 0
+        },
+        "featured": {
+          "type": "boolean",
+          "default": false
+        },
+        "$schema": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "date",
+        "image",
+        "alt",
+        "caption"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

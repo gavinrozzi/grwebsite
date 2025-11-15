@@ -1,4 +1,5 @@
 ---
+import PhotoCarousel from './PhotoCarousel.astro';
 ---
 
 <section class="about">
@@ -98,18 +99,9 @@
       </div>
     </div>
 
-    <div class="about-image">
-      <div class="presentation-frame">
-        <img
-          src="/images/profile/presentation.jpg"
-          alt="Gavin Rozzi delivering a presentation"
-          class="presentation-photo"
-          width="600"
-          height="900"
-          loading="lazy"
-        />
-        <div class="image-caption">Leading civic technology initiatives</div>
-      </div>
+    <div class="about-carousel">
+      <h3 class="carousel-section-title">Professional Moments</h3>
+      <PhotoCarousel />
     </div>
   </div>
 </section>
@@ -173,40 +165,27 @@
     color: var(--color-primary);
   }
 
-  .about-image {
-    max-width: 600px;
+  .about-carousel {
+    max-width: 1200px;
     margin: 0 auto;
   }
 
-  .presentation-frame {
-    border-radius: var(--radius-xl);
-    overflow: hidden;
-    box-shadow: var(--shadow-xl);
-    transition: transform var(--transition-base), box-shadow var(--transition-base);
-    background: linear-gradient(135deg, rgba(249, 115, 22, 0.05) 0%, rgba(20, 184, 166, 0.05) 100%);
-    border: 1px solid var(--color-neutral-200);
-  }
-
-  .presentation-frame:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-  }
-
-  .presentation-photo {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
-    background-color: var(--color-neutral-100);
-  }
-
-  .image-caption {
-    padding: var(--space-3);
+  .carousel-section-title {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-bold);
+    color: var(--color-text-primary);
+    margin-bottom: var(--space-6);
     text-align: center;
-    font-size: var(--text-sm);
-    color: var(--color-text-secondary);
-    font-style: italic;
-    background: white;
+  }
+
+  .carousel-section-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: var(--gradient-primary);
+    border-radius: var(--radius-full);
+    margin: var(--space-3) auto 0;
   }
 
   .about-sidebar {
@@ -310,10 +289,6 @@
       max-width: 600px;
       margin: 0 auto;
     }
-
-    .about-image {
-      max-width: 500px;
-    }
   }
 
   @media (max-width: 768px) {
@@ -339,8 +314,8 @@
       font-size: var(--text-2xl);
     }
 
-    .about-image {
-      max-width: 100%;
+    .carousel-section-title {
+      font-size: var(--text-xl);
     }
 
     .pillar {

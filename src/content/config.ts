@@ -77,4 +77,20 @@ const media = defineCollection({
   }),
 });
 
-export const collections = { blog, portfolio, publications, media };
+const photos = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    date: z.coerce.date(),
+    image: z.string(),
+    alt: z.string(),
+    caption: z.string(),
+    event: z.string().optional(),
+    location: z.string().optional(),
+    category: z.enum(['speaking', 'award', 'community', 'panel', 'workshop', 'other']).default('other'),
+    order: z.number().default(0),
+    featured: z.boolean().default(false),
+  }),
+});
+
+export const collections = { blog, portfolio, publications, media, photos };
