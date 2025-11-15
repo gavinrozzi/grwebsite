@@ -33,6 +33,15 @@ const socialImage = new URL(image, Astro.site);
     <link rel="canonical" href={canonicalURL} />
     <meta name="generator" content={Astro.generator} />
 
+    <!-- Performance Optimizations -->
+    <link rel="preconnect" href="https://analytics.gavinrozzi.com" />
+    <link rel="dns-prefetch" href="https://analytics.gavinrozzi.com" />
+
+    <!-- Additional Discovery -->
+    <link rel="alternate" type="application/rss+xml" title="Gavin Rozzi's Blog" href="/rss.xml" />
+    <link rel="author" href="/contact" />
+    <link rel="humans" href="/humans.txt" />
+
     <!-- Primary Meta Tags -->
     <title>{title}</title>
     <meta name="title" content={title} />
@@ -41,10 +50,13 @@ const socialImage = new URL(image, Astro.site);
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content={type} />
     <meta property="og:url" content={canonicalURL} />
+    <meta property="og:site_name" content="Gavin Rozzi" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={socialImage} />
+    <meta property="og:locale" content="en_US" />
     {publishedTime && <meta property="article:published_time" content={publishedTime} />}
+    {publishedTime && <meta property="article:author" content="https://www.gavinrozzi.com/contact" />}
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
@@ -53,6 +65,7 @@ const socialImage = new URL(image, Astro.site);
     <meta property="twitter:description" content={description} />
     <meta property="twitter:image" content={socialImage} />
     <meta name="twitter:creator" content="@gavroz" />
+    <meta name="twitter:site" content="@gavroz" />
 
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json" is:inline set:html={JSON.stringify({
@@ -60,21 +73,44 @@ const socialImage = new URL(image, Astro.site);
       "@type": "Person",
       "name": "Gavin Rozzi",
       "url": "https://www.gavinrozzi.com",
-      "image": "https://www.gavinrozzi.com/gavin-rozzi.jpg",
+      "image": "https://www.gavinrozzi.com/images/profile/headshot.jpg",
       "jobTitle": "Director of Data Center Administration",
       "description": description,
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "NJ",
+        "addressCountry": "US"
+      },
+      "telephone": "+1-609-222-4161",
+      "email": "contact@gavinrozzi.com",
+      "knowsAbout": [
+        "Digital Transformation",
+        "Civic Technology",
+        "Data Science",
+        "Public Policy",
+        "Full Stack Development",
+        "Open Data",
+        "Government Technology"
+      ],
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Rutgers University"
+      },
       "sameAs": [
         "https://github.com/gavinrozzi",
         "https://www.linkedin.com/in/gavin-rozzi/",
         "https://twitter.com/gavroz",
+        "https://x.com/gavroz",
         "https://scholar.google.com/citations?user=slj82AIAAAAJ"
       ]
     })} />
 
     <!-- Additional SEO -->
     <meta name="author" content="Gavin Rozzi" />
-    <meta name="robots" content="index, follow" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="googlebot" content="index, follow" />
+    <meta name="google-site-verification" content="" />
+    <meta name="msvalidate.01" content="" />
 
     <!-- Matomo -->
     <script is:inline>

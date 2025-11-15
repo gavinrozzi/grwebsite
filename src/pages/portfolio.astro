@@ -25,6 +25,19 @@ const categoryLabels = {
   title="Portfolio - Gavin Rozzi"
   description="Explore my portfolio of government impact projects, civic technology platforms, open source tools, and data visualization work."
 >
+  <Fragment slot="head">
+    <script is:inline type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": sortedPortfolio.map((project, index) => ({
+        "@type": "ListItem",
+        "position": index + 1,
+        "url": `${Astro.site}portfolio/${project.slug}/`,
+        "name": project.data.title,
+        "description": project.data.summary
+      }))
+    })} />
+  </Fragment>
   <section class="page-hero">
     <div class="container">
       <h1 class="page-title">Portfolio</h1>

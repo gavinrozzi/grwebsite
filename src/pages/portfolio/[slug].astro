@@ -29,6 +29,49 @@ const categoryLabels = {
   title={`${entry.data.title} - Portfolio - Gavin Rozzi`}
   description={entry.data.summary}
 >
+  <Fragment slot="head">
+    <script is:inline type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "name": entry.data.title,
+      "description": entry.data.summary,
+      "dateCreated": entry.data.date.toISOString(),
+      "creator": {
+        "@type": "Person",
+        "name": "Gavin Rozzi",
+        "url": "https://www.gavinrozzi.com"
+      },
+      "keywords": entry.data.tags?.join(", "),
+      "genre": categoryLabels[entry.data.category],
+      "url": `${Astro.site}portfolio/${entry.slug}/`,
+      "codeRepository": entry.data.links?.github,
+      "applicationCategory": "WebApplication"
+    })} />
+    <script is:inline type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": String(Astro.site)
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Portfolio",
+          "item": `${Astro.site}portfolio/`
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": entry.data.title,
+          "item": `${Astro.site}portfolio/${entry.slug}/`
+        }
+      ]
+    })} />
+  </Fragment>
   <article class="portfolio-detail">
     <header class="portfolio-header">
       <div class="container">

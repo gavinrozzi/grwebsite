@@ -29,6 +29,18 @@ const stats = {
   title="Digital Press Room - Gavin Rozzi"
   description="Conference talks, podcast appearances, press coverage, and media highlights on civic technology, digital transformation, and government innovation."
 >
+  <Fragment slot="head">
+    <script is:inline type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": sortedMedia.map((item, index) => ({
+        "@type": "ListItem",
+        "position": index + 1,
+        "url": `${Astro.site}media/${item.slug}/`,
+        "name": item.data.title
+      }))
+    })} />
+  </Fragment>
   <section class="press-hero">
     <div class="container">
       <div class="hero-content">

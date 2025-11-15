@@ -23,6 +23,19 @@ const selectedTag = Astro.url.searchParams.get('tag');
   title="Blog - Gavin Rozzi"
   description="Insights on digital transformation, civic technology, data science, and public policy. Exploring open data, government modernization, and building platforms that serve the public."
 >
+  <Fragment slot="head">
+    <script is:inline type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": sortedPosts.slice(0, 10).map((post, index) => ({
+        "@type": "ListItem",
+        "position": index + 1,
+        "url": `${Astro.site}blog/${post.slug}/`,
+        "name": post.data.title,
+        "description": post.data.summary
+      }))
+    })} />
+  </Fragment>
   <section class="page-hero">
     <div class="container">
       <h1 class="page-title">{selectedTag ? `Topic: ${selectedTag}` : 'Blog'}</h1>

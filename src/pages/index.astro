@@ -10,6 +10,39 @@ import ThoughtLeadership from '../components/ThoughtLeadership.astro';
   title="Gavin Rozzi - Digital Transformation & Civic Technology Executive"
   description="Building data-driven platforms that turn policy into impact. Leading digital transformation initiatives at the intersection of technology and public policy in New Jersey."
 >
+  <Fragment slot="head">
+    <script is:inline type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Gavin Rozzi",
+      "url": "https://www.gavinrozzi.com",
+      "description": "Building data-driven platforms that turn policy into impact. Leading digital transformation initiatives at the intersection of technology and public policy.",
+      "author": {
+        "@type": "Person",
+        "name": "Gavin Rozzi",
+        "jobTitle": "Director of Data Center Administration",
+        "url": "https://www.gavinrozzi.com"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.gavinrozzi.com/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    })} />
+    <script is:inline type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "ProfilePage",
+      "mainEntity": {
+        "@type": "Person",
+        "name": "Gavin Rozzi",
+        "url": "https://www.gavinrozzi.com",
+        "description": "Digital Transformation & Civic Technology Executive building data-driven platforms that turn policy into impact."
+      }
+    })} />
+  </Fragment>
   <Hero />
   <ThoughtLeadership />
   <About />
