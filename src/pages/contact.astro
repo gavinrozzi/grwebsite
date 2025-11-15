@@ -82,6 +82,13 @@ import BaseLayout from '../layouts/BaseLayout.astro';
               ></textarea>
             </div>
 
+            <p class="form-disclaimer">
+              <strong>Note:</strong> This form is for professional collaboration and consulting inquiries only.
+              For technical support, record removal requests, or platform-specific issues, please contact
+              the relevant platform's official support channels directly. This is not an official support channel
+              for any applications or websites I have created.
+            </p>
+
             <button type="submit" class="submit-btn">Send Message</button>
           </form>
         </div>
@@ -232,6 +239,22 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     min-height: 120px;
   }
 
+  .form-disclaimer {
+    font-size: var(--text-sm);
+    color: var(--color-text-secondary);
+    line-height: var(--leading-relaxed);
+    padding: var(--space-3);
+    background: var(--color-surface-alt);
+    border-radius: var(--radius-md);
+    border-left: 3px solid var(--color-neutral-400);
+    margin: 0;
+  }
+
+  .form-disclaimer strong {
+    color: var(--color-text-primary);
+    font-weight: var(--font-bold);
+  }
+
   .submit-btn {
     padding: var(--space-3) var(--space-6);
     background: var(--gradient-primary);
@@ -353,19 +376,6 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     flex-shrink: 0;
   }
 
-  .response-note {
-    padding: var(--space-4);
-    background-color: var(--color-surface-alt);
-    border-radius: var(--radius-md);
-    border-left: 3px solid var(--color-secondary);
-  }
-
-  .response-note p {
-    margin: 0;
-    font-size: var(--text-sm);
-    color: var(--color-text-secondary);
-  }
-
   @media (max-width: 820px) {
     .contact-grid {
       grid-template-columns: 1fr;
@@ -415,6 +425,11 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
     .social-links {
       grid-template-columns: 1fr;
+    }
+
+    .form-disclaimer {
+      font-size: var(--text-xs);
+      padding: var(--space-2);
     }
   }
 
