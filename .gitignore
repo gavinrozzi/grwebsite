@@ -13,3 +13,4 @@ resources/_gen/
 .Rhistory
 .Rhistory
 .Rhistory
+.env
