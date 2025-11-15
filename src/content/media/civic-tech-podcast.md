@@ -1,8 +1,8 @@
 ---
 title: "Episode 2: Data for Action"
-date: 2024-09-29
+date: 2025-09-29
 type: "podcast"
-venue: "DCA Podcast: Community at the Core"
+venue: "Community at the Core: A DCA Podcast"
 location: "New Jersey Department of Community Affairs"
 summary: "Discussion with DCA leadership on the vital role of data-driven insights in decision-making, and the innovative tools being used to collect, analyze, and share data more effectively across the department."
 url: "https://podcasts.apple.com/us/podcast/episode-2-data-for-action/id1835434402?i=1000729166480"
@@ -10,7 +10,7 @@ embedUrl: "https://www.youtube.com/embed/uFKROFDw3cw"
 featured: true
 ---
 
-Joined the New Jersey Department of Community Affairs' "Community at the Core" podcast for their second episode, "Data for Action," to discuss how data-driven insights are transforming decision-making across state government.
+Joined the New Jersey Department of Community Affairs' "Community at the Core: A DCA Podcast" for their second episode, "Data for Action," to discuss how data-driven insights are transforming decision-making across state government.
 
 ## Episode Overview
 
@@ -94,6 +94,6 @@ The episode highlighted how DCA is becoming a leader in government data moderniz
 - [Apple Podcasts](https://podcasts.apple.com/us/podcast/episode-2-data-for-action/id1835434402?i=1000729166480)
 - [Watch on YouTube](https://www.youtube.com/watch?v=uFKROFDw3cw)
 
-## About Community at the Core
+## About Community at the Core: A DCA Podcast
 
-"Community at the Core" is the New Jersey Department of Community Affairs' podcast exploring how the department supports strong, vibrant communities across the state through innovative programs, partnerships, and public service.
+"Community at the Core: A DCA Podcast" is the New Jersey Department of Community Affairs' podcast exploring how the department supports strong, vibrant communities across the state through innovative programs, partnerships, and public service.
