@@ -138,10 +138,15 @@
 
   .about-grid {
     display: grid;
-    grid-template-columns: 1fr 400px;
-    gap: var(--space-8);
+    grid-template-columns: 2fr 1fr;
+    gap: var(--space-12);
     align-items: start;
     margin-bottom: var(--space-12);
+    max-width: 1400px;
+  }
+
+  .about-content {
+    max-width: 100%;
   }
 
   .about-text p {
@@ -208,6 +213,7 @@
     display: flex;
     flex-direction: column;
     gap: var(--space-6);
+    min-width: 350px;
   }
 
   .pillars-card,
