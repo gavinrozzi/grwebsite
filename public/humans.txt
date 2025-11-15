@@ -1,0 +1,14 @@
+/* TEAM */
+Developer: Gavin Rozzi
+Site: https://www.gavinrozzi.com
+Location: New Jersey, USA
+
+/* THANKS */
+Open Source Community
+Astro Team
+
+/* SITE */
+Last update: 2025-11-15
+Standards: HTML5, CSS3, JavaScript
+Components: Astro, TypeScript
+Software: VS Code

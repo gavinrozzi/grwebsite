@@ -1,0 +1,14 @@
+{
+  "name": "Gavin Rozzi",
+  "short_name": "GR",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#f97316",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
