@@ -213,7 +213,6 @@
     display: flex;
     flex-direction: column;
     gap: var(--space-6);
-    min-width: 350px;
   }
 
   .pillars-card,
@@ -294,7 +293,13 @@
     margin-right: var(--space-2);
   }
 
-  @media (max-width: 968px) {
+  @media (max-width: 1024px) {
+    .about-grid {
+      gap: var(--space-8);
+    }
+  }
+
+  @media (max-width: 820px) {
     .about-grid {
       grid-template-columns: 1fr;
       margin-bottom: var(--space-8);
@@ -302,6 +307,8 @@
 
     .about-sidebar {
       order: -1;
+      max-width: 600px;
+      margin: 0 auto;
     }
 
     .about-image {
@@ -309,7 +316,7 @@
     }
   }
 
-  @media (max-width: 640px) {
+  @media (max-width: 768px) {
     .about {
       padding: var(--space-12) 0;
     }
@@ -318,8 +325,50 @@
       font-size: var(--text-3xl);
     }
 
+    .about-grid {
+      gap: var(--space-6);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .about {
+      padding: var(--space-10) 0;
+    }
+
+    .section-title {
+      font-size: var(--text-2xl);
+    }
+
     .about-image {
       max-width: 100%;
+    }
+
+    .pillar {
+      gap: var(--space-2);
+    }
+
+    .pillar-icon {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .about {
+      padding: var(--space-8) 0;
+    }
+
+    .pillars-card,
+    .recognition-card {
+      padding: var(--space-4);
+    }
+
+    .pillar-name {
+      font-size: var(--text-sm);
+    }
+
+    .pillar-desc {
+      font-size: var(--text-xs);
     }
   }
 </style>

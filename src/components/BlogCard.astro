@@ -233,5 +233,27 @@ const readingTime = calculateReadingTime(summary);
     .card-title {
       font-size: var(--text-lg);
     }
+
+    .card-summary {
+      font-size: var(--text-sm);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .card-image {
+      height: 180px;
+    }
+
+    .card-content {
+      padding: var(--space-3);
+    }
+
+    .card-title {
+      font-size: var(--text-base);
+    }
+
+    .card-meta {
+      font-size: var(--text-xs);
+    }
   }
 </style>

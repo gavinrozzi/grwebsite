@@ -60,4 +60,46 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     color: var(--color-primary);
     text-decoration: underline;
   }
+
+  @media (max-width: 768px) {
+    .page-title {
+      font-size: var(--text-3xl);
+    }
+
+    .page-subtitle {
+      font-size: var(--text-lg);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .page-hero {
+      padding: var(--space-8) 0 var(--space-6);
+    }
+
+    .page-title {
+      font-size: var(--text-2xl);
+    }
+
+    .page-subtitle {
+      font-size: var(--text-base);
+    }
+
+    .content-section {
+      padding: var(--space-8) 0;
+    }
+
+    .coming-soon {
+      font-size: var(--text-base);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .page-hero {
+      padding: var(--space-6) 0 var(--space-4);
+    }
+
+    .coming-soon {
+      font-size: var(--text-sm);
+    }
+  }
 </style>

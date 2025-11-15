@@ -291,9 +291,64 @@ img {
   color: var(--color-text-primary);
 }
 
-/* Media Queries */
+/* Responsive Media Queries - Mobile-First Approach */
+
+/* Small Mobile Devices (360px and below) */
+@media (max-width: 360px) {
+  :root {
+    --container-padding: var(--space-2);
+  }
+
+  html {
+    font-size: 15px;
+  }
+}
+
+/* Large Mobile Devices (480px) */
+@media (max-width: 480px) {
+  :root {
+    --container-padding: var(--space-3);
+  }
+}
+
+/* Tablets and Large Mobile (640px) */
+@media (max-width: 640px) {
+  :root {
+    --container-padding: var(--space-3);
+  }
+}
+
+/* Medium Tablets (768px) */
 @media (max-width: 768px) {
   :root {
     --container-padding: var(--space-3);
   }
+}
+
+/* Large Tablets (820px) */
+@media (max-width: 820px) {
+  :root {
+    --container-padding: var(--space-4);
+  }
+}
+
+/* Small Desktops (968px) */
+@media (max-width: 968px) {
+  :root {
+    --container-padding: var(--space-4);
+  }
+}
+
+/* Prevent overflow on all screen sizes */
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* Improve word wrapping for long text */
+h1, h2, h3, h4, h5, h6, p {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
 }

@@ -285,5 +285,29 @@ const typeIcons = {
     .media-card__title {
       font-size: var(--text-lg);
     }
+
+    .media-card__summary {
+      font-size: var(--text-sm);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .media-card {
+      padding: var(--space-3);
+    }
+
+    .media-card__title {
+      font-size: var(--text-base);
+    }
+
+    .media-card__icon {
+      width: 36px;
+      height: 36px;
+    }
+
+    .media-card__icon svg {
+      width: 20px;
+      height: 20px;
+    }
   }
 </style>

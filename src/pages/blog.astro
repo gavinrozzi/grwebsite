@@ -158,13 +158,13 @@ const uniqueTags = [...new Set(allPosts.flatMap(post => post.data.tags))].sort()
 
   .featured-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: var(--space-6);
   }
 
   .posts-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: var(--space-6);
   }
 
@@ -251,10 +251,20 @@ const uniqueTags = [...new Set(allPosts.flatMap(post => post.data.tags))].sort()
     height: 20px;
   }
 
-  @media (max-width: 968px) {
+  @media (max-width: 820px) {
     .featured-grid,
     .posts-grid {
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    }
+  }
+
+  @media (max-width: 768px) {
+    .page-title {
+      font-size: var(--text-3xl);
+    }
+
+    .page-subtitle {
+      font-size: var(--text-lg);
     }
   }
 
@@ -264,16 +274,17 @@ const uniqueTags = [...new Set(allPosts.flatMap(post => post.data.tags))].sort()
     }
 
     .page-title {
-      font-size: var(--text-4xl);
+      font-size: var(--text-2xl);
     }
 
     .page-subtitle {
-      font-size: var(--text-lg);
+      font-size: var(--text-base);
     }
 
     .featured-grid,
     .posts-grid {
       grid-template-columns: 1fr;
+      gap: var(--space-4);
     }
 
     .featured-section,
@@ -285,6 +296,25 @@ const uniqueTags = [...new Set(allPosts.flatMap(post => post.data.tags))].sort()
 
     .subscribe-card {
       padding: var(--space-6);
+    }
+
+    .section-title {
+      font-size: var(--text-2xl);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .page-hero {
+      padding: var(--space-6) 0 var(--space-4);
+    }
+
+    .subscribe-card {
+      padding: var(--space-4);
+    }
+
+    .subscribe-btn {
+      width: 100%;
+      max-width: 320px;
     }
   }
 </style>

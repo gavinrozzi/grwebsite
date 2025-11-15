@@ -255,7 +255,7 @@ const categoryLabels = {
 
   .portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: var(--space-6);
     transition: all var(--transition-base);
   }
@@ -429,19 +429,33 @@ const categoryLabels = {
     color: var(--color-text-secondary);
   }
 
-  @media (max-width: 968px) {
+  @media (max-width: 820px) {
     .portfolio-grid {
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    }
+
+    .filter-controls {
+      gap: var(--space-3);
     }
   }
 
-  @media (max-width: 640px) {
+  @media (max-width: 768px) {
     .page-title {
       font-size: var(--text-3xl);
     }
 
     .page-subtitle {
       font-size: var(--text-lg);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .page-title {
+      font-size: var(--text-2xl);
+    }
+
+    .page-subtitle {
+      font-size: var(--text-base);
     }
 
     .portfolio-section {
@@ -451,6 +465,7 @@ const categoryLabels = {
     .filter-controls {
       flex-direction: column;
       align-items: flex-start;
+      gap: var(--space-2);
     }
 
     .filter-buttons {
@@ -470,6 +485,25 @@ const categoryLabels = {
 
     .project-metrics {
       grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .filter-label {
+      font-size: var(--text-base);
+    }
+
+    .filter-btn {
+      font-size: var(--text-xs);
+      padding: var(--space-1) var(--space-3);
+    }
+
+    .portfolio-card {
+      padding: var(--space-4);
+    }
+
+    .project-title {
+      font-size: var(--text-xl);
     }
   }
 </style>
