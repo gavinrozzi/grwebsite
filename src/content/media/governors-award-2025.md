@@ -1,5 +1,5 @@
 ---
-title: "Governor's Team of Black Excellence Award"
+title: "Governor's Team Excellence Award"
 date: 2025-05-01
 type: "award"
 venue: "New Jersey Civil Service Commission"
@@ -8,11 +8,11 @@ summary: "Recognized as part of the A4-S50 implementation team for building data
 featured: true
 ---
 
-Honored to receive the Governor's Team of Black Excellence Award as a member of the A4-S50 implementation team at the New Jersey Department of Community Affairs, which was responsible for implementing the state's landmark affordable housing legislation.
+Honored to receive the Governor's Team Excellence Award as a member of the A4-S50 implementation team at the New Jersey Department of Community Affairs, which was responsible for implementing the state's landmark affordable housing legislation.
 
 ## Award Recognition
 
-The Governor's Team of Black Excellence Award is presented by the New Jersey Civil Service Commission to state employees and teams who demonstrate exceptional dedication, innovation, and impact in advancing equity and serving the public interest.
+The Governor's Team Excellence Award is presented by the New Jersey Civil Service Commission to state employees and teams who demonstrate exceptional dedication, innovation, and impact in advancing equity and serving the public interest.
 
 ## A4-S50: New Jersey's Affordable Housing Law
 
