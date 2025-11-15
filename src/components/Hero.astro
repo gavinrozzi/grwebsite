@@ -33,6 +33,7 @@
           fetchpriority="high"
         />
       </div>
+      <p class="headshot-caption">Gavin Rozzi</p>
     </div>
     </div>
 
@@ -190,8 +191,10 @@
 
   .hero-image {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: var(--space-3);
   }
 
   .headshot-frame {
@@ -217,6 +220,19 @@
     object-fit: cover;
     background-color: var(--color-neutral-100);
     border: 4px solid white;
+  }
+
+  .headshot-caption {
+    font-family: var(--font-heading);
+    font-size: var(--text-3xl);
+    font-weight: var(--font-bold);
+    letter-spacing: -0.02em;
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
 
   .hero-title {
@@ -534,6 +550,10 @@
       height: 240px;
     }
 
+    .headshot-caption {
+      font-size: var(--text-2xl);
+    }
+
     .hero-title {
       font-size: var(--text-4xl);
     }
@@ -587,6 +607,10 @@
       height: 200px;
     }
 
+    .headshot-caption {
+      font-size: var(--text-xl);
+    }
+
     .hero-title {
       font-size: var(--text-3xl);
     }
@@ -617,6 +641,10 @@
     .headshot-frame {
       width: 180px;
       height: 180px;
+    }
+
+    .headshot-caption {
+      font-size: var(--text-lg);
     }
 
     .hero-title {
