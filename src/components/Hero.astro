@@ -30,13 +30,12 @@
 
         <div class="impact-diagram">
           <div class="impact-stage">
-            <div class="stage-icon">📋</div>
             <h3 class="stage-title">Policy Challenge</h3>
             <p class="stage-description">Complex government mandates requiring technical implementation</p>
           </div>
 
           <div class="stage-connector">
-            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="url(#gradient1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
               <defs>
                 <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -48,13 +47,12 @@
           </div>
 
           <div class="impact-stage">
-            <div class="stage-icon">⚙️</div>
             <h3 class="stage-title">Technical Solution</h3>
             <p class="stage-description">Modern frameworks and data infrastructure built for scale</p>
           </div>
 
           <div class="stage-connector">
-            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="url(#gradient2)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
               <defs>
                 <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -66,7 +64,6 @@
           </div>
 
           <div class="impact-stage">
-            <div class="stage-icon">📊</div>
             <h3 class="stage-title">Measurable Impact</h3>
             <p class="stage-description">75K+ requests, 564 municipalities, 250GB open data released</p>
           </div>
@@ -270,11 +267,6 @@
     text-align: center;
   }
 
-  .stage-icon {
-    font-size: var(--text-4xl);
-    margin-bottom: var(--space-2);
-  }
-
   .stage-title {
     font-size: var(--text-lg);
     font-weight: var(--font-bold);
@@ -291,16 +283,11 @@
 
   .stage-connector {
     flex-shrink: 0;
-    width: 40px;
-    height: 40px;
+    width: 24px;
+    height: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-
-  .stage-connector svg {
-    width: 100%;
-    height: 100%;
   }
 
   .expertise-right {
@@ -461,11 +448,6 @@
   }
 
   @media (max-width: 640px) {
-    .stage-icon {
-      font-size: var(--text-3xl);
-      margin-bottom: var(--space-1);
-    }
-
     .expertise-headline {
       font-size: var(--text-xl);
     }
