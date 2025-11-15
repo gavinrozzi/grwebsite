@@ -107,10 +107,11 @@ const footerLinks = [
 
 <style>
   .footer {
-    background-color: var(--color-neutral-800);
-    color: var(--color-neutral-50);
+    background-color: var(--footer-bg);
+    color: var(--footer-text);
     padding: var(--space-12) 0 var(--space-6);
     margin-top: 0;
+    transition: background-color var(--transition-base), color var(--transition-base);
   }
 
   .footer-content {
@@ -148,8 +149,9 @@ const footerLinks = [
     position: absolute;
     inset: 3px;
     border-radius: 50%;
-    background: var(--color-neutral-800);
+    background: var(--footer-monogram-bg);
     z-index: 0;
+    transition: background var(--transition-base);
   }
 
   .monogram-letters {
@@ -169,16 +171,18 @@ const footerLinks = [
     font-family: var(--font-heading);
     font-size: var(--text-xl);
     font-weight: var(--font-bold);
-    color: var(--color-primary);
+    color: var(--footer-text);
     margin-bottom: var(--space-3);
     text-align: center;
+    transition: color var(--transition-base);
   }
 
   .footer-description {
     text-align: center;
-    color: var(--color-neutral-300);
+    color: var(--footer-text-secondary);
     margin-bottom: var(--space-4);
     line-height: var(--leading-relaxed);
+    transition: color var(--transition-base);
   }
 
   .social-links {
@@ -193,14 +197,14 @@ const footerLinks = [
     justify-content: center;
     width: 40px;
     height: 40px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: var(--footer-social-bg);
     border-radius: var(--radius-md);
-    color: var(--color-neutral-50);
+    color: var(--footer-text);
     transition: all var(--transition-fast);
   }
 
   .social-link:hover {
-    background-color: var(--color-primary);
+    background-color: var(--footer-social-hover-bg);
     transform: translateY(-2px);
   }
 
@@ -215,8 +219,9 @@ const footerLinks = [
     font-family: var(--font-heading);
     font-size: var(--text-base);
     font-weight: var(--font-bold);
-    color: var(--color-neutral-50);
+    color: var(--footer-text);
     margin-bottom: var(--space-3);
+    transition: color var(--transition-base);
   }
 
   .footer-nav {
@@ -230,42 +235,46 @@ const footerLinks = [
   }
 
   .footer-link {
-    color: var(--color-neutral-300);
+    color: var(--footer-text-secondary);
     text-decoration: none;
     transition: color var(--transition-fast);
     font-size: var(--text-sm);
   }
 
   .footer-link:hover {
-    color: var(--color-primary);
+    opacity: 0.7;
   }
 
   .contact-info {
     margin-bottom: var(--space-2);
-    color: var(--color-neutral-300);
+    color: var(--footer-text-secondary);
     font-size: var(--text-sm);
+    transition: color var(--transition-base);
   }
 
   .footer-bottom {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid var(--footer-border);
     padding-top: var(--space-6);
     text-align: center;
+    transition: border-color var(--transition-base);
   }
 
   .copyright,
   .disclaimer {
-    color: var(--color-neutral-400);
+    color: var(--footer-text-muted);
     font-size: var(--text-sm);
     margin-bottom: var(--space-2);
+    transition: color var(--transition-base);
   }
 
   .license-link {
-    color: var(--color-neutral-300);
+    color: var(--footer-text-secondary);
     text-decoration: underline;
+    transition: color var(--transition-fast);
   }
 
   .license-link:hover {
-    color: var(--color-primary);
+    opacity: 0.7;
   }
 
   @media (max-width: 820px) {

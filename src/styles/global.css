@@ -105,6 +105,42 @@
   --z-modal: 1040;
   --z-popover: 1050;
   --z-tooltip: 1060;
+
+  /* Theme Colors for Header/Footer - Default Dark Mode */
+  --header-bg: var(--color-neutral-800);
+  --header-text: var(--color-neutral-50);
+  --header-brand: var(--color-primary);
+  --header-link-hover-bg: rgba(255, 255, 255, 0.1);
+  --header-active-bg: rgba(249, 115, 22, 0.15);
+  --header-hamburger: var(--color-neutral-50);
+
+  --footer-bg: var(--color-neutral-800);
+  --footer-text: var(--color-neutral-50);
+  --footer-text-secondary: var(--color-neutral-300);
+  --footer-text-muted: var(--color-neutral-400);
+  --footer-monogram-bg: var(--color-neutral-800);
+  --footer-social-bg: rgba(255, 255, 255, 0.1);
+  --footer-social-hover-bg: var(--color-primary);
+  --footer-border: rgba(255, 255, 255, 0.1);
+}
+
+/* Light Mode Theme Variables for Header/Footer */
+body[data-theme="light"] {
+  --header-bg: var(--color-primary);
+  --header-text: #18181b;
+  --header-brand: #18181b;
+  --header-link-hover-bg: rgba(0, 0, 0, 0.1);
+  --header-active-bg: rgba(0, 0, 0, 0.15);
+  --header-hamburger: #18181b;
+
+  --footer-bg: var(--color-primary);
+  --footer-text: #18181b;
+  --footer-text-secondary: #27272a;
+  --footer-text-muted: #3f3f46;
+  --footer-monogram-bg: var(--color-primary);
+  --footer-social-bg: rgba(0, 0, 0, 0.1);
+  --footer-social-hover-bg: #18181b;
+  --footer-border: rgba(0, 0, 0, 0.1);
 }
 
 /* Reset & Base Styles */

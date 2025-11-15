@@ -1,4 +1,6 @@
 ---
+import ThemeToggle from './ThemeToggle.astro';
+
 const navItems = [
   { name: 'Home', path: '/' },
   { name: 'Portfolio', path: '/portfolio' },
@@ -36,22 +38,26 @@ const currentPath = Astro.url.pathname;
         </li>
       ))}
     </ul>
+
+    <ThemeToggle />
   </nav>
 </header>
 
 <style>
   .header {
-    background-color: var(--color-neutral-800);
+    background-color: var(--header-bg);
     position: sticky;
     top: 0;
     z-index: var(--z-sticky);
     box-shadow: var(--shadow-md);
+    transition: background-color var(--transition-base);
   }
 
   .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: var(--space-3);
     padding-top: var(--space-3);
     padding-bottom: var(--space-3);
   }
@@ -69,13 +75,13 @@ const currentPath = Astro.url.pathname;
     font-family: var(--font-heading);
     font-size: var(--text-2xl);
     font-weight: var(--font-bold);
-    color: var(--color-primary);
+    color: var(--header-brand);
     letter-spacing: -0.01em;
     transition: color var(--transition-fast);
   }
 
   .brand-link:hover .brand-name {
-    color: var(--color-primary-hover);
+    opacity: 0.8;
   }
 
   .mobile-toggle {
@@ -91,7 +97,7 @@ const currentPath = Astro.url.pathname;
     display: block;
     width: 24px;
     height: 2px;
-    background-color: var(--color-neutral-50);
+    background-color: var(--header-hamburger);
     position: relative;
     transition: background-color var(--transition-fast);
   }
@@ -102,7 +108,7 @@ const currentPath = Astro.url.pathname;
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: var(--color-neutral-50);
+    background-color: var(--header-hamburger);
     left: 0;
     transition: all var(--transition-base);
   }
@@ -147,20 +153,19 @@ const currentPath = Astro.url.pathname;
     font-family: var(--font-heading);
     font-size: var(--text-sm);
     font-weight: var(--font-medium);
-    color: var(--color-neutral-50);
+    color: var(--header-text);
     text-decoration: none;
     border-radius: var(--radius-md);
     transition: all var(--transition-fast);
   }
 
   .nav-link:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-    color: var(--color-primary);
+    background-color: var(--header-link-hover-bg);
   }
 
   .nav-link.active {
-    background-color: rgba(249, 115, 22, 0.15);
-    color: var(--color-primary);
+    background-color: var(--header-active-bg);
+    font-weight: var(--font-bold);
   }
 
   @media (max-width: 768px) {
@@ -180,10 +185,10 @@ const currentPath = Astro.url.pathname;
       max-width: 85vw;
       flex-direction: column;
       gap: 0;
-      background-color: var(--color-neutral-800);
+      background-color: var(--header-bg);
       padding: 6rem var(--space-4) var(--space-4);
       transform: translateX(100%);
-      transition: transform var(--transition-base);
+      transition: transform var(--transition-base), background-color var(--transition-base);
       box-shadow: var(--shadow-xl);
       overflow-y: auto;
     }
@@ -193,7 +198,7 @@ const currentPath = Astro.url.pathname;
     }
 
     .nav-item {
-      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      border-bottom: 1px solid var(--header-link-hover-bg);
     }
 
     .nav-link {

@@ -34,6 +34,19 @@ const socialImage = new URL(image, Astro.site);
     <link rel="canonical" href={canonicalURL} />
     <meta name="generator" content={Astro.generator} />
 
+    <script is:inline>
+      (function() {
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+          document.body.setAttribute('data-theme', savedTheme);
+        } else if (window.matchMedia('(prefers-color-scheme: light)').matches) {
+          document.body.setAttribute('data-theme', 'light');
+        } else {
+          document.body.setAttribute('data-theme', 'dark');
+        }
+      })();
+    </script>
+
     <!-- Performance Optimizations -->
     <link rel="preconnect" href="https://analytics.gavinrozzi.com" />
     <link rel="dns-prefetch" href="https://analytics.gavinrozzi.com" />
