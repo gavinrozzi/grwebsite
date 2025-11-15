@@ -9,8 +9,6 @@ const sortedMedia = allMedia.sort((a, b) => {
   return b.data.date.getTime() - a.data.date.getTime();
 });
 
-const featuredMedia = sortedMedia.filter(item => item.data.featured);
-
 const mediaByType = {
   talk: sortedMedia.filter(item => item.data.type === 'talk'),
   podcast: sortedMedia.filter(item => item.data.type === 'podcast'),
@@ -59,30 +57,6 @@ const stats = {
       </div>
     </div>
   </section>
-
-  {featuredMedia.length > 0 && (
-    <section class="featured-section">
-      <div class="container">
-        <h2 class="section-title">Featured Media</h2>
-        <div class="media-grid">
-          {featuredMedia.map(item => (
-            <MediaCard
-              title={item.data.title}
-              summary={item.data.summary || ''}
-              date={item.data.date}
-              slug={item.slug}
-              type={item.data.type}
-              venue={item.data.venue}
-              location={item.data.location}
-              url={item.data.url}
-              embedUrl={item.data.embedUrl}
-              featured={true}
-            />
-          ))}
-        </div>
-      </div>
-    </section>
-  )}
 
   {mediaByType.talk.length > 0 && (
     <section id="conference-talks" class="media-section">
