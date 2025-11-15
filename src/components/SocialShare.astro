@@ -92,15 +92,16 @@ const shareLinks = {
 
   .share-buttons {
     display: flex;
-    gap: var(--space-3);
-    flex-wrap: wrap;
+    gap: var(--space-2);
+    flex-wrap: nowrap;
+    justify-content: flex-start;
   }
 
   .share-btn {
     display: flex;
     align-items: center;
     gap: var(--space-2);
-    padding: var(--space-2) var(--space-4);
+    padding: var(--space-2) var(--space-3);
     border-radius: var(--radius-md);
     font-size: var(--text-sm);
     font-weight: var(--font-medium);
@@ -109,6 +110,8 @@ const shareLinks = {
     background-color: white;
     border: 1px solid var(--color-neutral-300);
     color: var(--color-text-primary);
+    white-space: nowrap;
+    flex-shrink: 0;
   }
 
   .share-btn:hover {
@@ -146,13 +149,24 @@ const shareLinks = {
     color: white;
   }
 
-  @media (max-width: 640px) {
+  @media (max-width: 768px) {
     .share-buttons {
-      flex-direction: column;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: var(--space-2);
     }
 
     .share-btn {
       justify-content: center;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .share-buttons {
+      grid-template-columns: 1fr;
+    }
+
+    .share-btn {
       width: 100%;
     }
   }
