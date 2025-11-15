@@ -14,6 +14,7 @@ const footerLinks = [
   { name: 'Publications', path: '/publications' },
   { name: 'Media & Speaking', path: '/media' },
   { name: 'Contact', path: '/contact' },
+  { name: 'Not Rossi', path: 'https://gavinrossi.com', external: true },
 ];
 ---
 
@@ -69,7 +70,12 @@ const footerLinks = [
         <ul class="footer-nav">
           {footerLinks.map((link) => (
             <li>
-              <a href={link.path} class="footer-link">
+              <a
+                href={link.path}
+                class="footer-link"
+                target={link.external ? '_blank' : undefined}
+                rel={link.external ? 'noopener noreferrer' : undefined}
+              >
                 {link.name}
               </a>
             </li>
