@@ -15,6 +15,8 @@ const featuredPosts = sortedPosts.filter(post => post.data.featured);
 const regularPosts = sortedPosts.filter(post => !post.data.featured);
 
 const uniqueTags = [...new Set(allPosts.flatMap(post => post.data.tags))].sort();
+
+const selectedTag = Astro.url.searchParams.get('tag');
 ---
 
 <BaseLayout
@@ -23,19 +25,24 @@ const uniqueTags = [...new Set(allPosts.flatMap(post => post.data.tags))].sort()
 >
   <section class="page-hero">
     <div class="container">
-      <h1 class="page-title">Blog</h1>
+      <h1 class="page-title">{selectedTag ? `Topic: ${selectedTag}` : 'Blog'}</h1>
       <p class="page-subtitle">
-        Insights on digital transformation, civic technology, and data-driven policymaking
+        {selectedTag ? `Articles tagged with "${selectedTag}"` : 'Insights on digital transformation, civic technology, and data-driven policymaking'}
       </p>
       <div class="blog-stats">
         <span class="stat">{allPosts.length} articles</span>
         <span class="stat-separator">•</span>
         <span class="stat">{uniqueTags.length} topics</span>
       </div>
+      {selectedTag && (
+        <div style="margin-top: var(--space-4);">
+          <a href="/blog" class="clear-filter-btn">← View all articles</a>
+        </div>
+      )}
     </div>
   </section>
 
-  {featuredPosts.length > 0 && (
+  {featuredPosts.length > 0 && !selectedTag && (
     <section class="featured-section">
       <div class="container">
         <h2 class="section-title">Featured Articles</h2>
@@ -58,9 +65,9 @@ const uniqueTags = [...new Set(allPosts.flatMap(post => post.data.tags))].sort()
 
   <section class="posts-section">
     <div class="container">
-      <h2 class="section-title">All Articles</h2>
+      <h2 class="section-title">{selectedTag ? 'Matching Articles' : 'All Articles'}</h2>
       <div class="posts-grid">
-        {regularPosts.map(post => (
+        {(selectedTag ? sortedPosts.filter(post => post.data.tags.includes(selectedTag)) : regularPosts).map(post => (
           <BlogCard
             title={post.data.title}
             summary={post.data.summary}
@@ -68,10 +75,15 @@ const uniqueTags = [...new Set(allPosts.flatMap(post => post.data.tags))].sort()
             slug={post.slug}
             tags={post.data.tags}
             image={post.data.image}
-            featured={false}
+            featured={selectedTag ? post.data.featured : false}
           />
         ))}
       </div>
+      {selectedTag && sortedPosts.filter(post => post.data.tags.includes(selectedTag)).length === 0 && (
+        <p style="text-align: center; color: var(--color-text-secondary); margin-top: var(--space-6);">
+          No articles found with the tag "{selectedTag}".
+        </p>
+      )}
     </div>
   </section>
 
@@ -199,6 +211,24 @@ const uniqueTags = [...new Set(allPosts.flatMap(post => post.data.tags))].sort()
     border-color: transparent;
     transform: translateY(-2px);
     box-shadow: var(--shadow-md);
+  }
+
+  .clear-filter-btn {
+    display: inline-block;
+    padding: var(--space-2) var(--space-4);
+    background-color: white;
+    border: 1px solid var(--color-neutral-300);
+    color: var(--color-text-primary);
+    border-radius: var(--radius-lg);
+    font-size: var(--text-sm);
+    font-weight: var(--font-medium);
+    text-decoration: none;
+    transition: all var(--transition-fast);
+  }
+
+  .clear-filter-btn:hover {
+    background-color: var(--color-neutral-100);
+    transform: translateY(-1px);
   }
 
   .subscribe-section {
