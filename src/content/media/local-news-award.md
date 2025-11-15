@@ -1,6 +1,6 @@
 ---
 title: "Excellence in Local News Award"
-date: 2019-06-20
+date: 2019-01-19
 type: "award"
 venue: "New Jersey Press Foundation"
 location: "New Brunswick, NJ"
