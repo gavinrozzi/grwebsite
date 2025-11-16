@@ -414,7 +414,7 @@ const sortedPhotos = photos.sort((a, b) => a.data.order - b.data.order);
 
   .carousel-nav {
     position: absolute;
-    top: 50%;
+    top: calc(50% - 60px);
     transform: translateY(-50%);
     width: 48px;
     height: 48px;
@@ -584,6 +584,7 @@ const sortedPhotos = photos.sort((a, b) => a.data.order - b.data.order);
     .carousel-nav {
       width: 40px;
       height: 40px;
+      top: 35%;
     }
 
     .carousel-nav-prev {
@@ -596,6 +597,11 @@ const sortedPhotos = photos.sort((a, b) => a.data.order - b.data.order);
 
     .slide-caption {
       padding: var(--space-4);
+    }
+
+    .caption-content {
+      padding-left: var(--space-2);
+      padding-right: var(--space-2);
     }
 
     .caption-title {
@@ -622,6 +628,17 @@ const sortedPhotos = photos.sort((a, b) => a.data.order - b.data.order);
     .carousel-nav {
       width: 36px;
       height: 36px;
+      top: 30%;
+      background: rgba(255, 255, 255, 0.9);
+      backdrop-filter: blur(4px);
+    }
+
+    .carousel-nav-prev {
+      left: var(--space-1);
+    }
+
+    .carousel-nav-next {
+      right: var(--space-1);
     }
 
     .carousel-indicators {
@@ -630,6 +647,11 @@ const sortedPhotos = photos.sort((a, b) => a.data.order - b.data.order);
 
     .slide-caption {
       padding: var(--space-3);
+    }
+
+    .caption-content {
+      padding-left: var(--space-3);
+      padding-right: var(--space-3);
     }
 
     .caption-title {
