@@ -5,9 +5,9 @@ import ContourCanvas from './ContourCanvas.astro';
 ---
 
 <section class="hero">
+  <ContourCanvas />
   <div class="hero-content container">
-    <div class="hero-main contour-container">
-    <ContourCanvas />
+    <div class="hero-main">
 
     <div class="hero-text">
       <h1 class="hero-title">
@@ -190,17 +190,10 @@ import ContourCanvas from './ContourCanvas.astro';
     gap: var(--space-8);
     align-items: center;
     margin-bottom: var(--space-8);
-    position: relative;
-  }
-
-  .contour-container {
-    position: relative;
   }
 
   .hero-text {
     max-width: 800px;
-    position: relative;
-    z-index: 2;
   }
 
   .hero-image {
@@ -209,8 +202,6 @@ import ContourCanvas from './ContourCanvas.astro';
     justify-content: center;
     align-items: center;
     gap: var(--space-3);
-    position: relative;
-    z-index: 2;
   }
 
   .headshot-frame {
