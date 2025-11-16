@@ -86,15 +86,38 @@ import PhotoCarousel from './PhotoCarousel.astro';
         </div>
 
         <div class="recognition-card">
-          <h3 class="recognition-title">Leadership & Recognition</h3>
-          <ul class="recognition-list">
-            <li>Founding Data Scientist, Rutgers Urban & Civic Informatics Lab</li>
-            <li>Research Affiliate, NJ State Policy Lab</li>
-            <li>Certified Public Manager Candidate</li>
-            <li>Governor's Team of Excellence (2025)</li>
-            <li>First Place, NJ DEP GIS Contest (2022)</li>
-            <li>Excellence in Local News Award (2019)</li>
-          </ul>
+          <h3 class="recognition-title">Professional Recognition</h3>
+          <div class="awards-list">
+            <a href="/media/governors-award-2025" class="award-item">
+              <div class="award-icon">🏆</div>
+              <div class="award-content">
+                <h4 class="award-title">Governor's Team of Excellence Award</h4>
+                <p class="award-org">New Jersey Civil Service Commission</p>
+                <p class="award-year">2025</p>
+                <p class="award-desc">Recognition for A4-S50 affordable housing implementation</p>
+              </div>
+            </a>
+
+            <a href="/media/gis-contest-winner" class="award-item">
+              <div class="award-icon">🏆</div>
+              <div class="award-content">
+                <h4 class="award-title">First Place, GIS Mapping Contest</h4>
+                <p class="award-org">New Jersey Department of Environmental Protection</p>
+                <p class="award-year">2022</p>
+                <p class="award-desc">Excellence in spatial analysis and data visualization</p>
+              </div>
+            </a>
+
+            <a href="/media/local-news-award" class="award-item">
+              <div class="award-icon">🏆</div>
+              <div class="award-content">
+                <h4 class="award-title">Excellence in Local News Award</h4>
+                <p class="award-org">New Jersey Press Foundation</p>
+                <p class="award-year">2019</p>
+                <p class="award-desc">Data-driven investigative journalism and public accountability</p>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -250,26 +273,75 @@ import PhotoCarousel from './PhotoCarousel.astro';
     margin: 0;
   }
 
-  .recognition-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  .awards-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
   }
 
-  .recognition-list li {
-    padding: var(--space-2) 0;
-    border-bottom: 1px solid var(--color-neutral-200);
+  .award-item {
+    display: flex;
+    gap: var(--space-3);
+    padding: var(--space-4);
+    background-color: white;
+    border: 1px solid var(--color-neutral-200);
+    border-radius: var(--radius-lg);
+    text-decoration: none;
+    color: inherit;
+    transition: all var(--transition-base);
+    cursor: pointer;
+  }
+
+  .award-item:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--color-primary);
+  }
+
+  .award-icon {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(249, 115, 22, 0.1) 0%, rgba(20, 184, 166, 0.1) 100%);
+    border-radius: var(--radius-lg);
+    font-size: var(--text-xl);
+  }
+
+  .award-content {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .award-title {
+    font-size: var(--text-base);
+    font-weight: var(--font-bold);
+    color: var(--color-text-primary);
+    margin: 0 0 var(--space-1) 0;
+    line-height: var(--leading-tight);
+  }
+
+  .award-org {
+    font-size: var(--text-xs);
     color: var(--color-text-secondary);
-    font-size: var(--text-sm);
+    margin: 0 0 var(--space-1) 0;
+    font-weight: var(--font-medium);
   }
 
-  .recognition-list li:last-child {
-    border-bottom: none;
+  .award-year {
+    font-size: var(--text-xs);
+    color: var(--color-primary);
+    font-weight: var(--font-bold);
+    margin: 0 0 var(--space-2) 0;
   }
 
-  .recognition-list li::before {
-    content: '🏆';
-    margin-right: var(--space-2);
+  .award-desc {
+    font-size: var(--text-xs);
+    color: var(--color-text-secondary);
+    margin: 0;
+    line-height: var(--leading-relaxed);
   }
 
   @media (max-width: 1024px) {
@@ -344,6 +416,25 @@ import PhotoCarousel from './PhotoCarousel.astro';
 
     .pillar-desc {
       font-size: var(--text-xs);
+    }
+
+    .award-item {
+      padding: var(--space-3);
+      gap: var(--space-2);
+    }
+
+    .award-icon {
+      width: 36px;
+      height: 36px;
+      font-size: var(--text-lg);
+    }
+
+    .award-title {
+      font-size: var(--text-sm);
+    }
+
+    .awards-list {
+      gap: var(--space-3);
     }
   }
 </style>
