@@ -40,7 +40,7 @@ const selectedTag = Astro.url.searchParams.get('tag');
     <div class="container">
       <h1 class="page-title">{selectedTag ? `Topic: ${selectedTag}` : 'Blog'}</h1>
       <p class="page-subtitle">
-        {selectedTag ? `Articles tagged with "${selectedTag}"` : 'Insights on digital transformation, civic technology, and data-driven policymaking'}
+        {selectedTag ? `Articles tagged with "${selectedTag}"` : 'Insights on digital transformation, civic tech, and data-driven policy'}
       </p>
       <div class="blog-stats">
         <span class="stat">{allPosts.length} articles</span>

@@ -388,3 +388,36 @@ h1, h2, h3, h4, h5, h6, p {
   word-wrap: break-word;
   hyphens: auto;
 }
+
+/* Better text wrapping for subtitles and long text */
+.page-subtitle,
+.cta-text,
+.hero-subtitle {
+  text-wrap: balance;
+  max-inline-size: 65ch;
+}
+
+/* Responsive adjustments for subtitles */
+@media (max-width: 768px) {
+  .page-subtitle,
+  .cta-text,
+  .hero-subtitle {
+    max-inline-size: 55ch;
+  }
+}
+
+@media (max-width: 640px) {
+  .page-subtitle,
+  .cta-text,
+  .hero-subtitle {
+    max-inline-size: 45ch;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-subtitle,
+  .cta-text,
+  .hero-subtitle {
+    max-inline-size: 35ch;
+  }
+}
