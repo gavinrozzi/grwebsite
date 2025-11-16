@@ -271,14 +271,15 @@ import PhotoCarousel from './PhotoCarousel.astro';
   }
 
   .awards-list {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: var(--space-4);
   }
 
   .award-item {
     display: flex;
-    gap: var(--space-3);
+    flex-direction: column;
+    gap: var(--space-2);
     padding: var(--space-4);
     background-color: white;
     border: 1px solid var(--color-neutral-200);
@@ -287,6 +288,7 @@ import PhotoCarousel from './PhotoCarousel.astro';
     color: inherit;
     transition: all var(--transition-base);
     cursor: pointer;
+    min-height: 100%;
   }
 
   .award-item:hover {
@@ -305,15 +307,17 @@ import PhotoCarousel from './PhotoCarousel.astro';
     background: linear-gradient(135deg, rgba(249, 115, 22, 0.1) 0%, rgba(20, 184, 166, 0.1) 100%);
     border-radius: var(--radius-lg);
     font-size: var(--text-xl);
+    align-self: center;
   }
 
   .award-content {
     flex: 1;
     min-width: 0;
+    text-align: center;
   }
 
   .award-title {
-    font-size: var(--text-base);
+    font-size: var(--text-sm);
     font-weight: var(--font-bold);
     color: var(--color-text-primary);
     margin: 0 0 var(--space-1) 0;
@@ -325,6 +329,7 @@ import PhotoCarousel from './PhotoCarousel.astro';
     color: var(--color-text-secondary);
     margin: 0 0 var(--space-1) 0;
     font-weight: var(--font-medium);
+    line-height: var(--leading-snug);
   }
 
   .award-year {
@@ -338,7 +343,7 @@ import PhotoCarousel from './PhotoCarousel.astro';
     font-size: var(--text-xs);
     color: var(--color-text-secondary);
     margin: 0;
-    line-height: var(--leading-relaxed);
+    line-height: var(--leading-normal);
   }
 
   @media (max-width: 1024px) {
@@ -357,6 +362,10 @@ import PhotoCarousel from './PhotoCarousel.astro';
       order: -1;
       max-width: 600px;
       margin: 0 auto;
+    }
+
+    .awards-list {
+      grid-template-columns: 1fr;
     }
   }
 
@@ -427,11 +436,15 @@ import PhotoCarousel from './PhotoCarousel.astro';
     }
 
     .award-title {
-      font-size: var(--text-sm);
+      font-size: var(--text-xs);
     }
 
     .awards-list {
       gap: var(--space-3);
+    }
+
+    .award-content {
+      text-align: center;
     }
   }
 </style>
