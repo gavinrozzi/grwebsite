@@ -120,7 +120,6 @@ const sortedPhotos = photos.sort((a, b) => a.data.order - b.data.order);
     private autoplayInterval: number | null = null;
     private touchStartX: number = 0;
     private touchEndX: number = 0;
-    private isInitialized: boolean = false;
 
     constructor() {
       this.carousel = document.querySelector('.photo-carousel') as HTMLElement;
@@ -182,10 +181,9 @@ const sortedPhotos = photos.sort((a, b) => a.data.order - b.data.order);
       this.carousel.addEventListener('mouseleave', () => this.startAutoplay());
 
       this.startAutoplay();
-      this.isInitialized = true;
     }
 
-    private goToSlide(index: number, userInitiated: boolean = true): void {
+    private goToSlide(index: number): void {
       this.currentIndex = index;
       const offset = -index * 100;
       this.track.style.transform = `translateX(${offset}%)`;
@@ -197,33 +195,16 @@ const sortedPhotos = photos.sort((a, b) => a.data.order - b.data.order);
       this.thumbnails.forEach((thumbnail, i) => {
         thumbnail.classList.toggle('active', i === index);
       });
-
-      if (this.isInitialized && userInitiated) {
-        const activeThumbnail = this.thumbnails[index] as HTMLElement;
-        const thumbnailContainer = activeThumbnail.parentElement as HTMLElement;
-
-        if (thumbnailContainer) {
-          const containerRect = thumbnailContainer.getBoundingClientRect();
-          const thumbnailRect = activeThumbnail.getBoundingClientRect();
-          const scrollLeft = thumbnailContainer.scrollLeft;
-          const targetScroll = scrollLeft + thumbnailRect.left - containerRect.left - (containerRect.width / 2) + (thumbnailRect.width / 2);
-
-          thumbnailContainer.scrollTo({
-            left: targetScroll,
-            behavior: 'smooth'
-          });
-        }
-      }
     }
 
     private next(): void {
       const nextIndex = (this.currentIndex + 1) % this.slides.length;
-      this.goToSlide(nextIndex, false);
+      this.goToSlide(nextIndex);
     }
 
     private prev(): void {
       const prevIndex = (this.currentIndex - 1 + this.slides.length) % this.slides.length;
-      this.goToSlide(prevIndex, false);
+      this.goToSlide(prevIndex);
     }
 
     private handleSwipe(): void {
