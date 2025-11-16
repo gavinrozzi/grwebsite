@@ -1,6 +1,5 @@
 ---
 import { getCollection } from 'astro:content';
-import { Image } from 'astro:assets';
 
 const photos = await getCollection('photos');
 const sortedPhotos = photos.sort((a, b) => a.data.order - b.data.order);
@@ -121,6 +120,7 @@ const sortedPhotos = photos.sort((a, b) => a.data.order - b.data.order);
     private autoplayInterval: number | null = null;
     private touchStartX: number = 0;
     private touchEndX: number = 0;
+    private isInitialized: boolean = false;
 
     constructor() {
       this.carousel = document.querySelector('.photo-carousel') as HTMLElement;
@@ -182,9 +182,10 @@ const sortedPhotos = photos.sort((a, b) => a.data.order - b.data.order);
       this.carousel.addEventListener('mouseleave', () => this.startAutoplay());
 
       this.startAutoplay();
+      this.isInitialized = true;
     }
 
-    private goToSlide(index: number): void {
+    private goToSlide(index: number, userInitiated: boolean = true): void {
       this.currentIndex = index;
       const offset = -index * 100;
       this.track.style.transform = `translateX(${offset}%)`;
@@ -197,18 +198,32 @@ const sortedPhotos = photos.sort((a, b) => a.data.order - b.data.order);
         thumbnail.classList.toggle('active', i === index);
       });
 
-      const activeThumbnail = this.thumbnails[index] as HTMLElement;
-      activeThumbnail.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+      if (this.isInitialized && userInitiated) {
+        const activeThumbnail = this.thumbnails[index] as HTMLElement;
+        const thumbnailContainer = activeThumbnail.parentElement as HTMLElement;
+
+        if (thumbnailContainer) {
+          const containerRect = thumbnailContainer.getBoundingClientRect();
+          const thumbnailRect = activeThumbnail.getBoundingClientRect();
+          const scrollLeft = thumbnailContainer.scrollLeft;
+          const targetScroll = scrollLeft + thumbnailRect.left - containerRect.left - (containerRect.width / 2) + (thumbnailRect.width / 2);
+
+          thumbnailContainer.scrollTo({
+            left: targetScroll,
+            behavior: 'smooth'
+          });
+        }
+      }
     }
 
     private next(): void {
       const nextIndex = (this.currentIndex + 1) % this.slides.length;
-      this.goToSlide(nextIndex);
+      this.goToSlide(nextIndex, false);
     }
 
     private prev(): void {
       const prevIndex = (this.currentIndex - 1 + this.slides.length) % this.slides.length;
-      this.goToSlide(prevIndex);
+      this.goToSlide(prevIndex, false);
     }
 
     private handleSwipe(): void {
