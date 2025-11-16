@@ -8,15 +8,22 @@
 <script>
   import * as PerlinNoise from '@chriscourses/perlin-noise';
 
-  let canvas: HTMLCanvasElement | null;
-  let ctx: CanvasRenderingContext2D | null;
-  let animationFrameId: number;
+  let canvas: HTMLCanvasElement | null = null;
+  let ctx: CanvasRenderingContext2D | null = null;
+  let animationFrameId: number = 0;
+  let resizeObserver: ResizeObserver | null = null;
+  let resizeTimeout: ReturnType<typeof setTimeout> | null = null;
+  let isInitialized = false;
+  let isAnimating = false;
 
   const thresholdIncrement = 6;
   const thickLineThresholdMultiple = 3;
   const res = 10;
   const baseZOffset = 0.00005;
   const lineColor = '#71717a30';
+  const RESIZE_DEBOUNCE_MS = 150;
+  const MIN_CANVAS_SIZE = 100;
+  const MAX_DEVICE_PIXEL_RATIO = 3;
 
   let currentThreshold = 0;
   let cols = 0;
@@ -26,25 +33,118 @@
   let noiseMin = 100;
   let noiseMax = 0;
   let inputValues: number[][] = [];
+  let previousWidth = 0;
+  let previousHeight = 0;
 
   let mousePos = { x: -99, y: -99 };
 
+  function debounce(func: Function, wait: number) {
+    return function executedFunction(...args: any[]) {
+      const later = () => {
+        if (resizeTimeout) clearTimeout(resizeTimeout);
+        func(...args);
+      };
+      if (resizeTimeout) clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(later, wait);
+    };
+  }
+
+  function cleanup() {
+    if (animationFrameId) {
+      cancelAnimationFrame(animationFrameId);
+      animationFrameId = 0;
+    }
+
+    if (resizeObserver) {
+      resizeObserver.disconnect();
+      resizeObserver = null;
+    }
+
+    if (resizeTimeout) {
+      clearTimeout(resizeTimeout);
+      resizeTimeout = null;
+    }
+
+    isAnimating = false;
+    isInitialized = false;
+  }
+
   function setupCanvas() {
+    cleanup();
+
     canvas = document.getElementById('contour-canvas') as HTMLCanvasElement;
-    if (!canvas) return;
+    if (!canvas) {
+      console.warn('ContourCanvas: Canvas element not found');
+      return false;
+    }
 
-    const canvasCtx = canvas.getContext('2d');
-    if (!canvasCtx) return;
-
-    ctx = canvasCtx;
-    canvasSize();
-
-    window.addEventListener('resize', () => {
-      canvasSize();
+    const canvasCtx = canvas.getContext('2d', {
+      alpha: true,
+      desynchronized: true
     });
 
+    if (!canvasCtx) {
+      console.warn('ContourCanvas: Could not get 2D context');
+      return false;
+    }
+
+    ctx = canvasCtx;
+
+    if (!initializeCanvasSize()) {
+      console.warn('ContourCanvas: Failed to initialize canvas size');
+      return false;
+    }
+
+    setupResizeObserver();
+    setupMouseEvents();
+
+    isInitialized = true;
+    return true;
+  }
+
+  function setupResizeObserver() {
+    if (!canvas) return;
+
+    const handleResize = debounce(() => {
+      if (canvas && isInitialized) {
+        const rect = canvas.getBoundingClientRect();
+        if (rect.width > 0 && rect.height > 0) {
+          const hasChanged = Math.abs(rect.width - previousWidth) > 1 ||
+                            Math.abs(rect.height - previousHeight) > 1;
+
+          if (hasChanged) {
+            resizeCanvas();
+          }
+        }
+      }
+    }, RESIZE_DEBOUNCE_MS);
+
+    if (typeof ResizeObserver !== 'undefined') {
+      resizeObserver = new ResizeObserver((entries) => {
+        for (const entry of entries) {
+          if (entry.target === canvas) {
+            handleResize();
+          }
+        }
+      });
+
+      resizeObserver.observe(canvas);
+    } else {
+      if (typeof window !== 'undefined') {
+        window.addEventListener('resize', handleResize);
+        window.addEventListener('orientationchange', () => {
+          setTimeout(handleResize, 300);
+        });
+      }
+    }
+  }
+
+  function setupMouseEvents() {
+    if (!canvas) return;
+
     canvas.addEventListener('mousemove', (e) => {
-      const rect = canvas!.getBoundingClientRect();
+      if (!canvas) return;
+      const rect = canvas.getBoundingClientRect();
       mousePos = {
         x: e.clientX - rect.left,
         y: e.clientY - rect.top
@@ -56,49 +156,150 @@
     });
   }
 
-  function canvasSize() {
+  function initializeCanvasSize(): boolean {
+    if (!canvas || !ctx) return false;
+
+    requestAnimationFrame(() => {
+      if (!canvas) return;
+      const rect = canvas.getBoundingClientRect();
+
+      if (rect.width < MIN_CANVAS_SIZE || rect.height < MIN_CANVAS_SIZE) {
+        console.warn('ContourCanvas: Canvas dimensions too small', rect);
+        return;
+      }
+
+      setCanvasDimensions(rect.width, rect.height);
+    });
+
+    return true;
+  }
+
+  function resizeCanvas() {
     if (!canvas || !ctx) return;
 
-    const rect = canvas.getBoundingClientRect();
-    canvas.width = rect.width * window.devicePixelRatio;
-    canvas.height = rect.height * window.devicePixelRatio;
-    ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
-    canvas.style.width = rect.width + 'px';
-    canvas.style.height = rect.height + 'px';
+    const wasAnimating = isAnimating;
+    if (wasAnimating && animationFrameId) {
+      cancelAnimationFrame(animationFrameId);
+      animationFrameId = 0;
+      isAnimating = false;
+    }
 
-    cols = Math.floor(canvas.width / res) + 1;
-    rows = Math.floor(canvas.height / res) + 1;
+    requestAnimationFrame(() => {
+      if (!canvas || !ctx) return;
+
+      const rect = canvas.getBoundingClientRect();
+
+      if (rect.width < MIN_CANVAS_SIZE || rect.height < MIN_CANVAS_SIZE) {
+        return;
+      }
+
+      setCanvasDimensions(rect.width, rect.height);
+
+      if (wasAnimating) {
+        startAnimation();
+      }
+    });
+  }
+
+  function setCanvasDimensions(width: number, height: number) {
+    if (!canvas || !ctx) return;
+
+    const dpr = Math.min(window.devicePixelRatio || 1, MAX_DEVICE_PIXEL_RATIO);
+
+    const scaledWidth = Math.floor(width * dpr);
+    const scaledHeight = Math.floor(height * dpr);
+
+    if (canvas.width === scaledWidth && canvas.height === scaledHeight) {
+      return;
+    }
+
+    canvas.width = scaledWidth;
+    canvas.height = scaledHeight;
+    canvas.style.width = `${width}px`;
+    canvas.style.height = `${height}px`;
+
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
+    ctx.scale(dpr, dpr);
+
+    previousWidth = width;
+    previousHeight = height;
+
+    initializeGrid(width, height);
+  }
+
+  function initializeGrid(width: number, height: number) {
+    const logicalWidth = width;
+    const logicalHeight = height;
+
+    cols = Math.floor(logicalWidth / res) + 1;
+    rows = Math.floor(logicalHeight / res) + 1;
 
     zBoostValues = [];
+    inputValues = [];
+
     for (let y = 0; y < rows; y++) {
       zBoostValues[y] = [];
+      inputValues[y] = [];
       for (let x = 0; x <= cols; x++) {
         zBoostValues[y][x] = 0;
+        inputValues[y][x] = 0;
       }
     }
   }
 
+  function startAnimation() {
+    if (isAnimating) return;
+    isAnimating = true;
+    animate();
+  }
+
+  function stopAnimation() {
+    if (animationFrameId) {
+      cancelAnimationFrame(animationFrameId);
+      animationFrameId = 0;
+    }
+    isAnimating = false;
+  }
+
   function animate() {
-    if (!ctx || !canvas) return;
+    if (!ctx || !canvas || !isAnimating) {
+      stopAnimation();
+      return;
+    }
 
     animationFrameId = requestAnimationFrame(() => animate());
 
-    mouseOffset();
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-    zOffset += baseZOffset;
-    generateNoise();
-
-    const roundedNoiseMin = Math.floor(noiseMin / thresholdIncrement) * thresholdIncrement;
-    const roundedNoiseMax = Math.ceil(noiseMax / thresholdIncrement) * thresholdIncrement;
-
-    for (let threshold = roundedNoiseMin; threshold < roundedNoiseMax; threshold += thresholdIncrement) {
-      currentThreshold = threshold;
-      renderAtThreshold();
+    if (cols === 0 || rows === 0) {
+      return;
     }
 
-    noiseMin = 100;
-    noiseMax = 0;
+    try {
+      mouseOffset();
+
+      const canvasWidth = canvas.width;
+      const canvasHeight = canvas.height;
+
+      if (canvasWidth > 0 && canvasHeight > 0) {
+        ctx.clearRect(0, 0, canvasWidth, canvasHeight);
+      }
+
+      zOffset += baseZOffset;
+      generateNoise();
+
+      const roundedNoiseMin = Math.floor(noiseMin / thresholdIncrement) * thresholdIncrement;
+      const roundedNoiseMax = Math.ceil(noiseMax / thresholdIncrement) * thresholdIncrement;
+
+      for (let threshold = roundedNoiseMin; threshold < roundedNoiseMax; threshold += thresholdIncrement) {
+        currentThreshold = threshold;
+        renderAtThreshold();
+      }
+
+      noiseMin = 100;
+      noiseMax = 0;
+    } catch (error) {
+      console.error('ContourCanvas: Animation error', error);
+      stopAnimation();
+    }
   }
 
   function mouseOffset() {
@@ -253,21 +454,37 @@
     return a.reduce((res: number, x: number) => (res << 1) | x);
   }
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => {
-      setupCanvas();
-      animate();
+  function initialize() {
+    requestAnimationFrame(() => {
+      const success = setupCanvas();
+      if (success) {
+        setTimeout(() => {
+          if (isInitialized) {
+            startAnimation();
+          }
+        }, 100);
+      }
     });
-  } else {
-    setupCanvas();
-    animate();
   }
 
-  document.addEventListener('astro:before-swap', () => {
-    if (animationFrameId) {
-      cancelAnimationFrame(animationFrameId);
-    }
-  });
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initialize);
+  } else {
+    initialize();
+  }
+
+  document.addEventListener('astro:before-swap', cleanup);
+  document.addEventListener('astro:page-load', initialize);
+
+  if ('visibilityState' in document) {
+    document.addEventListener('visibilitychange', () => {
+      if (document.hidden) {
+        stopAnimation();
+      } else if (isInitialized && !isAnimating) {
+        startAnimation();
+      }
+    });
+  }
 </script>
 
 <style>
@@ -281,11 +498,20 @@
     height: 100%;
     pointer-events: auto;
     z-index: 0;
+    overflow: hidden;
   }
 
   #contour-canvas {
     width: 100%;
     height: 100%;
     display: block;
+    touch-action: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  @media (max-width: 768px) {
+    .contour-canvas-wrapper {
+      will-change: auto;
+    }
   }
 </style>
