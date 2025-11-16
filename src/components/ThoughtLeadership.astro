@@ -3,12 +3,11 @@ import { getCollection } from 'astro:content';
 
 const blogPosts = await getCollection('blog', ({ data }) => data.draft !== true);
 const mediaEntries = await getCollection('media');
-const publications = await getCollection('publications');
 
 type ContentItem = {
   title: string;
   date: Date;
-  type: 'blog' | 'media' | 'publication';
+  type: 'blog' | 'media';
   summary: string;
   slug: string;
   url: string;
@@ -51,19 +50,6 @@ const allContent: ContentItem[] = [
              'Award',
       icon: entry.data.type,
       venue: entry.data.venue,
-    },
-  })),
-  ...publications.map(pub => ({
-    title: pub.data.title,
-    date: pub.data.date,
-    type: 'publication' as const,
-    summary: pub.data.summary || `Published in ${pub.data.publisher}`,
-    slug: pub.slug,
-    url: pub.data.url || `/publications#${pub.slug}`,
-    metadata: {
-      badge: 'Publication',
-      icon: 'academic',
-      venue: pub.data.publisher,
     },
   })),
 ];
@@ -145,7 +131,7 @@ const getIcon = (iconType: string) => {
           )}
 
           <a href={item.url} class="read-more">
-            {item.type === 'blog' ? 'Read Article' : item.type === 'media' ? 'Learn More' : 'View Publication'}
+            {item.type === 'blog' ? 'Read Article' : 'Learn More'}
             <svg viewBox="0 0 20 20" fill="currentColor">
               <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
             </svg>

@@ -46,22 +46,6 @@ const portfolio = defineCollection({
   }),
 });
 
-const publications = defineCollection({
-  type: 'content',
-  schema: z.object({
-    title: z.string(),
-    date: z.coerce.date(),
-    publisher: z.string(),
-    authors: z.array(z.string()).default(['Gavin Rozzi']),
-    summary: z.string().optional(),
-    url: z.string().optional(),
-    pdf: z.string().optional(),
-    doi: z.string().optional(),
-    citation: z.string().optional(),
-    type: z.enum(['journal', 'conference', 'report', 'media']).default('journal'),
-  }),
-});
-
 const media = defineCollection({
   type: 'content',
   schema: z.object({
@@ -93,4 +77,4 @@ const photos = defineCollection({
   }),
 });
 
-export const collections = { blog, portfolio, publications, media, photos };
+export const collections = { blog, portfolio, media, photos };
