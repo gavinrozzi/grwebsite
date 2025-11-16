@@ -3,12 +3,17 @@ import sharp from 'sharp';
 import { readFile, writeFile } from 'fs/promises';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
+import { generateContourBackground } from './contour-renderer.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const publicDir = join(__dirname, '..', 'public');
 
 async function generateOGImage(width, height, filename) {
+  const contourCanvas = generateContourBackground(width, height, 2.5);
+  const contourBuffer = contourCanvas.toBuffer('image/png');
+  const contourBase64 = `data:image/png;base64,${contourBuffer.toString('base64')}`;
+
   const svg = await satori(
     {
       type: 'div',
@@ -20,7 +25,9 @@ async function generateOGImage(width, height, filename) {
           flexDirection: 'column',
           alignItems: 'center',
           justifyContent: 'center',
-          background: 'linear-gradient(135deg, #fafafa 0%, #f4f4f5 100%)',
+          backgroundImage: `url(${contourBase64})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
           position: 'relative',
         },
         children: [
