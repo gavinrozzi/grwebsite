@@ -32,7 +32,12 @@
     Cache-Control = "public, max-age=31536000, immutable"
 
 # Preserve legacy Hugo URLs - add redirects as needed
-# [[redirects]]
-#   from = "/old-path"
-#   to = "/new-path"
-#   status = 301
+[[redirects]]
+  from = "/talk/*"
+  to = "/media/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/project/*"
+  to = "/portfolio/:splat"
+  status = 301
