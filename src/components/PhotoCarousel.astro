@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
 
 const photos = await getCollection('photos');
 const sortedPhotos = photos.sort((a, b) => a.data.order - b.data.order);
@@ -18,11 +19,13 @@ const sortedPhotos = photos.sort((a, b) => a.data.order - b.data.order);
         {sortedPhotos.map((photo, index) => (
           <div class="carousel-slide" data-index={index}>
             <div class="slide-image-wrapper">
-              <img
+              <Image
                 src={photo.data.image}
                 alt={photo.data.alt}
                 class="slide-image"
                 loading={index === 0 ? 'eager' : 'lazy'}
+                width={1200}
+                height={750}
               />
               <button class="image-expand" aria-label="View full size">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -82,10 +85,12 @@ const sortedPhotos = photos.sort((a, b) => a.data.order - b.data.order);
         data-index={index}
         aria-label={`View ${photo.data.title}`}
       >
-        <img
+        <Image
           src={photo.data.image}
           alt={photo.data.alt}
           loading="lazy"
+          width={100}
+          height={60}
         />
       </button>
     ))}
@@ -99,6 +104,7 @@ const sortedPhotos = photos.sort((a, b) => a.data.order - b.data.order);
         <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
     </button>
+    <!-- Keep as standard img tag - dynamically updated via JavaScript -->
     <img src="" alt="" class="lightbox-image" />
   </div>
 </dialog>

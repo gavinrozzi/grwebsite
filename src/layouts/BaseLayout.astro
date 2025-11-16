@@ -87,7 +87,7 @@ const socialImage = new URL(image, Astro.site);
       "@type": "Person",
       "name": "Gavin Rozzi",
       "url": "https://www.gavinrozzi.com",
-      "image": "https://www.gavinrozzi.com/images/profile/headshot.jpg",
+      "image": "https://www.gavinrozzi.com/og-default.png",
       "jobTitle": "Director of Data Center Administration",
       "description": "Gavin Rozzi: Digital transformation executive leading data-driven government innovation in New Jersey. Building platforms that turn policy into measurable impact for millions of residents.",
       "address": {
@@ -151,6 +151,7 @@ const socialImage = new URL(image, Astro.site);
     <Footer />
 
     <!-- Matomo Image Tracker (noscript fallback) -->
+    <!-- Keep as standard img tag - external tracking pixel from analytics domain -->
     <noscript>
       <img referrerpolicy="no-referrer-when-downgrade" src="https://analytics.gavinrozzi.com/matomo.php?idsite=9&rec=1" style="border:0" alt="" />
     </noscript>

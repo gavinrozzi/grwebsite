@@ -1,6 +1,8 @@
 ---
+import { Image } from 'astro:assets';
 import BaseLayout from './BaseLayout.astro';
 import SocialShare from '../components/SocialShare.astro';
+import headshot from '../assets/images/profile/headshot.jpg';
 
 interface Props {
   frontmatter: {
@@ -44,7 +46,7 @@ const structuredData = {
   "@type": "BlogPosting",
   "headline": title,
   "description": description || summary,
-  "image": image?.url || `${Astro.site}images/profile/headshot.jpg`,
+  "image": image?.url || `${Astro.site}og-default.png`,
   "datePublished": date.toISOString(),
   "dateModified": (updated || date).toISOString(),
   "author": {
@@ -64,7 +66,7 @@ const structuredData = {
     "url": String(Astro.site),
     "logo": {
       "@type": "ImageObject",
-      "url": `${Astro.site}images/profile/headshot.jpg`
+      "url": `${Astro.site}og-default.png`
     }
   },
   "mainEntityOfPage": {
@@ -131,12 +133,12 @@ const breadcrumbSchema = {
 
         <div class="post-meta">
           <div class="author-info">
-            <img
-              src="/images/profile/headshot.jpg"
+            <Image
+              src={headshot}
               alt={author}
               class="author-avatar"
-              width="48"
-              height="48"
+              width={48}
+              height={48}
             />
             <div class="author-details">
               <span class="author-name">{author}</span>
@@ -181,12 +183,12 @@ const breadcrumbSchema = {
 
       <div class="post-footer">
         <div class="author-bio">
-          <img
-            src="/images/profile/headshot.jpg"
+          <Image
+            src={headshot}
             alt={author}
             class="bio-avatar"
-            width="80"
-            height="80"
+            width={80}
+            height={80}
           />
           <div class="bio-content">
             <h3 class="bio-name">About {author}</h3>

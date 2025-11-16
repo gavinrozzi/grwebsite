@@ -79,10 +79,10 @@ const media = defineCollection({
 
 const photos = defineCollection({
   type: 'content',
-  schema: z.object({
+  schema: ({ image }) => z.object({
     title: z.string(),
     date: z.coerce.date(),
-    image: z.string(),
+    image: image(),
     alt: z.string(),
     caption: z.string(),
     event: z.string().optional(),

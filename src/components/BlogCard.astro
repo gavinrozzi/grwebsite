@@ -1,4 +1,6 @@
 ---
+import { Image } from 'astro:assets';
+
 interface Props {
   title: string;
   summary: string;
@@ -33,7 +35,7 @@ const readingTime = calculateReadingTime(summary);
   {image && (
     <a href={`/blog/${slug}`} class="card-image-link">
       <div class="card-image">
-        <img src={image.url} alt={image.alt} loading="lazy" />
+        <Image src={image.url} alt={image.alt} loading="lazy" width={600} height={240} />
         {featured && <span class="featured-badge">Featured</span>}
       </div>
     </a>
