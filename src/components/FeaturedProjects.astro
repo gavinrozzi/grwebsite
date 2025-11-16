@@ -54,7 +54,15 @@ const featuredProjects = [
 <section class="featured-projects">
   <div class="container">
     <div class="section-header">
-      <h2 id="work" class="section-title">Featured Work</h2>
+      <h2 id="work" class="section-title anchor-heading">
+        Featured Work
+        <a href="#work" class="anchor-link" aria-label="Link to Featured Work section">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+            <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+          </svg>
+        </a>
+      </h2>
       <p class="section-subtitle">
         Projects that demonstrate the intersection of technology, policy, and public service
       </p>
@@ -120,6 +128,37 @@ const featuredProjects = [
   .section-title {
     font-size: var(--text-4xl);
     margin-bottom: var(--space-3);
+  }
+
+  .anchor-heading {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+  }
+
+  .anchor-link {
+    display: inline-flex;
+    align-items: center;
+    opacity: 0;
+    transition: opacity var(--transition-fast);
+    text-decoration: none;
+    color: var(--color-primary);
+  }
+
+  .anchor-link svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .anchor-heading:hover .anchor-link {
+    opacity: 1;
+  }
+
+  .anchor-link:focus {
+    opacity: 1;
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+    border-radius: var(--radius-sm);
   }
 
   .section-subtitle {
