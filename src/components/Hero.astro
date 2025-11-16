@@ -1,11 +1,14 @@
 ---
 import { Image } from 'astro:assets';
 import headshot from '../assets/images/profile/headshot.jpg';
+import ContourCanvas from './ContourCanvas.astro';
 ---
 
 <section class="hero">
   <div class="hero-content container">
-    <div class="hero-main">
+    <div class="hero-main contour-container">
+    <ContourCanvas />
+
     <div class="hero-text">
       <h1 class="hero-title">
         <span class="title-line"><span class="gradient-primary">Digital Transformation</span> & <span class="gradient-secondary">Civic Technology</span></span>
@@ -187,10 +190,17 @@ import headshot from '../assets/images/profile/headshot.jpg';
     gap: var(--space-8);
     align-items: center;
     margin-bottom: var(--space-8);
+    position: relative;
+  }
+
+  .contour-container {
+    position: relative;
   }
 
   .hero-text {
     max-width: 800px;
+    position: relative;
+    z-index: 2;
   }
 
   .hero-image {
@@ -199,6 +209,8 @@ import headshot from '../assets/images/profile/headshot.jpg';
     justify-content: center;
     align-items: center;
     gap: var(--space-3);
+    position: relative;
+    z-index: 2;
   }
 
   .headshot-frame {
