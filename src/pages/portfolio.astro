@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import ContourCanvas from '../components/ContourCanvas.astro';
 
 const allPortfolioItems = await getCollection('portfolio');
 const sortedPortfolio = allPortfolioItems.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
@@ -39,6 +40,7 @@ const categoryLabels = {
     })} />
   </Fragment>
   <section class="page-hero">
+    <ContourCanvas />
     <div class="container">
       <h1 class="page-title">Portfolio</h1>
       <p class="page-subtitle">
@@ -190,10 +192,17 @@ const categoryLabels = {
 
 <style>
   .page-hero {
+    position: relative;
     padding: var(--space-12) 0 var(--space-8);
     text-align: center;
     background: linear-gradient(135deg, rgba(249, 115, 22, 0.05) 0%, rgba(20, 184, 166, 0.05) 100%);
     border-bottom: 1px solid var(--color-neutral-200);
+    overflow: hidden;
+  }
+
+  .page-hero .container {
+    position: relative;
+    z-index: 1;
   }
 
   .page-title {

@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import ContourCanvas from '../components/ContourCanvas.astro';
 ---
 
 <BaseLayout
@@ -7,6 +8,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   description="Get in touch for consulting opportunities, speaking engagements, or to discuss digital transformation and civic technology projects."
 >
   <section class="contact-hero">
+    <ContourCanvas />
     <div class="container">
       <h1 class="page-title">Get in Touch</h1>
       <p class="page-subtitle">
@@ -164,9 +166,16 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 <style>
   .contact-hero {
+    position: relative;
     padding: var(--space-12) 0 var(--space-8);
     text-align: center;
     background: linear-gradient(135deg, rgba(249, 115, 22, 0.05) 0%, rgba(20, 184, 166, 0.05) 100%);
+    overflow: hidden;
+  }
+
+  .contact-hero .container {
+    position: relative;
+    z-index: 1;
   }
 
   .page-title {
