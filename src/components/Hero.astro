@@ -48,49 +48,51 @@ import headshot from '../assets/images/profile/headshot.jpg';
           Every successful government initiative requires someone who can translate ambitious mandates into working systems that actually serve residents. I build the technical infrastructure that turns policy aspirations into measurable outcomes.
         </p>
 
-        <h4 class="framework-label">My Execution Framework</h4>
-
         <div class="impact-diagram">
-          <div class="impact-stage">
-            <div class="stage-icon">📋</div>
-            <h3 class="stage-title">Policy Challenge</h3>
-            <p class="stage-description">Complex government mandates requiring technical implementation</p>
-          </div>
+          <h4 class="framework-label">My Execution Framework</h4>
 
-          <div class="stage-connector">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="url(#gradient1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              <defs>
-                <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="0%">
-                  <stop offset="0%" style="stop-color:#f97316;stop-opacity:1" />
-                  <stop offset="100%" style="stop-color:#14b8a6;stop-opacity:1" />
-                </linearGradient>
-              </defs>
-            </svg>
-          </div>
+          <div class="diagram-stages">
+            <div class="impact-stage">
+              <div class="stage-icon">📋</div>
+              <h3 class="stage-title">Policy Challenge</h3>
+              <p class="stage-description">Complex government mandates requiring technical implementation</p>
+            </div>
 
-          <div class="impact-stage">
-            <div class="stage-icon">⚙️</div>
-            <h3 class="stage-title">Technical Solution</h3>
-            <p class="stage-description">Modern frameworks and data infrastructure built for scale</p>
-          </div>
+            <div class="stage-connector">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="url(#gradient1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <defs>
+                  <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:#f97316;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#14b8a6;stop-opacity:1" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
 
-          <div class="stage-connector">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="url(#gradient2)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              <defs>
-                <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="0%">
-                  <stop offset="0%" style="stop-color:#f97316;stop-opacity:1" />
-                  <stop offset="100%" style="stop-color:#14b8a6;stop-opacity:1" />
-                </linearGradient>
-              </defs>
-            </svg>
-          </div>
+            <div class="impact-stage">
+              <div class="stage-icon">⚙️</div>
+              <h3 class="stage-title">Technical Solution</h3>
+              <p class="stage-description">Modern frameworks and data infrastructure built for scale</p>
+            </div>
 
-          <div class="impact-stage">
-            <div class="stage-icon">📊</div>
-            <h3 class="stage-title">Measurable Impact</h3>
-            <p class="stage-description">Analytics and performance tracking built into every platform to drive improvement</p>
+            <div class="stage-connector">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="url(#gradient2)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <defs>
+                  <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:#f97316;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#14b8a6;stop-opacity:1" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+
+            <div class="impact-stage">
+              <div class="stage-icon">📊</div>
+              <h3 class="stage-title">Measurable Impact</h3>
+              <p class="stage-description">Analytics and performance tracking built into every platform to drive improvement</p>
+            </div>
           </div>
         </div>
       </div>
@@ -359,19 +361,24 @@ import headshot from '../assets/images/profile/headshot.jpg';
 
   .framework-label {
     font-family: var(--font-heading);
-    font-size: 0.8125rem;
-    font-weight: 600;
+    font-size: var(--text-xl);
+    font-weight: var(--font-bold);
     text-transform: uppercase;
-    letter-spacing: 0.12em;
-    color: var(--color-text-secondary);
+    letter-spacing: 0.05em;
+    background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     text-align: center;
-    margin: var(--space-5) 0 var(--space-4) 0;
+    margin: 0 0 var(--space-6) 0;
     line-height: var(--leading-tight);
+    width: 100%;
   }
 
   .impact-diagram {
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
     gap: var(--space-4);
     padding: var(--space-6);
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.95) 100%);
@@ -379,6 +386,13 @@ import headshot from '../assets/images/profile/headshot.jpg';
     border: 1px solid var(--color-neutral-200);
     border-radius: var(--radius-xl);
     box-shadow: var(--shadow-md);
+  }
+
+  .diagram-stages {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-4);
+    width: 100%;
   }
 
   .impact-stage {
@@ -544,9 +558,12 @@ import headshot from '../assets/images/profile/headshot.jpg';
     }
 
     .impact-diagram {
+      padding: var(--space-5);
+    }
+
+    .diagram-stages {
       flex-direction: column;
       gap: var(--space-4);
-      padding: var(--space-5);
     }
 
     .stage-connector {
@@ -646,8 +663,8 @@ import headshot from '../assets/images/profile/headshot.jpg';
     }
 
     .framework-label {
-      font-size: 0.75rem;
-      margin: var(--space-4) 0 var(--space-3) 0;
+      font-size: var(--text-lg);
+      margin-bottom: var(--space-5);
     }
 
     .impact-diagram {
@@ -671,6 +688,11 @@ import headshot from '../assets/images/profile/headshot.jpg';
 
     .hero-title {
       font-size: var(--text-2xl);
+    }
+
+    .framework-label {
+      font-size: var(--text-base);
+      margin-bottom: var(--space-4);
     }
 
     .btn {
