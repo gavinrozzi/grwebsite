@@ -24,8 +24,11 @@ const sortedPhotos = photos.sort((a, b) => a.data.order - b.data.order);
                 alt={photo.data.alt}
                 class="slide-image"
                 loading={index === 0 ? 'eager' : 'lazy'}
+                fetchpriority={index === 0 ? 'high' : 'auto'}
+                decoding="async"
                 width={1200}
                 height={750}
+                data-slide-index={index}
               />
               <button class="image-expand" aria-label="View full size">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -89,8 +92,10 @@ const sortedPhotos = photos.sort((a, b) => a.data.order - b.data.order);
           src={photo.data.image}
           alt={photo.data.alt}
           loading="lazy"
+          decoding="async"
           width={100}
           height={60}
+          data-thumbnail-index={index}
         />
       </button>
     ))}
@@ -126,6 +131,9 @@ const sortedPhotos = photos.sort((a, b) => a.data.order - b.data.order);
     private autoplayInterval: number | null = null;
     private touchStartX: number = 0;
     private touchEndX: number = 0;
+    private intersectionObserver: IntersectionObserver | null = null;
+    private loadedImages: Set<number> = new Set();
+    private preloadedImages: Set<number> = new Set();
 
     constructor() {
       this.carousel = document.querySelector('.photo-carousel') as HTMLElement;
@@ -187,6 +195,8 @@ const sortedPhotos = photos.sort((a, b) => a.data.order - b.data.order);
       this.carousel.addEventListener('mouseleave', () => this.startAutoplay());
 
       this.startAutoplay();
+      this.initIntersectionObserver();
+      this.setupPreloadingHints();
     }
 
     private goToSlide(index: number): void {
@@ -201,6 +211,8 @@ const sortedPhotos = photos.sort((a, b) => a.data.order - b.data.order);
       this.thumbnails.forEach((thumbnail, i) => {
         thumbnail.classList.toggle('active', i === index);
       });
+
+      this.preloadAdjacentSlides(index);
     }
 
     private next(): void {
@@ -280,11 +292,124 @@ const sortedPhotos = photos.sort((a, b) => a.data.order - b.data.order);
       this.lightbox.close();
       this.startAutoplay();
     }
+
+    private initIntersectionObserver(): void {
+      const options: IntersectionObserverInit = {
+        root: null,
+        rootMargin: '50px',
+        threshold: 0.01
+      };
+
+      this.intersectionObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const img = entry.target as HTMLImageElement;
+            const slideIndex = parseInt(img.dataset.slideIndex || '0');
+
+            if (!this.loadedImages.has(slideIndex)) {
+              this.loadedImages.add(slideIndex);
+              img.setAttribute('data-loaded', 'true');
+            }
+          }
+        });
+      }, options);
+
+      this.slides.forEach((slide) => {
+        const img = slide.querySelector('.slide-image') as HTMLImageElement;
+        if (img && parseInt(img.dataset.slideIndex || '0') !== 0) {
+          this.intersectionObserver?.observe(img);
+        }
+      });
+
+      if (this.slides.length > 0) {
+        this.loadedImages.add(0);
+      }
+    }
+
+    private preloadAdjacentSlides(currentIndex: number): void {
+      const indicesToPreload = [
+        currentIndex + 1,
+        currentIndex - 1,
+        currentIndex + 2
+      ].filter((idx) => idx >= 0 && idx < this.slides.length);
+
+      indicesToPreload.forEach((index) => {
+        if (!this.preloadedImages.has(index)) {
+          this.preloadedImages.add(index);
+          const slide = this.slides[index];
+          const img = slide?.querySelector('.slide-image') as HTMLImageElement;
+
+          if (img && img.loading === 'lazy') {
+            const tempImg = new Image();
+            tempImg.src = img.src;
+            tempImg.srcset = img.srcset || '';
+          }
+        }
+      });
+    }
+
+    private setupPreloadingHints(): void {
+      this.prevBtn.addEventListener('mouseenter', () => {
+        const prevIndex = (this.currentIndex - 1 + this.slides.length) % this.slides.length;
+        this.preloadSlideImage(prevIndex);
+      });
+
+      this.nextBtn.addEventListener('mouseenter', () => {
+        const nextIndex = (this.currentIndex + 1) % this.slides.length;
+        this.preloadSlideImage(nextIndex);
+      });
+
+      this.thumbnails.forEach((thumbnail, index) => {
+        thumbnail.addEventListener('mouseenter', () => {
+          this.preloadSlideImage(index);
+        });
+      });
+    }
+
+    private preloadSlideImage(index: number): void {
+      if (this.preloadedImages.has(index)) return;
+
+      this.preloadedImages.add(index);
+      const slide = this.slides[index];
+      const img = slide?.querySelector('.slide-image') as HTMLImageElement;
+
+      if (img) {
+        const tempImg = new Image();
+        tempImg.src = img.src;
+        if (img.srcset) {
+          tempImg.srcset = img.srcset;
+        }
+      }
+    }
+
+    public destroy(): void {
+      if (this.intersectionObserver) {
+        this.intersectionObserver.disconnect();
+        this.intersectionObserver = null;
+      }
+
+      if (this.autoplayInterval) {
+        clearInterval(this.autoplayInterval);
+        this.autoplayInterval = null;
+      }
+
+      this.loadedImages.clear();
+      this.preloadedImages.clear();
+    }
   }
 
+  let carouselInstance: PhotoCarousel | null = null;
+
   if (document.querySelector('.photo-carousel')) {
-    new PhotoCarousel();
+    carouselInstance = new PhotoCarousel();
   }
+
+  document.addEventListener('astro:before-preparation', () => {
+    if (carouselInstance) {
+      carouselInstance.destroy();
+      carouselInstance = null;
+    }
+  });
 </script>
 
 <style>
@@ -336,6 +461,11 @@ const sortedPhotos = photos.sort((a, b) => a.data.order - b.data.order);
     height: 100%;
     object-fit: cover;
     display: block;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .slide-image[data-loaded="true"] {
+    opacity: 1;
   }
 
   .image-expand {
