@@ -91,30 +91,32 @@ import PhotoCarousel from './PhotoCarousel.astro';
             </div>
           </div>
         </div>
+      </div>
+    </div>
 
-        <div class="recognition-card">
-          <h3 class="recognition-title">Professional Recognition</h3>
-          <div class="awards-list">
-            <a href="/media/governors-award-2025" class="award-item">
-              <div class="award-icon">🏆</div>
-              <div class="award-content">
-                <h4 class="award-title">Governor's Team of Excellence Award</h4>
-                <p class="award-org">New Jersey Civil Service Commission</p>
-                <p class="award-year">2025</p>
-                <p class="award-desc">Recognition for A4-S50 affordable housing implementation</p>
-              </div>
-            </a>
+    <div class="recognition-section">
+      <div class="recognition-card">
+        <h3 class="recognition-title">Professional Recognition</h3>
+        <div class="awards-list">
+          <a href="/media/governors-award-2025" class="award-item">
+            <div class="award-icon">🏆</div>
+            <div class="award-content">
+              <h4 class="award-title">Governor's Team of Excellence Award</h4>
+              <p class="award-org">New Jersey Civil Service Commission</p>
+              <p class="award-year">2025</p>
+              <p class="award-desc">Recognition for A4-S50 affordable housing implementation</p>
+            </div>
+          </a>
 
-            <a href="/media/gis-contest-winner" class="award-item">
-              <div class="award-icon">🏆</div>
-              <div class="award-content">
-                <h4 class="award-title">First Place, GIS Mapping Contest</h4>
-                <p class="award-org">New Jersey Department of Environmental Protection</p>
-                <p class="award-year">2022</p>
-                <p class="award-desc">Excellence in spatial analysis and data visualization</p>
-              </div>
-            </a>
-          </div>
+          <a href="/media/gis-contest-winner" class="award-item">
+            <div class="award-icon">🏆</div>
+            <div class="award-content">
+              <h4 class="award-title">First Place, GIS Mapping Contest</h4>
+              <p class="award-org">New Jersey Department of Environmental Protection</p>
+              <p class="award-year">2022</p>
+              <p class="award-desc">Excellence in spatial analysis and data visualization</p>
+            </div>
+          </a>
         </div>
       </div>
     </div>
@@ -212,6 +214,11 @@ import PhotoCarousel from './PhotoCarousel.astro';
     display: flex;
     flex-direction: column;
     gap: var(--space-6);
+  }
+
+  .recognition-section {
+    max-width: 1400px;
+    margin-bottom: var(--space-12);
   }
 
   .pillars-card,
@@ -350,6 +357,10 @@ import PhotoCarousel from './PhotoCarousel.astro';
     .about-grid {
       gap: var(--space-8);
     }
+
+    .recognition-section {
+      margin-bottom: var(--space-8);
+    }
   }
 
   @media (max-width: 820px) {
@@ -362,6 +373,11 @@ import PhotoCarousel from './PhotoCarousel.astro';
       order: -1;
       max-width: 600px;
       margin: 0 auto;
+    }
+
+    .recognition-section {
+      max-width: 600px;
+      margin: 0 auto var(--space-8) auto;
     }
 
     .awards-list {
@@ -380,6 +396,10 @@ import PhotoCarousel from './PhotoCarousel.astro';
 
     .about-grid {
       gap: var(--space-6);
+    }
+
+    .recognition-section {
+      margin-bottom: var(--space-6);
     }
   }
 
