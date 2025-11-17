@@ -83,7 +83,7 @@ import ThoughtLeadership from '../components/ThoughtLeadership.astro';
 
   .cta-content {
     text-align: center;
-    max-width: 700px;
+    max-width: 800px;
     margin: 0 auto;
     position: relative;
     z-index: 1;
@@ -93,15 +93,24 @@ import ThoughtLeadership from '../components/ThoughtLeadership.astro';
     font-size: var(--text-4xl);
     color: white;
     margin-bottom: var(--space-4);
+    text-wrap: balance;
+    hyphens: manual;
+    word-break: normal;
   }
 
   .cta-text {
-    font-size: var(--text-xl);
+    font-size: var(--text-2xl);
     color: rgba(255, 255, 255, 0.95);
     margin-bottom: var(--space-6);
-    line-height: var(--leading-relaxed);
+    line-height: 1.7;
     font-weight: var(--font-medium);
-    letter-spacing: 0.01em;
+    letter-spacing: 0.015em;
+    hyphens: manual;
+    word-break: normal;
+    text-wrap: balance;
+    max-inline-size: 75ch;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .cta-actions {
@@ -156,7 +165,9 @@ import ThoughtLeadership from '../components/ThoughtLeadership.astro';
     }
 
     .cta-text {
-      font-size: var(--text-lg);
+      font-size: var(--text-xl);
+      line-height: 1.75;
+      letter-spacing: 0.02em;
     }
 
     .cta-actions {
@@ -190,7 +201,9 @@ import ThoughtLeadership from '../components/ThoughtLeadership.astro';
     }
 
     .cta-text {
-      font-size: var(--text-sm);
+      font-size: var(--text-lg);
+      line-height: 1.8;
+      letter-spacing: 0.02em;
     }
 
     .btn {

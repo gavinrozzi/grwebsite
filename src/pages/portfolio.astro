@@ -214,8 +214,11 @@ const categoryLabels = {
   .page-subtitle {
     font-size: var(--text-xl);
     color: var(--color-text-secondary);
-    max-width: 700px;
+    max-width: 750px;
     margin: 0 auto;
+    text-wrap: balance;
+    hyphens: manual;
+    word-break: normal;
   }
 
   .portfolio-section {
@@ -348,9 +351,12 @@ const categoryLabels = {
 
   .project-summary {
     color: var(--color-text-secondary);
-    line-height: var(--leading-relaxed);
+    line-height: 1.65;
     margin-bottom: var(--space-4);
     flex-grow: 1;
+    hyphens: manual;
+    word-break: normal;
+    text-wrap: pretty;
   }
 
   .project-metrics {
@@ -467,7 +473,8 @@ const categoryLabels = {
     }
 
     .page-subtitle {
-      font-size: var(--text-lg);
+      font-size: var(--text-xl);
+      line-height: 1.7;
     }
   }
 
@@ -477,7 +484,8 @@ const categoryLabels = {
     }
 
     .page-subtitle {
-      font-size: var(--text-base);
+      font-size: var(--text-lg);
+      line-height: 1.75;
     }
 
     .portfolio-section {

@@ -179,6 +179,9 @@ const getIcon = (iconType: string) => {
   .section-subtitle {
     font-size: var(--text-lg);
     color: var(--color-text-secondary);
+    text-wrap: balance;
+    hyphens: manual;
+    word-break: normal;
   }
 
   .content-grid {
@@ -268,17 +271,21 @@ const getIcon = (iconType: string) => {
     color: var(--color-text-secondary);
     margin-bottom: var(--space-3);
     font-weight: var(--font-medium);
+    hyphens: manual;
+    word-break: normal;
   }
 
   .card-summary {
     color: var(--color-text-secondary);
-    line-height: var(--leading-relaxed);
+    line-height: 1.65;
     margin-bottom: var(--space-4);
     flex: 1;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    hyphens: manual;
+    word-break: normal;
   }
 
   .card-tags {

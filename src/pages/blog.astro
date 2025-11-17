@@ -155,9 +155,12 @@ const selectedTag = Astro.url.searchParams.get('tag');
   .page-subtitle {
     font-size: var(--text-xl);
     color: var(--color-text-secondary);
-    max-width: 700px;
+    max-width: 750px;
     margin: 0 auto;
     margin-bottom: var(--space-4);
+    text-wrap: balance;
+    hyphens: manual;
+    word-break: normal;
   }
 
   .blog-stats {
@@ -276,7 +279,10 @@ const selectedTag = Astro.url.searchParams.get('tag');
   .subscribe-text {
     color: var(--color-text-secondary);
     margin-bottom: var(--space-6);
-    line-height: var(--leading-relaxed);
+    line-height: 1.7;
+    hyphens: manual;
+    word-break: normal;
+    text-wrap: balance;
   }
 
   .subscribe-btn {
@@ -316,7 +322,8 @@ const selectedTag = Astro.url.searchParams.get('tag');
     }
 
     .page-subtitle {
-      font-size: var(--text-lg);
+      font-size: var(--text-xl);
+      line-height: 1.7;
     }
   }
 
@@ -330,7 +337,8 @@ const selectedTag = Astro.url.searchParams.get('tag');
     }
 
     .page-subtitle {
-      font-size: var(--text-base);
+      font-size: var(--text-lg);
+      line-height: 1.75;
     }
 
     .featured-grid,

@@ -125,6 +125,9 @@ const featuredProjects = [
   .section-subtitle {
     font-size: var(--text-lg);
     color: var(--color-text-secondary);
+    text-wrap: balance;
+    hyphens: manual;
+    word-break: normal;
   }
 
   .projects-grid {
@@ -174,9 +177,12 @@ const featuredProjects = [
 
   .project-description {
     color: var(--color-text-secondary);
-    line-height: var(--leading-relaxed);
+    line-height: 1.65;
     margin-bottom: var(--space-3);
     flex-grow: 1;
+    hyphens: manual;
+    word-break: normal;
+    text-wrap: pretty;
   }
 
   .project-impact {
@@ -199,6 +205,8 @@ const featuredProjects = [
     font-size: var(--text-sm);
     font-weight: var(--font-medium);
     color: var(--color-text-primary);
+    hyphens: manual;
+    word-break: normal;
   }
 
   .project-tags {

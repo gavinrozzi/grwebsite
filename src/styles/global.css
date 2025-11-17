@@ -326,6 +326,53 @@ img {
   border-width: 0;
 }
 
+/* Text wrapping utility classes */
+.no-hyphenate,
+.no-break {
+  hyphens: manual;
+  -webkit-hyphens: manual;
+  word-break: keep-all;
+  white-space: nowrap;
+}
+
+.balance-text {
+  text-wrap: balance;
+  hyphens: manual;
+}
+
+.pretty-text {
+  text-wrap: pretty;
+  hyphens: manual;
+}
+
+/* Prose content styling for long-form text */
+.prose {
+  max-inline-size: 75ch;
+  hyphens: manual;
+  word-break: normal;
+  overflow-wrap: anywhere;
+  line-height: var(--leading-relaxed);
+}
+
+.prose p {
+  margin-bottom: var(--space-4);
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .prose {
+    max-inline-size: 65ch;
+    line-height: 1.7;
+  }
+}
+
+@media (max-width: 640px) {
+  .prose {
+    max-inline-size: 55ch;
+    line-height: 1.75;
+  }
+}
+
 /* Focus styles for accessibility */
 :focus-visible {
   outline: 2px solid var(--color-primary);
@@ -347,7 +394,7 @@ img {
   }
 
   html {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 
@@ -355,6 +402,11 @@ img {
 @media (max-width: 480px) {
   :root {
     --container-padding: var(--space-3);
+  }
+
+  /* Increase body font weight for better legibility */
+  body {
+    font-weight: 450;
   }
 }
 
@@ -393,11 +445,41 @@ body {
   width: 100%;
 }
 
-/* Improve word wrapping for long text */
+/* Additional intermediate breakpoints for optimal text rendering */
+@media (max-width: 414px) {
+  .page-subtitle,
+  .cta-text,
+  .hero-subtitle,
+  .hero-description {
+    letter-spacing: 0.02em;
+  }
+}
+
+@media (max-width: 390px) {
+  :root {
+    --container-padding: var(--space-2);
+  }
+}
+
+@media (max-width: 375px) {
+  .page-subtitle,
+  .cta-text,
+  .hero-subtitle {
+    font-size: clamp(0.95rem, 2.5vw, 1.125rem);
+  }
+}
+
+/* Improve word wrapping for long text - disable hyphenation */
 h1, h2, h3, h4, h5, h6, p {
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  hyphens: auto;
+  overflow-wrap: anywhere;
+  word-wrap: anywhere;
+  word-break: normal;
+  hyphens: manual;
+  -webkit-hyphens: manual;
+  -moz-hyphens: manual;
+  -ms-hyphens: manual;
+  word-spacing: normal;
+  hanging-punctuation: first last;
 }
 
 /* Better text wrapping for subtitles and long text */
@@ -405,7 +487,9 @@ h1, h2, h3, h4, h5, h6, p {
 .cta-text,
 .hero-subtitle {
   text-wrap: balance;
-  max-inline-size: 65ch;
+  max-inline-size: 75ch;
+  hyphens: manual;
+  word-break: normal;
 }
 
 /* Responsive adjustments for subtitles */
@@ -413,7 +497,10 @@ h1, h2, h3, h4, h5, h6, p {
   .page-subtitle,
   .cta-text,
   .hero-subtitle {
-    max-inline-size: 55ch;
+    max-inline-size: 65ch;
+    font-size: var(--text-xl);
+    letter-spacing: 0.015em;
+    line-height: 1.7;
   }
 }
 
@@ -421,7 +508,10 @@ h1, h2, h3, h4, h5, h6, p {
   .page-subtitle,
   .cta-text,
   .hero-subtitle {
-    max-inline-size: 45ch;
+    max-inline-size: 55ch;
+    font-size: var(--text-lg);
+    letter-spacing: 0.02em;
+    line-height: 1.7;
   }
 }
 
@@ -429,6 +519,9 @@ h1, h2, h3, h4, h5, h6, p {
   .page-subtitle,
   .cta-text,
   .hero-subtitle {
-    max-inline-size: 35ch;
+    max-inline-size: 45ch;
+    font-size: var(--text-base);
+    letter-spacing: 0.02em;
+    line-height: 1.75;
   }
 }

@@ -320,14 +320,22 @@ import ContourCanvas from './ContourCanvas.astro';
     color: var(--color-text-secondary);
     margin-bottom: var(--space-4);
     font-weight: var(--font-medium);
+    text-wrap: balance;
+    hyphens: manual;
+    word-break: normal;
   }
 
   .hero-description {
     font-size: var(--text-lg);
     color: var(--color-text-secondary);
-    line-height: var(--leading-relaxed);
+    line-height: 1.7;
     margin-bottom: var(--space-6);
-    max-width: 700px;
+    max-width: 750px;
+    hyphens: manual;
+    word-break: normal;
+    overflow-wrap: anywhere;
+    text-wrap: pretty;
+    letter-spacing: 0.01em;
   }
 
   .hero-actions {
@@ -631,7 +639,10 @@ import ContourCanvas from './ContourCanvas.astro';
     }
 
     .hero-description {
-      font-size: var(--text-base);
+      font-size: var(--text-xl);
+      line-height: 1.75;
+      letter-spacing: 0.015em;
+      max-width: 100%;
     }
 
     .hero-actions {
@@ -668,6 +679,12 @@ import ContourCanvas from './ContourCanvas.astro';
   @media (max-width: 640px) {
     .hero {
       padding: var(--space-10) 0 var(--space-6);
+    }
+
+    .hero-description {
+      font-size: var(--text-lg);
+      line-height: 1.8;
+      letter-spacing: 0.02em;
     }
 
     .headshot-frame {
@@ -713,6 +730,11 @@ import ContourCanvas from './ContourCanvas.astro';
   @media (max-width: 480px) {
     .hero {
       padding: var(--space-8) 0 var(--space-6);
+    }
+
+    .hero-description {
+      font-size: var(--text-base);
+      line-height: 1.8;
     }
 
     .headshot-frame {
