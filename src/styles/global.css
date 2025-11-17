@@ -303,6 +303,17 @@ img {
   background-clip: text;
 }
 
+.gradient-text::selection {
+  -webkit-text-fill-color: var(--color-text-primary);
+  background-color: var(--color-primary-light);
+}
+
+.gradient-text::-moz-selection {
+  -webkit-text-fill-color: var(--color-text-primary);
+  color: var(--color-text-primary);
+  background-color: var(--color-primary-light);
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;

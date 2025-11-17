@@ -243,6 +243,17 @@ import ContourCanvas from './ContourCanvas.astro';
     background-clip: text;
   }
 
+  .headshot-caption::selection {
+    -webkit-text-fill-color: var(--color-text-primary);
+    background-color: var(--color-primary-light);
+  }
+
+  .headshot-caption::-moz-selection {
+    -webkit-text-fill-color: var(--color-text-primary);
+    color: var(--color-text-primary);
+    background-color: var(--color-primary-light);
+  }
+
   .headshot-title {
     font-family: var(--font-body);
     font-size: var(--text-base);
@@ -275,11 +286,33 @@ import ContourCanvas from './ContourCanvas.astro';
     background-clip: text;
   }
 
+  .gradient-primary::selection {
+    -webkit-text-fill-color: var(--color-text-primary);
+    background-color: var(--color-primary-light);
+  }
+
+  .gradient-primary::-moz-selection {
+    -webkit-text-fill-color: var(--color-text-primary);
+    color: var(--color-text-primary);
+    background-color: var(--color-primary-light);
+  }
+
   .gradient-secondary {
     background: linear-gradient(135deg, #14b8a6 0%, #0d9488 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+  }
+
+  .gradient-secondary::selection {
+    -webkit-text-fill-color: var(--color-text-primary);
+    background-color: var(--color-secondary-light);
+  }
+
+  .gradient-secondary::-moz-selection {
+    -webkit-text-fill-color: var(--color-text-primary);
+    color: var(--color-text-primary);
+    background-color: var(--color-secondary-light);
   }
 
   .hero-subtitle {

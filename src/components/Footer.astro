@@ -167,6 +167,17 @@ const footerLinks = [
     z-index: 1;
   }
 
+  .monogram-letters::selection {
+    -webkit-text-fill-color: var(--color-text-primary);
+    background-color: var(--color-primary-light);
+  }
+
+  .monogram-letters::-moz-selection {
+    -webkit-text-fill-color: var(--color-text-primary);
+    color: var(--color-text-primary);
+    background-color: var(--color-primary-light);
+  }
+
   .footer-title {
     font-family: var(--font-heading);
     font-size: var(--text-xl);
