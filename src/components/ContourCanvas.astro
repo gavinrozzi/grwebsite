@@ -161,14 +161,19 @@
 
     requestAnimationFrame(() => {
       if (!canvas) return;
-      const rect = canvas.getBoundingClientRect();
+      const parent = canvas.parentElement;
+      if (!parent) return;
 
-      if (rect.width < MIN_CANVAS_SIZE || rect.height < MIN_CANVAS_SIZE) {
-        console.warn('ContourCanvas: Canvas dimensions too small', rect);
+      const parentRect = parent.getBoundingClientRect();
+      const width = Math.max(parentRect.width, MIN_CANVAS_SIZE);
+      const height = Math.max(parentRect.height, MIN_CANVAS_SIZE);
+
+      if (width < MIN_CANVAS_SIZE || height < MIN_CANVAS_SIZE) {
+        console.warn('ContourCanvas: Canvas dimensions too small', { width, height });
         return;
       }
 
-      setCanvasDimensions(rect.width, rect.height);
+      setCanvasDimensions(width, height);
     });
 
     return true;
@@ -187,13 +192,18 @@
     requestAnimationFrame(() => {
       if (!canvas || !ctx) return;
 
-      const rect = canvas.getBoundingClientRect();
+      const parent = canvas.parentElement;
+      if (!parent) return;
 
-      if (rect.width < MIN_CANVAS_SIZE || rect.height < MIN_CANVAS_SIZE) {
+      const parentRect = parent.getBoundingClientRect();
+      const width = Math.max(parentRect.width, MIN_CANVAS_SIZE);
+      const height = Math.max(parentRect.height, MIN_CANVAS_SIZE);
+
+      if (width < MIN_CANVAS_SIZE || height < MIN_CANVAS_SIZE) {
         return;
       }
 
-      setCanvasDimensions(rect.width, rect.height);
+      setCanvasDimensions(width, height);
 
       if (wasAnimating) {
         startAnimation();
@@ -206,8 +216,8 @@
 
     const dpr = Math.min(window.devicePixelRatio || 1, MAX_DEVICE_PIXEL_RATIO);
 
-    const scaledWidth = Math.floor(width * dpr);
-    const scaledHeight = Math.floor(height * dpr);
+    const scaledWidth = Math.ceil(width * dpr);
+    const scaledHeight = Math.ceil(height * dpr);
 
     if (canvas.width === scaledWidth && canvas.height === scaledHeight) {
       return;
@@ -215,8 +225,8 @@
 
     canvas.width = scaledWidth;
     canvas.height = scaledHeight;
-    canvas.style.width = `${width}px`;
-    canvas.style.height = `${height}px`;
+    canvas.style.width = `${Math.ceil(width)}px`;
+    canvas.style.height = `${Math.ceil(height)}px`;
 
     ctx.setTransform(1, 0, 0, 1, 0, 0);
     ctx.scale(dpr, dpr);
@@ -499,6 +509,8 @@
     pointer-events: auto;
     z-index: 0;
     overflow: hidden;
+    contain: layout style paint;
+    isolation: isolate;
   }
 
   #contour-canvas {
@@ -507,6 +519,10 @@
     display: block;
     touch-action: none;
     -webkit-tap-highlight-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
   }
 
   @media (max-width: 768px) {

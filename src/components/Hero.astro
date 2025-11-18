@@ -15,7 +15,7 @@ import ContourCanvas from './ContourCanvas.astro';
         <span class="gradient-text">Executive</span>
       </h1>
       <p class="hero-subtitle">
-        Building data-driven platforms that turn policy into impact
+        <span class="subtitle-line-1">Building data-driven platforms</span> <span class="subtitle-line-2">that turn policy into impact</span>
       </p>
       <p class="hero-description">
         A proven leader transforming how New Jersey government serves its residents through innovative digital solutions. With experience spanning academic research, civic innovation, and state government leadership, I've delivered platforms that have processed tens of thousands of public records requests, protected tenants from eviction, and ensured transparency in lead-contaminated properties—demonstrating that technology can be a powerful force for equity and accountability in public service.
@@ -195,6 +195,13 @@ import ContourCanvas from './ContourCanvas.astro';
 
   .hero-text {
     max-width: 800px;
+    min-width: 0;
+  }
+
+  @supports (width: clamp(300px, 100%, 800px)) {
+    .hero-text {
+      width: clamp(300px, 100%, 800px);
+    }
   }
 
   .hero-image {
@@ -277,6 +284,7 @@ import ContourCanvas from './ContourCanvas.astro';
 
   .title-line {
     display: inline;
+    white-space: nowrap;
   }
 
   .gradient-primary {
@@ -320,9 +328,21 @@ import ContourCanvas from './ContourCanvas.astro';
     color: var(--color-text-secondary);
     margin-bottom: var(--space-4);
     font-weight: var(--font-medium);
-    text-wrap: balance;
     hyphens: manual;
-    word-break: normal;
+    word-break: keep-all;
+    max-width: 750px;
+    line-height: 1.5;
+  }
+
+  .subtitle-line-1,
+  .subtitle-line-2 {
+    display: inline;
+    white-space: nowrap;
+  }
+
+  .subtitle-line-1::after {
+    content: ' ';
+    white-space: pre-wrap;
   }
 
   .hero-description {
@@ -611,6 +631,32 @@ import ContourCanvas from './ContourCanvas.astro';
     }
   }
 
+  @media (max-width: 1360px) {
+    .hero-text {
+      max-width: 700px;
+    }
+  }
+
+  @media (max-width: 1280px) {
+    .hero-text {
+      max-width: 650px;
+    }
+
+    .hero-title {
+      font-size: clamp(2rem, 4vw, 3rem);
+    }
+
+    .hero-subtitle {
+      font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .hero-text {
+      max-width: 600px;
+    }
+  }
+
   @media (max-width: 768px) {
     .hero {
       padding: var(--space-12) 0 var(--space-8);
@@ -634,8 +680,17 @@ import ContourCanvas from './ContourCanvas.astro';
       font-size: var(--text-4xl);
     }
 
+    .title-line {
+      white-space: normal;
+    }
+
     .hero-subtitle {
       font-size: var(--text-xl);
+    }
+
+    .subtitle-line-1,
+    .subtitle-line-2 {
+      white-space: normal;
     }
 
     .hero-description {
@@ -679,6 +734,10 @@ import ContourCanvas from './ContourCanvas.astro';
   @media (max-width: 640px) {
     .hero {
       padding: var(--space-10) 0 var(--space-6);
+    }
+
+    .hero-text {
+      max-width: 100%;
     }
 
     .hero-description {

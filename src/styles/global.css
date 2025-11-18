@@ -79,6 +79,7 @@
   /* Container */
   --container-width: 1200px;
   --container-padding: var(--space-4);
+  --effective-viewport-width: 100vw;
 
   /* Border Radius */
   --radius-sm: 0.25rem;
@@ -387,6 +388,48 @@ img {
 
 /* Responsive Media Queries - Mobile-First Approach */
 
+/* Arc Browser and Sidebar-aware Browsers - MacBook Pro 16" */
+@media (max-width: 1440px) and (min-width: 1281px) {
+  :root {
+    --container-padding: var(--space-4);
+    --effective-viewport-width: calc(100vw - 80px);
+  }
+}
+
+/* Arc Browser - MacBook Pro 14" and narrow viewports */
+@media (max-width: 1360px) and (min-width: 1201px) {
+  :root {
+    --container-padding: var(--space-4);
+    --effective-viewport-width: calc(100vw - 72px);
+  }
+
+  .container {
+    max-width: calc(var(--container-width) - 80px);
+  }
+}
+
+/* Narrow desktop with potential sidebars */
+@media (max-width: 1280px) and (min-width: 1025px) {
+  :root {
+    --container-padding: var(--space-4);
+  }
+
+  .container {
+    max-width: 1100px;
+  }
+}
+
+/* Small desktop / large tablet */
+@media (max-width: 1200px) and (min-width: 969px) {
+  :root {
+    --container-padding: var(--space-4);
+  }
+
+  .container {
+    max-width: 1000px;
+  }
+}
+
 /* Small Mobile Devices (360px and below) */
 @media (max-width: 360px) {
   :root {
@@ -482,46 +525,67 @@ h1, h2, h3, h4, h5, h6, p {
   hanging-punctuation: first last;
 }
 
+/* Prevent layout shift on browsers with sidebars */
+@supports (width: 100dvw) {
+  :root {
+    --effective-viewport-width: 100dvw;
+  }
+}
+
 /* Better text wrapping for subtitles and long text */
 .page-subtitle,
-.cta-text,
-.hero-subtitle {
+.cta-text {
   text-wrap: balance;
   max-inline-size: 75ch;
   hyphens: manual;
   word-break: normal;
 }
 
+.hero-subtitle {
+  hyphens: manual;
+  word-break: keep-all;
+  max-inline-size: 50ch;
+}
+
 /* Responsive adjustments for subtitles */
 @media (max-width: 768px) {
   .page-subtitle,
-  .cta-text,
-  .hero-subtitle {
+  .cta-text {
     max-inline-size: 65ch;
     font-size: var(--text-xl);
     letter-spacing: 0.015em;
     line-height: 1.7;
   }
+
+  .hero-subtitle {
+    max-inline-size: 45ch;
+  }
 }
 
 @media (max-width: 640px) {
   .page-subtitle,
-  .cta-text,
-  .hero-subtitle {
+  .cta-text {
     max-inline-size: 55ch;
     font-size: var(--text-lg);
     letter-spacing: 0.02em;
     line-height: 1.7;
   }
+
+  .hero-subtitle {
+    max-inline-size: 40ch;
+  }
 }
 
 @media (max-width: 480px) {
   .page-subtitle,
-  .cta-text,
-  .hero-subtitle {
+  .cta-text {
     max-inline-size: 45ch;
     font-size: var(--text-base);
     letter-spacing: 0.02em;
     line-height: 1.75;
+  }
+
+  .hero-subtitle {
+    max-inline-size: 35ch;
   }
 }
