@@ -447,8 +447,8 @@ import ContourCanvas from './ContourCanvas.astro';
   .impact-diagram {
     display: flex;
     align-items: flex-start;
-    gap: var(--space-4);
-    padding: var(--space-6);
+    gap: var(--space-3);
+    padding: var(--space-6) var(--space-5);
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.95) 100%);
     backdrop-filter: blur(10px);
     border: 1px solid var(--color-neutral-200);
@@ -458,6 +458,7 @@ import ContourCanvas from './ContourCanvas.astro';
 
   .impact-stage {
     flex: 1;
+    min-width: 0;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -474,6 +475,11 @@ import ContourCanvas from './ContourCanvas.astro';
     font-weight: var(--font-bold);
     color: var(--color-text-primary);
     margin-bottom: var(--space-2);
+    word-break: keep-all;
+    overflow-wrap: break-word;
+    hyphens: none;
+    text-wrap: balance;
+    white-space: normal;
   }
 
   .stage-description {
@@ -481,6 +487,11 @@ import ContourCanvas from './ContourCanvas.astro';
     color: var(--color-text-secondary);
     line-height: var(--leading-relaxed);
     margin: 0;
+    word-break: normal;
+    overflow-wrap: break-word;
+    hyphens: none;
+    text-wrap: pretty;
+    max-width: 100%;
   }
 
   .stage-connector {
@@ -582,6 +593,33 @@ import ContourCanvas from './ContourCanvas.astro';
     line-height: var(--leading-relaxed);
   }
 
+  @media (max-width: 1360px) {
+    .stage-title {
+      font-size: clamp(0.9375rem, 1.5vw, 1.125rem);
+    }
+
+    .stage-description {
+      font-size: clamp(0.8125rem, 1.2vw, 0.875rem);
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .impact-diagram {
+      gap: var(--space-2);
+      padding: var(--space-5) var(--space-4);
+    }
+
+    .stage-title {
+      font-size: clamp(0.875rem, 1.4vw, 1rem);
+      letter-spacing: -0.01em;
+    }
+
+    .stage-description {
+      font-size: clamp(0.75rem, 1.1vw, 0.8125rem);
+      line-height: 1.5;
+    }
+  }
+
   @media (max-width: 1024px) {
     .hero-main {
       gap: var(--space-6);
@@ -589,6 +627,18 @@ import ContourCanvas from './ContourCanvas.astro';
 
     .hero-expertise {
       gap: var(--space-6);
+    }
+
+    .impact-diagram {
+      padding: var(--space-5);
+    }
+
+    .stage-title {
+      font-size: var(--text-base);
+    }
+
+    .stage-description {
+      font-size: var(--text-sm);
     }
   }
 
