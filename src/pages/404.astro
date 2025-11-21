@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import ContourCanvas from '../components/ContourCanvas.astro';
 ---
 
 <BaseLayout
@@ -7,6 +8,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   description="The page you're looking for doesn't exist. Explore my portfolio, blog, or media appearances instead."
 >
   <div class="error-page">
+    <div class="contour-background">
+      <ContourCanvas />
+    </div>
     <div class="container">
       <div class="error-content">
         <h1 class="error-title">
@@ -79,10 +83,29 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 <style>
   .error-page {
+    position: relative;
     min-height: 70vh;
     display: flex;
     align-items: center;
     padding: var(--space-8) 0;
+  }
+
+  .contour-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.6;
+    pointer-events: none;
+  }
+
+  .container {
+    position: relative;
+    z-index: 1;
   }
 
   .error-content {
