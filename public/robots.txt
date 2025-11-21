@@ -2,5 +2,12 @@
 User-agent: *
 Allow: /
 
+# Disallow admin, private, or dynamic filter pages
+Disallow: /api/
+Disallow: /_astro/
+
 # Sitemaps
 Sitemap: https://www.gavinrozzi.com/sitemap-index.xml
+
+# Crawl-delay (optional, remove if not needed)
+# Crawl-delay: 1

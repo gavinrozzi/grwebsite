@@ -1,0 +1,225 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="404 - Page Not Found | Gavin Rozzi"
+  description="The page you're looking for doesn't exist. Explore my portfolio, blog, or media appearances instead."
+>
+  <div class="error-page">
+    <div class="container">
+      <div class="error-content">
+        <h1 class="error-title">
+          <span class="error-code">404</span>
+          <span class="error-message">Page Not Found</span>
+        </h1>
+
+        <p class="error-description">
+          The page you're looking for doesn't exist or has been moved. Let me help you find what you need.
+        </p>
+
+        <nav class="error-navigation">
+          <h2 class="nav-title">Popular Sections</h2>
+          <ul class="nav-links">
+            <li>
+              <a href="/" class="nav-link">
+                <span class="nav-icon">🏠</span>
+                <div class="nav-text">
+                  <strong>Home</strong>
+                  <span class="nav-desc">Start from the beginning</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="/portfolio/" class="nav-link">
+                <span class="nav-icon">💼</span>
+                <div class="nav-text">
+                  <strong>Portfolio</strong>
+                  <span class="nav-desc">View my projects and work</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="/blog/" class="nav-link">
+                <span class="nav-icon">📝</span>
+                <div class="nav-text">
+                  <strong>Blog</strong>
+                  <span class="nav-desc">Read my latest articles</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="/media/" class="nav-link">
+                <span class="nav-icon">📺</span>
+                <div class="nav-text">
+                  <strong>Media</strong>
+                  <span class="nav-desc">Speaking engagements and appearances</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="/contact/" class="nav-link">
+                <span class="nav-icon">✉️</span>
+                <div class="nav-text">
+                  <strong>Contact</strong>
+                  <span class="nav-desc">Get in touch with me</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="error-help">
+          <p>If you believe this is an error, please <a href="/contact/">contact me</a> and let me know.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .error-page {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    padding: var(--space-8) 0;
+  }
+
+  .error-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .error-title {
+    margin-bottom: var(--space-6);
+  }
+
+  .error-code {
+    display: block;
+    font-size: clamp(4rem, 12vw, 8rem);
+    font-weight: var(--font-bold);
+    line-height: 1;
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: var(--space-2);
+  }
+
+  .error-message {
+    display: block;
+    font-size: var(--text-3xl);
+    color: var(--color-text-primary);
+    font-weight: var(--font-bold);
+  }
+
+  .error-description {
+    font-size: var(--text-xl);
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-8);
+    line-height: var(--leading-relaxed);
+  }
+
+  .error-navigation {
+    margin-bottom: var(--space-8);
+  }
+
+  .nav-title {
+    font-size: var(--text-2xl);
+    margin-bottom: var(--space-4);
+    color: var(--color-text-primary);
+  }
+
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--space-3);
+    text-align: left;
+  }
+
+  .nav-link {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    padding: var(--space-4);
+    background: var(--color-surface);
+    border: 1px solid var(--color-neutral-200);
+    border-radius: var(--radius-lg);
+    text-decoration: none;
+    transition: all var(--transition-base);
+  }
+
+  .nav-link:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--color-primary);
+  }
+
+  .nav-icon {
+    font-size: var(--text-3xl);
+    flex-shrink: 0;
+  }
+
+  .nav-text {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+  }
+
+  .nav-text strong {
+    font-size: var(--text-lg);
+    color: var(--color-text-primary);
+    font-weight: var(--font-bold);
+  }
+
+  .nav-desc {
+    font-size: var(--text-sm);
+    color: var(--color-text-secondary);
+  }
+
+  .error-help {
+    padding-top: var(--space-4);
+    border-top: 1px solid var(--color-neutral-200);
+    font-size: var(--text-base);
+    color: var(--color-text-secondary);
+  }
+
+  .error-help a {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: var(--font-medium);
+  }
+
+  .error-help a:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 768px) {
+    .error-page {
+      padding: var(--space-6) 0;
+    }
+
+    .error-code {
+      font-size: clamp(3rem, 10vw, 6rem);
+    }
+
+    .error-message {
+      font-size: var(--text-2xl);
+    }
+
+    .error-description {
+      font-size: var(--text-lg);
+    }
+
+    .nav-links {
+      grid-template-columns: 1fr;
+    }
+
+    .nav-link {
+      padding: var(--space-3);
+    }
+  }
+</style>

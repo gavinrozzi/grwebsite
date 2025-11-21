@@ -41,3 +41,35 @@
   from = "/project/*"
   to = "/portfolio/:splat"
   status = 301
+
+# Remove publications page (no longer exists)
+[[redirects]]
+  from = "/publications"
+  to = "/media/"
+  status = 301
+
+[[redirects]]
+  from = "/publications/"
+  to = "/media/"
+  status = 301
+
+# Ensure trailing slash consistency - redirect non-trailing to trailing
+[[redirects]]
+  from = "/blog"
+  to = "/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/portfolio"
+  to = "/portfolio/"
+  status = 301
+
+[[redirects]]
+  from = "/media"
+  to = "/media/"
+  status = 301
+
+[[redirects]]
+  from = "/contact"
+  to = "/contact/"
+  status = 301

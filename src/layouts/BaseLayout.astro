@@ -60,6 +60,8 @@ const socialImage = new URL(image, Astro.site);
     <title>{title}</title>
     <meta name="title" content={title} />
     <meta name="description" content={description} />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="author" content="Gavin Rozzi" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content={type} />
