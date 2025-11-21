@@ -6,14 +6,13 @@
     "dev": "astro dev",
     "start": "astro dev",
     "generate:og": "node scripts/generate-og-images.js",
-    "build": "npm run generate:og && astro check && astro build",
+    "build": "npm run generate:og || true && astro check && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.0.0",
     "@astrojs/rss": "^4.0.7",
-    "@astrojs/sitemap": "^3.2.1",
     "@chriscourses/perlin-noise": "^1.0.6",
     "astro": "^5.15.7",
     "sharp": "^0.33.5"
